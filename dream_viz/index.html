@@ -9,6 +9,7 @@
 </style>
 </head>
 <body>
+<div id="warning">Loading network file takes some time!</div>
 <div id="container"></div>
 <script src="js/sigma.min.js"></script>
 <script src="js/sigma.parsers.json.min.js"></script>
@@ -30,7 +31,10 @@
   sigma.parsers.json(
     'data/dreamdictionary.json',
     {
-      container: 'container'
+      container: 'container',
+      settings: {
+        drawEdges: false
+      }
     },
     function(s) {
       // We first need to save the original colors of our
@@ -95,6 +99,8 @@
         // Same as in the previous event:
         s.refresh();
       });
+
+      document.getElementById("warning").style.visibility= 'hidden' ;
     }
   );
 </script>
