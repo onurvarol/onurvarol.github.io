@@ -1,0 +1,888 @@
+<script src="js/jquery-1.3.2.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $(".header1").hover(function () {
+        $(this).animate({ opacity: "0.5" });
+    }
+    ,function () {
+        $(this).animate({ opacity: "1" });
+    }).click(function () {
+        var ad = $(this).attr("id").replace("b", "");
+        $(".content").slideUp("slow");
+        if ($("#c" + ad).css("display") == 'none')
+            $("#c" + ad).slideToggle("slow");
+    });
+});
+</script>
+
+<style type="text/css">
+    .header1
+    {
+        width: 530px;
+        padding: 5px;
+        height: 20px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        border: 1px solid #CCCCCC;
+        background-color: #5C80B1;
+        color: White;
+    }
+    .header2
+    {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .content
+    {
+        width: 500px;
+        padding: 20px 20px 20px 20px;
+        display: none;
+        border: 1px solid #5C80B1;
+        background-color: #5C80B1;
+        background: #E4EEF1;
+        font-size: 15px;
+    }
+        
+    .style1
+    {
+        color: #5C80B1;
+        font-weight: bold;
+    }
+</style>
+
+<div id="courses">
+    <table style="margin: 10px 0 0 25px;">
+        <tr>
+            <td colspan="2" style="font-size: 10pt; padding-top:20px; padding-bottom:20px;">
+                <u>Content of this page is collected from course descriptions from the universities' web pages and instructors syllabus.</u> 
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="2" class="style1" style="font-size: 15pt; text-align: center; margin-bottom: 10px;">
+                Ph.D. COURSES
+            </td>
+        </tr>
+        <tr valign="top">
+            <td>
+                <div class="style1" style="font-size: 12pt">
+                    Complex Systems Track</div>
+
+                <div class="header1" id="b1001">
+                    Introduction to Informatics</div>
+                <div id="c1001" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://informatics.indiana.edu/jbollen" target="_blank"> 
+                            Johan L. Bollen</a><br/>
+                        The course deals with the foundations of Informatics as an interdisciplinary field. It deals with concepts such as Information, Technology, Knowledge, Modeling, as well as their impact on science and society. The course will also attempt to define and understand what computational thinking can bring to science and society. In particular, we will focus on the National Science Foundation's definition of Computational Thinking as "a set of bold multidisciplinary activities that, [...] promise radical, paradigm-changing research findings. [...] Applied in challenging science and engineering research and education contexts, computational thinking promises a profound impact on the Nation's ability to generate and apply new knowledge."
+
+                        The course is designed to present and discuss the history, methodology and impact of informatics; students are introduced to various approaches to informatics through interaction with faculty working on diverse problems, as well as the appropriate literature. Finally, students are expected to develop a understanding of what constitutes research in the field, via a familiarization with relevant funding opportunities, strategies and methods for publishing scientific research, keeping track of the relevant literature in their domain of interest and developing research methodologies.
+                    </p>
+                </div>
+
+                <div class="header1" id="b1002">
+                    Introduction to Complex Systems</div>
+                <div id="c1002" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://informatics.indiana.edu/rocha/" target="_blank"> 
+                            Luis M. Rocha</a><br/>
+                        Biological organisms cope with the demands of their environments using solutions quite unlike the traditional human-engineered approaches to problem solving. Biological systems tend to be adaptive, reactive, and distributed. Bio-inspired computing is a field devoted to tackling complex problems using computational methods modeled after design principles encountered in nature. This course is strongly grounded on the foundations of complex systems and theoretical biology. It aims at a deep understanding of the distributed architectures of natural complex systems, and how those can be used to produce informatics tools with enhanced robustness, scalability, flexibility and which can interface more effectively with humans. It is a multi-disciplinary field strongly based on biology, complexity, computer science, informatics, cognitive science, robotics, and cybernetics.
+                    </p>
+                </div>
+
+                <div class="header1" id="b1009">
+                    Advenced Seminar I</div>
+                <div id="c1009" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://informatics.indiana.edu/rocha/" target="_blank"> 
+                            Luis M. Rocha</a><br/>
+                        A complex system is any system featuring a large number of interacting components (agents, processes, etc.) whose aggregate activity is nonlinear (not derivable from the summations of the activity of individual components) and typically exhibits hierarchical self-organization under selective pressures. This definition applies to systems from a wide array of scientific disciplines. Indeed, the sciences of complexity are necessarily based on interdisciplinary research. Almost all interesting processes in nature are highly cross linked. In many systems, however, we can distinguish a set of fundamental building blocks, which interact nonlinearly to form compound structures or functions with an identity that requires more explanatory devices than those used to explain the building blocks. This process of emergence of the need for new, complementary, modes of description is known as hierarchical self-organization, and systems that observe this characteristic are defined as complex. Examples of these systems are gene networks that direct developmental processes, immune networks that preserve the identity of organisms, social insect colonies, neural networks in the brain that produce intelligence and consciousness, ecological networks, social networks comprised of transportation, utilities, and telecommunication systems, as well as economies. The field of complex systems studies the general characteristics of all these systems. Its goal is to identify and model the laws and behaviors common to various classes of complex systems.
+                    </p>
+                </div>
+
+                <div class="header1" id="b1003">
+                    Advenced Seminar II</div>
+                <div id="c1003" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://www.yongyeol.com/" target="_blank">
+                            YY Ahn</a><br/>
+                        Networks are everywhere. We can easily find network structure in many complex systems around us: our cells, brains, society, etc. The inherent generality of network approach flourished wide applications of network theory across diverse fields including biology, sociology, and epidemiology. The questions that we will address in the class are following: why do networks matter? what are the fundamental theory to understand the structure and dynamics of networks? how has it been applied to other fields? What are the frontiers of the research? We will explore key papers ranging from the fundamental theory to the various applications of network theory. This course will focus more on the round-table discussion between students than presentation. Students will work on research projects in groups and finish a paper at the end of the class.
+                    </p>
+                </div>
+
+                <div class="header1" id="b1005">
+                    Mathematical Modeling of Complex Systems</div>
+                <div id="c1005" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="https://sites.google.com/site/aflammin/" target="_blank">
+                            Alessandro Flammini</a><br/>
+                        Complexity deals with the  structural, behavioral, and organizational
+                        properties that emerge from the unsupervised local interactions of a
+                        multitude of elementary units.
+                        As such, many real systems, from ecological to physical and social
+                        ones, fall in the focus area of complexity science
+                        During this courses we will study the mathematical and computational
+                        techniques that have been developed to describe and understand such
+                        properties. In doing so we will always discuss the math/algorithmic
+                        side  in the context of specific examples;
+                        The focus, nevertheless, will be more on the "general" principles and
+                        the regularities across different systems rather then the detailed
+                        study of specific systems.
+                        We will touch upon a number of important and fascinating sub-areas:
+                        linearity and non-linearity, chaos, self-similarity, stochastic
+                        processes, self-organization and a good deal of network theory.
+                        
+                    </p>
+                </div>
+
+                <div class="header1" id="b1006">
+                    Human-Centered Research Methods in Informatics</div>
+                <div id="c1006" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://www.soic.indiana.edu/people/profiles/paolillo-john.shtml" target="_blank">
+                            John C. Paolillo</a><br/>
+                        Survey of data management issues in medical, health, chemical, and biology related areas, basic techniques of physical database structures and models, data access strategies, management and indexing of massively large files.
+                    </p>
+                </div>
+            </td>
+            <td>
+                <div class="style1" style="font-size: 12pt">
+                    Minor in Statistics</div>
+
+                <div class="header1" id="b1004">
+                    Bayesian Theory and Data Analysis</div>
+                <div id="c1004" class="content">
+                    <p>
+                        <b>Instructor:</b> Gabriel Huerta<br/>
+                        Introduction to the theory and practice of Bayesian inference.
+                        Prior and posterior probability distributions.
+                        Data collection, model formulation, computation, model checking,
+                        sensitivity analysis.
+                    </p>
+                </div>
+
+                <div class="header1" id="b1007">
+                    Nonparametric Theory and Data Analysis</div>
+                <div id="c1007" class="content">
+                    <p>
+                        <b>Instructor:</b> Brad Luen <br/>
+                        Survey of methods for statistical inference that do not rely on parametric probability models. Statistical functionals, bootstrapping, empirical likelihood. Nonparametric density and curve estimation. Rank and permutation tests.    
+                    </p>
+                </div>
+
+                <div class="header1" id="b1008">
+                    Statistical Methods for Causal Inference</div>
+                <div id="c1008" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://mypage.iu.edu/~weihuaan/" target="_blank">
+                        Weihua An</a><br/>
+
+                        Many statistical problems are driven to identify and estimate causal effects. For example, whether a training program is effective in increasing trainees productivity and subsequently their income, whether and how much advantage incumbent candidates have during elections, whether and to what degree peers influence each others behaviors, whether and by how much a medicine or a surgical procedure helps patients reduce their sufferings, etc. Based on the potential outcomes framework, this course presents a series of methods to make causal inference that are distinctive from the traditional regression framework and that can be used to analyze both experimental data or observational data, including propensity score methods (e.g., propensity score regression, matching, stratification, and weighting), regression discontinuity design, difference-in-difference methods, instrumental variable estimation, natural experiments, methods for mediation and interaction, directed acyclic graphs (DAGs), etc. These concepts and methods will be illustrated by a variety of examples drawn from social and medical sciences.
+                    </p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="style1" style="font-size: 15pt; text-align: center; margin-bottom: 10px; padding-top: 30px;">
+                M.Sc. COURSES
+            </td>
+        </tr>
+        <tr valign="top">
+            <td>
+                <div class="header1" id="b101">
+                    Machine Learning</div>
+                <div id="c101" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://denizyuret.blogspot.com/" target="_blank"> 
+                            Deniz Yuret</a><br/>
+                        An introduction to the fields of machine learning and data mining from a statistical perspective. Machine learning is the study of computer algorithms that improve automatically through experience. Vast amounts of data generated in many fields from biology to finance to linguistics makes a good understanding of the tools and techniques of machine learning indispensable. Topics covered include regression, classification, kernel methods, model assessment and selection, boosting, neural networks, support vector machines, nearest neighbors, and unsupervised learning.
+                    </p>
+                </div>
+                <div id="b102" class="header1">
+                    Intelligent User Interfaces</div>
+                <div id="c102" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://iui.ku.edu.tr/" target="_blank"> 
+                            Metin Sezgin</a><br/>
+                        Applications of artificial intelligence in user interfaces. Design, implementation, and evaluation of user interfaces that use machine learning, computer vision and pattern recognition technologies. Supporting tools for classification, regression, multi-modal information fusion. Gaze-tracking, gesture recognition, object detection, tracking, haptic devices, speech-based and pen-based interfaces.</p>
+                </div>
+                <div id="b103" class="header1">
+                    Computer Vision and Pattern Recognition</div>
+                <div id="c103" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://home.ku.edu.tr/~yyemez/" target="_blank"> 
+                            Yucel Yemez</a><br/>
+                        Study of computational models of visual perception and their implementation in computer systems. Topics include: image formation; edge, corner and boundary extraction, segmentation, matching, pattern recognition and classification techniques; 3-D Vision: projection geometry, camera calibration, shape from stereo/silhouette/shading, model-based 3D object recognition; color texture, radiometry and BDRF; motion analysis.</p>
+                </div>
+                <div id="b104" class="header1">
+                    Computer Graphics</div>
+                <div id="c104" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://home.ku.edu.tr/~yyemez/" target="_blank"> 
+                            Yucel Yemez</a><br/>
+                        Theory and practice of 3D computer graphics. Topics covered include graphics systems and models; geometric representations and transformations; graphics programming; input and interaction; viewing and projections; compositing and blending; illumination and color models; shading; texture mapping; animation; rendering and implementation; hierarchical and object-oriented modeling; scene graphs; 3D reconstruction and modeling.</p>
+                </div>
+            </td>
+			<td>
+				<div class="header1" id="b201">
+                    Network Models and Optimization</div>
+                <div id="c201" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://sibelsalman.com/" target="_blank"> 
+                            Sibel Salman</a><br/>
+                        Network flow models and optimization problems. Algorithms and applications. Minimum spanning tree problem. Shortest path problems. Maximum flow problems, minimum cuts in undirected graphs and cut-trees. The minimum cost network flow problem. Matching problems. Generalized flows. Multicommodity flows and solution by Lagrangean relaxation, column generation and Dantzig-Wolfe decomposition. Network design problems including the Steiner tree problem and the multicommodity capacitated network design problem; their formulations, branch-and-cut approaches and approximation algorithms.
+                    </p>
+                </div>
+				
+				<div class="header1" id="b202">
+                    Information Retrieval</div>
+                <div id="c202" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://home.ku.edu.tr/~eyilmaz/" target="_blank"> 
+                            Emine Yilmaz</a><br/>
+                        Basic and advanced topics in information retrieval. Processing, indexing, querying and retrieval of textual documents. Modern search engines and their principles. Implementation of search engine systems for real-world applications.
+                    </p>
+                </div>
+				
+				<div class="header1" id="b203">
+                    Linear System Theory</div>
+                <div id="c203" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://portal.ku.edu.tr/~aspc/Site/About_Me.html" target="_blank"> 
+                            Alper Erdogan</a><br/>
+                        Linear Algebra Review, Normal Matrices, Quadratic Forms and Semidefinite Matrices, Inner Product and Norm Spaces, State Space Descriptions for Continuous and Discrete Time Systems, Controllability, Observability, Stability, Realization Theory.
+                    </p>
+                </div>
+				
+				<div class="header1" id="b211">
+                    Social Psychology</div>
+                <div id="c211" class="content">
+                    <p>
+                        <b>Instructor:</b> <a href="http://cssh.ku.edu.tr/tr/psyc/who" target="_blank"> 
+                            Zeynep Cemalcilar</a><br/>
+                        The individual as a member of social groups and social psychological perspectives on issues such as aggression and violence, bystander intervention, obedience, conformity, attitudes, prejudice, and attribution.
+                    </p>
+                </div>
+			</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="style1" style="font-size: 15pt; text-align: center; padding-bottom: 10px;
+                padding-top: 30px;">
+                B.Sc COURSES
+            </td>
+        </tr>
+        <tr valign="top">
+            <td>
+                <div class="style1" style="font-size: 12pt">
+                    Electronics Engineering</div>
+                <div class="header1" id="b1">
+                    Introduction to Electronics Engineering</div>
+                <div id="c1" class="content">
+                    <p>
+                        Relevance of Electronics Engineering curriculum to the practice of engineering in
+                        manufacturing and R & D environments. Various approaches and methods in problem
+                        solving, introduction to electronics and systems; examples of applications.
+                    </p>
+                </div>
+                <div id="b2" class="header1">
+                    Basics of Electrical Circuits</div>
+                <div id="c2" class="content">
+                    <p>
+                        Physical electrical circuits. Modelling and measurements of currents and voltages
+                        in physical circuits. Definitions of charge, flux, power and energy and modelling
+                        their waveforms. Kirchhoff's Laws:current and voltage equations. Circuit graphs.
+                        Graph matrices. Ideal 2-terminal and multi-terminal circuit elements. Modelling
+                        of physical elements. Small-signal analysis of nonlinear circuits. Analysis of linear
+                        and nonlinear resistive circuits:Node-voltage and mesh current methods. Circuit
+                        Theorems: Tellegen's theorem, Superposition theorem . Reciprocity theorem. Thevenin
+                        and Norton theorems. Solution of dynamic circuits: responses of first- and second-order
+                        dynamic circuits.</p>
+                </div>
+                <div id="b3" class="header1">
+                    Basics of Electric Circuits Lab</div>
+                <div id="c3" class="content">
+                    <p>
+                        Physical electrical circuits. Modelling and measurements of currents and voltages
+                        in physical circuits. Definitions of charge, flux, power and energy and modelling
+                        their waveforms. Kirchhoff's Laws:current and voltage equations. Circuit graphs.
+                        Graph matrices. Ideal 2-terminal and multi-terminal circuit elements. Modelling
+                        of physical elements. Small-signal analysis of nonlinear circuits. Analysis of linear
+                        and nonlinear resistive circuits:Node-voltage and mesh current methods. Circuit
+                        Theorems: Tellegen's theorem, Superposition theorem . Reciprocity theorem. Thevenin
+                        and Norton theorems. Solution of dynamic circuits: responses of first- and second-order
+                        dynamic circuits.</p>
+                </div>
+                <div id="b4" class="header1">
+                    Introduction to Electronics
+                </div>
+                <div id="c4" class="content">
+                    <p>
+                        Introduction; Components and basic circuits: Operational amplifiers, concepts and
+                        application examples. Diodes: ideal diode, terminal characteristics of the junction
+                        diode, analysis of diode circuits, semiconductor principles, structure of the junction
+                        diode. Bipolar junction transistor (BJT): physical structure and operating modes,
+                        DC biasing, BJT as an amplifier, small-signal model, basic amplifier circuits, BJT
+                        as a switch. MOSFET: structure and operating modes, MOSFET amplifiers. MESFET.</p>
+                </div>
+                <div id="b5" class="header1">
+                    Introduction to Electronics Laboratory
+                </div>
+                <div id="c5" class="content">
+                    <p>
+                        1.Supply voltage circuits 2.DC characteristics of BJTs and MOSFET's 3.Amplifiers
+                        4.Linear applications of operational amplifiers 5.Lojic gates and flip-flops 6.Non-linear
+                        applications of operational amplifiers
+                    </p>
+                </div>
+                <div id="b6" class="header1">
+                    Analog Electronics Circuits
+                </div>
+                <div id="c6" class="content">
+                    <p>
+                        Multistage amplifers. Operational amplifier circuits and applications. Circuits
+                        derived from op amps. Analog multipliers. Frequency response of amplifiers. Feedback,
+                        stability problems in feedback circuits, compensation. Sinusoidal oscillators. Power
+                        amplifiers.</p>
+                </div>
+                <div id="b7" class="header1">
+                    Analysis of Circuits and Systems
+                </div>
+                <div id="c7" class="content">
+                    <p>
+                        State equations of higher order circuits and their solutions in t and s domain.
+                        State transition matrix and its properties. Zero state, zero input responses. Stability,
+                        Routh criteria. Controllability and observability. Analysis of dynamical systems
+                        in jw-domain. Sinusoidal steady state. Phasors, phasor network equations. Power
+                        and energy. Three phase systems. Network and system equations in s domain. Bode
+                        diagrams. Block diagram and signal flow graphs</p>
+                </div>
+                <div id="b8" class="header1">
+                    Analog Electronic Circuits Laboratory
+                </div>
+                <div id="c8" class="content">
+                    <p>
+                        Experiment 1: Low-freguency power amplifiers Experiment 2: Analog integrated circuits
+                        building blocks Experiment 3: Frequency and pulse response of BJT amplifers Experiment
+                        4: Feedback and stability in transistorized amplifiers Experiment 5: Broad-band
+                        amplifiers Experiment 6: Low-frequency oscillators Experiment 7: Active filters
+                        Experiment 8: PLL applications
+                    </p>
+                </div>
+                <div id="b9" class="header1">
+                    Network Synthesis
+                </div>
+                <div id="c9" class="content">
+                    <p>
+                        Network synthesis problem. Filter approximation: Butterworth and Chebsyhev approximations,
+                        impedance and frequency normalization, Passive network synthesis: Positive real
+                        functions. Synthesis of LC, RC, RL, RLC networks: Cauer's and Foster's realizations.
+                        Synthesis of passive 2-ports, Positive real matrices, Synthesis of 2-ports converted
+                        to synthesis of 2-terminals. Ladder network synthesis: zero shifting technique.
+                        Active network synthesis: decomposition, coefficient matching and signal flow graph
+                        methods. Examples of active network synthesis using modern active devices (current
+                        conveyor, OTA, opamp)</p>
+                </div>
+                <div id="b10" class="header1">
+                    Electromechanical Energy Conversion
+                </div>
+                <div id="c10" class="content">
+                    <p>
+                        General principles, input-output variables, motor, generator and transformer. Energy
+                        conservation and energy balance equation. Relationships between torque-force and
+                        magnetic-electric field energies. Self and mutual inductances, torque and force.
+                        Generalized and simple machine models, mathematical and circuit models. Conditions
+                        for continuous energy conversion, various machine models.</p>
+                </div>
+                <div id="b11" class="header1">
+                    Automatic Control Systems
+                </div>
+                <div id="c11" class="content">
+                    <p>
+                        Discrete-time modelling and block-diagram representation of continouos-time systems.
+                        Realization of transfer functions in state space. Feedback concept. PID contoller
+                        and its influence on system response. Time-domain criterion and stability analysis.
+                        Frequency domain criterion and stability analysis. Linearization methods for nonlinear
+                        control systems. Root-locus diagrams.</p>
+                </div>
+                <div id="b12" class="header1">
+                    Digital Circuits
+                </div>
+                <div id="c12" class="content">
+                    <p>
+                        Initial course in Boole algebra, combinational logic design, synchronous sequential
+                        circuit analysis and synthesis.
+                    </p>
+                </div>
+                <div id="b13" class="header1">
+                    Digital Electronic Circuits
+                </div>
+                <div id="c13" class="content">
+                    <p>
+                        Ideal inverter, various types of (NMOS, resistive-load, etc.) inverters, CMOS inverter,
+                        NAND, NOR gates, complex gates, transmission gates, various flip-flop circuits,
+                        read-only memories (ROM), static ve dynamic random-access memories (SRAM and DRAM)</p>
+                </div>
+                <div id="b14" class="header1">
+                    Fundamentals of Medical Electronics Design
+                </div>
+                <div id="c14" class="content">
+                    <p>
+                        Design of high order active filters. Modelling and simulation of human cardiovascular
+                        system. The general principles in the design of microprocessor supported biomedical
+                        systems. The design of bioelectric signal processing systems: human reaction time
+                        measurement device, electrocardiography, arrhythmia detector, right leg driver,
+                        blood flow and heath rate measuring devices. Data compression techniques. Biotelemetry.
+                        Recording of biological signals to the magnetic recorders.</p>
+                </div>
+                <div id="b15" class="header1">
+                    The Origin and Sensing Methods of Biological Signals
+                </div>
+                <div id="c15" class="content">
+                    <p>
+                        Introduction to human physiology: The cell and its function, origin of the action
+                        potential; bioreceptors; nervous, muscular, cardiovascular, respirator, gastrointestianal,
+                        urinary and endocrin systems; the special sense organs; biological signals originated
+                        from human systems. Sensing and preprocessing of biological signals: Characteristics
+                        of biological signals, the basic amplifiers and basic circuits used for analog processing
+                        of biological signals, instrumentation amplifier; electrodes, features and applications;
+                        resistive, capacitive, indusctive, piezolectric , electromagnetic and termic transducers;
+                        transducer amplifiers and their calibration.</p>
+                </div>
+                <div id="b17" class="header1">
+                    Medical Instrumentation,Desiand and Applications
+                </div>
+                <div id="c17" class="content">
+                    <p>
+                        Basic concepts in medical electronics. Patient isolation and protection of equipments
+                        in medical electronics. Biological signal (electrocardiogram, electromyogram, phonocardiogram,
+                        electroencephalogram, blood pressure, etc.) measurement equipments. Cardiotachometer.
+                        Photoelectric measurement equipments in medical electronics: Photoplestismograph.
+                        Simulation of human cardiovascular system in computer environment. Transfer of biological
+                        signals to the computer. Digital filtering and monitoring of biological signals
+                        in real-time. Computer aided analysis of biological signals. Transmission and storage
+                        of biological signals. Remote measurement in medical electronics: Telemedicine.
+                        Advanced topics and applications in medical electronics.</p>
+                </div>
+                <div id="b18" class="header1">
+                    Telecommunication Engineering Basics
+                </div>
+                <div id="c18" class="content">
+                    <p>
+                        Amplitude modulation techniques. Amplitude modulators and demodulators. Frequency
+                        and phase modulation. Frequency modulators and demodulators. Frequecy division multiplexing.
+                        Pulse modulation techniques. Quantization, compressing-expanding, analog-digital
+                        converters, delta modulation. Baseband data transmission. ıntersmbol interference,
+                        Nyquist channel, multilevel baseband transmission, error performance analysis. Digital
+                        modulation technques. Amplitude-shift, phase-shift and frequency-shift keying.</p>
+                </div>
+                <div id="b19" class="header1">
+                    Signals and Systems
+                </div>
+                <div id="c19" class="content">
+                    <p>
+                        Classification of signals and systems. Fourier analysis of continuous and discrete
+                        signals and systems. Modulation concept and sampling theorem. Sampling in time and
+                        frequency domain. Discrete and fast Fourier transform. Tranformation of continuous
+                        time systems into discrete time systems. Representation of difference eqations.
+                        State space equations and their solution. z transformation and their properties.
+                        Analysis of discrete time systems in z domain. ıntroduction to filtering.</p>
+                </div>
+                <div id="b20" class="header1">
+                    Introduction to Electromagnetic Fields
+                </div>
+                <div id="c20" class="content">
+                    <p>
+                        vectors and electromagnetics, elektrostatics, magnetostatic fields components, EM
+                        fields in different materials. Elementary electromagnetic field theory as summarized
+                        in Maxwell's equations for time varying fields in integral and differential form,
+                        energy storage and quasistatic fields, EM field and materials, vector calculus and
+                        potential functions, time domain analysis of waves, PC assisted instruction of field
+                        calculations.</p>
+                </div>
+                <div id="b21" class="header1">
+                    Microwaves
+                </div>
+                <div id="c21" class="content">
+                    <p>
+                        Current and voltage waves in transmission lines, frequency and time domain analysis,
+                        power and energy flow, impedance matching, Smith Chart, microstrip lines, pulse
+                        transmission on lines, basic principles of circuit analysis by S-parameters, basics
+                        of microwave radio propagation and introduction to antennas.</p>
+                </div>
+                <div id="b23" class="header1">
+                    Advanced Topics in Computer Vision
+                </div>
+                <div id="c23" class="content">
+                    <p>
+                        Introduction, image formation; image model, imaging devices, low level vision: smoothing,
+                        edge detection, edge linking, multiscale approaches, Intermediate level vision:
+                        surface reconstruction, shape from shading, motion and stereo, range imaging, high
+                        level vision; model-based vision, semantic nets, generalized cylinders, Hough transform,
+                        Stereo Vision, Camera Calibration, Shape from shading, Shape from Motion, Ransac,
+                        Planar Homographies, mosaicing stabilization, Video Tracking, Object Recognition</p>
+                </div>
+                <div id="b22" class="header1">
+                    Real-Time System Design by Digital Signal Processors
+                </div>
+                <div id="c22" class="content">
+                    <p>
+                        Fundamental concepts of real-time signal processing.Architecture of real-time signal
+                        processors.Hardware interface implemented by peripheral units.DSP programming techniques.Software
+                        development tools.Anolog/digital and digital/anolog converter, sampling. Real-time
+                        signal processing techniques.Real-time signal processing techniques.Real time implementation
+                        of signal processing algorithms, and frequecy domain processing. Data compressing.
+                        Learning process and classifiers in real-time.</p>
+                </div>
+                <div id="b24" class="header1">
+                    Artificial Neural Networks
+                </div>
+                <div id="c24" class="content">
+                    <p>
+                        As a motivation, biological neural systems. Definition of Artificial Neural Networks
+                        (ANN). Supervised and unsupervised learning. Adaptive linear element. Mean square
+                        learning rule. Design of linear associative memory. Multi-layered perceptron design.
+                        Back propagation algorithm. Radial based ANN. Dynamic ANN. Hopfield net, cellular
+                        ANN. Kohonen Selforganized map. Pattern, image, speech processing and control with
+                        hardware and software realization of ANN.
+                    </p>
+                </div>
+                <div id="b16" class="header1">
+                    Computer Aided Devices in Medicine
+                </div>
+                <div id="c16" class="content">
+                    <p>
+                        Origins and properties of biological signals. Transducers for biological signals.
+                        Patient isolation methods. Fundamentals of computer units. Computer assisted biological
+                        signal acquisition, processing and monitoring. Archiving and transmitting of biological
+                        signals and images in and between medical centers. Computer aided telemetric system
+                        design. Microprocessor based blood pressure, body temperature, electrocardiogram,
+                        and electromyogram measurement devices.</p>
+                </div>
+                <br />
+                <br />
+                <div class="style1" style="font-size: 12pt">
+                    Other Courses</div>
+                <div id="b35" class="header1">
+                    Mathematics I
+                </div>
+                <div id="c35" class="content">
+                    <p>
+                        Functions of one variable; limits and continuity, derivative and differantiation;
+                        chain rule, implicit differentiation. Applications of derivative; maxima and minima,
+                        the mean value theorem. Integration; indefinite integrals, integral rules, definite
+                        integrals, the fundamental and the mean value theorems of integral calculus. Applications
+                        of definite integrals; length of curves, area, volumes of revolution. Transcendental
+                        functions. Integration techniques, L'Hospital rule, Improper integrals.</p>
+                </div>
+                <div id="b36" class="header1">
+                    Mathematics II
+                </div>
+                <div id="c36" class="content">
+                    <p>
+                        Sequences; limits, monotone sequences. Series with positive terms, series with arbitrary
+                        terms, absolute and conditional convergence, power series, Taylor and Maclaurin
+                        series. Vector calculus. Functions of multiple variables; limits, continuity, partial
+                        derivatives, chain rule, directional derivatives, maxima and minima, Lagrange multipliers,
+                        Taylor's formula. Double and triple integrals, line integrals, Green's theorem in
+                        the plane, Surface area and surface integrals, Divergence and Stokes theorem.</p>
+                </div>
+                <div id="b37" class="header1">
+                    Differantial Equations
+                </div>
+                <div id="c37" class="content">
+                    <p>
+                        First order equations; separable equations, linear equations, change of variable
+                        and integrating factor, existence and uniqueness theorems, applications. Higher
+                        order linear equations; the method of variation of parameters, reduction of order,
+                        Constant coefficient equations, the method of undetermined coefficients. Euler-Cauchy
+                        equation. Power series method; solution around ordinary and regular-singular points.
+                        Laplace transformation; basic definition and theorems, solution of initial value
+                        problems, convolution, delta function, transfer function. Systems of linear differential
+                        equations; fundamental theory and solutions, solutions using Laplace transformation.
+                        Second order linear partial differential equations and separation of variables.</p>
+                </div>
+                <div id="b38" class="header1">
+                    Probability and Statistics
+                </div>
+                <div id="c38" class="content">
+                    <p>
+                        Combinatorial methods; product rule, permutation, combination. Probability; sigma
+                        algebra, probability axioms, conditional probability, Bayes formula. Random variable;
+                        distribution function, probability function, Chebyshev inequality. Discrete and
+                        continuous distributions; uniform, Bernoulli, Poisson, geometric, hypergeometric,
+                        normal, exponential, gamma and beta distributions. Generating functions. Decision
+                        theory. The notion of estimation. Hypothesis testing. Non-parametric testing. Correlation
+                        and regression.</p>
+                </div>
+                <div id="b39" class="header1">
+                    Linear Algebra and Applications
+                </div>
+                <div id="c39" class="content">
+                    <p>
+                        Systems of linear equations and matrices; matrices and matrix algebra. Vector spaces,
+                        bases and dimension, coordinates, base change. Inner product spaces; Hermitian product,
+                        Gram-Schmitdt method, orthonormal bases. Linear transformations. Space of linear
+                        transformations, isomorphisms, matrix representations of linear transformations.
+                        Determinants; properties of determinants, inverse of matrices, applications of determinant,
+                        Cramer�s rule. Eigenvalues and eigenvectors; characteristic polynomical, Cayley
+                        Hamilton Theorem. Diagonalizaiton, quadratic forms, application to systems of differential
+                        equations.</p>
+                </div>
+                <div id="b40" class="header1">
+                    Numerical Methods
+                </div>
+                <div id="c40" class="content">
+                    <p>
+                        Accuracy estimation in numerical methods, error propagation. Root finding for system
+                        of nonlinear equations; Newton's and Newton-Raphson's methods. Solution methods
+                        for system of linear equations. Interpolation, extrapolation and curve fitting.
+                        Numerical differentiation integration. Numerical solutions of ordinary differential
+                        equations. Finite Differences; forward, backward and central differences, Runge-Kutta
+                        Methods.</p>
+                </div>
+                <div id="b41" class="header1">
+                    General Chemistry I
+                </div>
+                <div id="c41" class="content">
+                    <p>
+                        The scope of chemistry and stoichiometry, atoms and the atomic theories, the periodic
+                        table and some atomic properties, chemical bonding, molecular geometry, gases and
+                        gas laws, liquids, solids, solution and their physical properties, thermochemistry,
+                        chemical kinetics, principles of chemical equilibrium, acids and bases, solubility.
+                    </p>
+                </div>
+                <div id="b42" class="header1">
+                    General Chemistry I Lab
+                </div>
+                <div id="c42" class="content">
+                    <p>
+                        1. The identification reactions of anions. 2. The identification reactions of cations.
+                        3. Determination of reaction rate. 4. Preparation of an inorganic preparat. 5. Determination
+                        of the hydrate formula. 6. Iodometry. 7. Determination of dissociation constants
+                        of weak acids. 8. Determination and removal of hardness of water. 9. Determination
+                        of pH with colorimetric method. 10. Synthesis of soap
+                    </p>
+                </div>
+                <div id="b43" class="header1">
+                    Materials Science
+                </div>
+                <div id="c43" class="content">
+                    <p>
+                        Mechanical behavior of materials: tensile test, stress-strain relations, brittle
+                        behavior, ductile behavior, shear effect, hardness. Physical properties of materials:
+                        specific gravity, water absorption, void ratio, permeability, capillary water absorption.
+                        Internal structure of materials: atomic scructure, ionic bonding, covalent bonding,
+                        metallic bonding. Van der Waals bond, classification of materials. Crystalline structure:
+                        directions and planes, metals and ceramics. Crystal defects: point defects, planar
+                        defects. Non-crystalline materials: Glass, fluid, gas, phases. Solid solutions.
+                        Atomic diffusion. Strengthening mechanisms in metals, cold hardening, hot hardening,
+                        alloying, annealing, eutectic alloys, heat treatment, tempering. Creep, relaxation,
+                        fracture, and fatigue constitutive equations of materials.</p>
+                </div>
+                <div id="b44" class="header1">
+                    History of Science and Technology
+                </div>
+                <div id="b45" class="header1">
+                    Mythology and Art
+                </div>
+                <div id="b46" class="header1">
+                    World History
+                </div>
+                <div id="b47" class="header1">
+                    Economics
+                </div>
+                <div id="b48" class="header1">
+                    History of Turkish Revolution I
+                </div>
+                <div id="b49" class="header1">
+                    History of Turkish Revolution II
+                </div>
+                <div id="b50" class="header1">
+                    Turkish I
+                </div>
+                <div id="b51" class="header1">
+                    Turkish II
+                </div>
+                <div id="b52" class="header1">
+                    English I
+                </div>
+                <div id="b53" class="header1">
+                    English II
+                </div>
+                <div id="b54" class="header1">
+                    English III
+                </div>
+            </td>
+            <td>
+                <div class="style1" style="font-size: 12pt">
+                    Physics Engineering</div>
+                <div id="b25" class="header1">
+                    Physics I
+                </div>
+                <div id="c25" class="content">
+                    <p>
+                        Vectors. Motion in one dimension. Motion in two dimensions. Newton's laws and their
+                        applications. Newton's universal gravitation law. Work and energy. Conservation
+                        of energy. Momentum and motion of systems. Static equilibrium of rigid bodies. Rotation
+                        and angular momentum.</p>
+                </div>
+                <div id="b26" class="header1">
+                    Physics I Lab</div>
+                <div id="c26" class="content">
+                    <p>
+                        Fundamental measurements. Motion with constant acceleration. Conservation of linear
+                        momentum. Equilibrium. Friction. Rotation dynamics. Simple harmonic motion. projectile
+                        motion. Elastic and inelastic collisions in two dimensions. Moment of inertia. Centripetal
+                        accelaration. physical pendulum.</p>
+                </div>
+                <div id="b27" class="header1">
+                    Physics II</div>
+                <div id="c27" class="content">
+                    <p>
+                        Periodic motions. Free oscillations. Forsed oscillations and resonance. Standing
+                        and propagating waves. Fluid mechanics. Sound. Temperature and heat conduction.
+                        I. Law of thermodynamics. Kinetic theory of gases. II. Law of thermodynamics.</p>
+                </div>
+                <div id="b28" class="header1">
+                    Physics II Lab</div>
+                <div id="c28" class="content">
+                    <p>
+                        Latent heat of ice melting. Specific heat of solids. Heat capacity. Thermal expansion
+                        coefficient of solids. Ideal gas law. Heat conductivity. Joule-calory conversion
+                        coefficient. Binomial distribution. Probability and entropy.</p>
+                </div>
+                <div id="b65" class="header1">
+                    Physics III</div>
+                <div id="c65" class="content">
+                    <p>Sinusoidal oscillations, definition of simple harmonic motion with complex exponential function, superposition of periodic oscillations, Lissajou curves, free oscillations of physical systems, forced oscillations and resonance, resonance examples, coupled oscillators and normal modes, continuous systems and Fourier analysis, waves, Huygens-Fresnel principle, reflection-refraction-interference.
+                    </p>
+                </div>
+                <div id="b66" class="header1">
+                    Physics III Lab</div>
+                <div id="c66" class="content">
+                    <p>Resonance of free oscillations of physical systems and applications; compound pendulum, torsion pendulum, connected in series RLC circuit, the parallel RLC circuit, Lissajou curves, the wire waves, damped harmonic motion, Fourier analysis, polarized microwave, refractive index, single-slit diffraction and networks.
+                    </p>
+                </div>
+                <div id="b29" class="header1">
+                    Modern Physics
+                </div>
+                <div id="c29" class="content">
+                    <p>
+                        Relativity. Particle characteristics of waves. Wave characteristics of particles.
+                        Atomic structure. Quantum mechanics. Quantum theory of the hydrogen atom. Many-electron
+                        atoms. Molecules. Statistical mechanics. Solid state physics.</p>
+                </div>
+                <div id="b64" class="header1">
+                    Modern Physics Lab
+                </div>
+                <div id="c64" class="content">
+                    <p>FranckHertz experiment Atomic spectrum Bragg scattering Unceartinity principle StefanBoltzman law at high and low temperatures Determination of e/m Absorption spectroscopy Thermoionic emission photo-electric effect total reflection of electromagnetic waves.
+                    </p>
+                </div>
+                <div id="b31" class="header1">
+                    Quantum Mechanics I</div>
+                <div id="c31" class="content">
+                    <p>
+                        Mathematic of Quantum Mechanic, Lineer Vector Spaces, Operators, Matrix Algebra
+                        and Eigen Value problem, Fundamental experiments in Quantum Physics, Wave Packets,
+                        Uncertinity princible, Schrödinger equations, angular momentum and quantizations</p>
+                </div>
+                <div id="b60" class="header1">
+                    Quantum Mechanics II</div>
+                <div id="c60" class="content">
+                    <p>
+                        3 dimensional Schrödinger equation: systems with spherical symmetry. Radial equation. Free particle. Infinite spherical well. Two-particle problem. Hydrogen atom. Stern-Gerlach experiment, spin angular momentum. Differential and matrix representations of operators. Spin- magnetic field interaction. Addition of angular momenta: Clebsch-Gordan coefficients. Identical particles. Particle interchange operator. Pauli principle. N-particle systems. Spin and statistics. Time-independent perturbation theory: first and second order perturbations. Degenerate perturbation theory. Stark effect. Fine structure and hyperfine structure of the hydrogen atom. Zeeman effect. EPR paradox and the principle of locality. Seperability problem and quantum entanglement.</p>
+                </div>
+                <div id="b32" class="header1">
+                    Statistical Physics and Thermodynamics I
+                </div>
+                <div id="c32" class="content">
+                    <p>
+                        Macroscobic systems, probabilty, statistical physics, essential background in thermodinamics,
+                        kinematics of gases, second law of thermodinamic, statistical machanics of ideal
+                        gass</p>
+                </div>
+                <div id="b68" class="header1">
+                    Statistical Physics and Thermodynamics Lab
+                </div>
+                <div id="c68" class="content">
+                    <p>Latent heat of melting ice. Specific heat of solids. Coefficient of thermal expansion of solids. The ideal gas law. Thermal conductivity. Joule-Thomson effect. Binomial distribution. Maxwell distribution. The equation of state of gases
+                    </p>
+                </div>
+                <div id="b62" class="header1">
+                    Statistical Physics and Thermodynamics II
+                </div>
+                <div id="c62" class="content">
+                    <p>Statistical ensembles. Canonical and grand canonicals ensemble. Free energy chemical potential and fugacity. Ising model and lattice gases. Transfer matrix in one dimension. Applications to polymers. Mean field theory. Bethe-Peirls approach. Statistical models on Bethe lattice. Landau theory of phase transitions. Ornstein-Zernike approximation. Partition functions Thermodynamical limit. Classification of phase transitions. Lower critical dimension Critical phenomena and critical exponentials and scaling theory. Simple renormalisation group transformationss. Quantum systemsFermi and Bose statics. Bose condensation. Evolution of probability distributions to reach the equilibrium state. Monte Carlo methods( student are expected to implement these methods in a computing language of their choice)
+                    </p>
+                </div>
+                <div id="b34" class="header1">
+                    Mathematical Methods in Physics I
+                </div>
+                <div id="c34" class="content">
+                    <p>
+                        Second order differential equations: introduction. Solution of homogeneous equations.
+                        Singularities and series solutions. Frobenius method. Special functions: cylindrical
+                        and spherical coordinates. Boundary value problems. Sturm-Liouville problem. Legendre
+                        polynomials. Bessel functions. associated Legendre functions. spherical harmonics.
+                        Neumann functions. Modified Bessel functions. Fourier-Legendre series. Asymptotic
+                        behaviors of certain special functions. Complex functions: complex numbers. Basic
+                        operations with complex functions, analytic functions. Cauchy theorem. Singularities.
+                        Taylor and Laurent series. Residue theorem and applications. Complex functions.</p>
+                </div>
+                <div id="b61" class="header1">
+                    Mathematical Methods in Physics II
+                </div>
+                <div id="c61" class="content">
+                    <p>
+                        Special functions, hypergeometric and confluent hyper geometric functions; partial differential equations, general knowledge, method of characteristics, separation of variables method, Laplace, Helmholtz, wave and diffusion equations; Green s function method for SturmLiouville type problems, solving inhomogeneous Laplace, Helmholtz, wave and diffusion equations using the Greens Function method; İntegral transforms, Fourier transform and momentum representation, convolution theorem, Laplace transform; calculus of variations, Euler Lagrange equation, Lagrance multipliers, variation subject to constraints</p>
+                </div>
+                <div id="b69" class="header1">
+                    Analytical Mechanics
+                </div>
+                <div id="c69" class="content">
+                    <p>
+                        Motion of a particle in one,two and three dimensions;Motion of a system of particles;Variation principles and Lagranges Equations;Twobody central force(Kepler) problem;Small oscillations;Hamilton equations of motion; Conservation Laws and Canonical transformations; Hamilton Jacobi Theorem</p>
+                </div>
+                <div id="b33" class="header1">
+                    Symbolic and Numerical Techniques in Physics
+                </div>
+                <div id="c33" class="content">
+                    <p>
+                        Representations of numbers in computers. Error calculation. Root calculation. Approximation
+                        calculation. Approximations for functions. Numerical integration and differentiation.
+                        Solution of systems of coupled linear equations.</p>
+                </div>
+                <div id="b70" class="header1">
+                    Computational Methods in Physics
+                </div>
+                <div id="c70" class="content">
+                    <p>
+                        Least square data fitting. Eigenvalues and eigenvectors. Numerical solution of nonlinear systems of equations. Numerical solution of ordinary differantial equations. Boundary value problem for ordinary differantial equations</p>
+                </div>
+
+                <div id="b67" class="header1">
+                    Advenced Physics Project Lab
+                </div>
+                <div id="c67" class="content">
+                    <p></p>
+                </div>
+				
+				<div id="b681" class="header1">
+                    Solid State Physics
+                </div>
+                <div id="c681" class="content">
+                    <p>Crystal structures and interatomic forces, Diffraction in crystals, Lattice vibrations: Thermal, Acoustic,. and Optical properties, Metals: The Free electron model, Energy bands in solids, Semiconductors</p>
+                </div>
+         
+				<div id="b682" class="header1">
+                    Electromagnetic Theory
+                </div>
+                <div id="c682" class="content">
+                    <p>Vector analysis , Differential and Integral Calculus, Curvilinear Coordinates ,Dirac Delta Function, Vector Fields, Electrostatic Fields, Electric Potential, Work and Energy, Conductors, Laplaces Equation, Electric Multi-pole, Polarization, Electric Displacement, Dielectrics, Lorentz Force ,Biot -Savart Law, Divergence and Curl of Magnetic Field, Vector Potential, Magnetization, Linear and Non Linear, Electromagnetic Media Induction, Maxwells Equation, Conservation Laws.</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>

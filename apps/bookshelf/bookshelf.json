@@ -1,0 +1,1508 @@
+{
+"books":[
+{
+    "name":"Rhythms of the Brain",
+    "author":"Gyorgy Buzsaki",
+    "imgsrc":"img/rhythms_brain.jpg",
+    "date":"March 2014",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":5
+},
+{
+    "name":"Cybernetics",
+    "author":"Norbert Wiener",
+    "imgsrc":"img/cybernetics.jpg",
+    "date":"December 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":5
+},
+{
+    "name":"The Behavioral Persuasion in Politics",
+    "author":"Heinz Eulau",
+    "imgsrc":"img/the_behavioral_persuasion_in_politics.jpg",
+    "date":"August 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":4
+},
+{
+    "name":"The Selfish Gene",
+    "author":"Richard  Dawkins",
+    "imgsrc":"img/the_selfish_gene.jpg",
+    "date":"July 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":5
+},
+{
+    "name":"The Information: A History, a Theory, a Flood",
+    "author":"James Gleick",
+    "imgsrc":"http://around.com/wordpress/wp-content/uploads/US-paperback2.jpg",
+    "date":"July 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":4
+},
+{
+    "name":"Media Control",
+    "author":"Noam Chomsky",
+    "imgsrc":"http://images.amazon.com/images/P/1583225366.01.LZZZZZZZ.jpg",
+    "date":"May 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":3
+},
+{
+    "name":"What Do You Care What Other People Think?",
+    "author":"Richard Feynman",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/en/2/2f/What_do_you_care_what_other_people_think.jpg",
+    "date":"March 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":4
+},
+{
+    "name":"Linked",
+    "author":"Albert-László Barabási",
+    "imgsrc":"http://barabasilab.com/LinkedBook/images/linked-book-cover25.jpg",
+    "date":"March 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":4
+},
+{
+    "name":"Flatland: A Romance of Many Dimensions",
+    "author":"Edwin A. Abbott",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flatland_cover.jpg/200px-Flatland_cover.jpg",
+    "date":"February 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":5
+},
+{
+    "name":"Principles of topologicl psychology",
+    "author":"Kurt Lewin",
+    "imgsrc":"http://covers.openlibrary.org/b/id/2755800-M.jpg",
+    "date":"February 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":5
+},
+{
+    "name":"A dynamic theory of personality",
+    "author":"Kurt Lewin",
+    "imgsrc":"http://covers.openlibrary.org/b/id/6493423-M.jpg",
+    "date":"February 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":5
+},
+{
+    "name":"Cristallizing Public Opinion",
+    "author":"Edward L. Beynays",
+    "imgsrc":"http://www.unz.org/CoverThumb/BernaysEdward-1924.jpg",
+    "date":"January 2013",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":5
+},
+{
+    "name":"Brain-Body-Mind in the Nebulous Cartesian System: A Holistic Approach by Oscillations",
+    "author":"Erol Basar",
+    "imgsrc":"img/brain-body-mind.jpg",
+    "date":"January 2013",
+    "comment":"- My discovery of this book very interesting. I read an article of author's as a somophore student. I was very interested in brain dynamics at this time and I decided to make my graduation project on EEG signal processing. Then in my first year in phD I rediscovered this paper while looking into my harddrive and decided to buy author's book. Happy to read this book.",
+    "notes":"Notlar",
+    "score":5
+},
+{
+    "name":"The Noise and The Signal",
+    "author":"Nate Silver",
+    "imgsrc":"http://www.washingtonpost.com/blogs/ezra-klein/files/2012/09/51KLaBetObL._SL500_300_.jpg",
+    "date":"November 2012",
+    "comment":"- I would like to thank YY Ahn for mentioning about FiveThirtyEight and Mike Conover for sharing this magnificant book on twitter.",
+    "notes":"Notlar",
+    "score":5
+},
+{
+    "name":"Political Networks",
+    "author":"David Knoke",
+    "imgsrc":"http://img2.imagesbn.com/images/107040000/107046770.jpg",
+    "date":"October 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
+    "name":"Klingsor'un Izinde",
+    "author":"Jorge Volpi",
+    "imgsrc":"http://static.idefix.com/cache/0/270/135066",
+    "date":"October 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
+    "name":"The Difference",
+    "author":"Scott E. Page",
+    "imgsrc":"http://press.princeton.edu/images/k8353.gif",
+    "date":"September 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":2
+},
+{
+    "name":"The Smart Way to Your Ph.D.",
+    "author":"Dora Farkas",
+    "imgsrc":"http://www.gradshare.com/blog/grad_currents/images/zrclip_001p250bd732.png/",
+    "date":"August 2012",
+    "comment":"-This book is gifted to all new Ph.D. students at the end of the orientation of Informatics. There are useful comments of 200 graduate students from various disciplines, which I believe very useful to me.",
+    "notes":"Notlar",
+    "score":5
+},
+{
+    "name":"Political Mind",
+    "author":"George Lakoff",
+    "imgsrc":"http://bookdesign.files.wordpress.com/2009/04/9780143115687.jpg",
+    "date":"August 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+},
+ {
+    "name":"Sosyal Hayvan",
+    "author":"David Brooks",
+    "imgsrc":"http://static.ideefixe.com/images/375/375556_2.jpg",
+    "date":"May 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Günümüzde İnsan ve İnsanlar",
+    "author":"Çiğdem Kağıtçıbaşı",
+    "imgsrc":"http://static.ideefixe.com/images/304/304559_2.jpg",
+    "date":"March 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Tanrılar Okulu",
+    "author":"Stefano Elio D'Anna",
+    "imgsrc":"http://www.hermeskitap.com/catalog/images/dbs1ncdr.jpg",
+    "date":"February 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Amâk-ı Hayâl",
+    "author":"Filibeli Ahmet Hilmi",
+    "imgsrc":"img/amak-i_hayal.jpeg",
+    "date":"February 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Sosyal Psikoloji",
+    "author":"David Krech, Richard S. Crutchfild",
+    "imgsrc":"http://www.acelegelsin.com/images/temp/300_g_9789754376159.jpg",
+    "date":"January 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Yaşamın Anlamı",
+    "author":"Alfred Adler",
+    "imgsrc":"http://static.ideefixe.com/images/339/339742_2.jpg",
+    "date":"January 2012",
+    "comment":"-Fırat Civaner sayesinde tanıştıgım insan tabiatına anlam vermeye çalışan ve bu eseri ortaya çıkaran yazarla. Insan davranışları ve karakterlerinin arkasında yatan mekanizmayı anlama yolunda güzel bir eser. Ayrıca çocuk yetiştirecek herkesin okuması gerektiğini düşünüyorum.",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Kitleler psikolojisi",
+    "author":"Gustav Le Bon",
+    "imgsrc":"http://static.ideefixe.com/images/55/55619_2.jpg",
+    "date":"December 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+   {
+    "name":"Quantitative Sociodynamics",
+    "author":"Dirk Helbing",
+    "imgsrc":"img/quantitative_sociodynamics.gif",
+    "date":"January 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Bilgi Ağacı",
+    "author":"Francisco Varela, Humberto R. Maturana",
+    "imgsrc":"http://www.kitaplik.com/wp-content/themes/shopperpress/thumbs/6/bilgi-agaci-insan-anlayisinin-biyolojik-temelleri-onkapak.jpg",
+    "date":"December 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Amat",
+    "author":"İhsan Oktay Anar",
+    "imgsrc":"img/amat.jpeg",
+    "date":"November 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Sibernetik Toplum",
+    "author":"Frederic Vester",
+    "imgsrc":"http://static.ideefixe.com/images/59/59178_1.jpg",
+    "date":"November 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },  
+   {
+    "name":"Dynamical Processes on Complex Networks",
+    "author":"Alain Barrat, Marc Barthélemy, Alessandro Vespignani",
+    "imgsrc":"http://images.betterworldbooks.com/052/Dynamical-Processes-on-Complex-Networks-9780521879507.jpg",
+    "date":"January 2012",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Petros Amca ve Goldbach Sanısı",
+    "author":"Apostolos Doxiadis",
+    "imgsrc":"http://www.pandora.com.tr/images/kapak/67735.jpg",
+    "date":"September 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"The Origin of Order",
+    "author":"Stuart A. Kauffman",
+    "imgsrc":"http://www.kurzweilai.net/images/originsoforder.jpg",
+    "date":"September 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Rika'nın Beyninde",
+    "author":"Levent Mete",
+    "imgsrc":"http://static.ideefixe.com/images/175/175946_2.jpg",
+    "date":"September 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Little Prince",
+    "author":"Antoine de Saint-Exupéry",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/en/thumb/0/05/Littleprince.JPG/250px-Littleprince.JPG",
+    "date":"September 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Hac",
+    "author":"Paulo Coelho",
+    "imgsrc":"http://static.ideefixe.com/images/245/245672_2.jpg",
+    "date":"September 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"On Bir Dakika",
+    "author":"Paulo Coelho",
+    "imgsrc":"http://www.rehabasogul.com/wp-content/uploads/2009/03/1155039334paulo-coelho-onbir-dakika-195x300.jpg",
+    "date":"September 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Piedra Irmağının Kıyısında Oturdum Ağladım",
+    "author":"Paulo Coelho",
+    "imgsrc":"http://www.kitapokuyoruz.com/kapak/1354-Piedra-Irmaginin-Kiyisinda-Oturdum-Agladim.jpg",
+    "date":"September 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Şeytan ve Genç Kadın",
+    "author":"Paulo Coelho",
+    "imgsrc":"http://static.ideefixe.com/images/91/91243_2.jpg",
+    "date":"August 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Beşinci Dağ",
+    "author":"Paulo Coelho",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/tr/thumb/6/60/Besinci_dag.jpg/150px-Besinci_dag.jpg",
+    "date":"August 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Elif",
+    "author":"Paulo Coelho",
+    "imgsrc":"http://3.bp.blogspot.com/-L6kRLCw_rxE/TjrSdDdkW3I/AAAAAAAAK3A/uSx8N8jWC6A/s320/elif%252C+paulo+coelho.jpg",
+    "date":"August 2011",
+    "comment":"-Bu kitap hakkında yazılmış güzel bir yorum için http://nurmustafaoglu.blogspot.com/2011/08/elif.html",
+    "notes":"Notlar",
+    "score":4
+  },
+{
+    "name":"Alice's Adventures in Wonderland",
+    "author":"Lewis Carroll",
+    "imgsrc":"img/alice_in_wonderland.jpg",
+    "date":"August 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+  },
+{
+    "name":"Through the Looking-Glass",
+    "author":"Lewis Carroll",
+    "imgsrc":"img/through-the-looking-glass.jpg",
+    "date":"August 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+  },
+   {
+    "name":"Modern Control Engineering",
+    "author":"Katsuhiko Ogata",
+    "imgsrc":"http://covers.openlibrary.org/b/id/83774-L.jpg",
+    "date":"August 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Işık Bahçeleri",
+    "author":"Amin Maalouf",
+    "imgsrc":"http://static.ideefixe.com/images/151/151530_2.jpg",
+    "date":"August 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Şibumi",
+    "author":"Trevanian",
+    "imgsrc":"http://static.ideefixe.com/images/30/30724_2.jpg",
+    "date":"July 2011",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Bilinmeyen",
+    "author":"Joshua Ferris",
+    "imgsrc":"http://static.ideefixe.com/images/342/342149_2.jpg",
+    "comment":"-",
+    "date":"June 2011",
+    "notes":"Notlar",
+    "score":4
+  },
+   {
+    "name":"An Introduction to System Biology",
+    "author":"Uri Alon",
+    "imgsrc":"img/system_biology.jpg",
+    "comment":"-",
+    "date":"June 2011",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Sineklerin Tanrısı",
+    "author":"William Golding",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/tr/3/3a/Sineklerintanrisi.jpg",
+    "comment":"-",
+    "date":"June 2011",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Otomatik Piyano",
+    "author":"Kurt Vonnegut Jr.",
+    "imgsrc":"http://2.bp.blogspot.com/_MAsG5EK1L7Q/TD3juRTJqQI/AAAAAAAAJcc/huoIQ4W3tc0/s1600/metis082.jpg",
+    "comment":"-Bu kitap hakkında yazılmış güzel bir yorum için http://nurmustafaoglu.blogspot.com/2010/07/kurt-vonnegut-jr.html",
+    "date":"June 2011",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Kaos(Düzensizlikteki Düzeni Anlamak İçin Çizgibilim)",
+    "author":"Iwona Abrams, Ziauddin Sardar",
+    "imgsrc":"http://static.ideefixe.com/images/339/339780_2.jpg",
+    "comment":"-",
+    "date":"May 2011",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Hay bin Yakzan",
+    "author":"İbn Sina / İbn Tufeyl",
+    "imgsrc":"http://static.ideefixe.com/images/27/27118_2.jpg",
+    "comment":"-",
+    "date":"May 2011",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Beynine bir kez hava değmeye görsün",
+    "author":"Dr. Frank Vertosick Jr.",
+    "imgsrc":"http://static.ideefixe.com/images/149/149947_2.jpg",
+    "comment":"-",
+    "date":"May 2011",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Zahir",
+    "author":"Paulo Coelho",
+    "imgsrc":"http://www.kitap-ozet.net/wp-content/uploads/2010/02/zahir.jpg",
+    "comment":"-",
+    "date":"April 2011",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Bilim Etiği Elkitabı",
+    "author":"Ayşe Erzan, Yucel Yilmaz, Gürol Irzık, Aslıhan Tolun, Ali İ. Tekcan, Emine Kansu, Şevket Ruacan",
+    "imgsrc":"http://www.pandora.com.tr/images/kapak/195725b.jpg",
+    "comment":"- Ayse Hocanin okumam icin verdigi ve onemli notlar aldigim fayda sagladigim bir kitap. Muhakkak okunmasini oneririm.",
+    "date":"April 2011",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Semerkant",
+    "author":"Amin Maalouf",
+    "imgsrc":"http://www.kitaplik.com/wp-content/themes/shopperpress/thumbs/5/semerkant-onkapak.jpg",
+    "comment":"-",
+    "date":"March 2011",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Rüyanın öteyakası",
+    "author":"Ursula K. Leguin",
+    "imgsrc":"http://www.kitaplik.com/wp-content/themes/shopperpress/thumbs/10/ruyanin-ote-yakasi-onkapak.jpg",
+    "comment":"-",
+    "date":"March 2011",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Aşkın gözyaşları",
+    "author":"Sinan Yağmur",
+    "imgsrc":"img/askin_gozyaslari.jpg",
+    "comment":"-",
+    "date":"Şubat 2011",
+    "notes":"Notlar",
+    "score":3
+  },
+ {
+    "name":"Babil’de Ölüm İstanbul’da Aşk",
+    "author":"İskender Pala",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/tr/thumb/c/ca/Babilde-Olum-Istanbulda-Ask.jpg/100px-Babilde-Olum-Istanbulda-Ask.jpg",
+    "comment":"-",
+    "date":"November 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Zaman Yolcusunun Karısı",
+    "author":"Audrey Niffenegger",
+    "imgsrc":"img/zaman_yolcusunun_karisi.jpg",
+    "comment":"-Tek kelime ile harika. Kesinlikle okunması gerektiğini düşünmekteyim. Aşkın evliliğe kadar uzanan sürecini sıradışı bir çifti ele alarak anlatıyor",
+    "date":"October 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Bin Muhtesem Günes",
+    "author":"Khaled Hosseini",
+    "imgsrc":"img/bin_muhtesem_gunes.jpg",
+    "comment":"-",
+    "date":"September 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Küçük Arı",
+    "author":"Chris Cleave",
+    "imgsrc":"img/kucuk_ari.jpg",
+    "comment":"-",
+    "date":"September 2010",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Uçurtma Avcısı",
+    "author":"Khaled Hosseini",
+    "imgsrc":"http://www.kitapokuyoruz.com/kapak/488-Ucurtma-Avcisi.jpg",
+    "comment":"-Afganistanın değişen yüzünü, çocukluk hatalarının ve gelecekte yaşanan pişmanlıkların yaşam üzerindeki etkilerini duygu yüklü bir şekilde anlatmakta olan harika bir kitap",
+    "date":"September 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"ASK",
+    "author":"Elif Şafak",
+    "imgsrc":"http://www.rsskitap.com/wp-content/uploads/elif-safak-ask.jpg",
+    "comment":"-Dünya üzerinde nuru bulduğum mutlu olduğum bu günlerde aşkın her çeşidini ve saf halini de bu kitaptan okudum. Okunası bir kitap",
+    "date":"September 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Yaşlandıkça hayat neden çabuk geçer",
+    "author":"Douwe Draaiswa",
+    "imgsrc":"http://www.aktuelpsikoloji.com/images/haber/1947.jpg",
+    "comment":"-İnsan beyninin anıların saklanması, yeniden ortaya çıkması ve unutmak üzerine yazılmıs Draaiswanın güzel eseri",
+    "date":"August 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Puslu Kıtalar Atlası",
+    "author":"İhsan Oktay Anar",
+    "imgsrc":"http://www.senaofset.com.tr/w/iletisim/22.jpg",
+    "comment":"-Hayalla gerçeğin mükemmel harmanlandığı, Descartesin düşünüyorum öğleyse varım yaklaşımını genişleterek, Düşünüyorum öyleyse herşey va diyen bir eser",
+    "date":"July 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Şaşırtan Varsayım",
+    "author":"Francis Crick",
+    "imgsrc":"img/sasirtan_varsayim.jpg",
+    "comment":"-Görmenin bilinç ve beyin üzerinde nasil gerçeklesmekte oldugunu ve bu sistemlerin açiklanmasina yer verilmistir. Guzel bir referans kitabi olabilecegini düsünüyorum",
+    "date":"July 2010",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Cesur Yeni Dunyayi Ziyaret",
+    "author":"Aldous Huxley",
+    "imgsrc":"http://static.ideefixe.com/images/84/84781_2.jpg",
+    "comment":"-Cesur yeni dünyada kurgulananlara yönelik bir geri besleme niteligi tasimakta. Burada utopik bir dunya için modern dunyanin neler yapmakta oldugu. Beyin yikama, kimyasallar bilinç altı mesajları nasıl kullanılmakta anlatılmaya çalısılıyor.",
+    "date":"May 2010",
+    "notes":"Notlar",
+    "score":4
+  },
+ {
+    "name":"Sıra Dısı Öykü",
+    "author":"Michel Butor",
+    "imgsrc":"http://static.ideefixe.com/images/304/304222.gif",
+    "comment":"-Yazar bir ünlü bir yazarın rüyasını kelime kelime analiz ederek hayatı ve eserleri ile iliski kurmaktadır bu nedenle ilginc bir deneme tarzında yazılmıs eser",
+    "date":"April 2010",
+    "notes":"Notlar",
+    "score":4
+  },
+   {
+    "name":"Rama ile Bulusma",
+    "author":"Arthur C. Clarke",
+    "imgsrc":"http://ecx.images-amazon.com/images/I/41A3XG7MN8L.jpg",
+    "comment":"-Arthur Clarke büyüleyici bir eser meydana getirmis bu nedenle okunmasi gereken harika bir eser.",
+    "date":"March 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Büyülü Ada",
+    "author":"Eduardo Mendoza",
+    "imgsrc":"img/buyulu_ada.jpg",
+    "comment":"-Okurken pek keyif almadıgım, kendinden ve yasamından kacarak kendini farklı bir macera içinde bulan bir adamın hikayesi",
+    "date":"November 2009",
+    "notes":"Notlar",
+    "score":3
+  },
+ {
+    "name":"Düsüs",
+    "author":"Albert Camus",
+    "imgsrc":"http://static.ideefixe.com/images/51/51252_2.jpg",
+    "comment":"-Cok basarili biri olan anlatıcının hayatındaki hatalarla yuzlesmesini ve içsel hesaplamayı çok iyi bir dille anlatan kitap.",
+    "date":"March 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"Yüz Yıllık Yalnızlık ",
+    "author":"Gabriel Garcia Marquez",
+    "imgsrc":"img/yuz_yillik_yalnizlik.jpg",
+    "comment":"-Baslarda isimleri takip etmenin zor oldugu cok yogun bir olay orgusu icerisinde olan ama ilerledikce guzellesen cok hos bir kitap",
+    "date":"February 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+ {
+    "name":"EEG Signal Processing",
+    "author":"Sanei, Chambers",
+    "imgsrc":"http://books.gigaimg.com/avaxhome/66/a7/0009a766.jpeg",
+    "comment":"-Bitirme çalışmamda kullandığım EEG İşleme hakkında temel bilgileri öğrendiğim bu alanda yazılmıs en iyi kitap",
+    "date":"February 2010",
+    "notes":"Notlar",
+    "score":5
+  },
+  {
+    "name":"Kontrbas",
+    "author":"Patrick Süskind",
+    "imgsrc":"img/kontrbas.jpg",
+    "comment":"-56 sayfalik Taksimde bir arkadasimi beklerken DRda oturup rahatlikla okudugum kitap",
+    "date":"February 2010",
+    "notes":"Notlar",
+    "score":3
+  },
+    {
+    "name":"Hipnozcu",
+    "author":"Richard Bach",
+    "imgsrc":"img/hipnozcu.jpg",
+    "comment":"-Cevahir DRda sirket toplantisini beklerken baslayip ilk 70 sayfasini okudugum ve kalanini gene ayni sekilde raftan alip okudugum kisa ama surukleyici eser",
+    "date":"February 2010",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Human Brain",
+    "author":"John Nolte",
+    "imgsrc":"http://images.barnesandnoble.com/images/8500000/8506187.jpg",
+    "comment":"-Beynin fizyolojik işlevini oldukça güzel anlatan bir kitap ancak biraz ağır v detaylı anlatımı var. Referans kitabı olarak kullanılması daha uygun.",
+    "date":"June 2009",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Düsünmek, Ögrenmek, Unutmak",
+    "author":"Frederic Vester",
+    "imgsrc":"http://static.ideefixe.com/images/37/37092_2.jpg",
+    "comment":"-Norofizyoloji ile alakalı belleğin nasıl çalıştığını açıklamya çalışan daha çok hücresel boyutta kavramları açıklayan güzel bir kitap ",
+    "date":"20.05.2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Equilibrium Statistical Physics ",
+    "author":"Michael Plischke ,Birger Bergersen",
+    "imgsrc":"http://downloads-ebook.com/upload/201106/20110629144706.jpg",
+    "comment":"-",
+    "date":"March 2011",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Mind: Introduction to Cognitive Science",
+    "author":"Paul Thagard",
+    "imgsrc":"http://books.google.com.tr/books?id=gjcR1U2HT7kC&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;sig=ACfU3U0COYta9shOOagPHok6Zrg0-mH0iA",
+    "comment":"-Cognetive Science alanında yapılmış temel çalışmaları içeriyor. Google Bookstan ucretsiz şekilde okunabilir.",
+    "date":"April 2009",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Mindware: An Introduction to the Philosophy of Cognitive Science",
+    "author":"Andy Clark",
+    "imgsrc":"http://img.infibeam.com/img/1f49307e/573/8/9780195138573.jpg",
+    "comment":"-Cognetive Science alanında yapılmış temel çalışmaları içeriyor. Google Bookstan ucretsiz şekilde okunabilir.",
+    "date":"March 2009",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Bellek metaforları",
+    "author":"Douwe Draaisma",
+    "imgsrc":"img/bellek_metaforlari.jpeg",
+    "comment":"-İnsan beyni üzerine yapılmış olan metaforları tarihsel bir düzende anlatan farklı bakış açıları ve alntılamalarla içeriği zengin hoş bir kitap",
+    "date":"September 2009",
+    "notes":"Notlar",
+    "score":4
+  },
+    {
+    "name":"Kaos",
+    "author":"James Gleick",
+    "imgsrc":"img/kaos.jpeg",
+    "comment":"-Üç kelimeyle harika bir kitap",
+    "date":"July 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Uzman Sistemler: Bir Yapay Zeka Uygulaması ",
+    "author":"Novruz Allahverdi",
+    "imgsrc":"img/uzman-sistemler.jpg",
+    "comment":"-Uzman sistemleri temel mantığıyla açıklayan, farklı alanlardaki uygulamalarınada yer veren bir yayın",
+    "date":"July 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Yapay Sinir Ağları ve Uygulamaları",
+    "author":"Önder Efe",
+    "imgsrc":"http://kapak.netkitap.com/170zk/2/06020328.jpg",
+    "comment":"-Yapay Sinir ağları hakkında matematiksel modeli ve ağ oluşturulması üzerine yazılmış bir kitap",
+    "date":"July 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Zeka",
+    "author":"Pierre Oleron",
+    "imgsrc":"http://kapak.netkitap.com/075bk/Z/zek%C3%A2_18102.jpg",
+    "comment":"-",
+    "date":"May 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Bilgisayar ve Zeka Kralın Yeni Usu 1. Cilt ",
+    "author":"Roger Penrose",
+    "imgsrc":"img/bilgisayar_ve_zeka_kralin_yeni_usu_1.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Fiziğin Gizemi Kralın Yeni Usu 2. Cilt  ",
+    "author":"Roger Penrose",
+    "imgsrc":"http://static.ideefixe.com/images/61/61329_2.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Us Nerede? Kralın Yeni Usu 3. Cilt ",
+    "author":"Roger Penrose",
+    "imgsrc":"http://static.ideefixe.com/images/67/67768_2.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"How the minds work",
+    "author":"Stephen Pinker",
+    "imgsrc":"img/how_the_mind_works.jpg",
+    "comment":"-Cognetive Science alanında visiondan diğer algı tiplerine insan algısını ve düşünüşünü derinlemesine inceleyen bir kaynak",
+    "date":"August 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Akıllar, Beyinler ve Bilim ",
+    "author":"John Searle",
+    "imgsrc":"http://static.ideefixe.com/images/32/32036_2.jpg",
+    "comment":"-Beyin, düşünce, varlık bilinci üzerine çin odası deneyinide öneren yazarın kendine güvenen güçlü bir diller yazdığı bir kitap",
+    "date":"July 2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Yapay Zeka Uygulamaları",
+    "author":"Çetin Elman",
+    "imgsrc":"img/yapay_zeka_uygulamalari.jpg",
+    "comment":"-Bulanık Mantık, YSA, Genetik Algoritmalar gibi temel yapay zeka konularında uygulamalı ve örnek C kodları ile düzenlenmiş hoş bir kitap",
+    "date":"August 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Totem ve Tabu",
+    "author":"Sigmund Freud",
+    "imgsrc":"http://static.ideefixe.com/images/292/292708_2.jpg",
+    "comment":"-İnsanların bilinç altındaki yasaklar ve tabularının kişilik üzerine etkisini ve toplumların kültürlerinin bundaki etkisine değinen güzel bir kitap.",
+    "date":"September 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Olgu Öyküleri I",
+    "author":"Sigmund Freud",
+    "imgsrc":"http://static.ideefixe.com/images/60/60504_2.jpg",
+    "comment":"-Farklı psikanaliz vakalarını inceleyen ve bunların nedenlerini inceleyen güzel bir çalışmalar topluluğu. Küçük Hans hikayesi ve daha pek çok önemli kavramı bu kitabında işliyor.",
+    "date":"September 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Olgu Öyküleri II",
+    "author":"Sigmund Freud",
+    "imgsrc":"http://static.ideefixe.com/images/40/40474_2.jpg",
+    "comment":"-Farklı psikanaliz vakalarını inceleyen ve bunların nedenlerini inceleyen güzel bir çalışmalar topluluğu. İlk kitabın devamı niteliğinde",
+    "date":"September 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Rüya Yorumları",
+    "author":"Sigmund Freud",
+    "imgsrc":"http://static.ideefixe.com/images/292/292709_2.jpg",
+    "comment":"-Kişilerin bilinç altının yansıması olan rüyaların prikanaliz sonucu Freudcu yaklaşımla incelenmesine dair güzel bir kitap",
+    "date":"October 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Aşkın Cellatı",
+    "author":"Irvine Yalom",
+    "imgsrc":"http://static.ideefixe.com/images/40/40999_2.jpg",
+    "comment":"-Aşkın celladı farklı ilişkilerin psikanaliz yorumu ve analizini Freudcu bir yaklaşımla inceleyen olay öykülerinden oluşan bir derleme",
+    "date":"December 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Nietzsche Ağladığında",
+    "author":"Irvine Yalom",
+    "imgsrc":"http://www.tulumba.com/mmTULUMBA/Images/bk/zBK982396JK848_250.jpg",
+    "comment":"-Irvin Yalomun güzel kurgusuyla. Niezcheyi farklı yönleriyle tanıyor ve Freudcu psikanalizin doğusuna sahit oluyoruz.",
+    "date":"January 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Divan",
+    "author":"Irvine Yalom",
+    "imgsrc":"http://static.ideefixe.com/images/57/57844_2.jpg",
+    "comment":"-Irvin Yalomun güzel kurgusuyla psikaliz öykülerinden olusuyor.",
+    "date":"January 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Böyle Buyurdu Zerdüşt",
+    "author":"Friedrich Nietzsche",
+    "imgsrc":"http://sayyayincilik.com/BSWEB/images/kitap/92057.jpg",
+    "comment":"-Uzun soluklu okunmasında fayda olan Nietzchenin yoğun anlatımının olduğu çok güzel bir eser",
+    "date":"June 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Varoluşcu Psikoterapi",
+    "author":"Irvin Yalom",
+    "imgsrc":"http://static.ideefixe.com/images/66/66134_2.jpg",
+    "comment":"-",
+    "date":"October 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Brave New World",
+    "author":"Aldoux Huxley",
+    "imgsrc":"http://www.affordablehousinginstitute.org/blogs/us/Huxley_brave_new_world_small.jpg",
+    "comment":"-Huxleyin en iyi kitaplarından negatif utopya örneği olarak literaturde yer almakta",
+    "date":"October 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"The Doors of Perception",
+    "author":"Aldoux Huxley",
+    "imgsrc":"img/doors_of_perception.jpg",
+    "comment":"-Huxleyin kullanıdığı uyusturucu etkisinde gözlemlediklerinin yer aldığı kısa bir yazı",
+    "date":"November 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"1984",
+    "author":"George Orwell",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/tr/1/13/1984.jpg",
+    "comment":"-Orwellın kurguladıgı insan oğlunun nasıl yönetildiği ve kontrol edildiğini işleyen hoş bir kitap",
+    "date":"November 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Mutlulugun Kıyısında",
+    "author":"Dostoyevski",
+    "imgsrc":"img/mutlulugun-kiyisinda.jpg",
+    "comment":"-Çok çarpıcı 3 küçük öyküden oluşan benim kendimi fazlasıyla bulduğum ve beni okurken en çok etkileyen kitap diyebilirim. Suan piyasada bulamıyorum bulursam satın alıp tekrar okuyacağım.",
+    "date":"April 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Kelebek",
+    "author":"Henri Charriere",
+    "imgsrc":"img/kelebek.jpg",
+    "comment":"-Suçsuz yere hapis yatan ve intikam hırsıyla sürekli kaçmaya çabalayan. Fransız güyanında yaşadığı hikayesini anlatan yazar. Hapishanelerin çarpık yönlerini anlatıyor daha sonra filmide çekildi",
+    "date":"June 2006",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Henri Charriere  ",
+    "author":"Banko",
+    "imgsrc":"http://www.kitapokuyoruz.com/kapak/1597-Banko.jpg",
+    "comment":"-Suçsuz yere hapis yatan ve intikam hırsıyla sürekli kaçmaya çabalayan yazarın kelebekten sonraki 2ci kitabı burada özgürlüğünü elde ettikten sonra başından gelenleri anlatıyor",
+    "date":"July 2006",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Empati",
+    "author":"Adam Fawer",
+    "imgsrc":"img/empati.jpg",
+    "comment":"-Bilim kurgu gibi gözüksede insanların olağan üstü yeteklerde empati kabiliyetine sahip olması ve bunun başka amaçlarda kullanılmasını kurgulayan bir kitap",
+    "date":"January 2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Olasılıksız",
+    "author":"Adam Fawer",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/tr/thumb/1/18/Olas%C4%B1l%C4%B1ks%C4%B1z.jpg/180px-Olas%C4%B1l%C4%B1ks%C4%B1z.jpg",
+    "comment":"-İnsan beyni üzerinde yapılan deneyler. Maxwellin cini ve kuantum mekaniğinin harmanlanıp kurgulandığı bir eser",
+    "date":"January 2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Şeker Portakalı",
+    "author":"Jose Mauro de Vasconcelos",
+    "imgsrc":"img/seker_portakali.jpg",
+    "comment":"-",
+    "date":"2004",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Yeşil Gece",
+    "author":"Reşat Nuri Güntekin",
+    "imgsrc":"img/yesil_gece.jpg",
+    "comment":"-Kurtuluş savası yıllarından vatanı satan insaların ve yobaz kesimin yaptıkları ve ilerici bir öğretmenin ağzından ege kıyılarında ufak bir kasabada yaşananlar",
+    "date":"2003",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Dönüşüm",
+    "author":"Franz Kafka",
+    "imgsrc":"img/donusum.jpeg",
+    "comment":"-Kafkanın gerçek üstü bir eseri. Böcek olmayı en güzel işleyen bir yandanda toplumsal sorunları açıklayan harika bir eser",
+    "date":"2003",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Portobello Cadısı",
+    "author":"Paulo Coelho  ",
+    "imgsrc":"http://www.kitapokuyoruz.com/kapak/1353-Portobello-Cadisi.jpg",
+    "comment":"-",
+    "date":"June 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Simyacı",
+    "author":"Paulo Coelho  ",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/tr/thumb/d/d4/Simyac%C4%B1.jpg/180px-Simyac%C4%B1.jpg",
+    "comment":"-Bir gezginin bilgiye ulaşmak üzere yaptığı seyahat ve burada elde etmiş olduğu kazanımlar. Gerçekten çarpıcı bir kitap",
+    "date":"June 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Devlet",
+    "author":"Platon",
+    "imgsrc":"http://static.ideefixe.com/images/250/250598_2.jpg",
+    "comment":"-Çok güzel bir sosyoloji eseri. Yuzyıllar önce yazılmış olup bugunde devlet işleyişi ve toplumsal yaşamı yorumlamada faydalanılabilecek bir eser",
+    "date":"July 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Sokratesin Savunması",
+    "author":"Platon",
+    "imgsrc":"http://static.ideefixe.com/images/145/145644_2.jpg",
+    "comment":"-Sokratesin yargılanmasında konusulanların ve savundugu tezlerin son saatlerinin anlatıldığı eser",
+    "date":"July 2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Sofienin Dünyası",
+    "author":"Jostein Gaarder  ",
+    "imgsrc":"img/sofinin-dunyasi.jpg",
+    "comment":"-Mükemmel bir felsefe tarihi aynı zamanda hoş bir kurguyla felsefeyi işliyor. Liselerde keske bu şekilde kitaplar okutularak felsefe öğretilse",
+    "date":"July 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Koku",
+    "author":"Patrick Süskind  ",
+    "imgsrc":"http://static.ideefixe.com/images/30/30259_2.jpg",
+    "comment":"-Paris sokaklarında çöpler arasında doğan bir çocugun o kıymetsiz yaşamını yaptığı parfumlerla nasıl kazandığı olağanustu bir koku duyusu olmasına rağmen kendine ait bir kokusu olmaması üzerine kurulu bir eser ",
+    "date":"July 2008",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Yüzüncü Ad",
+    "author":"Amin Maalouf  ",
+    "imgsrc":"http://www.pegem.net/resim/urun/31332200.jpg",
+    "comment":"-",
+    "date":"2004",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Uzay ve Zamanın Doğası",
+    "author":"Stephen W. Hawking  ",
+    "imgsrc":"img/uzay_zamanin_dogasi.jpeg",
+    "comment":"-",
+    "date":"2004",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Uzay ve Zamanın Doğası",
+    "author":"Stephen W. Hawking  ",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/tr/3/33/Ceviz_Kabu%C4%9Fundaki_Evren.jpg",
+    "comment":"-",
+    "date":"2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Zamanın Kısa Tarihi ",
+    "author":"Stephen W. Hawking  ",
+    "imgsrc":"http://static.ideefixe.com/images/23/23141_2.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Rölativitenin abc'si",
+    "author":"Bertrand Russelli",
+    "imgsrc":"img/rolativitenin_abcsi.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+    {
+    "name":"Maddenin Son Yapıtaşları",
+    "author":"Gerard T. Hoopt",
+    "imgsrc":"http://static.ideefixe.com/images/83/83275_2.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+    {
+    "name":"Dünyayi Degistiren 5 Denklem ",
+    "author":"Michael Guillen",
+    "imgsrc":"http://static.ideefixe.com/images/88/88028_2.jpg",
+    "comment":"-",
+    "date":"2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Zamanın Daha Kısa Tarihi ",
+    "author":"Stephen W. Hawking  ",
+    "imgsrc":"http://static.ideefixe.com/images/253/253796_2.jpg",
+    "comment":"-",
+    "date":"2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Einstein Paradoksu ve Diğer Bilimsel Gizemler  ",
+    "author":"Colin Bruce  ",
+    "imgsrc":"http://static.ideefixe.com/images/95/95386_2.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+    {
+    "name":"Einstein Evreninde Zaman Yolculuğu",
+    "author":"J. Richard Gott",
+    "imgsrc":"http://upload.wikimedia.org/wikipedia/tr/7/72/Einstein_Evreninde_Zaman_Yolculu%C4%9Fu.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+      {
+    "name":"Kuvantumu Anlamak",
+    "author":"Barry Parker",
+    "imgsrc":"http://static.ideefixe.com/images/186/186689_2.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+  
+  {
+    "name":"Ölüm Kaşifleri",
+    "author":"Bernard Werber",
+    "imgsrc":"http://www.pandora.com.tr/images/kapak/101778.jpg",
+    "comment":"-Ölüm üzerine ve merak edilen tüm yönlerini konu alan bilimsel alıntılarla zenginleştirilmiş süper bir kitap",
+    "date":"2006",
+    "notes":"Farklı ölüm inançlarını tamamen işliyor",
+    "score":4
+  },
+  {
+    "name":"Karıncalar",
+    "author":"Bernard Werber",
+    "imgsrc":"http://kapak.netkitap.com/075bk/K/karincalar_olaganustu_bir_algilama_bicimi_4650.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"-",
+    "score":4
+  },
+  {
+    "name":"Karıncaların Günü  ",
+    "author":"Bernard Werber",
+    "imgsrc":"http://static.ideefixe.com/images/57/57159_2.jpg",
+    "comment":"-",
+    "date":"2007",
+    "notes":"-",
+    "score":4
+  },
+  {
+    "name":"Karıncaların Devrimi",
+    "author":"Bernard Werber",
+    "imgsrc":"http://static.ideefixe.com/images/58/58081_2.jpg",
+    "comment":"-",
+    "date":"2007",
+    "notes":"-",
+    "score":4
+  },
+  {
+    "name":"Iki Sehrin Hikayesi",
+    "author":"Charles Dickens",
+    "imgsrc":"img/iki_sehrin_hikayesi.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"-",
+    "score":4
+  },
+  {
+    "name":"Aldatma Sanatı",
+    "author":"Kevin D. Mitnick  ",
+    "imgsrc":"http://www.saykitap.com/BSWEB/images/kitap/24980.jpg",
+    "comment":"-Bir sisteme girmenin en iyi yolunun insanlardan kaynaklanan hatalar oldugunu açıklayan ve örneklendiren meshur bir hackerın kitabı",
+    "date":"2008",
+    "notes":"-",
+    "score":4
+  },
+  {
+    "name":"Ölüm Kapısı Serisi ( 7 Kitap )",
+    "author":"Margaret Weis &amp; Tracy Hickman",
+    "imgsrc":"img/olum_kapisi_serisi.jpg",
+    "comment":"-Okudugum en harika fantastik kurgu serisi..",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Karakılıç Serisi ( 4 Kitap )",
+    "author":"Margaret Weis &amp; Tracy Hickman",
+    "imgsrc":"http://static.ideefixe.com/images/148/148218_2.jpg",
+    "comment":"-",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Karakule Serisi ( 7 Kitap )",
+    "author":"Stephen King",
+    "imgsrc":"http://static.ideefixe.com/images/193/193010_2.jpg",
+    "comment":"-En süper eserlerinden biri okurken çok yogun bir heyecan yaşıyorsunuz ancak sonunu pek beğendiğimi söyleyemem ama herkesin okuması gereken bir seri",
+    "date":"2006",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Sakıncalı Piyade",
+    "author":"Uğur Mumcu",
+    "imgsrc":"http://static.ideefixe.com/images/44/44772_2.jpg",
+    "comment":"-Ugur Mumcunun güzel anlatılımdan akıcı bir olaylar dizisi. Ülkenin kurumları arası haberleşmesinin ne kadar kötu oldugunu ve sistemin ne kadar yanlış işlediğini anlatmada güzel bir kaynak",
+    "date":"2007",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Tanrının Doğum Günü",
+    "author":"buRAK özDEMİR",
+    "imgsrc":"img/tanrinin_dogum_gunu.jpg",
+    "comment":"-Dinlerin varlığına inanmayan birini bile tereddüte düşürebilecek bir kitap. Tanrıya bakış açısını değiştiren inançların oturtulduğu korku düzleminin arkasındaki sevgi ve anlayış düzlemini görebilmeyi sağlıyor",
+    "date":"June 2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Evrenin Kayboluşu",
+    "author":"Gary Renard",
+    "imgsrc":"img/evrenin_kaybolusu.jpg",
+    "comment":"-İnsanları anlayabilmek, yaşamda mutlu olabilmenin hoşgörü olduğunun en güzel ispatlarından birisi. ",
+    "date":"April 2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Last Lecture",
+    "author":"Randy Pausch",
+    "imgsrc":"http://bookstore.web.cmu.edu/StoreImages/106-535569-3.jpg",
+    "comment":"-Hayallerinin peşini bırakmayan ve bunlara bağlı kalan kanserden hayatını yitiren Carnigie Mellon üniversitesi hocasının son dersi",
+    "date":"May 2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"İkili Sarmal",
+    "author":"James D. Watson",
+    "imgsrc":"http://static.ideefixe.com/images/27/27506_2.jpg",
+    "comment":"-DNAnın keşfine kadar giden bir öykü, Clark ve Watsonın balarısına yol gösteren olayları bizzat Watson kendi dilinden anlatıyor",
+    "date":"2003",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Tekrar Bağlantı",
+    "author":"Eric Pearl",
+    "imgsrc":"img/tekrar_baglanti.jpg",
+    "comment":"-Evrensel enerjinin kullanımı ve bu sayede gerçekleşen hikayelerden oluşmuş bir eser",
+    "date":"June 2009",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Kuantum Dokunuş",
+    "author":"Richard Gordon",
+    "imgsrc":"http://www.hermeskitap.com/catalog/images/975-8817-19-1450e2f.jpg",
+    "comment":"-Evrensel enerjinin kullanılarak şifa verme teknikleri üzerine ayrıntılı bir kitap. Yöntemleri özellikle çok iyi açıklamakta",
+    "date":"September 2009",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"C# Network Programming",
+    "author":"Richard Blum  ",
+    "imgsrc":"http://www.coverbrowser.com/image/programming-books/381-3.jpg",
+    "comment":"-Soket Programlama hakkında oldukça faydalı ve güzel bir kaynak. SNMP, ICMP, HTTP, SMTP gibi pek çok uygulamaya ve C# kodlarıyla zenginleştirerek yer veriyor",
+    "date":"August 2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Semantic Web",
+    "author":"Toby Segaran",
+    "imgsrc":"http://covers.oreilly.com/images/9780596153823/lrg.jpg",
+    "comment":"-Semantic web hakkında temellerinide açıklayarak anlatan RDF ve SPARQL ile ilgili güzel bilgiler sunan bir kitap. Kullanılan yazılım ortamlarınada yer vermesi güzel bir özellik",
+    "date":"September 2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Algı Kapıları",
+    "author":"Aldoux Huxley",
+    "imgsrc":"http://www.hermeskitap.com/catalog/images/imge9789755331058_tn.jpg",
+    "comment":"-Meskalin altında yazarın yaşadıklarının süper bir anlatımı. Algının nasıl oluştuğu ve çevreyi algılayışımıza ilişkin deneysel bir eser",
+    "date":"November 2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Ecco Homo",
+    "author":"Nietzche",
+    "imgsrc":"http://www.hermeskitap.com/catalog/images/innVx6j6zsx.jpg",
+    "comment":"-Nietzchenni ukala olarak tabir edilebilecek bir dille kendini ve eserlerini anlattığı insanın kendisi olması yolunda yapması gerekenler anlattığı eseri",
+    "date":"December 2009",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Önemi olmayan küçük yanlış anlamalar",
+    "author":"Antonio Tabucchi",
+    "imgsrc":"http://static.ideefixe.com/images/247/247774_2.jpg",
+    "comment":"-Durum öykülerinden oluşmuş hoş bir kitap ancak herkes aynı zevki almayabilir.",
+    "date":"December 2009",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Harry Potter Serisi",
+    "author":"J.K. Rowling",
+    "imgsrc":"img/harry_potter_serisi.jpg",
+    "comment":"-Harry Potter işte :)",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"İşte Dünya",
+    "author":"Billy Aronson",
+    "imgsrc":"http://kapak.netkitap.com/075bk/I/iste_dunya_2630.jpg",
+    "comment":"-",
+    "date":"2003",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Taş Meclisi",
+    "author":"Christopher Grange",
+    "imgsrc":"img/tas_meclisi.jpg",
+    "comment":"-",
+    "date":"2007",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Leyleklerin Uçuşu",
+    "author":"Christopher Grange",
+    "imgsrc":"http://images.gittigidiyor.com/2265/LEYLEKLERIN-UCUSU-J-CHRISTOPHE-GRANGE-KARGO-3-TL__22655532_0.jpg",
+    "comment":"-",
+    "date":"2007",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Sitah Kan",
+    "author":"Christopher Grange",
+    "imgsrc":"http://static.ideefixe.com/images/189/189963_2.jpg",
+    "comment":"-",
+    "date":"2007",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Şeytan Yemini",
+    "author":"Christopher Grange",
+    "imgsrc":"img/seytan_yemini.jpg",
+    "comment":"-",
+    "date":"2007",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Da Vinci Code",
+    "author":"Dan Brown",
+    "imgsrc":"http://theworldofmovies.files.wordpress.com/2009/05/davinci20code1.jpg",
+    "comment":"-",
+    "date":"2008",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Angels and Demons",
+    "author":"Dan Brown",
+    "imgsrc":"http://theworldofmovies.files.wordpress.com/2009/05/angelsdemons1.jpg",
+    "comment":"-",
+    "date":"2008",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Digital Fortress",
+    "author":"Dan Brown",
+    "imgsrc":"img/digital_fortress.jpg",
+    "comment":"-",
+    "date":"2008",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Deception Point",
+    "author":"Dan Brown",
+    "imgsrc":"img/deception_point.jpg",
+    "comment":"-",
+    "date":"2009",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Üçüncü Göz",
+    "author":"T. Lobsang Rampa",
+    "imgsrc":"http://www.kitapokuyoruz.com/kapak/2626-Ucuncu-Goz.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"İkinci Beden",
+    "author":"T. Lobsang Rampa",
+    "imgsrc":"img/ikinci_beden.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":3
+  },  
+  {
+    "name":"Guguk Kuşu",
+    "author":"Ken Kesey",
+    "imgsrc":"img/guguk_kusu.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":-1
+  },
+  {
+    "name":"Yüzüklerin Efendisi(1,2,3)",
+    "author":"J.R.R. Tolkien",
+    "imgsrc":"http://static.ideefixe.com/images/93/93534_2.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":5
+  },
+  {
+    "name":"Hayvan Mezarlığı",
+    "author":"Stephen King",
+    "imgsrc":"http://www.kitapokuyoruz.com/kapak/529-Hayvan-Mezarligi.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":5
+  },
+  {
+    "name":"Medyum",
+    "author":"Stephen King",
+    "imgsrc":"http://static.ideefixe.com/images/42/42076_2.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":5
+  },
+  {
+    "name":"Tılsım",
+    "author":"Stephen King",
+    "imgsrc":"http://static.ideefixe.com/images/32/32744_2.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":5
+  }
+]
+}
