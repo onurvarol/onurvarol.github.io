@@ -1,4 +1,4 @@
 onurvarol.github.io
 ===================
 
-Github page for demo purposes
+Github page for my new academic homepage

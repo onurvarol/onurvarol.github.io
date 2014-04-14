@@ -54,6 +54,10 @@
 			{
 				"source": "http://arxiv.org/abs/1310.2671",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/trends2013.bib",
+				"name": "BibTeX"
 			}
 		],
 		"coverage": [
@@ -82,6 +86,10 @@
 			{
 				"source": "http://arxiv.org/abs/1310.2665",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/memeclustering2013.bib",
+				"name": "BibTeX"
 			}
 		]
 	},
