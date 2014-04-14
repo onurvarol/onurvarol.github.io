@@ -7,10 +7,11 @@
             var books = json['books'];
             for (var i = 0; i < books.length; i++) {
                 bookDiv = '<div id="book">';
-                bookDiv += '<img src="' + books[i].imgsrc + '" alt="' + books[i].name + '"> <br/>';
+                bookDiv += '<img src="' + books[i].imgsrc + '" alt="' + books[i].name + '" style="height: 250px; margin: 5px 0 0 0;"> <br/>';
                 bookDiv += '<b>' + books[i].name + '</b> <br/>';
                 bookDiv += '<b>Author:</b> ' + books[i].author + '<br/>';
                 bookDiv += books[i].comment + '<br/>';
+                bookDiv += '<img src="img/stars_' + books[i].score + '.png" width="100px">';
                 bookDiv += "</div>"
                 $('#bookshelf').append(bookDiv);
             }
@@ -26,12 +27,15 @@
     width: 250px;
     text-align:center; 
 }
-
-#book img {
-    margin: 5px 0 0 0;
-    height: 250px;
-}
 </style>
+
+
+<div style="background-color:#6D63F5; width:100%; height:40px; padding-top:15px" align="center">
+    "A man will turn over half a library to make one book" -Samuel Johnson
+    <a href="http://amzn.com/w/10KCWJINJ0CZN" target="_blank">
+        <img style="margin-right:20px; float:right; position:absolute; right:0;" width="100px" align="right" alt="Onur's kindle wishlist" src="img/kindle_logo.png">
+    </a>
+</div>
 
 <div id="bookshelf">
     

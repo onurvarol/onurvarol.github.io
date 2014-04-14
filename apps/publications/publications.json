@@ -1,0 +1,125 @@
+{
+"journals":[
+    {
+		"text": "O. Varol, D. Yuret, B. Erman, A. Kabakçıoğlu <b>\"Mode coupling points to functionally important residues in Myosin II\"</b>, <i>Proteins: Structure, Function, and Bioinformatics</i>",
+
+		"links": [
+			{
+				"source": "http://dx.doi.org/10.1002/prot.24531",
+				"name": "Journal page"
+			},
+			{	"source": "http://arxiv.org/abs/1310.8598",
+				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/protein2014.bib",
+				"name": "BibTeX"
+			}
+		]
+	}
+],
+
+"proceedings":[
+	{
+		"text": "Varol, O., Ferrara, E., Ogan, C., Menczer, F., & Flammini, A. <b>\"Evolution of online user behavior during a social upheaval\"</b>, <i>Submitted (Web Science 2014)</i>"
+	},
+
+	{
+		"text": "Ferrara, E., Varol, O., Malinchik, S., Menczer, F., & Flammini, A. <b>--</b>, <i>Submitted (In preperation for COSN'14)</i>",
+	},
+
+	{
+		"text": "Varol, O., Menczer, F.,<b>\"Connecting Dream Networks Across Cultures\"</b>, <i>WWW'14  workshop on \"Connecting Online & Offline Life\"</i>",
+		"links": [
+			{
+				"source": "http://arxiv.org/abs/1402.2297",
+				"name": "ArXiv"
+			}
+		],
+		"coverage": [
+			{
+				"source": "https://medium.com/the-physics-arxiv-blog/fb0160696bcd",
+				"name": "Medium"
+			}
+		]
+	},
+
+	{
+		"text": "Ferrara, E., Varol, O., Menczer, F., & Flammini, A. <b>\"Traveling Trends: Social Butterflies or Frequent Fliers?\"</b>, <i>ACM Conference on Online Social Networks (COSN 2013) (Full paper, acceptance rate 15%)</i>",
+		"links": [
+			{
+				"source": "http://dl.acm.org/citation.cfm?id=2512956",
+				"name": "ACM Library"
+			},
+			{
+				"source": "http://arxiv.org/abs/1310.2671",
+				"name": "ArXiv"
+			}
+		],
+		"coverage": [
+			{
+				"source": "http://www.washingtonpost.com/blogs/the-switch/wp/2013/10/24/where-do-twitter-trends-start-try-cincinnati-ohio/",
+				"name": "Washington post"
+			},
+			{
+				"source": "http://blogs.seattletimes.com/fyi-guy/2013/10/24/study-seattle-is-top-twitter-trendsetter-in-the-u-s/",
+				"name": "Seattle Times"
+			},
+			{
+				"source": "http://www.technologyreview.com/view/520416/the-top-five-trend-setting-cities-on-twitter/",
+				"name": "MIT Technology Reviews"
+			}
+		]
+	},
+
+	{
+		"text": "E Ferrara, M JafariAsbagh, O Varol, V Qazvinian, F Menczer, A Flammini \"<b>Clustering Memes in Social Media</b>\" <i>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2013) (Full paper, acceptance rate 13%)</i>",
+		"links": [
+			{
+				"source": "http://dl.acm.org/citation.cfm?id=2492530",
+				"name": "ACM Library"
+			},
+			{
+				"source": "http://arxiv.org/abs/1310.2665",
+				"name": "ArXiv"
+			}
+		]
+	},
+
+	{
+		"text": "Yasemin Alban; Tuba Ayhan; Onur Varol; Müştak Erhan Yalçın \"<b>A Feature Filtering Method for EEG Data Classification</b>\", <i>Signal Processing and Communications Applications (SIU), IEEE 19th Conference , Antalya, April 20-22 2011.</i>",
+		"links": [
+			{
+				"source": "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5929682",
+				"name": "IEEE Library"
+			}
+		]
+	}
+],
+
+"thesis":[
+	{
+		"text": "KU Computer Science and Engineering M.Sc. Thesis - <b>Modal analysis of Myosin II and Identification of Functionally Important Sites</b>"
+	},
+
+	{
+		"text": "ITU Physics Engineering Graduate Project - <b>Social Network Analysis Using a Statistical Physics Approach</b>"
+	},
+
+	{
+		"text": "ITU Electronics Engineering Graduate Project - <b>Raw EEG Data Classification Using SVM</b>"
+	}
+],
+
+"others": [
+	{
+		"text": "Nur Mustafaoglu, Onur Varol \"<b>How we get married: Spatiotemporal analysis of happiness</b>\", <i>MIL 1, 0510 (2013) </i>",
+		"links": [
+			{	
+				"source": "files/MIL_abstract.pdf",
+				"name": "PDF"
+			}
+		]
+	}
+]
+}
