@@ -1,6 +1,5 @@
 body {
 	background-color: #F1F1FF;
-    color: #444444;
     font-family: verdana,"trebuchet MS",helvetica,sans-serif;
     margin: 0;
 }
@@ -16,6 +15,44 @@ h1, h2, h3 {
 
 h2 {
 	font-size: medium;
+}
+
+.accordion-header
+{
+	width: 750px;
+	padding: 5px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #CCCCCC;
+    background-color: #5C80B1;
+    color: white;
+}
+
+.accordion-header td{
+	font-size: 12px;
+    font-weight: bold;
+	color: white;
+}
+        
+.accordion-content
+{
+    width: 720px;
+    padding: 20px 20px 20px 20px;
+    display: none;
+    border: 1px solid #5C80B1;
+    background-color: #5C80B1;
+    background: #E4EEF1;
+    font-size: 12px;
+    color: #000000;
+    font-weight:normal;
+}
+
+.accordion-style
+{
+    color: #5C80B1;
+    font-weight: bold;
 }
 
 #content {
@@ -64,7 +101,6 @@ h2 {
 #menu ul li {
 	margin-left: 0;
 	padding: 3px 15px;
-	
 	list-style: none;
 	display: inline;
 }
@@ -213,5 +249,17 @@ a:active: {
 #academic a:hover{
 	text-decoration:underline;
 	font-size: small;
+}
+
+.project{
+	padding: 10px 10px 10px 10px;
+	margin: 5px 15px 15px 15px;
+	float: left;
+	color: #F1F1F1;
+	background-color: #5C80B1;
+}
+
+.project a{
+	color: #F1F1F1;
 }
 

@@ -49,11 +49,228 @@
 
 </script>
 
+<script type="text/javascript">
+
+	$(document).ready(function () {
+        $(".accordion-header").hover(function () {
+            $(this).animate({ opacity: "0.5" });
+        }
+    , function () {
+        $(this).animate({ opacity: "1" });
+
+    }).click(function () {
+        var ad = $(this).attr("id").replace("b", "");
+        $(".accordion-content").slideUp("slow");
+        if ($("#c" + ad).css("display") == 'none')
+            $("#c" + ad).slideToggle("slow");
+    });
+    });
+</script>
+
 </head> 
 <body>
 	<div id="header-container"></div>
 
-	<div id="content">Put some content here!</div>
+	<div id="myself">
+        <p>
+            I am currently a second year <a href="http://www.soic.indiana.edu/informatics/" target="_blank"><u>Informatics</u></a> Ph.D. student at <a href="http://www.soic.indiana.edu/graduate/programs/complex-systems/" target="_blank"><u>Complex Systems</u></a> track, Indiana University Bloomington.
+            <br />
+            I am a member of <a href="http://cnets.indiana.edu/groups/nan" target="_blank"><u>NaN</u></a> group. I am currently working on <a href="http://cnets.indiana.edu/groups/nan/despic" target="_blank"><u>DESPIC</u></a> project with PIs <a href="https://sites.google.com/site/aflammin/" target="_blank"><u>Alessandro Flammini</u></a> and <a href="http://cnets.indiana.edu/people/filippo-menczer" target="_blank"><u>Fil Menczer</u></a>. I am also working on information diffusion, social dynamics and causality on social networks. 
+        </p>
+        <p>Here is the link for the courses I took during my education <a href="courses.aspx"><u>COURSES</u></a></p>
+        <br />
+    </div>
+
+	<div id="content">
+		<div class="project">
+			<a href="http://cnets.indiana.edu/groups/nan/despic" target="_blank">DESPIC</a>
+		</div>
+
+		<div class="project">
+			<a href="http://cnets.indiana.edu/groups/nan/truthy" target="_blank">TRUTHY</a>
+		</div>
+	</div>
+
+	<br/>
+	<br/>
+	<br/>
+
+	<div id="myself">
+        <p>Previous Projects & Research</p>
+        <div class="accordion-header" id="b101">
+            <table width="100%">
+                <tr>
+                    <td id='title' align="left">Modal analysis of Myosin II and Identification of Functionally Important
+                        Sites (M.Sc. Thesis 2012)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+        </div>
+        <div id="c101" class="accordion-content">
+            Analysis of protein dynamics uses structural and ﬂuctuation based methods. Fluctuation analysis of protein dynamics has proven to be a rewarding venue of research. Massand spring models are used in previous research commonly. However, ﬂuctuations of this models are based on purely harmonic which has signiﬁcant gap between the experimental results. Deviations from harmonicity mostly observe in slow, collective modes. Corrections like anharmonic modal decomposition are ﬁrst step in order to minimize this gap. The contribution of the higher-order corrections is limited because of the interacting modes. Mode-coupling corrections which yield valuable information on means of energy transfer and allostery. <br/>
+            <br/>
+            In this work, molecular dynamic results of Dictyostelium discoideum myosin II motor domain is used as test ground. Mode ﬂuctuation distributions produced using MD results, fully harmonic models and a model with anharmonic corrections. Tensorial hermite polynomials are used in order to obtain distributions of modal ﬂuctuations. Fluctuations on modal space are transformed back into real space and distribution of residual ﬂuctuations is compared using KL divergence. Analysis results for ligand-bound and free myosin dynamics are used in order to demonstrate that the mode-coupling contributions alone highlight functionally important sites.
+            <br/>
+            <a href="https://docs.google.com/open?id=0BzD-SFrAD4jmaGhVR0xNWWUtYms" target="_blank">
+            [Thesis PDF]</a> <br/>
+
+            <a href="https://docs.google.com/open?id=0BzD-SFrAD4jmY21FT3JLZ0NmOUU" target="_blank">
+            [Thesis Presentation]</a> <br/>
+
+            <img src="img/master_thesis.PNG" width="700px"/>
+        </div>
+
+        <div class="accordion-header" id="b13">
+            <table width="100%">
+                <tr>
+                    <td align="left">Transcriptional Regulatory Networks (2011)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+        </div>
+        <div id="c13" class="accordion-content">
+            I started to work on biological networks with my advisor <a href="http://denizyuret.blogspot.com/" target="_blank">Assistant Prof. Deniz Yuret</a> and <a href="http://home.ku.edu.tr/~akabakcioglu/" target="_blank">Dr. Alkan Kabakçıoğlu</a>. We investigated dynamic relevant core size, cycle lengths and other discriminative properties of different species. Arabidopsis, Yeast, Drosophila, E.Coli are the first creatures we studied. 
+        </div>
+
+		<div class="accordion-header" id="b12">
+            <table width="100%">
+                <tr>
+                    <td align="left">Social Network Analysis Using a Statistical Physics Approach (B.Sc. Thesis 2011)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+        </div>
+        <div id="c12" class="accordion-content">
+            This project is made as an ITU Physics Engineering graduation project under advisory of Prof. Dr. Ayşe Erzan. In this study, the evolution of the message passing network under interaction
+			between nodes is studied. Purpose of these simulations is to obtain some insight
+			into more complicated systems like social networks. For diﬀerent initial conditions
+			and network sizes, the network asymptotically evolves either to a set of disconnected
+			clusters or to one connected component, with all nodes connected to root via directed
+			paths. Thus, network either delivers an initial message to almost all the nodes, or
+			the message is conﬁned to a small subset. Therefore, the problem is essentially a
+			problem of dynamical percolation.
+			<br/>
+			<img src="img/physics_thesis.PNG" width="700px"/>
+        </div>
+		
+		<div class="accordion-header" id="b11">
+            <table width="100%">
+                <tr>
+                    <td align="left">Map Builder & Map Annotator (2011)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+        </div>
+        <div id="c11" class="accordion-content">
+            This projects are made for Computer Vision and Computer Graphics term project. 
+			In this project I worked with my colleague Arda Aytekin for <u>Map Annotator</u> using Windowed Hough Transform method for detection of the
+			military symbols in images. Also <u>Map Builder</u> application is designed as a sketch based application for generating 3D models of the drawing of the scenes.
+			You can access project report <a href="http://vypro.org/files/CV-Graphics.pdf" target="_blank">here.</a>
+        </div>
+		
+        <div class="accordion-header" id="b10">
+            <table width="100%">
+                <tr>
+                    <td align="left">Tour Guide (2010)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+        </div>
+        <div id="c10" class="accordion-content">
+            This projects is made as an Intelligent User Interfaces term project under advisory of <a href="http://iui.ku.edu.tr" target="_blank">Assoc. Prof. Metin Sezgin</a>. Application consist of speech 
+            recognition and touch interface design. It is a tourist guidance application for airports.<br />
+        </div>
+
+        <div class="accordion-header" id="b2">
+            <table width="100%">
+                <tr>
+                    <td align="left">Sketch Recognition using 2D Dynamic Programming (2010)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+        </div>
+        <div id="c2" class="accordion-content">
+            In this work dynamic programming is applied for the segmentation of the full sketchs.
+            Dynamic programming framework is used for seperating sketch primitives into meaninful parts which corresponds to an objects. Sketches are divided into primitives and dynamic programming framwork found the best partition of the sketch into meaninful groups of primitives. These primitive groups are correspond to an electrical components in the sketches. Dynamic programming approach that we implement deals with the interspersing problem. Temporal and image features are used for classification of the primitives. 
+
+        </div>
+
+        <div class="accordion-header" id="b3">
+            <table width="100%">
+                <tr>
+                    <td align="left">EEG Data Classification and applications (B.Sc Thesis - 2010)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+             
+        </div>
+        <div id="c3" class="accordion-content">
+        The main purpose of this project is processing EEG signals and classifying them for different cognitive actions. I started this project as a final year project of Electronic Enginnering under advisory of <a href="http://web.itu.edu.tr/~yalcinmust/" target="_blank">Associate. Prof. Müştak Erhan Yalçın.</a><br />
+        <br />In this project, feature selection and classification of EEG signals for different cognitive actions is made. There are several methods for classifying them I tried different features and methods. SVM (Support Vector Machines) is one of the method that I used for classification.
+		
+		<br/>
+		<img src="img/electronics_thesis.PNG" width="700px"/>		
+        </div>
+
+		<div class="accordion-header" id="b7">
+            <table width="100%">
+                <tr>
+                    <td align="left">STM Control Electronic & Software Design (2010)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+        </div>
+        <div id="c7" class="accordion-content">
+            In this project STM(Scanning Tunneling Microscope) prototype is made. Microcontroller circuit and embebbed
+            softwares are wrote. Communication via USB is made and data coming from the ADC transferred to the host PC. 
+            Client software also collects STM data. <br /><br />
+        </div>
+		
+        <div class="accordion-header" id="b4">
+            <table width="100%">
+                <tr>
+                    <td align="left">Finger Mouse (2009)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+            
+        </div>
+        <div id="c4" class="accordion-content">
+            This project is a term project of an Advanced Computer Vision that I took as a undergrad student.<br />
+            In this project I made an Human-Machine Interface. This application used for controlling computer via webcam image. 
+            Algorithm based on skin color detection and finger posing. After detection process of the pointer I used Windows APIs to control mouse. In this project I used C++ with OpenCV.
+            <br />
+            
+        </div>
+
+        <div class="accordion-header" id="b5">
+            <table width="100%">
+                <tr>
+                    <td align="left">EKG Device (2009)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+             
+        </div>
+        <div id="c5" class="accordion-content">
+            In this project we made an EKG device that measures EKG signals with instrumentation amplifiers and that send this data to ARM microcontroller. This data is directly send to computer via serial port. In receiver computer, we wrote and Windows Form Application with C++ to visualize the signal of hearth. Also there are some filters applied on EKG data to minimize the noise.
+        </div>
+
+        <div class="accordion-header" id="b6">
+            <table width="100%">
+                <tr>
+                    <td align="left">Temperature Monitoring System (2008)</td>
+                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
+                </tr>
+            </table>
+             
+        </div>
+        <div id="c6" class="accordion-content">
+            This project is developed for ITU Computer Center Server room. Temperature of the place is measured using
+            DS18B20 chip and ATMEGA16 Microcontroller. After detection, temperature informations is send to the computer via
+            Serial port and temperature application logs data and send to the host using webservices. <br /><br />
+        </div>
+    </div>
 
 	<div id="footer-container"></div>
 </body> 
