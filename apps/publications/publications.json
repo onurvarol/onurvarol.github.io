@@ -38,6 +38,10 @@
 			{
 				"source": "http://arxiv.org/abs/1402.2297",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/dream2014.bib",
+				"name": "BibTeX"
 			}
 		],
 		"coverage": [
