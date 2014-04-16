@@ -32,6 +32,10 @@
 		"text": "Varol, O., Menczer, F.,<b>\"Connecting Dream Networks Across Cultures\"</b>, <i>WWW'14  workshop on \"Connecting Online & Offline Life\"</i>",
 		"links": [
 			{
+				"source": "http://dl.acm.org/citation.cfm?id=2580073",
+				"name": "ACM Library"
+			},
+			{
 				"source": "http://arxiv.org/abs/1402.2297",
 				"name": "ArXiv"
 			}
