@@ -252,8 +252,9 @@ a:active: {
 }
 
 .project{
+	text-align: center;
 	padding: 10px 10px 10px 10px;
-	margin: 5px 15px 15px 15px;
+	margin: 0 10px 10px 10px;
 	float: left;
 	color: #F1F1F1;
 	background-color: #5C80B1;
@@ -261,5 +262,9 @@ a:active: {
 
 .project a{
 	color: #F1F1F1;
+}
+
+.project img{
+	height: 75px;
 }
 
