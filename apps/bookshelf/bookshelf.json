@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Man and his Symbols",
+    "author":"Carl G. Jung",
+    "imgsrc":"img/man-and-his-symbols.jpg",
+    "date":"April 2014",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":5
+},
+{
     "name":"Rhythms of the Brain",
     "author":"Gyorgy Buzsaki",
     "imgsrc":"img/rhythms_brain.jpg",
