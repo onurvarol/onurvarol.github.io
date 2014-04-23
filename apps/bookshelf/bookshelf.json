@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"The Interpretation of Nature and the Psyche",
+    "author":"Carl G. Jung, Wolfgang Ernst Pauli",
+    "imgsrc":"img/nature_psyche.jpg",
+    "date":"April 2014",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":3
+},
+{
     "name":"Man and his Symbols",
     "author":"Carl G. Jung",
     "imgsrc":"img/man-and-his-symbols.jpg",
