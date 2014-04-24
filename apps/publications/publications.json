@@ -1,7 +1,7 @@
 {
 "journals":[
     {
-		"text": "O. Varol, D. Yuret, B. Erman, A. Kabakçıoğlu <b>\"Mode coupling points to functionally important residues in Myosin II\"</b>, <i>Proteins: Structure, Function, and Bioinformatics</i>",
+		"text": "<u>O. Varol</u>, D. Yuret, B. Erman, A. Kabakçıoğlu <b>\"Mode coupling points to functionally important residues in Myosin II\"</b>, <i>Proteins: Structure, Function, and Bioinformatics</i>",
 
 		"links": [
 			{
@@ -21,11 +21,11 @@
 
 "proceedings":[
 	{
-		"text": "Varol, O., Ferrara, E., Ogan, C., Menczer, F., & Flammini, A. <b>\"Evolution of online user behavior during a social upheaval\"</b>, <i>ACM Web Science Conference 2014 (Full paper, acceptance rate 14%)</i>"
+		"text": "<u>Varol, O.</u>, Ferrara, E., Ogan, C., Menczer, F., & Flammini, A. <b>\"Evolution of online user behavior during a social upheaval\"</b>, <i>ACM Web Science Conference 2014 (Full paper, acceptance rate 14%)</i>"
 	},
 
 	{
-		"text": "Varol, O., Menczer, F.,<b>\"Connecting Dream Networks Across Cultures\"</b>, <i>WWW'14  workshop on \"Connecting Online & Offline Life\"</i>",
+		"text": "<u>Varol, O.</u>, Menczer, F.,<b>\"Connecting Dream Networks Across Cultures\"</b>, <i>WWW'14  workshop on \"Connecting Online & Offline Life\"</i>",
 		"links": [
 			{
 				"source": "http://dl.acm.org/citation.cfm?id=2580073",
@@ -49,7 +49,7 @@
 	},
 
 	{
-		"text": "Ferrara, E., Varol, O., Menczer, F., & Flammini, A. <b>\"Traveling Trends: Social Butterflies or Frequent Fliers?\"</b>, <i>ACM Conference on Online Social Networks (COSN 2013) (Full paper, acceptance rate 15%)</i>",
+		"text": "Ferrara, E., <u>Varol, O.</u>, Menczer, F., & Flammini, A. <b>\"Traveling Trends: Social Butterflies or Frequent Fliers?\"</b>, <i>ACM Conference on Online Social Networks (COSN 2013) (Full paper, acceptance rate 15%)</i>",
 		"links": [
 			{
 				"source": "http://dl.acm.org/citation.cfm?id=2512956",
@@ -81,7 +81,7 @@
 	},
 
 	{
-		"text": "E Ferrara, M JafariAsbagh, O Varol, V Qazvinian, F Menczer, A Flammini \"<b>Clustering Memes in Social Media</b>\" <i>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2013) (Full paper, acceptance rate 13%)</i>",
+		"text": "E Ferrara, M JafariAsbagh, <u>O Varol</u>, V Qazvinian, F Menczer, A Flammini \"<b>Clustering Memes in Social Media</b>\" <i>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2013) (Full paper, acceptance rate 13%)</i>",
 		"links": [
 			{
 				"source": "http://dl.acm.org/citation.cfm?id=2492530",
@@ -99,7 +99,7 @@
 	},
 
 	{
-		"text": "Yasemin Alban; Tuba Ayhan; Onur Varol; Müştak Erhan Yalçın \"<b>A Feature Filtering Method for EEG Data Classification</b>\", <i>Signal Processing and Communications Applications (SIU), IEEE 19th Conference , Antalya, April 20-22 2011.</i>",
+		"text": "Yasemin Alban; Tuba Ayhan; <u>Onur Varol</u>; Müştak Erhan Yalçın \"<b>A Feature Filtering Method for EEG Data Classification</b>\", <i>Signal Processing and Communications Applications (SIU), IEEE 19th Conference , Antalya, April 20-22 2011.</i>",
 		"links": [
 			{
 				"source": "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5929682",
@@ -125,7 +125,7 @@
 
 "others": [
 	{
-		"text": "Nur Mustafaoglu, Onur Varol \"<b>How we get married: Spatiotemporal analysis of happiness</b>\", <i>MIL 1, 0510 (2013) </i>",
+		"text": "Nur Mustafaoglu, <u>Onur Varol</u> \"<b>How we get married: Spatiotemporal analysis of happiness</b>\", <i>MIL 1, 0510 (2013) </i>",
 		"links": [
 			{	
 				"source": "files/MIL_abstract.pdf",
