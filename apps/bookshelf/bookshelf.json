@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Synchronicity",
+    "author":"Joseph Cambray",
+    "imgsrc":"img/synchronicity.jpg",
+    "date":"April 2014",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"The Interpretation of Nature and the Psyche",
     "author":"Carl G. Jung, Wolfgang Ernst Pauli",
     "imgsrc":"img/nature_psyche.jpg",
