@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Dream Experience",
+    "author":"Milton Kramer",
+    "imgsrc":"img/dream_experience.jpg",
+    "date":"May 2014",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Synchronicity",
     "author":"Joseph Cambray",
     "imgsrc":"img/synchronicity.jpg",
