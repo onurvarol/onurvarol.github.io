@@ -1,6 +1,24 @@
 {
 "books":[
 {
+    "name":"Bir Bilim Adaminin Romani - Mustafa Inan",
+    "author":"Oguz Atay",
+    "imgsrc":"img/bir-bilim-adaminin-romani.jpg",
+    "date":"May 2014",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":4
+},
+{
+    "name":"Interworld",
+    "author":"Neil Gaiman, Michael Reaves",
+    "imgsrc":"img/InterWorld.jpg",
+    "date":"May 2014",
+    "comment":"- ",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Dream Experience",
     "author":"Milton Kramer",
     "imgsrc":"img/dream_experience.jpeg",
