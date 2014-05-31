@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Tilki daha o zaman avciydi",
+    "author":"Herta Muller",
+    "imgsrc":"img/tilki_avciydi.jpg",
+    "date":"May 2014",
+    "comment":"- Okumasam da olurmus",
+    "notes":"Notlar",
+    "score":1
+},
+{
     "name":"Bir Bilim Adaminin Romani - Mustafa Inan",
     "author":"Oguz Atay",
     "imgsrc":"img/bir-bilim-adaminin-romani.jpg",
