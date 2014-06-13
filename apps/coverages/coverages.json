@@ -1,0 +1,101 @@
+{
+"BotOrNot":[
+	{
+		"source": "Phys.org",
+		"title": "Computer scientists develop tool for uncovering bot-controlled Twitter accounts",
+		"url": "http://phys.org/news/2014-05-scientists-tool-uncovering-bot-controlled-twitter.html"
+	},
+	{
+		"source": "IU Newsroom",
+		"title": "IU computer scientists develop tool for uncovering bot-controlled Twitter accounts",
+		"url": "http://news.indiana.edu/releases/iu/2014/05/twitter-botornot.shtml"
+	},
+	{
+		"source": "Techspot",
+		"title": "Bot or Not will tell you if a Twitter account is run by a social bot",
+		"url": "http://www.techspot.com/news/56670-bot-or-not-will-tell-you-if-a-twitter-account-is-run-by-a-social-bot.html"
+	},
+		{
+		"source": "PC World",
+		"title": "Bot or Not? Researchers make an app to sniff out bots on Twitter",
+		"url": "http://www.pcworld.com/article/2151900/is-that-twitter-account-a-bot-researchers-make-app-to-find-out.html"
+	},
+	{
+		"source": "The Irish Times",
+		"title": "BotOrNot tool created in Indiana",
+		"url": "http://www.irishtimes.com/business/sectors/technology/botornot-tool-created-in-indiana-1.1795523"
+	},
+	{
+		"source": "Tom’s Guide",
+		"title": "‘Bot or Not’ App Susses Out Twitter Spambots",
+		"url": "http://www.tomsguide.com/us/bot-or-not-twitter-spambot,news-18751.html"
+	},
+	{
+		"source": "NewStatesman",
+		"title": "Why fake Twitter accounts are a political problem",
+		"url": "http://www.newstatesman.com/sci-tech/2014/05/why-fake-twitter-accounts-are-political-problem"
+	},
+	{
+		"source": "BBC",
+		"title": "How online 'chatbots' are already tricking you",
+		"url": "http://www.bbc.com/future/story/20140609-how-online-bots-are-tricking-you"
+	},
+	{
+		"source": "The Washington Post",
+		"title": "http://www.washingtonpost.com/blogs/the-fix/wp/2014/05/31/the-robot-vote-analyzed/",
+		"url": "The robot vote, analyzed"
+	}
+],
+
+"Traveling Trends":[
+	{
+		"source": "MIT Technology Review",
+		"title": "The Top Five Trend-Setting Cities on Twitter",
+		"url": "http://www.technologyreview.com/view/520416/the-top-five-trend-setting-cities-on-twitter/"
+	},
+	{
+		"source": "The Washington Post",
+		"title": "Where do Twitter trends start? Try Cincinnati",
+		"url": "http://www.washingtonpost.com/blogs/the-switch/wp/2013/10/24/where-do-twitter-trends-start-try-cincinnati-ohio/"
+	},
+	{
+		"source": "The Seattle Times",
+		"title": "Study: Seattle is top Twitter trendsetter in the U.S.",
+		"url": "http://blogs.seattletimes.com/fyi-guy/2013/10/24/study-seattle-is-top-twitter-trendsetter-in-the-u-s/"
+	},
+	{
+		"source": "Citybeat",
+		"title": "Study Finds Cincinnati Is Major Twitter Trendsetter in U.S.",
+		"url": "http://citybeat.com/cincinnati/blog-5179-study_finds_cincinna.html"
+	},
+	{
+		"source": "Cincinnati.com",
+		"title": "Twitter trends start in Cincinnati, Washington Post report says",
+		"url": "http://cincinnati.com/blogs/icymi/2013/10/24/twitter-trends-start-in-cincinnati-washington-post-report-says/"
+	},
+	{
+		"source": "Geek Wire",
+		"title": "Seattle generates more nationally-trending topics on Twitter than any other U.S. city, study says",
+		"url": "http://www.geekwire.com/2013/twitter-study-seattle-trendsetters/"
+	},
+	{
+		"source": "CincyBizBlog",
+		"title": "Cincinnati is leading the way on Twitter",
+		"url": "http://www.bizjournals.com/cincinnati/blog/2013/10/cincinnati-is-leading-the-way-on-twitter.html"
+	}
+],
+
+"Dream Networks":[
+	{
+		"source": "Medium",
+		"title": "The Network-Based Interpretation of Dreams",
+		"url": "https://medium.com/the-physics-arxiv-blog/the-network-based-interpretation-of-dreams-fb0160696bcd"
+	},
+	{
+		"source": "Slashdot",
+		"title": "DARPA Funds Research Into a Network-Based Interpretation of Dreams",
+		"url": "http://science-beta.slashdot.org/story/14/02/25/2253233/darpa-funds-research-into-a-network-based-interpretation-of-dreams"
+	}
+]
+
+}
