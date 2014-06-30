@@ -34,6 +34,10 @@
 				"name": "ACM Library"
 			},
 			{
+				"source": "http://arxiv.org/abs/1406.7197",
+				"name": "ArXiv"
+			},
+			{
 				"source": "bibtex/gezi2014.bib",
 				"name": "BibTeX"
 			}
