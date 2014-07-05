@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"The Process of Communication",
+    "author":"David K. Berlo",
+    "imgsrc":"img/process_of_communication.jpeg",
+    "date":"June 2014",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"The Computer and the Brain",
     "author":"John von Neumann",
     "imgsrc":"img/the_computer_and_the_brain.jpg",
