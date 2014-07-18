@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Outliers: The Story of Success",
+    "author":"Malcolm Gladwell",
+    "imgsrc":"img/outliers.png",
+    "date":"July 2014",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":3
+},
+{
     "name":"The Process of Communication",
     "author":"David K. Berlo",
     "imgsrc":"img/process_of_communication.jpeg",
@@ -534,7 +543,7 @@
  {
     "name":"Otomatik Piyano",
     "author":"Kurt Vonnegut Jr.",
-    "imgsrc":"img/otomatik_piyano.jpeg.",
+    "imgsrc":"img/otomatik_piyano.jpeg",
     "comment":"-Bu kitap hakkında yazılmış güzel bir yorum için http://nurmustafaoglu.blogspot.com/2010/07/kurt-vonnegut-jr.html",
     "date":"June 2011",
     "notes":"Notlar",
