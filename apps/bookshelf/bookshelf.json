@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Social Physics",
+    "author":"Alex Pentland",
+    "imgsrc":"img/social_physics.jpg",
+    "date":"July 2014",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Outliers: The Story of Success",
     "author":"Malcolm Gladwell",
     "imgsrc":"img/outliers.png",
