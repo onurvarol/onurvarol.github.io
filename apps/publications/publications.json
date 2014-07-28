@@ -6,6 +6,12 @@
 			{	"source": "http://arxiv.org/abs/1407.5225",
 				"name": "ArXiv"
 			}
+		],
+		"coverage": [
+			{
+				"source": "http://www.technologyreview.com/view/529461/how-to-spot-a-social-bot-on-twitter/",
+				"name": "MIT Technology Review"
+			}
 		]
 	},
     {
@@ -103,7 +109,7 @@
 			},
 			{
 				"source": "http://www.technologyreview.com/view/520416/the-top-five-trend-setting-cities-on-twitter/",
-				"name": "MIT Technology Reviews"
+				"name": "MIT Technology Review"
 			},
 			{
 				"source": "http://www.geekwire.com/2013/twitter-study-seattle-trendsetters/",
