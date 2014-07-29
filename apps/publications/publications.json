@@ -11,6 +11,14 @@
 			{
 				"source": "http://www.technologyreview.com/view/529461/how-to-spot-a-social-bot-on-twitter/",
 				"name": "MIT Technology Review"
+			},
+			{
+				"source": "http://news.indiana.edu/releases/iu/2014/05/twitter-botornot.shtml",
+				"name": "IU Newsroom"
+			},
+			{
+				"source": "http://www.onurvarol.com/apps/coverages/index.html#BotOrNot",
+				"name": "More ..."
 			}
 		]
 	},
@@ -100,6 +108,10 @@
 		],
 		"coverage": [
 			{
+				"source": "http://www.technologyreview.com/view/520416/the-top-five-trend-setting-cities-on-twitter/",
+				"name": "MIT Technology Review"
+			},
+			{
 				"source": "http://www.washingtonpost.com/blogs/the-switch/wp/2013/10/24/where-do-twitter-trends-start-try-cincinnati-ohio/",
 				"name": "Washington post"
 			},
@@ -108,12 +120,8 @@
 				"name": "Seattle Times"
 			},
 			{
-				"source": "http://www.technologyreview.com/view/520416/the-top-five-trend-setting-cities-on-twitter/",
-				"name": "MIT Technology Review"
-			},
-			{
-				"source": "http://www.geekwire.com/2013/twitter-study-seattle-trendsetters/",
-				"name": "GeekWire"
+				"source": "http://www.onurvarol.com/apps/coverages/index.html#TravelingTrends",
+				"name": "More ..."
 			}
 		]
 	},
