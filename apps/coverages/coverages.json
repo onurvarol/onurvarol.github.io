@@ -16,11 +16,31 @@
 		"url": "http://news.indiana.edu/releases/iu/2014/05/twitter-botornot.shtml"
 	},
 	{
+		"source": "Mashable",
+		"title": "This Algorithm Tells You If A Twitter Account Is a Spam Bot",
+		"url": "http://mashable.com/2014/07/30/twitter-social-bots/"
+	},
+	{
+		"source": "ValueWalk",
+		"title": "An Algorithm To Identify Social Bot on Twitter Inc",
+		"url": "https://www.valuewalk.com/2014/07/algorithm-identify-social-bot-twitter/"
+	},
+	{
+		"source": "Wired.it",
+		"title": "Lo strumento per distinguere bot e umani su Twitter",
+		"url": "http://www.wired.it/internet/social-network/2014/07/22/lo-strumento-per-distinguere-bot-e-umani-su-twitter/"
+	},
+	{
+		"source": "The Telegram",
+		"title": "Duped by tweeps",
+		"url": "http://www.thetelegram.com/Opinion/Editorials/2014-07-30/article-3816584/Duped-by-tweeps/1"
+	},
+	{
 		"source": "Techspot",
 		"title": "Bot or Not will tell you if a Twitter account is run by a social bot",
 		"url": "http://www.techspot.com/news/56670-bot-or-not-will-tell-you-if-a-twitter-account-is-run-by-a-social-bot.html"
 	},
-		{
+	{
 		"source": "PC World",
 		"title": "Bot or Not? Researchers make an app to sniff out bots on Twitter",
 		"url": "http://www.pcworld.com/article/2151900/is-that-twitter-account-a-bot-researchers-make-app-to-find-out.html"
