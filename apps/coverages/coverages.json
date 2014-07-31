@@ -21,6 +21,11 @@
 		"url": "http://mashable.com/2014/07/30/twitter-social-bots/"
 	},
 	{
+		"source": "Motherboard",
+		"title": "Barack Obama Is Probably a Robot, and Other Lessons from 'Bot Or Not'",
+		"url": "http://motherboard.vice.com/read/barack-obama-is-probably-a-robot"
+	},
+	{
 		"source": "ValueWalk",
 		"title": "An Algorithm To Identify Social Bot on Twitter Inc",
 		"url": "https://www.valuewalk.com/2014/07/algorithm-identify-social-bot-twitter/"
@@ -67,8 +72,8 @@
 	},
 	{
 		"source": "The Washington Post",
-		"title": "http://www.washingtonpost.com/blogs/the-fix/wp/2014/05/31/the-robot-vote-analyzed/",
-		"url": "The robot vote, analyzed"
+		"title": "The robot vote, analyzed",
+		"url": "http://www.washingtonpost.com/blogs/the-fix/wp/2014/05/31/the-robot-vote-analyzed/"
 	}
 ],
 
