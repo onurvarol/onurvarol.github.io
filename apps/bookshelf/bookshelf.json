@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Honest Signal",
+    "author":"Alex Pentland",
+    "imgsrc":"img/honest_signal.jpg",
+    "date":"July 2014",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Social Physics",
     "author":"Alex Pentland",
     "imgsrc":"img/social_physics.jpg",
