@@ -1,13 +1,22 @@
 {
 "books":[
 {
+    "name":"Neverwhere",
+    "author":"Neil Gaiman",
+    "imgsrc":"img/neverwhere.jpg",
+    "date":"August 2014",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Honest Signal",
     "author":"Alex Pentland",
     "imgsrc":"img/honest_signal.jpg",
     "date":"July 2014",
     "comment":"-",
     "notes":"Notlar",
-    "score":4
+    "score":3
 },
 {
     "name":"Social Physics",
@@ -16,7 +25,7 @@
     "date":"July 2014",
     "comment":"-",
     "notes":"Notlar",
-    "score":4
+    "score":3
 },
 {
     "name":"Outliers: The Story of Success",
