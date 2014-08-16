@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Signals: Evolution, Learning & Information",
+    "author":"Brian Skyrms",
+    "imgsrc":"img/signals.JPG",
+    "date":"August 2014",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":3
+},
+{
     "name":"Micromotives and Macrobehaviour",
     "author":"Thomas C. Schelling",
     "imgsrc":"img/mm_mm.jpg",
