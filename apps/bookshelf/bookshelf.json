@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"The Grammar of Society",
+    "author":"Cristina Bicchieri",
+    "imgsrc":"img/grammar_society.jpg",
+    "date":"August 2014",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Signals: Evolution, Learning & Information",
     "author":"Brian Skyrms",
     "imgsrc":"img/signals.jpg",
