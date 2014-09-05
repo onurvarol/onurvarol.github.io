@@ -1334,7 +1334,7 @@
     "score":4
   },
   {
-    "name":"Karıncaların Günü  ",
+    "name":"Karıncaların Günü",
     "author":"Bernard Werber",
     "imgsrc":"http://static.ideefixe.com/images/57/57159_2.jpg",
     "comment":"-",
@@ -1656,6 +1656,87 @@
     "date":"2005",
     "notes":"Notlar",
     "score":5
+  },
+  {
+    "name":"Mo'nun Gizemi",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/monun-gizemi.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":5
+  },
+  {
+    "name":"Yesil Kiraz 1-2",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/yesil-kiraz.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":3
+  },
+  {
+    "name":"Sekizinci Renk",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/sekizinci-renk.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":5
+  },
+  {
+    "name":"Midos Kartalinin Gozleri",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/midoskartaliningozleri.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Tunadan Ucan Kus",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/tunadan-ucan-kus.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Parbat Daginin Esrari",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/parbat-dagi.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Dunya Cocuklarin Olsa",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/dunya-cocuklarin-olsa.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Isin Cagi Cocuklari",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/isin-cagi-cocuklari.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Alacakaranlik Kuslari",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/alacakaranlık-kusları.jpg",
+    "comment":"-",
+    "date":"2005",
+    "notes":"Notlar",
+    "score":4
   }
 ]
 }
