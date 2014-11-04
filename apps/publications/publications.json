@@ -29,7 +29,9 @@
     {
 		"text": "M. JafariAsbagh, E. Ferrara, <u>O. Varol</u>, F. Menczer, A. Flammini <b>\"Clustering memes in social media streams\"</b>, <i>Social Network Analysis and Mining (Accepted, November 2014)</i>",
 		"links": [
-
+			{	"source": "http://arxiv.org/abs/1411.0652",
+				"name": "ArXiv"
+			}
 		]
 	},
     {
