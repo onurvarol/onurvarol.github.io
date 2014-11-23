@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"American Gods",
+    "author":"Neil Gaiman",
+    "imgsrc":"img/american_gods.jpg",
+    "date":"December 2014",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"The Grammar of Society",
     "author":"Cristina Bicchieri",
     "imgsrc":"img/grammar_society.jpg",
