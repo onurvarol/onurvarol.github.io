@@ -35,6 +35,10 @@
 			},
 			{	"source": "http://arxiv.org/abs/1411.0652",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/snam2014.bib",
+				"name": "BibTeX"
 			}
 		]
 	},
