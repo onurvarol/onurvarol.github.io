@@ -660,7 +660,7 @@
  {
     "name":"Semerkant",
     "author":"Amin Maalouf",
-    "imgsrc":"http://www.kitaplik.com/wp-content/themes/shopperpress/thumbs/5/semerkant-onkapak.jpg",
+    "imgsrc":"img/semerkant.jpg",
     "comment":"-",
     "date":"March 2011",
     "notes":"Notlar",
@@ -669,7 +669,7 @@
  {
     "name":"Rüyanın öteyakası",
     "author":"Ursula K. Leguin",
-    "imgsrc":"http://www.kitaplik.com/wp-content/themes/shopperpress/thumbs/10/ruyanin-ote-yakasi-onkapak.jpg",
+    "imgsrc":"img/ruyanin_ote_yakasi.jpeg",
     "comment":"-",
     "date":"March 2011",
     "notes":"Notlar",
@@ -880,16 +880,16 @@
     "comment":"-Cognetive Science alanında yapılmış temel çalışmaları içeriyor. Google Bookstan ucretsiz şekilde okunabilir.",
     "date":"April 2009",
     "notes":"Notlar",
-    "score":3
+    "score":4
   },
   {
     "name":"Mindware: An Introduction to the Philosophy of Cognitive Science",
     "author":"Andy Clark",
-    "imgsrc":"http://img.infibeam.com/img/1f49307e/573/8/9780195138573.jpg",
+    "imgsrc":"img/mindware.jpg",
     "comment":"-Cognetive Science alanında yapılmış temel çalışmaları içeriyor. Google Bookstan ucretsiz şekilde okunabilir.",
     "date":"March 2009",
     "notes":"Notlar",
-    "score":3
+    "score":4
   },
   {
     "name":"Bellek metaforları",
@@ -1489,16 +1489,16 @@
   {
     "name":"Algı Kapıları",
     "author":"Aldoux Huxley",
-    "imgsrc":"http://www.hermeskitap.com/catalog/images/imge9789755331058_tn.jpg",
+    "imgsrc":"img/algi_kapilari.jpeg",
     "comment":"-Meskalin altında yazarın yaşadıklarının süper bir anlatımı. Algının nasıl oluştuğu ve çevreyi algılayışımıza ilişkin deneysel bir eser",
     "date":"November 2009",
     "notes":"Notlar",
     "score":4
   },
   {
-    "name":"Ecco Homo",
+    "name":"Ecce Homo",
     "author":"Nietzche",
-    "imgsrc":"http://www.hermeskitap.com/catalog/images/innVx6j6zsx.jpg",
+    "imgsrc":"img/ecce_homo.jpg",
     "comment":"-Nietzchenni ukala olarak tabir edilebilecek bir dille kendini ve eserlerini anlattığı insanın kendisi olması yolunda yapması gerekenler anlattığı eseri",
     "date":"December 2009",
     "notes":"Notlar",
@@ -1507,7 +1507,7 @@
   {
     "name":"Önemi olmayan küçük yanlış anlamalar",
     "author":"Antonio Tabucchi",
-    "imgsrc":"http://static.ideefixe.com/images/247/247774_2.jpg",
+    "imgsrc":"img/yanlis_anlamalar.jpg",
     "comment":"-Durum öykülerinden oluşmuş hoş bir kitap ancak herkes aynı zevki almayabilir.",
     "date":"December 2009",
     "notes":"Notlar",
@@ -1525,7 +1525,7 @@
   {
     "name":"İşte Dünya",
     "author":"Billy Aronson",
-    "imgsrc":"http://kapak.netkitap.com/075bk/I/iste_dunya_2630.jpg",
+    "imgsrc":"img/iste_dunya.jpg",
     "comment":"-",
     "date":"2003",
     "notes":"Notlar",
@@ -1543,16 +1543,16 @@
   {
     "name":"Leyleklerin Uçuşu",
     "author":"Christopher Grange",
-    "imgsrc":"http://images.gittigidiyor.com/2265/LEYLEKLERIN-UCUSU-J-CHRISTOPHE-GRANGE-KARGO-3-TL__22655532_0.jpg",
+    "imgsrc":"img/leyleklerin_ucusu.jpeg",
     "comment":"-",
     "date":"2007",
     "notes":"Notlar",
     "score":3
   },
   {
-    "name":"Sitah Kan",
+    "name":"Siyah Kan",
     "author":"Christopher Grange",
-    "imgsrc":"http://static.ideefixe.com/images/189/189963_2.jpg",
+    "imgsrc":"img/siyah_kan.jpeg",
     "comment":"-",
     "date":"2007",
     "notes":"Notlar",
@@ -1570,7 +1570,7 @@
   {
     "name":"Da Vinci Code",
     "author":"Dan Brown",
-    "imgsrc":"http://theworldofmovies.files.wordpress.com/2009/05/davinci20code1.jpg",
+    "imgsrc":"img/DaVinciCode.jpg",
     "comment":"-",
     "date":"2008",
     "notes":"Notlar",
@@ -1579,7 +1579,7 @@
   {
     "name":"Angels and Demons",
     "author":"Dan Brown",
-    "imgsrc":"http://theworldofmovies.files.wordpress.com/2009/05/angelsdemons1.jpg",
+    "imgsrc":"img/angels-and-demons.jpg",
     "comment":"-",
     "date":"2008",
     "notes":"Notlar",
@@ -1606,7 +1606,7 @@
   {
     "name":"Üçüncü Göz",
     "author":"T. Lobsang Rampa",
-    "imgsrc":"http://www.kitapokuyoruz.com/kapak/2626-Ucuncu-Goz.jpg",
+    "imgsrc":"img/ucuncu_goz.jpg",
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
@@ -1633,7 +1633,7 @@
   {
     "name":"Yüzüklerin Efendisi(1,2,3)",
     "author":"J.R.R. Tolkien",
-    "imgsrc":"http://static.ideefixe.com/images/93/93534_2.jpg",
+    "imgsrc":"img/yuzuklerin_efendisi.jpg",
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
@@ -1642,7 +1642,7 @@
   {
     "name":"Hayvan Mezarlığı",
     "author":"Stephen King",
-    "imgsrc":"http://www.kitapokuyoruz.com/kapak/529-Hayvan-Mezarligi.jpg",
+    "imgsrc":"img/hayvan_mezarligi.jpg",
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
@@ -1651,7 +1651,7 @@
   {
     "name":"Medyum",
     "author":"Stephen King",
-    "imgsrc":"http://static.ideefixe.com/images/42/42076_2.jpg",
+    "imgsrc":"img/medyum.jpg",
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
@@ -1660,7 +1660,7 @@
   {
     "name":"Tılsım",
     "author":"Stephen King",
-    "imgsrc":"http://static.ideefixe.com/images/32/32744_2.jpg",
+    "imgsrc":"img/tilsim.jpeg",
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
