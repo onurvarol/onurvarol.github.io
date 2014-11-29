@@ -1671,7 +1671,7 @@
     "author":"Gulten Dayioglu",
     "imgsrc":"img/monun-gizemi.jpg",
     "comment":"-",
-    "date":"2005",
+    "date":"2000s",
     "notes":"Notlar",
     "score":5
   },
@@ -1680,7 +1680,7 @@
     "author":"Gulten Dayioglu",
     "imgsrc":"img/yesil-kiraz.jpg",
     "comment":"-",
-    "date":"2005",
+    "date":"2000s",
     "notes":"Notlar",
     "score":3
   },
@@ -1689,7 +1689,7 @@
     "author":"Gulten Dayioglu",
     "imgsrc":"img/sekizinci-renk.jpg",
     "comment":"-",
-    "date":"2005",
+    "date":"2000s",
     "notes":"Notlar",
     "score":5
   },
@@ -1698,7 +1698,7 @@
     "author":"Gulten Dayioglu",
     "imgsrc":"img/midoskartaliningozleri.jpg",
     "comment":"-",
-    "date":"2005",
+    "date":"2000s",
     "notes":"Notlar",
     "score":4
   },
@@ -1707,7 +1707,7 @@
     "author":"Gulten Dayioglu",
     "imgsrc":"img/tunadan-ucan-kus.jpg",
     "comment":"-",
-    "date":"2005",
+    "date":"2000s",
     "notes":"Notlar",
     "score":4
   },
@@ -1716,7 +1716,7 @@
     "author":"Gulten Dayioglu",
     "imgsrc":"img/parbat-dagi.jpg",
     "comment":"-",
-    "date":"2005",
+    "date":"2000s",
     "notes":"Notlar",
     "score":4
   },
@@ -1725,7 +1725,7 @@
     "author":"Gulten Dayioglu",
     "imgsrc":"img/dunya-cocuklarin-olsa.jpg",
     "comment":"-",
-    "date":"2005",
+    "date":"2000s",
     "notes":"Notlar",
     "score":4
   },
@@ -1734,7 +1734,16 @@
     "author":"Gulten Dayioglu",
     "imgsrc":"img/isin-cagi-cocuklari.jpg",
     "comment":"-",
-    "date":"2005",
+    "date":"2000s",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Ben Buyuyunce",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/ben_buyuyunce.jpg",
+    "comment":"-",
+    "date":"2000s",
     "notes":"Notlar",
     "score":4
   },
@@ -1743,7 +1752,34 @@
     "author":"Gulten Dayioglu",
     "imgsrc":"img/alacakaranlık-kusları.jpg",
     "comment":"-",
-    "date":"2005",
+    "date":"2000s",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Kiyamet Cicekleri",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/kiyamet_cicekleri.jpg",
+    "comment":"-",
+    "date":"2000s",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Mo'nun Gizemi",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/mo-gizemi.jpg",
+    "comment":"-",
+    "date":"2000s",
+    "notes":"Notlar",
+    "score":4
+  },
+  {
+    "name":"Gokyuzundeki Mor Bulutlar",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/gokyuzundeki_mor_bulutlar.jpg",
+    "comment":"-",
+    "date":"2000s",
     "notes":"Notlar",
     "score":4
   }
