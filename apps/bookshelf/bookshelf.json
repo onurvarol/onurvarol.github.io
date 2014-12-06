@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"The Scientific Study of Dreams: Neural Networks, Cognitive Development, and Content Analysis",
+    "author":"G. William Domhoff",
+    "imgsrc":"img/scientific_study_dreams.jpg",
+    "date":"December 2014",
+    "comment":"-",
+    "notes":"Nice references for dream studies and Hall's theories",
+    "score":4
+},
+{
     "name":"American Gods",
     "author":"Neil Gaiman",
     "imgsrc":"img/american_gods.jpg",
