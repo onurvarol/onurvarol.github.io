@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Do Androids Dream of Electric Sheep?",
+    "author":"Philip K. Dick",
+    "imgsrc":"img/DoAndroidsDream.jpg",
+    "date":"December 2014",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"The Scientific Study of Dreams: Neural Networks, Cognitive Development, and Content Analysis",
     "author":"G. William Domhoff",
     "imgsrc":"img/scientific_study_dreams.jpg",
