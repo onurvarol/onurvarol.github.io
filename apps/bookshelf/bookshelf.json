@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Kün",
+    "author":"Sezgin Kaymaz",
+    "imgsrc":"img/kun.jpeg",
+    "date":"December 2014",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+},
+{
     "name":"Do Androids Dream of Electric Sheep?",
     "author":"Philip K. Dick",
     "imgsrc":"img/DoAndroidsDream.jpg",
