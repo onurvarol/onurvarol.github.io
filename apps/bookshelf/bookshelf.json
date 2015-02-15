@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"OD",
+    "author":"Iskender Pala",
+    "imgsrc":"img/od.jpg",
+    "date":"February 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+},
+{
     "name":"Tanios Kayası",
     "author":"Amin Maalouf",
     "imgsrc":"img/tanios_kayasi.jpg",
