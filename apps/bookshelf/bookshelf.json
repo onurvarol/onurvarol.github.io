@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Yedinci Gun",
+    "author":"Ihsan Oktay Anar",
+    "imgsrc":"img/yedinci_gun.jpeg",
+    "date":"February 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"OD",
     "author":"Iskender Pala",
     "imgsrc":"img/od.jpg",
