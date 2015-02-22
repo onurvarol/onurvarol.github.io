@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Kirmizi Bisiklet",
+    "author":"Can Dundar",
+    "imgsrc":"img/kirmizi_bisiklet.jpg",
+    "date":"February 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Yedinci Gun",
     "author":"Ihsan Oktay Anar",
     "imgsrc":"img/yedinci_gun.jpeg",
