@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Yarim Haziran",
+    "author":"Can Dundar",
+    "imgsrc":"img/yarim_haziran.jpg",
+    "date":"February 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Kirmizi Bisiklet",
     "author":"Can Dundar",
     "imgsrc":"img/kirmizi_bisiklet.jpg",
