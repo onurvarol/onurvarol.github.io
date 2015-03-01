@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Yagmurdan Sonra",
+    "author":"Can Dundar",
+    "imgsrc":"img/yagmurdan_sonra.jpg",
+    "date":"March 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Yarim Haziran",
     "author":"Can Dundar",
     "imgsrc":"img/yarim_haziran.jpg",
