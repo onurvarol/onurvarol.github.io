@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Mo'nun gizemi 2 -- Otran",
+    "author":"Gulten Dayioglu",
+    "imgsrc":"img/mo_otran.jpeg",
+    "date":"March 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+},
+{
     "name":"Yagmurdan Sonra",
     "author":"Can Dundar",
     "imgsrc":"img/yagmurdan_sonra.jpg",
