@@ -1,6 +1,11 @@
 {
 "BotOrNot":[
 	{
+		"source": "NY Books",
+		"title": "Bot or Not? by James Gleick",
+		"url": "http://www.nybooks.com/blogs/nyrblog/2015/mar/11/twitter-bot-or-not/"
+	},
+	{
 		"source": "MIT Technology Review",
 		"title": "How To Spot A Social Bot On Twitter",
 		"url": "http://www.technologyreview.com/view/529461/how-to-spot-a-social-bot-on-twitter/"
