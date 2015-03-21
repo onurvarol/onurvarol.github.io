@@ -13,6 +13,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
     <script type="text/javascript">
+      // Markers => https://mapicons.mapsmarker.com/category/markers/
       var qs = (function(a) {
         if (a == "") return null;
         var b = {};
@@ -30,7 +31,7 @@
 
       var directionsDisplay;
       var infowindow = new google.maps.InfoWindow();
-      var markerOptions = {icon: "http://maps.gstatic.com/mapfiles/markers2/marker.png",
+      var markerOptions = {icon: "img/icon_marker.png",
                            visible: false};
       var directionsDisplayOptions = {preserveViewport: true,
                                       markerOptions: markerOptions};
@@ -71,6 +72,7 @@
                 var latlon = places[k]['lat-lon'];
 
                 marker = new google.maps.Marker({
+                  icon: "img/icon_" + places[k]['type'] + ".png",
                   position: new google.maps.LatLng(latlon[0], latlon[1]),
                   map: map
                 });
@@ -131,6 +133,7 @@
                         var latlon = places[k]['lat-lon'];
 
                         marker = new google.maps.Marker({
+                          icon: "img/icon_" + places[k]['type'] + ".png",
                           position: new google.maps.LatLng(latlon[0], latlon[1]),
                           map: map
                         });
@@ -175,12 +178,12 @@
                   var travel = data[k];
                   var travelBox = '<div class="travel-box" id="travel_' + travel['id'] + '">';
                   travelBox += '<span class="travel_name">' + travel['name'] + '</span>&nbsp'; 
-                  travelBox += '<span class="travel_time">(' + travel['time'] + ')</spand><br/>'; 
+                  travelBox += '<span class="travel_time">' + travel['time'] + '</spand><br/>'; 
                   var places = travel['places'];
                   if (places.length > 1){
                     travelBox += "<div class='travel_details' id='travel_" + travel['id'] + "_details' style='display: none;'><ul>"; // style='display:none;'
                     for (var p = 0; p < places.length; p++){
-                      travelBox += "<li>" + places[p]['name'] + "</li>";
+                      travelBox += "<li>" + places[p]['name'] + "&nbsp" + places[p]['time'] + "</li>";
                     }
                     travelBox += "</ul></div>";
                   }

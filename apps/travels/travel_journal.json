@@ -1,31 +1,41 @@
 {
     "travels":[
-        {
-            "id": 2,
-            "name": "Izmir, Turkey",
-            "time": "June 2014",
-            "timestamp": 1398088000,
+        {   
+            "id": "Seattle",
+            "name": "Seattle, WA",
+            "time": "Summer 2014",
+            "timestamp": 1397088000,
             "drawroads": false,
-            "type": "holiday",
-            "zoom": 10,
+            "zoom": 7,
             "places":[
                 {
-                    "name": "Ephesus",
-                    "location": "Ephesus, Izmir, Turkey",
-                    "lat-lon": [37.9147005,27.323682],
+                    "name": "Redmond",
+                    "location": "Microsoft Campus, Building 99",
+                    "lat-lon": [47.6421149,-122.1412169],
                     "time": "",
-                    "description": "Ephesus",
-                    "img": "img/ephesus2014.jpg"
+                    "type": "work",
+                    "description": "Internship at MSR",
+                    "img": null
                 },
                 {
-                    "name": "Sirince",
-                    "location": "Sirince, Izmir, Turkey",
-                    "lat-lon": [37.944101,27.4310803],
+                    "name": "Space needle",
+                    "location": "Space Needle, Broad Street, Seattle, WA",
+                    "lat-lon": [47.620506,-122.349277],
                     "time": "",
-                    "description": "Sirince",
+                    "type": "holiday",
+                    "description": "",
+                    "img": null
+                },
+                {
+                    "name": "Mount Rainier National Park",
+                    "location": "Mount Rainier National Park, WA",
+                    "lat-lon": [46.879907,-121.7271423],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Mount Rainier National Park",
                     "img": null
                 }
-            ]  
+            ]
         },
         {   
             "id": 1,
@@ -33,7 +43,6 @@
             "time": "April 2014",
             "timestamp": 1397088000,
             "drawroads": false,
-            "type": "conference",
             "zoom": 10,
             "places":[
                 {
@@ -41,6 +50,7 @@
                     "location": "COEX Convention & Exhibition Center, Seoul, Korea",
                     "lat-lon": [37.512511,127.058802],
                     "time": "",
+                    "type": "conference",
                     "description": "WWW14 Conference",
                     "img": null
                 }
@@ -52,7 +62,6 @@
             "time": "December 2013",
             "timestamp": 1387929600,
             "drawroads": true,
-            "type": "holiday",
             "zoom": 6,
             "places":[
                 {
@@ -60,6 +69,7 @@
                     "location": "San Francisco, CA, USA",
                     "lat-lon": [37.7577,-122.4376],
                     "time": "",
+                    "type": "holiday",
                     "description": "San Francisco",
                     "img": null
                 },
@@ -68,7 +78,393 @@
                     "location": "Los Angeles, CA, USA",
                     "lat-lon": [34.0204989,-118.4117325],
                     "time": "",
+                    "type": "holiday",
                     "description": "Los Angeles",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Urbana-Champaign",
+            "name": "Urbana-Champaign, IL",
+            "time": "",
+            "timestamp": 1387929600,
+            "drawroads": false,
+            "zoom": 8,
+            "places":[
+                {
+                    "name": "Urbana-Champaign, IL",
+                    "location": "Urbana-Champaign, IL, USA",
+                    "lat-lon": [40.101952,-88.227162],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Nappanee",
+            "name": "Nappanee, IN",
+            "time": "",
+            "timestamp": 1387929600,
+            "drawroads": false,
+            "zoom": 6,
+            "places":[
+                {
+                    "name": "Nappanee, IN",
+                    "location": "Nappanee, IN, USA",
+                    "lat-lon": [41.4468548,-85.9978348],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Nappanee Apple Festival",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "sanantonio",
+            "name": "San Antonio, TX",
+            "time": "",
+            "timestamp": 1387929600,
+            "drawroads": false,
+            "zoom": 6,
+            "places":[
+                {
+                    "name": "San Antonio, Texas",
+                    "location": "San Antonio, TX, USA",
+                    "lat-lon": [29.4814305,-98.5144044],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Chicago",
+            "name": "Chicago, IL",
+            "time": "",
+            "timestamp": 1387929600,
+            "drawroads": false,
+            "zoom": 6,
+            "places":[
+                {
+                    "name": "Chicago, IL",
+                    "location": "Chicago, IL, USA",
+                    "lat-lon": [41.8826513,-87.6233557],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Chicago",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "bloomington",
+            "name": "Bloomington, IN",
+            "time": "",
+            "timestamp": 1387929600,
+            "drawroads": false,
+            "zoom": 12,
+            "places":[
+                {
+                    "name": "Indiana University Bloomington",
+                    "location": "Indiana University, Bloomington, IN, USA",
+                    "lat-lon": [39.1716132,-86.5233573],
+                    "time": "",
+                    "type": "work",
+                    "description": "IU School of Informatics & Computing",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "southbend",
+            "name": "South bend, IN",
+            "time": "",
+            "timestamp": 1387929600,
+            "drawroads": false,
+            "zoom": 12,
+            "places":[
+                {
+                    "name": "University of Notre Dame",
+                    "location": "University of Notre Dame, IN, USA",
+                    "lat-lon": [41.705572,-86.235339],
+                    "time": "",
+                    "type": "university",
+                    "description": "University of Notre Dame",
+                    "img": null
+                },
+                {
+                    "name": "Notre Dame",
+                    "location": "Notre Dame, IN, USA",
+                    "lat-lon": [41.7111987,-86.2504452],
+                    "time": "",
+                    "type": "lived",
+                    "description": "Notre Dame",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Thessaloniki",
+            "name": "Thessaloniki, Greece",
+            "time": "",
+            "timestamp": 1398088000,
+            "drawroads": false,
+            "zoom": 13,
+            "places":[
+                {
+                    "name": "Thessaloniki",
+                    "location": "Thessaloniki, Greece",
+                    "lat-lon": [40.6211925,22.9460273],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Ataturk's House",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Lisbon",
+            "name": "Lisbon, Portugal",
+            "time": "",
+            "timestamp": 1398088000,
+            "drawroads": false,
+            "zoom": 12,
+            "places":[
+                {
+                    "name": "Lisbon",
+                    "location": "Lisbon",
+                    "lat-lon": [38.7436266,-9.1602037],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Euroskill competition Lisbon",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Esslingen",
+            "name": "Esslingen, Germany",
+            "time": "",
+            "timestamp": 1398088000,
+            "drawroads": false,
+            "zoom": 12,
+            "places":[
+                {
+                    "name": "Esslingen",
+                    "location": "Esslingen",
+                    "lat-lon": [48.7411629,9.336416],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Festo",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Holland",
+            "name": "Holland",
+            "time": "",
+            "timestamp": 1398088000,
+            "drawroads": true,
+            "zoom": 9,
+            "places":[
+                {
+                    "name": "Amsterdam",
+                    "location": "Amsterdam",
+                    "lat-lon": [52.3747158,4.8986142],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Euroskill competition Amsterdam",
+                    "img": null
+                },
+                {
+                    "name": "Rotterdam",
+                    "location": "Rotterdam",
+                    "lat-lon": [51.9279723,4.4904063],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Calgary",
+            "name": "Calgary, Canada",
+            "time": "",
+            "timestamp": 1398088000,
+            "drawroads": false,
+            "zoom": 7,
+            "places":[
+                {
+                    "name": "Calgary",
+                    "location": "Calgary",
+                    "lat-lon": [51.0281805,-114.0720956],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Worldskill competition Calgary",
+                    "img": null
+                },
+                {
+                    "name": "Rocky Mountains",
+                    "location": "Rocky Mountains",
+                    "lat-lon": [53.1314269,-118.978539],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Izmir",
+            "name": "Izmir, Turkey",
+            "time": "",
+            "timestamp": 1398088000,
+            "drawroads": false,
+            "zoom": 9,
+            "places":[
+                {
+                    "name": "Karsiyaka",
+                    "location": "Karsiyaka, Izmir, Turkey",
+                    "lat-lon": [38.4555979,27.1196626],
+                    "time": "",
+                    "type": "lived",
+                    "description": "Karsiyaka",
+                    "img": null
+                },
+                {
+                    "name": "Ephesus",
+                    "location": "Ephesus, Izmir, Turkey",
+                    "lat-lon": [37.9147005,27.323682],
+                    "time": "June 2014",
+                    "type": "holiday",
+                    "description": "Ephesus",
+                    "img": "img/ephesus2014.jpg"
+                },
+                {
+                    "name": "Sirince",
+                    "location": "Sirince, Izmir, Turkey",
+                    "lat-lon": [37.944101,27.4310803],
+                    "time": "June 2014",
+                    "type": "holiday",
+                    "description": "Sirince",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Bursa",
+            "name": "Bursa, Turkey",
+            "time": "",
+            "timestamp": 1398088000,
+            "drawroads": false,
+            "zoom": 10,
+            "places":[
+                {
+                    "name": "Mudanya",
+                    "location": "Mudanya, Bursa, Turkey",
+                    "lat-lon": [40.365666,28.8994174],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Mudanya",
+                    "img": null
+                },
+                {
+                    "name": "Iznik",
+                    "location": "Iznik, Bursa, Turkey",
+                    "lat-lon": [40.4304785,29.7147453],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Iznik, Bursa",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Istanbul",
+            "name": "Istanbul, Turkey",
+            "time": "",
+            "timestamp": 1398088000,
+            "drawroads": false,
+            "zoom": 12,
+            "places":[
+                {
+                    "name": "Sariyer",
+                    "location": "Sariyer, Istanbul, Turkey",
+                    "lat-lon": [41.1677632,29.0561835],
+                    "time": "",
+                    "type": "lived",
+                    "description": "Sariyer",
+                    "img": null
+                },
+                {
+                    "name": "ITU",
+                    "location": "Istanbul Teknik University, Turkey",
+                    "lat-lon": [41.105594,29.02534],
+                    "time": "",
+                    "type": "university",
+                    "description": "ITU",
+                    "img": null
+                },
+                {
+                    "name": "KU",
+                    "location": "Koc University, Turkey",
+                    "lat-lon": [41.205302,29.07342],
+                    "time": "",
+                    "type": "university",
+                    "description": "ITU",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Ankara",
+            "name": "Ankara, Turkey",
+            "time": "",
+            "timestamp": 1398088000,
+            "drawroads": false,
+            "zoom": 11,
+            "places":[
+                {
+                    "name": "Ankara",
+                    "location": "Ankara, Turkey",
+                    "lat-lon": [39.892375,32.77987],
+                    "time": "",
+                    "type": "lived",
+                    "description": "Ankara",
+                    "img": null
+                },
+                {
+                    "name": "Aselsan",
+                    "location": "Aselsan Akyurt tesisleri, Ankara, Turkey",
+                    "lat-lon": [40.08595,33.024284],
+                    "time": "",
+                    "type": "work",
+                    "description": "Undergraduate Internship",
+                    "img": null
+                }
+            ]  
+        },
+        {
+            "id": "Antalya",
+            "name": "Antalya, Turkey",
+            "time": "",
+            "timestamp": 1398088000,
+            "drawroads": false,
+            "zoom": 14,
+            "places":[
+                {
+                    "name": "Antalya",
+                    "location": "Antalya, Turkey",
+                    "lat-lon": [36.8979375,30.718105],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Antalya Matematik Olimpiyatlari",
                     "img": null
                 }
             ]  
