@@ -24,7 +24,7 @@
                     "time": "",
                     "type": "holiday",
                     "description": "",
-                    "img": null
+                    "img": "img/space_needle.jpg"
                 },
                 {
                     "name": "Mount Rainier National Park",
@@ -33,7 +33,7 @@
                     "time": "",
                     "type": "holiday",
                     "description": "Mount Rainier National Park",
-                    "img": null
+                    "img": "img/mt_rainier.jpg"
                 }
             ]
         },
@@ -46,12 +46,40 @@
             "zoom": 10,
             "places":[
                 {
-                    "name": "Seoul, Korea",
+                    "name": "WWW'14 Conference",
                     "location": "COEX Convention & Exhibition Center, Seoul, Korea",
                     "lat-lon": [37.512511,127.058802],
                     "time": "",
                     "type": "conference",
-                    "description": "WWW14 Conference",
+                    "description": "WWW'14 Conference",
+                    "img": "img/www2014.jpg"
+                }
+            ]
+        },
+        {   
+            "id": "boston",
+            "name": "Boston, MA",
+            "time": "October 2013",
+            "timestamp": 1397088000,
+            "drawroads": false,
+            "zoom": 16,
+            "places":[
+                {
+                    "name": "COSN'14 Conference",
+                    "location": "Northeastern University Boston, MA",
+                    "lat-lon": [42.3382209,-71.0884424],
+                    "time": "",
+                    "type": "conference",
+                    "description": "COSN'14 Conference",
+                    "img": null
+                },
+                {
+                    "name": "Northeastern University",
+                    "location": "Northeastern University Boston, MA",
+                    "lat-lon": [42.339807,-71.089172],
+                    "time": "",
+                    "type": "university",
+                    "description": "Northeastern University",
                     "img": null
                 }
             ]
@@ -71,7 +99,7 @@
                     "time": "",
                     "type": "holiday",
                     "description": "San Francisco",
-                    "img": null
+                    "img": "img/golden_gate.jpg"
                 },
                 {
                     "name": "Los Angeles, CA",
@@ -80,7 +108,7 @@
                     "time": "",
                     "type": "holiday",
                     "description": "Los Angeles",
-                    "img": null
+                    "img": "img/hollywood_waxmuseum.jpg"
                 }
             ]  
         },
@@ -90,26 +118,35 @@
             "time": "",
             "timestamp": 1387929600,
             "drawroads": false,
-            "zoom": 8,
+            "zoom": 13,
             "places":[
                 {
                     "name": "Urbana-Champaign, IL",
                     "location": "Urbana-Champaign, IL, USA",
-                    "lat-lon": [40.101952,-88.227162],
+                    "lat-lon": [40.0930187,-88.2099851],
                     "time": "",
                     "type": "holiday",
                     "description": "",
-                    "img": null
+                    "img": "img/champaign2.jpg"
+                },
+                {
+                    "name": "University of Illinois at Urbana-Champaign",
+                    "location": "University of Illinois at Urbana-Champaign, Champaign, IL, IL, USA",
+                    "lat-lon": [40.101952,-88.227162],
+                    "time": "",
+                    "type": "university",
+                    "description": "University of Illinois at Urbana-Champaign",
+                    "img": "img/champaign.jpg"
                 }
             ]  
         },
         {
             "id": "Nappanee",
             "name": "Nappanee, IN",
-            "time": "",
+            "time": "May 2014",
             "timestamp": 1387929600,
             "drawroads": false,
-            "zoom": 6,
+            "zoom": 15,
             "places":[
                 {
                     "name": "Nappanee, IN",
@@ -118,17 +155,17 @@
                     "time": "",
                     "type": "holiday",
                     "description": "Nappanee Apple Festival",
-                    "img": null
+                    "img": "img/nappanee.jpg"
                 }
             ]  
         },
         {
             "id": "sanantonio",
             "name": "San Antonio, TX",
-            "time": "",
+            "time": "March 2013",
             "timestamp": 1387929600,
             "drawroads": false,
-            "zoom": 6,
+            "zoom": 14,
             "places":[
                 {
                     "name": "San Antonio, Texas",
@@ -137,7 +174,7 @@
                     "time": "",
                     "type": "holiday",
                     "description": "",
-                    "img": null
+                    "img": "img/san_antonio.jpg"
                 }
             ]  
         },
@@ -147,7 +184,7 @@
             "time": "",
             "timestamp": 1387929600,
             "drawroads": false,
-            "zoom": 6,
+            "zoom": 15,
             "places":[
                 {
                     "name": "Chicago, IL",
@@ -156,7 +193,7 @@
                     "time": "",
                     "type": "holiday",
                     "description": "Chicago",
-                    "img": null
+                    "img": "img/chicago.jpg"
                 }
             ]  
         },
@@ -175,7 +212,7 @@
                     "time": "",
                     "type": "work",
                     "description": "IU School of Informatics & Computing",
-                    "img": null
+                    "img": "img/soic.jpg"
                 }
             ]  
         },
@@ -194,7 +231,7 @@
                     "time": "",
                     "type": "university",
                     "description": "University of Notre Dame",
-                    "img": null
+                    "img": "img/notredame2.jpg"
                 },
                 {
                     "name": "Notre Dame",
@@ -203,33 +240,42 @@
                     "time": "",
                     "type": "lived",
                     "description": "Notre Dame",
-                    "img": null
+                    "img": "img/southbend.jpg"
                 }
             ]  
         },
         {
             "id": "Thessaloniki",
             "name": "Thessaloniki, Greece",
-            "time": "",
+            "time": "November 2010",
             "timestamp": 1398088000,
             "drawroads": false,
             "zoom": 13,
             "places":[
                 {
-                    "name": "Thessaloniki",
+                    "name": "White Castle, Thessaloniki",
                     "location": "Thessaloniki, Greece",
-                    "lat-lon": [40.6211925,22.9460273],
+                    "lat-lon": [40.6261865,22.9484802],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "White Castle",
+                    "img": "img/white_castle.jpg"
+                },
+                {
+                    "name": "Ataturk's Home",
+                    "location": "Ataturk's Home Thessaloniki, Greece",
+                    "lat-lon": [40.635646,22.954145],
                     "time": "",
                     "type": "holiday",
                     "description": "Ataturk's House",
-                    "img": null
+                    "img": "img/selanik_ataturk.jpg"
                 }
             ]  
         },
         {
             "id": "Lisbon",
             "name": "Lisbon, Portugal",
-            "time": "",
+            "time": "January 2010",
             "timestamp": 1398088000,
             "drawroads": false,
             "zoom": 12,
@@ -237,18 +283,27 @@
                 {
                     "name": "Lisbon",
                     "location": "Lisbon",
+                    "lat-lon": [38.693597,-9.205712],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Lisbon",
+                    "img": "img/lisbon.jpg"
+                },
+                {
+                    "name": "Euroskill competition",
+                    "location": "Lisbon",
                     "lat-lon": [38.7436266,-9.1602037],
                     "time": "",
                     "type": "holiday",
                     "description": "Euroskill competition Lisbon",
-                    "img": null
+                    "img": "img/euroskills_lisbon.jpg"
                 }
             ]  
         },
         {
             "id": "Esslingen",
             "name": "Esslingen, Germany",
-            "time": "",
+            "time": "August 2008",
             "timestamp": 1398088000,
             "drawroads": false,
             "zoom": 12,
@@ -259,15 +314,24 @@
                     "lat-lon": [48.7411629,9.336416],
                     "time": "",
                     "type": "holiday",
+                    "description": "Esslingen",
+                    "img": "img/esslingen.jpg"
+                },
+                {
+                    "name": "Festo",
+                    "location": "Festo, Esslingen",
+                    "lat-lon": [48.7022644,9.3117043],
+                    "time": "",
+                    "type": "holiday",
                     "description": "Festo",
-                    "img": null
+                    "img": "img/festo_esslingen.jpg"
                 }
             ]  
         },
         {
             "id": "Holland",
             "name": "Holland",
-            "time": "",
+            "time": "August 2008",
             "timestamp": 1398088000,
             "drawroads": true,
             "zoom": 9,
@@ -278,8 +342,8 @@
                     "lat-lon": [52.3747158,4.8986142],
                     "time": "",
                     "type": "holiday",
-                    "description": "Euroskill competition Amsterdam",
-                    "img": null
+                    "description": "Amsterdam",
+                    "img": "img/amsterdam.jpg"
                 },
                 {
                     "name": "Rotterdam",
@@ -288,14 +352,23 @@
                     "time": "",
                     "type": "holiday",
                     "description": "",
-                    "img": null
+                    "img": "img/rotterdam.jpg"
+                },
+                {
+                    "name": "Euroskills Amsterdam",
+                    "location": "AHOY Rotterdam",
+                    "lat-lon": [51.882569,4.487182],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Euroskills Amsterdam",
+                    "img": "img/euroskills_amsterdam.jpg"
                 }
             ]  
         },
         {
             "id": "Calgary",
             "name": "Calgary, Canada",
-            "time": "",
+            "time": "August 2009",
             "timestamp": 1398088000,
             "drawroads": false,
             "zoom": 7,
@@ -306,8 +379,8 @@
                     "lat-lon": [51.0281805,-114.0720956],
                     "time": "",
                     "type": "holiday",
-                    "description": "Worldskill competition Calgary",
-                    "img": null
+                    "description": "Worldskill competition Canada",
+                    "img": "img/worldskills_canada.jpg"
                 },
                 {
                     "name": "Rocky Mountains",
@@ -315,8 +388,17 @@
                     "lat-lon": [53.1314269,-118.978539],
                     "time": "",
                     "type": "holiday",
-                    "description": "",
-                    "img": null
+                    "description": "Rocky mountains",
+                    "img": "img/rocky_mountains.jpg"
+                },
+                {
+                    "name": "Calgary Tower",
+                    "location": "",
+                    "lat-lon": [51.0444301,-114.0632692],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Calgary tower",
+                    "img": "img/calgary_tower.jpg"
                 }
             ]  
         },
@@ -335,7 +417,7 @@
                     "time": "",
                     "type": "lived",
                     "description": "Karsiyaka",
-                    "img": null
+                    "img": "img/karsiyaka.jpg"
                 },
                 {
                     "name": "Ephesus",
@@ -409,7 +491,7 @@
                     "time": "",
                     "type": "university",
                     "description": "ITU",
-                    "img": null
+                    "img": "img/ituro.jpg"
                 },
                 {
                     "name": "KU",
@@ -417,8 +499,8 @@
                     "lat-lon": [41.205302,29.07342],
                     "time": "",
                     "type": "university",
-                    "description": "ITU",
-                    "img": null
+                    "description": "Koc University",
+                    "img": "img/koc_university.jpg"
                 }
             ]  
         },
@@ -433,19 +515,28 @@
                 {
                     "name": "Ankara",
                     "location": "Ankara, Turkey",
-                    "lat-lon": [39.892375,32.77987],
+                    "lat-lon": [39.8863899,32.7782817],
                     "time": "",
                     "type": "lived",
                     "description": "Ankara",
                     "img": null
                 },
                 {
+                    "name": "Middle Eastern Technical University",
+                    "location": "Middle Eastern Technical University, Ankara, Turkey",
+                    "lat-lon": [39.892375,32.77987],
+                    "time": "",
+                    "type": "university",
+                    "description": "Middle Eastern Technical University",
+                    "img": null
+                },
+                {
                     "name": "Aselsan",
                     "location": "Aselsan Akyurt tesisleri, Ankara, Turkey",
                     "lat-lon": [40.08595,33.024284],
-                    "time": "",
+                    "time": "July 2008",
                     "type": "work",
-                    "description": "Undergraduate Internship",
+                    "description": "Aselsan Internship",
                     "img": null
                 }
             ]  
@@ -453,7 +544,7 @@
         {
             "id": "Antalya",
             "name": "Antalya, Turkey",
-            "time": "",
+            "time": "May 2005",
             "timestamp": 1398088000,
             "drawroads": false,
             "zoom": 14,
@@ -464,7 +555,16 @@
                     "lat-lon": [36.8979375,30.718105],
                     "time": "",
                     "type": "holiday",
-                    "description": "Antalya Matematik Olimpiyatlari",
+                    "description": "Antalya",
+                    "img": null
+                },
+                {
+                    "name": "Akdeniz University",
+                    "location": "Akdeniz University, Antalya, Turkey",
+                    "lat-lon": [36.8923964,30.6621549],
+                    "time": "",
+                    "type": "university",
+                    "description": "Akdeniz Matematik Olimpiyatlari",
                     "img": null
                 }
             ]  
