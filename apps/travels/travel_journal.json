@@ -1,0 +1,78 @@
+{
+    "travels":[
+        {
+            "id": 2,
+            "name": "Izmir, Turkey",
+            "time": "June 2014",
+            "timestamp": 1398088000,
+            "drawroads": false,
+            "type": "holiday",
+            "zoom": 10,
+            "places":[
+                {
+                    "name": "Ephesus",
+                    "location": "Ephesus, Izmir, Turkey",
+                    "lat-lon": [37.9147005,27.323682],
+                    "time": "",
+                    "description": "Ephesus",
+                    "img": "img/ephesus2014.jpg"
+                },
+                {
+                    "name": "Sirince",
+                    "location": "Sirince, Izmir, Turkey",
+                    "lat-lon": [37.944101,27.4310803],
+                    "time": "",
+                    "description": "Sirince",
+                    "img": null
+                }
+            ]  
+        },
+        {   
+            "id": 1,
+            "name": "Seoul, Korea",
+            "time": "April 2014",
+            "timestamp": 1397088000,
+            "drawroads": false,
+            "type": "conference",
+            "zoom": 10,
+            "places":[
+                {
+                    "name": "Seoul, Korea",
+                    "location": "COEX Convention & Exhibition Center, Seoul, Korea",
+                    "lat-lon": [37.512511,127.058802],
+                    "time": "",
+                    "description": "WWW14 Conference",
+                    "img": null
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "California, USA",
+            "time": "December 2013",
+            "timestamp": 1387929600,
+            "drawroads": true,
+            "type": "holiday",
+            "zoom": 6,
+            "places":[
+                {
+                    "name": "San Francisco, CA",
+                    "location": "San Francisco, CA, USA",
+                    "lat-lon": [37.7577,-122.4376],
+                    "time": "",
+                    "description": "San Francisco",
+                    "img": null
+                },
+                {
+                    "name": "Los Angeles, CA",
+                    "location": "Los Angeles, CA, USA",
+                    "lat-lon": [34.0204989,-118.4117325],
+                    "time": "",
+                    "description": "Los Angeles",
+                    "img": null
+                }
+            ]  
+        }
+    ],
+    "metadata":{}
+}
