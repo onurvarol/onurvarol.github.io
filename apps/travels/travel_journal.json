@@ -491,7 +491,7 @@
                     "time": "",
                     "type": "university",
                     "description": "ITU",
-                    "img": "img/ituro.jpg"
+                    "img": "img/itu_mezuniyet.jpg"
                 },
                 {
                     "name": "KU",
@@ -500,7 +500,7 @@
                     "time": "",
                     "type": "university",
                     "description": "Koc University",
-                    "img": "img/koc_university.jpg"
+                    "img": "img/koc_university2.jpg"
                 }
             ]  
         },
