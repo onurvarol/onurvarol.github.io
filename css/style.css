@@ -57,6 +57,7 @@ h2 {
 
 #content {
 	width: 100%;
+	margin-top: 50px;
 	padding: 0 0 0 25px;
 }
 
@@ -266,5 +267,27 @@ a:active: {
 
 .project img{
 	height: 75px;
+}
+
+.personal-box{
+	display: inline-block;
+	text-align: center;
+	width:60%;
+	min-height: 50px;
+	margin: 10px 0 5px 0;
+	padding: 15px 5px;
+	color: #F1F1F1;
+	background-color: #5C80B1;
+}
+
+.personal-box a{
+	color: #F1F1F1;
+	text-decoration: underline;
+}
+
+.personal-box img{
+	width: 150px;
+	float: left;
+	margin-right: 5px;
 }
 
