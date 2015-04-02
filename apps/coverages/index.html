@@ -24,7 +24,7 @@
         for (var c in coverages) {
             coverageDiv += '<h2><a name="#' + c.replace(' ', '') + '">' + c + '</a></h2>'
             for (var i = 0; i < coverages[c].length; i++){
-                coverageDiv += '<div><a href="' + coverages[c][i]['url'] + '">' + coverages[c][i]['title'] + '</a> - ' + coverages[c][i]['source'] + '</div>';
+                coverageDiv += '<div>&#10148; <a href="' + coverages[c][i]['url'] + '">' + coverages[c][i]['title'] + '</a> - ' + coverages[c][i]['source'] + '</div>';
             }
         }
         return coverageDiv
