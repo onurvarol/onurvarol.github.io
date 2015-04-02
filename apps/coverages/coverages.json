@@ -1,6 +1,11 @@
 {
 "BotOrNot":[
 	{
+		"source": "MIT Technology Review",
+		"title": "Fake Persuaders",
+		"url": "http://www.technologyreview.com/news/535901/fake-persuaders/"
+	},
+	{
 		"source": "NY Books",
 		"title": "Bot or Not? by James Gleick",
 		"url": "http://www.nybooks.com/blogs/nyrblog/2015/mar/11/twitter-bot-or-not/"
