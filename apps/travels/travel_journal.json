@@ -210,7 +210,7 @@
                     "location": "Indiana University, Bloomington, IN, USA",
                     "lat-lon": [39.1716132,-86.5233573],
                     "time": "",
-                    "type": "work",
+                    "type": "myuniversity",
                     "description": "IU School of Informatics & Computing",
                     "img": "img/soic.jpg"
                 }
@@ -489,7 +489,7 @@
                     "location": "Istanbul Teknik University, Turkey",
                     "lat-lon": [41.105594,29.02534],
                     "time": "",
-                    "type": "university",
+                    "type": "myuniversity",
                     "description": "ITU",
                     "img": "img/itu_mezuniyet.jpg"
                 },
@@ -498,7 +498,7 @@
                     "location": "Koc University, Turkey",
                     "lat-lon": [41.205302,29.07342],
                     "time": "",
-                    "type": "university",
+                    "type": "myuniversity",
                     "description": "Koc University",
                     "img": "img/koc_university2.jpg"
                 }
