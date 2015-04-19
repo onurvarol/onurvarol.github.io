@@ -141,6 +141,25 @@
             ]  
         },
         {
+            "id": "michigan_city",
+            "name": "Michigan City, IN",
+            "time": "April 2015",
+            "timestamp": 1429401600,
+            "drawroads": false,
+            "zoom": 15,
+            "places":[
+                {
+                    "name": "Michigan City, IN",
+                    "location": "Michigan City, IN, USA",
+                    "lat-lon": [41.7256222,-86.8975964],
+                    "time": "",
+                    "type": "holiday",
+                    "description": "Washington park, Michigan City",
+                    "img": "img/michigan_city.jpg"
+                }
+            ]  
+        },
+        {
             "id": "Nappanee",
             "name": "Nappanee, IN",
             "time": "May 2014",
@@ -570,5 +589,7 @@
             ]  
         }
     ],
-    "metadata":{}
+    "metadata":{
+        "last-update": "04-14-2015"
+    }
 }
