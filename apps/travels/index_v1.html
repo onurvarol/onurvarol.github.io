@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Onur Varol's travel map">
+    <meta name="author" content="Onur Varol">
+    
+    <title>Onur's Travel Journal</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+    <script type="text/javascript">
+      // Markers => https://mapicons.mapsmarker.com/category/markers/
+      var qs = (function(a) {
+        if (a == "") return null;
+        var b = {};
+        for (var i = 0; i < a.length; ++i)
+        {
+            var p=a[i].split('=', 2);
+            if (p.length == 1)
+                b[p[0]] = "";
+            else
+                b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+        }
+        return b;
+        })(window.location.search.substr(1).split('&'));
+      //alert(qs['id'].replace("/", ""));
+
+      var directionsDisplay;
+      var infowindow = new google.maps.InfoWindow();
+      var markerOptions = {icon: "img/icon_marker.png",
+                           visible: false};
+      var directionsDisplayOptions = {preserveViewport: true,
+                                      markerOptions: markerOptions};
+      var directionsService = new google.maps.DirectionsService();
+      var map;
+
+      function drawMap(travelId) {
+          var travelJournal = $.parseJSON(localStorage.getItem('travelJournal'));
+          var travels = travelJournal['travels'];
+          var travel = null;
+          for (var k = 0; k < travels.length; k++){
+            if (travels[k]['id'] == travelId){
+              var travel = travels[k];
+            }
+          }
+
+          if (travel !== null)
+          {
+            var lat = 0;
+            var lng = 0;
+            var places = travel['places'];
+            for (var k = 0; k < places.length; k++){
+                var latlon = places[k]['lat-lon'];
+                lat = lat + latlon[0];
+                lng = lng + latlon[1];
+            }
+            lat = lat / (1.0*places.length);
+            lng = lng / (1.0*places.length);
+            var center = new google.maps.LatLng(lat, lng);
+            var mapOptions = {
+              zoom: travel['zoom'],
+              center: center
+            };
+            map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+            var marker;
+            for (var k = 0; k < places.length; k++){
+                var latlon = places[k]['lat-lon'];
+
+                marker = new google.maps.Marker({
+                  icon: "img/icon_" + places[k]['type'] + ".png",
+                  position: new google.maps.LatLng(latlon[0], latlon[1]),
+                  map: map
+                });
+
+                google.maps.event.addListener(marker, 'click', (function(marker, place) {
+                  return function() {
+                    var caption = place['description'];
+                    if (place['img'] !== null){
+                        caption += "<br/><img src='"+ place['img'] +"' height='200'></img>";
+                    }
+                    infowindow.setContent(caption);
+                    infowindow.open(map, marker);
+                  }
+                })(marker, places[k]));
+            }
+
+            if (travel['drawroads'])
+            {
+                directionsDisplay = new google.maps.DirectionsRenderer(directionsDisplayOptions);
+                var waypts = [];
+                for (var i = 0; i < places.length; i++) {
+                    waypts.push({
+                    location:places[i]['location'],
+                    stopover:true});
+                  }
+                
+                var request = {
+                    origin: places[0]['location'],
+                    destination: places[places.length-1]['location'],
+                    waypoints: waypts,
+                    optimizeWaypoints: false,
+                    travelMode: google.maps.TravelMode.DRIVING
+                };
+
+                directionsService.route(request, function(response, status) {
+                  if (status == google.maps.DirectionsStatus.OK) {
+                      directionsDisplay.setDirections(response);    
+                  }
+                });
+                directionsDisplay.setMap(map);
+            }
+
+          }
+          else{
+            var center = new google.maps.LatLng(35, 20);
+            var mapOptions = {
+              zoom: 2,
+              center: center
+            };
+            map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+            // Draw all places
+            for (var i = 0; i < travels.length; i++){
+                var places = travels[i]['places'];
+                for (var p = 0; p < places.length; p++){
+                    var marker;
+                    for (var k = 0; k < places.length; k++){
+                        var latlon = places[k]['lat-lon'];
+
+                        marker = new google.maps.Marker({
+                          icon: "img/icon_" + places[k]['type'] + ".png",
+                          position: new google.maps.LatLng(latlon[0], latlon[1]),
+                          map: map
+                        });
+
+                        google.maps.event.addListener(marker, 'click', (function(marker, place) {
+                          return function() {
+                            var caption = place['description'];
+                            if (place['img'] !== null){
+                                caption += "<br/><img src='"+ place['img'] +"' height='200'></img>";
+                            }
+                            infowindow.setContent(caption);
+                            infowindow.open(map, marker);
+                          }
+                        })(marker, places[k]));
+                    }
+                }
+            }
+          }
+      }
+
+      
+      $(document).ready(function () {
+          var response = $.ajax({ type: 'GET',
+                                  url: 'travel_journal_v1.json',
+                                  dataType: 'text',
+                                  success: function(data) {
+                                    udata = data;
+                                  },
+                                  async: false
+                                }).responseText;
+          console.log(response);
+          //$.ajax({async: true})
+          var travelJournal = $.parseJSON(response);
+          localStorage.setItem('travelJournal', response);
+          console.log($.parseJSON(localStorage.getItem('travelJournal')));
+
+          function loadPanel(data){
+              for (var k = 0; k < data.length; k++){
+                  var travel = data[k];
+                  var travelBox = '<div class="travel-box" id="travel_' + travel['id'] + '">';
+                  travelBox += '<span class="travel_name">' + travel['name'] + '</span>&nbsp'; 
+                  travelBox += '<span class="travel_time">' + travel['time'] + '</spand><br/>'; 
+                  var places = travel['places'];
+                  if (places.length > 1){
+                    travelBox += "<div class='travel_details' id='travel_" + travel['id'] + "_details' style='display: none;'><ul>"; // style='display:none;'
+                    for (var p = 0; p < places.length; p++){
+                      travelBox += "<li>" + places[p]['name'] + "&nbsp" + places[p]['time'] + "</li>";
+                    }
+                    travelBox += "</ul></div>";
+                  }
+                  //travelBox += '<button class="btn" id="btn">Show</button>';
+                  travelBox += '</div>';
+                  $('#travels-content').append(travelBox);
+                  $("#travel_" + travel['id']).val(travel['id']);
+              }
+              
+              $('body').on('click', '.travel-box', function(event){
+                var tid = $(this).val();
+                var name = $(this).attr('id');
+                $('.travel_details').hide('slow');
+                $('#'+name+'_details').show('slow');
+                drawMap(tid);
+              });
+
+          }
+          loadPanel(travelJournal['travels']);
+          if (qs == null){
+            google.maps.event.addDomListener(window, 'load', drawMap);
+          }
+          else{
+            drawMap(qs['id'].replace("/", ""));
+          }
+      });
+    </script>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-7399107-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+  </head>
+  <body>
+    <div id="travels-box">
+      Onur's Travel Journal<hr>
+      <button class="button" onclick="drawMap()">Load all</button>
+      <div id="travels-content"></div>
+    </div>
+    <div id="map-canvas"></div>
+  </body>
+</html>
