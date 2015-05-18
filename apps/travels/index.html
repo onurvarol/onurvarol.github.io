@@ -16,6 +16,7 @@
     <script src="js/jquery.sliderTabs.js"></script>
 
     <script type="text/javascript">
+
       var qs = (function(a) {
         if (a == "") return null;
         var b = {};
@@ -30,6 +31,41 @@
         return b;
         })(window.location.search.substr(1).split('&'));
       //alert(qs['id'].replace("/", ""));
+
+      function updateShareHref(travelId){
+
+        if (typeof travelId == 'string' || travelId instanceof String){
+          console.log(travelId);
+          var temp = travelId.split('-');
+          $.getScript("http://platform.twitter.com/widgets.js");
+          $("#twitter-share-button").html('<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.onurvarol.com/apps/travels/index.html?id=' + travelId +'" data-text="Onur\'s travel journal -> ' + temp[1] + '" data-count="none" data-hashtags="travel" data-via="onurvarol" data-related="onurvarol">Tweet</a>');
+
+          //$("#facebook-share-button").html('<div id="fb-share-button" class="fb-share-button" data-href="http://www.onurvarol.com/apps/travels/index.html?id=' + travelId + '" data-layout="button" style="vertical-align:top;zoom:1;*display:inline"></div>');
+
+          $("#facebook-share-button").html('<fb:share-button href="http://www.onurvarol.com/apps/travels/index.html?id=' + travelId + '" type="button"></fb:share-button>');
+
+          //var fb = document.getElementById("fb-share-button");
+          //fb.setAttribute("data-href", "http://www.onurvarol.com/apps/travels/index.html?id=" + travelId);
+          //$('.fb-share-button').attr('data-href', "http://www.onurvarol.com/apps/travels/index.html?id=" + travelId);
+          console.log('updates');
+        }
+        else{
+          $.getScript("http://platform.twitter.com/widgets.js");
+          //$("#twitter-share-button").html('&nbsp;'); 
+          $("#twitter-share-button").html('<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.onurvarol.com/apps/travels/index.html" data-text="Onur\'s travel journal" data-count="none" data-hashtags="travel" data-via="onurvarol" data-related="onurvarol">Tweet</a>');
+
+          //$("#facebook-share-button").html('<div id="fb-share-button" class="fb-share-button" data-href="http://www.onurvarol.com/apps/travels/index.html" data-layout="button" style="vertical-align:top;zoom:1;*display:inline"></div>');
+          $("#facebook-share-button").html('<fb:share-button href="http://www.onurvarol.com/apps/travels/index.html" type="button"></fb:share-button>');
+        }
+        $.ajaxSetup({ cache: true });
+        $.getScript('//connect.facebook.net/en_US/sdk.js', function(){
+          FB.init({
+            appId: '139724208134',
+            version: 'v2.3' // or v2.0, v2.1, v2.0
+          });     
+          FB.XFBML.parse();
+        });
+      }
 
       var directionsDisplay;
       var infowindow = new google.maps.InfoWindow();
@@ -145,6 +181,7 @@
             travelJournal['locations'][key]['id'] = key;
           }
 
+          updateShareHref(travelId);
           if (typeof travelId == 'string' || travelId instanceof String)
           {
             //console.log(travelId);
@@ -270,6 +307,7 @@
       }
 
       $(document).ready(function () {
+          updateShareHref();
           $( "#slides-box" ).hide();
 
           $(".category-header").hover(function () {
@@ -357,10 +395,35 @@
 
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=139724208134";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <div id="slides-box"></div>
 
     <div id="travels-box">
-      Onur's Travel Journal<hr>
+      <table>
+        <tr>
+          <td>Onur's Travel Journal</td>
+          <td>
+            <div id="twitter-share-button"></div>
+            <div id="facebook-share-button"></div>
+          </td>
+        </tr>
+      </table>
+        
+        <!--
+        <a href="https://twitter.com/share" id="twitter-share-button" class="twitter-share-button" data-url="www.onurvarol.com/apps/travels/index.html" data-text="Onur's travel journal" data-via="onurvarol" data-related="onurvarol" data-count="none" data-hashtags="travel">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        
+        <div id="fb-share-button" class="fb-share-button" data-href="http://www.onurvarol.com/apps/travels/index.html" data-layout="button" style="vertical-align:top;zoom:1;*display:inline"></div>
+        -->
+      <hr>
       <button class="button" onclick="drawMap()">Load all</button>
       <div id="travels-content">
         <div class="category-header" id="head-journey-container">Journeys</div>
