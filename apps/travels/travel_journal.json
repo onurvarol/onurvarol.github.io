@@ -1,6 +1,20 @@
 {
     "journeys": {
 
+        "east_2_west_2015":{
+            "name": "East to west road trip (May-June 2015)",
+            "info": "Our road trip starting from Southbend IN and heading to Seattle WA. We are driving almost 2500 miles across continent, while visiting many states and cities on our path.",
+            "slides": [
+                {
+                    "title": "Starting point: home",
+                    "content": "We are starting our journey from Notre Dame. We prepared our stuff, cleared memory cards and charged batteries. Treats and drinks are also ready for our first long distance road trip.",
+                    "lat-lon": [41.7111987,-86.2504452],
+                    "zoom": 12
+                }
+            ],
+            "places": ["notre_dame"]
+        },  
+
         "california_2013":{
             "name": "California (Dec 2013)",
             "info": "We wanted to spend our Christmas holiday in warmer places :)<br/>",
