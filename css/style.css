@@ -177,7 +177,7 @@ a:active: {
 	float: left;
 	border: 1px solid #5C80B1;
 	padding: 3px;
-	margin: 27px 17px 17px 27px;
+	margin: 27px 17px 3px 27px;
 	width: 200px;
 	}
 
@@ -208,6 +208,19 @@ a:active: {
 	background-color: #5C80B1;
 	}
 
+#sound{
+	display: inline-block;
+	margin-left:30px;
+	font-family: georgia, "Times New Roman," serif;
+	font-size: small;
+}
+
+#sound img {
+	width: 25px;
+	padding: 3px;
+	margin: 0px;
+	border: 0px solid #5C80B1;
+}
 
 /* FOOTER */	
 #footer {
