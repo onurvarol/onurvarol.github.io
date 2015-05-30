@@ -21,7 +21,7 @@ html, body, #map-canvas {
 #slides-box{
     position: fixed;
     top: 30px;
-    left: 60px;
+    left: 75px;
     z-index: 5;
     width: 250px;
     margin: 0px;

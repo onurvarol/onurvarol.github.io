@@ -2,7 +2,7 @@
     "journeys": {
 
         "east_2_west_2015":{
-            "name": "East to west road trip (May-June 2015)",
+            "name": "East to west road trip (2015)",
             "info": "Our road trip starting from Southbend IN and heading to Seattle WA. We are driving almost 2500 miles across continent, while visiting 9 different states and several cities on our path.",
             "slides": [
                 {
@@ -10,9 +10,21 @@
                     "content": "We are starting our journey from Notre Dame. We prepared our stuff, cleared memory cards and charged batteries. Treats and drinks are also ready for our first long distance road trip.",
                     "lat-lon": [41.7111987,-86.2504452],
                     "zoom": 12
+                },
+                {
+                    "title": "First stop: St. Louis",
+                    "content": "Our first stop was St. Louis. We arrived there around noon and start wondering around town. It was a rainy day that's why we try to find old court house quickly and got our tickets for Gateways arch. It was a claustrophobic experience while reaching to the top of arch. They have a small capsules that can hardly accommodate 5 people. Nevertheless scenery was beautiful on the top of this 630-foot giant metal structure. We can easily see all downtown and Eads bridge that connects US rail system for the first time by passing Mississippi river. We later went to Butterfly house that I reccommend everyone to visit. It is a wonderful greenhouse that housing more than 20 species of beautiful creatures.",
+                    "lat-lon": [38.6510416,-90.4052918],
+                    "zoom": 11
+                },
+                {
+                    "title": "Second stop: Kansas City",
+                    "content": "We were exhausted when we arrived Kansas City. After a long drive from Notre Dame, we enjoyed our dinner. As recommended to us, we tasted delicious briskets and ribs yummy :)",
+                    "lat-lon": [39.0397471,-94.5815882],
+                    "zoom": 12
                 }
             ],
-            "places": ["notre_dame"]
+            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city"]
         },  
 
         "california_2013":{
@@ -37,15 +49,20 @@
     },
 
     "cities": {
+        "kansas_city": {
+            "name": "Kansas City, MO",
+            "zoom": 15,
+            "places": ["kansas_city"]
+        },
+        "stlouis": {
+            "name": "St. Louis, MO",
+            "zoom": 11,
+            "places": ["stlouis_arch", "stlouis_butterfly"]
+        },
         "seattle": {
             "name": "Seattle, WA",
             "zoom": 7,
             "places": ["redmond", "space_needle", "rainier_national_park"]
-        },
-        "seoul": {
-            "name": "Seoul, Korea",
-            "zoom": 10,
-            "places": ["www2014"]
         },
         "boston": {
             "name": "Boston, MA",
@@ -96,6 +113,11 @@
             "name": "South bend, IN",
             "zoom": 12,
             "places": ["university_notredame", "notre_dame"]
+        },
+        "seoul": {
+            "name": "Seoul, Korea",
+            "zoom": 10,
+            "places": ["www2014"]
         },
         "thessaloniki":{
             "name": "Thessaloniki, Greece",
@@ -174,6 +196,30 @@
     },
 
     "locations":{
+        "kansas_city": {
+            "name": "Kansas City, MO",
+            "location": "Kansas City, Missouri",
+            "lat-lon": [39.0397471,-94.5815882],
+            "type": "holiday",
+            "description": "Kansas City",
+            "img": []
+            },
+        "stlouis_butterfly": {
+            "name": "Butterfly Garden, St Louis",
+            "location": "The Butterfly House, St. Louis",
+            "lat-lon": [38.66464,-90.542846],
+            "type": "holiday",
+            "description": "Butterfly Garden",
+            "img": ["img/stlouis_4.jpg","img/stlouis_5.jpg"]
+            },
+        "stlouis_arch": {
+            "name": "Gateway Arch, St Louis",
+            "location": "The Gateway Arch, St. Louis",
+            "lat-lon": [38.624691,-90.184776],
+            "type": "holiday",
+            "description": "St. Louis Gateway Arch",
+            "img": ["img/stlouis_1.jpg","img/stlouis_2.jpg","img/stlouis_3.jpg"]
+            },
         "redmond": {
             "name": "Redmond",
             "location": "Microsoft Campus, Building 99",

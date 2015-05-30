@@ -338,6 +338,9 @@
             travelJournal['locations'][key]['id'] = key;
           }
 
+          if (localStorage.getItem('travelJournal') != null) {
+            localStorage.removeItem('travelJournal');
+          }
           localStorage.setItem('travelJournal', response);
           console.log($.parseJSON(localStorage.getItem('travelJournal')));
 
