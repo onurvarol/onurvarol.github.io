@@ -26,7 +26,6 @@ html, body, #map-canvas {
     width: 250px;
     margin: 0px;
     padding: 10px;
-    border: 1px solid #999;
     overflow: auto;
 }
 

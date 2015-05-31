@@ -307,7 +307,6 @@
       }
 
       $(document).ready(function () {
-          updateShareHref();
           $( "#slides-box" ).hide();
 
           $(".category-header").hover(function () {
@@ -381,6 +380,7 @@
           else{
             drawMap(qs['id'].replace("/", ""));
           }
+          updateShareHref();
       });
     </script>
 

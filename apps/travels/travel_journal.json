@@ -22,9 +22,15 @@
                     "content": "We were exhausted when we arrived Kansas City. After a long drive from Notre Dame, we enjoyed our dinner. As recommended to us, we tasted delicious briskets and ribs yummy :)",
                     "lat-lon": [39.0397471,-94.5815882],
                     "zoom": 12
+                },
+                {
+                    "title": "Third stop: Colorado Springs",
+                    "content": "After a long drive from Kansas City, we arrived Manitou springs for our hotel very late. We started our third day very early to visit ...",
+                    "lat-lon": [38.8688231,-104.9525787],
+                    "zoom": 10
                 }
             ],
-            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city"]
+            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "manitou_springs"]
         },  
 
         "california_2013":{
@@ -49,10 +55,15 @@
     },
 
     "cities": {
+        "colorado_springs": {
+            "name": "Colorado Springs, CO",
+            "zoom": 15,
+            "places": ["manitou_springs"]
+        },
         "kansas_city": {
             "name": "Kansas City, MO",
             "zoom": 15,
-            "places": ["kansas_city"]
+            "places": ["kansas_city_1", "kansas_city_2"]
         },
         "stlouis": {
             "name": "St. Louis, MO",
@@ -196,12 +207,28 @@
     },
 
     "locations":{
-        "kansas_city": {
-            "name": "Kansas City, MO",
-            "location": "Kansas City, Missouri",
-            "lat-lon": [39.0397471,-94.5815882],
+        "manitou_springs": {
+            "name": "Manitou Springs, CO",
+            "location": "Manitou Springs, Colorado",
+            "lat-lon": [38.8558242,-104.9221517],
             "type": "holiday",
-            "description": "Kansas City",
+            "description": "Manitou Springs",
+            "img": []
+            },
+        "kansas_city_2": {
+            "name": "Union station, Kansas City",
+            "location": "Union station, Kansas City, Missouri",
+            "lat-lon": [39.085079,-94.5857718],
+            "type": "holiday",
+            "description": "Union Station",
+            "img": []
+            },
+        "kansas_city_1": {
+            "name": "Country club plaza, Kansas City",
+            "location": "Country club plaza, Kansas City, Missouri",
+            "lat-lon": [39.0429474,-94.5879182],
+            "type": "holiday",
+            "description": "Country club plaza",
             "img": []
             },
         "stlouis_butterfly": {
