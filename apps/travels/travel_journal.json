@@ -62,12 +62,12 @@
         },
         "colorado_springs": {
             "name": "Colorado Springs, CO",
-            "zoom": 15,
+            "zoom": 12,
             "places": ["manitou_springs", "colorado_springs", "garden_of_the_gods", "pikes_peak", "old_colorado_city"]
         },
         "kansas_city": {
             "name": "Kansas City, MO",
-            "zoom": 15,
+            "zoom": 13,
             "places": ["kansas_city_1", "kansas_city_2"]
         },
         "stlouis": {
