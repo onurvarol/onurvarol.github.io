@@ -25,12 +25,12 @@
                 },
                 {
                     "title": "Third stop: Colorado Springs",
-                    "content": "After a long drive from Kansas City, we arrived Manitou springs for our hotel very late. We started our third day very early to visit ...",
+                    "content": "After a long drive from Kansas City, we arrived Manitou springs for our hotel very late. We started our third day very early to visit and headed to the Gardens of the Gods. After enjoying beautiful view we drove to the top of Pikes peak. All of those places are breath-taking and I recommend you to visit :)",
                     "lat-lon": [38.8688231,-104.9525787],
                     "zoom": 10
                 }
             ],
-            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "manitou_springs"]
+            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver"]
         },  
 
         "california_2013":{
@@ -55,10 +55,15 @@
     },
 
     "cities": {
+        "denver": {
+            "name": "Denver, CO",
+            "zoom": 15,
+            "places": ["denver"]
+        },
         "colorado_springs": {
             "name": "Colorado Springs, CO",
             "zoom": 15,
-            "places": ["manitou_springs"]
+            "places": ["manitou_springs", "colorado_springs", "garden_of_the_gods", "pikes_peak", "old_colorado_city"]
         },
         "kansas_city": {
             "name": "Kansas City, MO",
@@ -207,6 +212,46 @@
     },
 
     "locations":{
+        "denver": {
+            "name": "Denver CO",
+            "location": "Denver, CO",
+            "lat-lon": [39.7437512,-104.9745878],
+            "type": "holiday",
+            "description": "Denver",
+            "img": []
+            },
+        "pikes_peak": {
+            "name": "Pikes peak, Colorado Springs CO",
+            "location": "Pikes peak national forest, Colorado Springs, CO",
+            "lat-lon": [38.8523583,-105.0374316],
+            "type": "holiday",
+            "description": "Pikes peak",
+            "img": ["img/pikes_peak_1.jpg","img/pikes_peak_2.jpg","img/pikes_peak_3.jpg","img/pikes_peak_4.jpg"]
+            },
+        "garden_of_the_gods": {
+            "name": "Garden of the Gods, Colorado Springs CO",
+            "location": "Garden of the Gods, Colorado Springs, CO",
+            "lat-lon": [38.8771069,-104.880044],
+            "type": "holiday",
+            "description": "Garden of the Gods",
+            "img": ["img/gardens_of_the_gods_1.jpg","img/gardens_of_the_gods_2.jpg","img/gardens_of_the_gods_3.jpg"]
+            },
+        "old_colorado_city": {
+            "name": "Old colorado city, Colorado Springs CO",
+            "location": "Old colorado city, Colorado Springs, CO",
+            "lat-lon": [38.8461538,-104.8610294],
+            "type": "holiday",
+            "description": "Old colorado city",
+            "img": []
+            },
+        "colorado_springs": {
+            "name": "Colorado Springs, CO",
+            "location": "Colorado Springs, Colorado",
+            "lat-lon": [38.8342857,-104.8242667],
+            "type": "holiday",
+            "description": "Colorado Springs",
+            "img": []
+            },
         "manitou_springs": {
             "name": "Manitou Springs, CO",
             "location": "Manitou Springs, Colorado",
@@ -221,7 +266,7 @@
             "lat-lon": [39.085079,-94.5857718],
             "type": "holiday",
             "description": "Union Station",
-            "img": []
+            "img": ["img/kansas_city_2_1.jpg"]
             },
         "kansas_city_1": {
             "name": "Country club plaza, Kansas City",
@@ -229,7 +274,7 @@
             "lat-lon": [39.0429474,-94.5879182],
             "type": "holiday",
             "description": "Country club plaza",
-            "img": []
+            "img": ["img/kansas_city_1_1.jpg","img/kansas_city_1_2.jpg","img/kansas_city_1_3.jpg"]
             },
         "stlouis_butterfly": {
             "name": "Butterfly Garden, St Louis",

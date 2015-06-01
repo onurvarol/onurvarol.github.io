@@ -267,9 +267,22 @@
               var waypts = [];
               for (var i = 0; i < places.length; i++) {
                 var place = travelJournal["locations"][places[i]];
-                waypts.push({
-                location:place['location'],
-                stopover:true});
+
+                var draw = true;
+                if (i+1 < places.length){
+                  var nextPlace = travelJournal["locations"][places[i+1]];
+                  var dist = Math.abs(nextPlace['lat-lon'][0] - place['lat-lon'][0]) +  Math.abs(nextPlace['lat-lon'][1] - place['lat-lon'][1])
+                  console.log(place['name'], nextPlace['name'], dist)
+                  if (dist > 1.){
+                    draw = false;
+                  }
+                }
+
+                if(draw){
+                  waypts.push({
+                    location:place['location'],
+                    stopover:true});
+                }
               }
                 
               var request = {
