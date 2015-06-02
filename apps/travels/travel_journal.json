@@ -36,7 +36,7 @@
                     "zoom": 11
                 }
             ],
-            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "salt_lake"]
+            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "rock_springs", "salt_lake"]
         },  
 
         "california_2013":{
@@ -229,6 +229,14 @@
             "lat-lon": [40.7629046,-111.8875325],
             "type": "holiday",
             "description": "Salt Lake City",
+            "img": []
+            },
+        "rock_springs": {
+            "name": "Rock Springs",
+            "location": "Rock Springs, WY",
+            "lat-lon": [41.5937149,-109.2428237],
+            "type": "holiday",
+            "description": "Rock Springs",
             "img": []
             },
         "denver": {
