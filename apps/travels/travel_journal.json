@@ -28,9 +28,15 @@
                     "content": "After a long drive from Kansas City, we arrived Manitou springs for our hotel very late. We started our third day very early to visit and headed to the Gardens of the Gods. After enjoying beautiful view we drove to the top of Pikes peak. All of those places are breath-taking and I recommend you to visit :)",
                     "lat-lon": [38.8688231,-104.9525787],
                     "zoom": 10
+                },
+                {
+                    "title": "Fourth stop: Salt Lake City",
+                    "content": "",
+                    "lat-lon": [40.7629046,-111.8875325],
+                    "zoom": 11
                 }
             ],
-            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver"]
+            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "salt_lake"]
         },  
 
         "california_2013":{
@@ -55,6 +61,11 @@
     },
 
     "cities": {
+        "salt_lake_city": {
+            "name": "Salt Lake City, UT",
+            "zoom": 14,
+            "places": ["salt_lake"]
+        },
         "denver": {
             "name": "Denver, CO",
             "zoom": 15,
@@ -212,13 +223,21 @@
     },
 
     "locations":{
+        "salt_lake": {
+            "name": "Salt Lake City",
+            "location": "Salt Lake City, UT",
+            "lat-lon": [40.7629046,-111.8875325],
+            "type": "holiday",
+            "description": "Salt Lake City",
+            "img": []
+            },
         "denver": {
             "name": "Denver CO",
             "location": "Denver, CO",
             "lat-lon": [39.7437512,-104.9745878],
             "type": "holiday",
             "description": "Denver",
-            "img": []
+            "img": ["img/denver_1.jpg","img/denver_2.jpg"]
             },
         "pikes_peak": {
             "name": "Pikes peak, Colorado Springs CO",
