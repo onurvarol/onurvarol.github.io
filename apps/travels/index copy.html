@@ -263,22 +263,13 @@
               var camera = {'journey_start':{'lat-lon':latlon, 'bounds':bounds}};
               createSlideBox(journey, map, camera);
 
-              //directionsDisplay = new google.maps.DirectionsRenderer(directionsDisplayOptions);
-              var step = 7;
-              var directionsDisplayList = new Array(Math.ceil(places.length / step));
-              var placeList = new Array(Math.ceil(places.length / step));
-              var wayptsList = new Array(Math.ceil(places.length / step));
-              for (var i = 0; i < wayptsList.length; i++) {
-                wayptsList[i] = [];
-                placeList[i] = [];
-                directionsDisplayList[i] = new google.maps.DirectionsRenderer(directionsDisplayOptions);
-                directionsDisplayList[i].setMap(map);
-              }
-
+              directionsDisplay = new google.maps.DirectionsRenderer(directionsDisplayOptions);
+              var wayptsList = [];
+              var waypts = [];
               for (var i = 0; i < places.length; i++) {
                 var place = travelJournal["locations"][places[i]];
+
                 var draw = true;
-                /*
                 if (i+1 < places.length){
                   var nextPlace = travelJournal["locations"][places[i+1]];
                   var dist = Math.abs(nextPlace['lat-lon'][0] - place['lat-lon'][0]) +  Math.abs(nextPlace['lat-lon'][1] - place['lat-lon'][1])
@@ -287,55 +278,15 @@
                     draw = false;
                   }
                 }
-                */
 
-                var mI = Math.floor(i / step);
                 if(draw){
-                  placeList[mI].push(places[i])
-                  wayptsList[mI].push({
+                  waypts.push({
                     location:place['location'],
                     stopover:true});
                 }
               }
-              console.log(placeList);
-              console.log(placeList.length);
+              console.log(waypts);
 
-              var requests = [];
-              for (var k = 0; k < wayptsList.length; k++) {
-                var sPoint = placeList[k][0];
-                var ePoint = placeList[k][placeList[k].length-1];
-                console.log(sPoint);
-                console.log(ePoint);
-                console.log(k);
-                //console.log(travelJournal["locations"][sPoint]);
-                //console.log(travelJournal["locations"][ePoint]);
-                
-                var tempW = wayptsList[k]
-                var request = {
-                  origin: travelJournal["locations"][sPoint]['location'],
-                  destination: travelJournal["locations"][ePoint]['location'],
-                  waypoints: tempW,
-                  optimizeWaypoints: false,
-                  travelMode: google.maps.TravelMode.DRIVING
-                };
-                requests.push(request);
-
-                var temp = directionsDisplayList[k];
-                console.log(k);
-                console.log(temp);
-                directionsService.route(requests[k], function(response, status) {
-                  if (status == google.maps.DirectionsStatus.OK) {
-                    //console.log(directionsDisplayList);
-                    //console.log(k);
-                    //console.log(temp);
-                    temp.setDirections(response);    
-                  }
-                });
-                
-                //directionsDisplayList[k].setMap(map);
-              }
-
-              /*
               var request = {
                 origin: travelJournal["locations"][places[0]]['location'],
                 destination: travelJournal["locations"][places[places.length-1]]['location'],
@@ -350,7 +301,6 @@
                 }
               });
               directionsDisplay.setMap(map);
-              */
 
             } else {
               console.log('none');

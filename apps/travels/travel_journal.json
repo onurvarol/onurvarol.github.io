@@ -36,7 +36,7 @@
                     "zoom": 11
                 }
             ],
-            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "rock_springs", "salt_lake"]
+            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "rock_springs", "salt_lake_city", "salt_lake_cottonwood", "twin_falls_perrine_bridge", "salt_lake_antelope_island", "twin_falls_shoshone_falls", "nampa"]
         },  
 
         "california_2013":{
@@ -61,10 +61,20 @@
     },
 
     "cities": {
+        "nampa": {
+            "name": "Nampa, ID",
+            "zoom": 11,
+            "places": ["nampa"]
+        },
+        "twin_falls": {
+            "name": "Twin Falls, ID",
+            "zoom": 11,
+            "places": ["twin_falls_perrine_bridge", "twin_falls_shoshone_falls"]
+        },
         "salt_lake_city": {
             "name": "Salt Lake City, UT",
-            "zoom": 14,
-            "places": ["salt_lake"]
+            "zoom": 10,
+            "places": ["salt_lake_city", "salt_lake_cottonwood", "salt_lake_antelope_island"]
         },
         "denver": {
             "name": "Denver, CO",
@@ -223,13 +233,53 @@
     },
 
     "locations":{
-        "salt_lake": {
+        "nampa": {
+            "name": "Nampa, Idaho",
+            "location": "Namp, ID",
+            "lat-lon": [43.5818969,-116.5698458],
+            "type": "holiday",
+            "description": "Nampa",
+            "img": []
+            },
+        "twin_falls_shoshone_falls": {
+            "name": "Shoshone Falls, Twin Falls, Idaho",
+            "location": "Shoshone Falls, Twin Falls, ID",
+            "lat-lon": [42.5956986,-114.4003874],
+            "type": "holiday",
+            "description": "Shoshone Falls",
+            "img": []
+            },
+        "twin_falls_perrine_bridge": {
+            "name": "Perrine Bridge, Twin Falls, Idaho",
+            "location": "Perrine Bridge, Twin Falls, ID",
+            "lat-lon": [42.60084,-114.453515],
+            "type": "holiday",
+            "description": "Perrine Bridge",
+            "img": []
+            },
+        "salt_lake_cottonwood": {
+            "name": "Big Cottonwood Canyon, Salt Lake City",
+            "location": "Big Cottonwood Canyon, Salt Lake City, UT",
+            "lat-lon": [40.6069238,-111.5880112],
+            "type": "holiday",
+            "description": "Big Cottonwood Canyon",
+            "img": ["img/bigcottonwood_1.jpg","img/bigcottonwood_2jpg","img/bigcottonwood_3.jpg"]
+            },
+        "salt_lake_antelope_island": {
+            "name": "Antelope Island, Salt Lake City",
+            "location": "Antelope Island, Salt Lake City, UT",
+            "lat-lon": [40.9564141,-112.2107073],
+            "type": "holiday",
+            "description": "Antelope Island",
+            "img": ["img/antelope_island_1.jpg"]
+            },
+        "salt_lake_city": {
             "name": "Salt Lake City",
             "location": "Salt Lake City, UT",
             "lat-lon": [40.7629046,-111.8875325],
             "type": "holiday",
             "description": "Salt Lake City",
-            "img": []
+            "img": ["img/saltlake_1.jpg","img/saltlake_2.jpg"]
             },
         "rock_springs": {
             "name": "Rock Springs",
