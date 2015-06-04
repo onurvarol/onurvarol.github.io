@@ -247,7 +247,7 @@
             "lat-lon": [42.5956986,-114.4003874],
             "type": "holiday",
             "description": "Shoshone Falls",
-            "img": []
+            "img": ["img/twin_falls_shoshone_falls_1.jpg", "img/twin_falls_shoshone_falls_2.jpg"]
             },
         "twin_falls_perrine_bridge": {
             "name": "Perrine Bridge, Twin Falls, Idaho",
@@ -255,7 +255,7 @@
             "lat-lon": [42.60084,-114.453515],
             "type": "holiday",
             "description": "Perrine Bridge",
-            "img": []
+            "img": ["img/twin_falls_perrine_bridge_1.jpg"]
             },
         "salt_lake_cottonwood": {
             "name": "Big Cottonwood Canyon, Salt Lake City",

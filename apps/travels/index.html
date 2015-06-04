@@ -328,6 +328,8 @@
                     //console.log(directionsDisplayList);
                     //console.log(k);
                     //console.log(temp);
+                    temp = new google.maps.DirectionsRenderer(directionsDisplayOptions);
+                    temp.setMap(map);
                     temp.setDirections(response);    
                   }
                 });
