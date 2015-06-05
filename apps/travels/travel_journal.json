@@ -252,7 +252,7 @@
             "lat-lon": [45.511487,-122.7174099],
             "type": "holiday",
             "description": "Washington Park",
-            "img": []
+            "img": ["img/portland_washington_park_2.jpg","img/portland_washington_park_1.jpg"]
             },
         "portland_columbia_river": {
             "name": "Columbia river, Oregon",
@@ -260,7 +260,7 @@
             "lat-lon": [],
             "type": "holiday",
             "description": "Columbia River",
-            "img": []
+            "img": ["img/portland_columbia_river_1.jpg","img/portland_columbia_river_2.jpg"]
             },
         "nampa": {
             "name": "Nampa, Idaho",
@@ -276,7 +276,7 @@
             "lat-lon": [42.5956986,-114.4003874],
             "type": "holiday",
             "description": "Shoshone Falls",
-            "img": ["twin_falls_shoshone_falls_3.jpg","img/twin_falls_shoshone_falls_1.jpg", "img/twin_falls_shoshone_falls_2.jpg"]
+            "img": ["img/twin_falls_shoshone_falls_3.jpg","img/twin_falls_shoshone_falls_1.jpg", "img/twin_falls_shoshone_falls_2.jpg"]
             },
         "twin_falls_perrine_bridge": {
             "name": "Perrine Bridge, Twin Falls, Idaho",
