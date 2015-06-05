@@ -340,7 +340,7 @@
             "lat-lon": [38.8771069,-104.880044],
             "type": "holiday",
             "description": "Garden of the Gods",
-            "img": ["img/gardens_of_the_gods_4.jpg","img/gardens_of_the_gods_1.jpg","img/gardens_of_the_gods_2.jpg","img/gardens_of_the_gods_3.jpg"]
+            "img": ["img/gardens_of_the_gods_5.jpg","img/gardens_of_the_gods_4.jpg","img/gardens_of_the_gods_1.jpg","img/gardens_of_the_gods_2.jpg","img/gardens_of_the_gods_3.jpg"]
             },
         "old_colorado_city": {
             "name": "Old colorado city, Colorado Springs CO",
@@ -348,7 +348,7 @@
             "lat-lon": [38.8461538,-104.8610294],
             "type": "holiday",
             "description": "Old colorado city",
-            "img": []
+            "img": ["img/old_colorado_city_2.jpg","img/old_colorado_city_1.jpg"]
             },
         "colorado_springs": {
             "name": "Colorado Springs, CO",
