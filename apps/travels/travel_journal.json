@@ -257,7 +257,7 @@
         "portland_columbia_river": {
             "name": "Columbia river, Oregon",
             "location": "Columbia river, OR",
-            "lat-lon": [],
+            "lat-lon": [45.5870252,-121.7023051],
             "type": "holiday",
             "description": "Columbia River",
             "img": ["img/portland_columbia_river_1.jpg","img/portland_columbia_river_2.jpg"]
