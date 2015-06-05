@@ -36,7 +36,7 @@
                     "zoom": 11
                 }
             ],
-            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "rock_springs", "salt_lake_city", "salt_lake_cottonwood", "twin_falls_perrine_bridge", "salt_lake_antelope_island", "twin_falls_shoshone_falls", "nampa"]
+            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "rock_springs", "salt_lake_city", "salt_lake_cottonwood", "twin_falls_perrine_bridge", "salt_lake_antelope_island", "twin_falls_shoshone_falls", "nampa", "portland_columbia_river", "portland_downtown", "portland_washington_park"]
         },  
 
         "california_2013":{
@@ -61,6 +61,11 @@
     },
 
     "cities": {
+        "portland": {
+            "name": "Portland, OR",
+            "zoom": 11,
+            "places": ["portland_downtown","portland_washington_park", "portland_columbia_river"]
+        },
         "nampa": {
             "name": "Nampa, ID",
             "zoom": 11,
@@ -233,9 +238,33 @@
     },
 
     "locations":{
+        "portland_downtown": {
+            "name": "Portland, Oregon",
+            "location": "Portland, OR",
+            "lat-lon": [45.5195884,-122.698024],
+            "type": "holiday",
+            "description": "Portland",
+            "img": []
+            },
+        "portland_washington_park": {
+            "name": "Washinton Park, Portland, Oregon",
+            "location": "Washington Park, Portland, OR",
+            "lat-lon": [45.511487,-122.7174099],
+            "type": "holiday",
+            "description": "Washington Park",
+            "img": []
+            },
+        "portland_columbia_river": {
+            "name": "Columbia river, Oregon",
+            "location": "Columbia river, OR",
+            "lat-lon": [],
+            "type": "holiday",
+            "description": "Columbia River",
+            "img": []
+            },
         "nampa": {
             "name": "Nampa, Idaho",
-            "location": "Namp, ID",
+            "location": "Nampa, ID",
             "lat-lon": [43.5818969,-116.5698458],
             "type": "holiday",
             "description": "Nampa",
@@ -247,7 +276,7 @@
             "lat-lon": [42.5956986,-114.4003874],
             "type": "holiday",
             "description": "Shoshone Falls",
-            "img": ["img/twin_falls_shoshone_falls_1.jpg", "img/twin_falls_shoshone_falls_2.jpg"]
+            "img": ["twin_falls_shoshone_falls_3.jpg","img/twin_falls_shoshone_falls_1.jpg", "img/twin_falls_shoshone_falls_2.jpg"]
             },
         "twin_falls_perrine_bridge": {
             "name": "Perrine Bridge, Twin Falls, Idaho",
@@ -255,7 +284,7 @@
             "lat-lon": [42.60084,-114.453515],
             "type": "holiday",
             "description": "Perrine Bridge",
-            "img": ["img/twin_falls_perrine_bridge_1.jpg"]
+            "img": ["img/twin_falls_perrine_bridge_2.jpg","img/twin_falls_perrine_bridge_1.jpg"]
             },
         "salt_lake_cottonwood": {
             "name": "Big Cottonwood Canyon, Salt Lake City",
@@ -263,7 +292,7 @@
             "lat-lon": [40.6069238,-111.5880112],
             "type": "holiday",
             "description": "Big Cottonwood Canyon",
-            "img": ["img/bigcottonwood_1.jpg","img/bigcottonwood_2jpg","img/bigcottonwood_3.jpg"]
+            "img": ["img/bigcottonwood_4.jpg","img/bigcottonwood_1.jpg","img/bigcottonwood_2jpg","img/bigcottonwood_3.jpg"]
             },
         "salt_lake_antelope_island": {
             "name": "Antelope Island, Salt Lake City",
@@ -295,7 +324,7 @@
             "lat-lon": [39.7437512,-104.9745878],
             "type": "holiday",
             "description": "Denver",
-            "img": ["img/denver_1.jpg","img/denver_2.jpg"]
+            "img": ["img/denver_3.jpg","img/denver_1.jpg","img/denver_2.jpg"]
             },
         "pikes_peak": {
             "name": "Pikes peak, Colorado Springs CO",
@@ -311,7 +340,7 @@
             "lat-lon": [38.8771069,-104.880044],
             "type": "holiday",
             "description": "Garden of the Gods",
-            "img": ["img/gardens_of_the_gods_1.jpg","img/gardens_of_the_gods_2.jpg","img/gardens_of_the_gods_3.jpg"]
+            "img": ["img/gardens_of_the_gods_4.jpg","img/gardens_of_the_gods_1.jpg","img/gardens_of_the_gods_2.jpg","img/gardens_of_the_gods_3.jpg"]
             },
         "old_colorado_city": {
             "name": "Old colorado city, Colorado Springs CO",
@@ -367,7 +396,7 @@
             "lat-lon": [38.624691,-90.184776],
             "type": "holiday",
             "description": "St. Louis Gateway Arch",
-            "img": ["img/stlouis_1.jpg","img/stlouis_2.jpg","img/stlouis_3.jpg"]
+            "img": ["img/stlouis_6.jpg","img/stlouis_1.jpg","img/stlouis_2.jpg","img/stlouis_3.jpg"]
             },
         "redmond": {
             "name": "Redmond",
