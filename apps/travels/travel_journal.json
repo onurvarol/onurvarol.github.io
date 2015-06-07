@@ -63,7 +63,7 @@
     "cities": {
         "portland": {
             "name": "Portland, OR",
-            "zoom": 11,
+            "zoom": 10,
             "places": ["portland_downtown","portland_washington_park", "portland_columbia_river"]
         },
         "nampa": {
@@ -73,7 +73,7 @@
         },
         "twin_falls": {
             "name": "Twin Falls, ID",
-            "zoom": 11,
+            "zoom": 13,
             "places": ["twin_falls_perrine_bridge", "twin_falls_shoshone_falls"]
         },
         "salt_lake_city": {
