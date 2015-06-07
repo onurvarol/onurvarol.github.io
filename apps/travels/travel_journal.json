@@ -36,7 +36,7 @@
                     "zoom": 11
                 }
             ],
-            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "rock_springs", "salt_lake_city", "salt_lake_cottonwood", "twin_falls_perrine_bridge", "salt_lake_antelope_island", "twin_falls_shoshone_falls", "nampa", "portland_columbia_river", "portland_downtown", "portland_washington_park"]
+            "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "rock_springs", "salt_lake_city", "salt_lake_cottonwood", "twin_falls_perrine_bridge", "salt_lake_antelope_island", "twin_falls_shoshone_falls", "nampa", "portland_columbia_river", "portland_downtown", "portland_washington_park","redmond"]
         },  
 
         "california_2013":{
@@ -252,7 +252,7 @@
             "lat-lon": [45.511487,-122.7174099],
             "type": "holiday",
             "description": "Washington Park",
-            "img": ["img/portland_washington_park_2.jpg","img/portland_washington_park_1.jpg"]
+            "img": ["img/portland_washington_park_3.jpg","img/portland_washington_park_2.jpg","img/portland_washington_park_1.jpg"]
             },
         "portland_columbia_river": {
             "name": "Columbia river, Oregon",
