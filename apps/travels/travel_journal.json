@@ -400,7 +400,7 @@
             },
         "redmond": {
             "name": "Redmond",
-            "location": "Microsoft Campus, Building 99",
+            "location": "Microsoft Campus, Building 99, Remond Washington",
             "lat-lon": [47.6421149,-122.1412169],
             "type": "work",
             "description": "Internship at MSR",
