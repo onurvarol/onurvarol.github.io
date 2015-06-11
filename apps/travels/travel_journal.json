@@ -3,7 +3,7 @@
 
         "east_2_west_2015":{
             "name": "East to west road trip (2015)",
-            "info": "Our road trip starting from Southbend IN and heading to Seattle WA. We are driving almost 2500 miles across continent, while visiting 9 different states and several cities on our path.",
+            "info": "Our road trip starting from Southbend IN and heading to Seattle WA. We are driving almost 2500 miles across continent, while visiting 9 different states and several cities on our path <br/><br/> Here is a blog posts from <a href='http://www3.nd.edu/~nmustafa/' target='_blank'>Nur</a> <br/> <a href='http://nurmustafaoglu.blogspot.com/2015/05/0-0-1-353-2018-university-of-notre-dame.html' target='_blank'>1</a> <a href='http://nurmustafaoglu.blogspot.com/2015/05/macera-dolu-amerika.html' target='_blank'>2</a> <a href='http://nurmustafaoglu.blogspot.com/2015/06/macera-dolu-amerika-3-gun.html' target='_blank'>3</a> <a href='http://nurmustafaoglu.blogspot.com/2015/06/macera-dolu-amerika-4-gun.html' target='_blank'>4</a> <a href='http://nurmustafaoglu.blogspot.com/2015/06/macera-dolu-amerika-5-gun.html' target='_blank'>5</a> <a href='http://nurmustafaoglu.blogspot.com/2015/06/macera-dolu-amerika-6-gun.html' target='_blank'>6</a> <a href='http://nurmustafaoglu.blogspot.com/2015/06/macera-dolu-amerika-7-gun.html' target='_blank'>7</a>",
             "slides": [
                 {
                     "title": "Starting point: home",
@@ -31,9 +31,15 @@
                 },
                 {
                     "title": "Fourth stop: Salt Lake City",
-                    "content": "",
+                    "content": "Salt Lake is a beautiful city and we enjoyed both city center and parks around it.",
                     "lat-lon": [40.7629046,-111.8875325],
-                    "zoom": 11
+                    "zoom": 10
+                },
+                {
+                    "title": "Fifth stop: Twin Falls",
+                    "content": "So much beauty in a very small radius of area.",
+                    "lat-lon": [42.5965228,-114.4210791],
+                    "zoom": 13
                 }
             ],
             "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "rock_springs", "salt_lake_city", "salt_lake_cottonwood", "twin_falls_perrine_bridge", "salt_lake_antelope_island", "twin_falls_shoshone_falls", "nampa", "portland_columbia_river", "portland_downtown", "portland_washington_park","redmond"]
