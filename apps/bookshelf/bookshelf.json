@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"The Emotion Machine",
+    "author":"Marvin Minsky",
+    "imgsrc":"img/emotion_machine.jpg",
+    "date":"June 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":3
+},
+{
     "name":"The Meme Machine",
     "author":"Susan Blackmore",
     "imgsrc":"img/meme-machine.jpg",
