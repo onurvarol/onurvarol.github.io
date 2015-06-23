@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"The Book of the Damned",
+    "author":"Charles Hoy Fort",
+    "imgsrc":"img/book_damned.jpg",
+    "date":"June 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":2
+},
+{
     "name":"The Emotion Machine",
     "author":"Marvin Minsky",
     "imgsrc":"img/emotion_machine.jpg",
@@ -1620,6 +1629,15 @@
     "date":"December 2009",
     "notes":"Notlar",
     "score":3
+  },
+  {
+    "name":"Nutuk",
+    "author":"Mustafa Kemal Ataturk",
+    "imgsrc":"img/nutuk.jpg",
+    "comment":"",
+    "date":"",
+    "notes":"Notlar",
+    "score":5
   },
   {
     "name":"Önemi olmayan küçük yanlış anlamalar",
