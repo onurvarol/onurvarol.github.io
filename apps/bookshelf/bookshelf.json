@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Primitive Mythology",
+    "author":"Joseph Campbell",
+    "imgsrc":"img/primitive_mythology.jpg",
+    "date":"June 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"The Book of the Damned",
     "author":"Charles Hoy Fort",
     "imgsrc":"img/book_damned.jpg",
