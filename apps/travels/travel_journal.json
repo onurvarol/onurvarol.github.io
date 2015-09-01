@@ -1,8 +1,33 @@
 {
     "journeys": {
+        "west_2_east_2015":{
+            "name": "West to east road trip (Sep 2015)",
+            "info": "Our road trip starting from Seattle, WA and heading to our home in Notre Dame, IN. This is the second stage of our road trip during my internship at Microsoft Research.",
+            "slides": [
+                {
+                    "title": "Let's the adventure begin!",
+                    "content": "God created Raki and Fish! We started our journey after tasting delicious fish while enjoying wonderful Turkish drink Raki.",
+                    "lat-lon": [47.6908925,-122.3550099],
+                    "zoom": 14
+                },
+                {
+                    "title": "Olympic National Park",
+                    "content": "",
+                    "lat-lon": [48.0077764,-123.6943395],
+                    "zoom": 10
+                },
+                {
+                    "title": "Mount Rainier National Park",
+                    "content": "",
+                    "lat-lon": [46.7816386,-121.7375036],
+                    "zoom": 13
+                }
+            ],
+            "places": ["redmond", "hurricane_ridge_olympic_national_park", "crescent_lake_olympic_national_park", "sol_duc_olympic_national_park", "nisqually_rainier_national_park", "narada_rainier_national_park", "paradise_rainier_national_park", "reflection_rainier_national_park", "spokane"]
+        },
 
         "east_2_west_2015":{
-            "name": "East to west road trip (2015)",
+            "name": "East to west road trip (Jun 2015)",
             "info": "Our road trip starting from Southbend IN and heading to Seattle WA. We are driving almost 2500 miles across continent, while visiting 9 different states and several cities on our path <br/><br/> Here is a blog posts from <a href='http://www3.nd.edu/~nmustafa/' target='_blank'>Nur</a> <br/> <a href='http://nurmustafaoglu.blogspot.com/2015/05/0-0-1-353-2018-university-of-notre-dame.html' target='_blank'>1</a> <a href='http://nurmustafaoglu.blogspot.com/2015/05/macera-dolu-amerika.html' target='_blank'>2</a> <a href='http://nurmustafaoglu.blogspot.com/2015/06/macera-dolu-amerika-3-gun.html' target='_blank'>3</a> <a href='http://nurmustafaoglu.blogspot.com/2015/06/macera-dolu-amerika-4-gun.html' target='_blank'>4</a> <a href='http://nurmustafaoglu.blogspot.com/2015/06/macera-dolu-amerika-5-gun.html' target='_blank'>5</a> <a href='http://nurmustafaoglu.blogspot.com/2015/06/macera-dolu-amerika-6-gun.html' target='_blank'>6</a> <a href='http://nurmustafaoglu.blogspot.com/2015/06/macera-dolu-amerika-7-gun.html' target='_blank'>7</a>",
             "slides": [
                 {
@@ -67,6 +92,16 @@
     },
 
     "cities": {
+        "mt_rainier_national_park": {
+            "name": "Mount Rainier National Park",
+            "zoom": 14,
+            "places": ["nisqually_rainier_national_park", "narada_rainier_national_park", "paradise_rainier_national_park", "reflection_rainier_national_park"]
+        },
+        "olympic_national_park": {
+            "name": "Olympic National Park",
+            "zoom": 10,
+            "places": ["sol_duc_olympic_national_park", "crescent_lake_olympic_national_park", "hurricane_ridge_olympic_national_park"]
+        },
         "portland": {
             "name": "Portland, OR",
             "zoom": 10,
@@ -110,7 +145,7 @@
         "seattle": {
             "name": "Seattle, WA",
             "zoom": 7,
-            "places": ["redmond", "space_needle", "rainier_national_park"]
+            "places": ["redmond", "space_needle", "fremont"]
         },
         "boston": {
             "name": "Boston, MA",
@@ -244,6 +279,78 @@
     },
 
     "locations":{
+        "spokane": {
+            "name": "Spokane, Washington",
+            "location": "Spokane, WA",
+            "lat-lon": [47.6728404,-117.4121499],
+            "type": "holiday",
+            "description": "Spokane Washington",
+            "img": []
+        },
+        "reflection_rainier_national_park": {
+            "name": "Reflection Lake, Mount Rainier National Park",
+            "location": "Reflection Lake, Mount Rainier National Park, WA",
+            "lat-lon": [46.7696683,-121.7306477],
+            "type": "holiday",
+            "description": "Reflection Lake, Mount Rainier National Park",
+            "img": []
+            },
+        "narada_rainier_national_park": {
+            "name": "Narada Falls, Mount Rainier National Park",
+            "location": "Narada Falls, Mount Rainier National Park, WA",
+            "lat-lon": [46.7748978,-121.7461845],
+            "type": "holiday",
+            "description": "Narada Falls, Mount Rainier National Park",
+            "img": ["img/narada_rainier_1.jpg"]
+            },
+        "nisqually_rainier_national_park": {
+            "name": "Nisqually river, Mount Rainier National Park",
+            "location": "Nisqually river, Mount Rainier National Park, WA",
+            "lat-lon": [46.7815554,-121.7631469],
+            "type": "holiday",
+            "description": "Nisqually river, Mount Rainier National Park",
+            "img": ["img/nisqually_rainier_1.jpg"]
+            },
+        "paradise_rainier_national_park": {
+            "name": "Paradise, Mount Rainier National Park",
+            "location": "Paradise, Mount Rainier National Park, WA",
+            "lat-lon": [46.7862194,-121.7353718],
+            "type": "holiday",
+            "description": "Paradise, Mount Rainier National Park",
+            "img": ["img/mt_rainier.jpg"]
+            },
+        "sol_duc_olympic_national_park":{
+            "name": "Sol Duc Hot Springs, Olympic National Park",
+            "location": "Sol Duc Hot Springs, Olympic National Park, WA",
+            "lat-lon": [47.9695972,-123.8635286],
+            "type": "holiday",
+            "description": "Sol Duc Hot Springs, Olympic National Park",
+            "img": ["img/solduc_olympic_1.jpg"]
+            },
+        "crescent_lake_olympic_national_park":{
+            "name": "Crencent lake, Olympic National Park",
+            "location": "Crencent lake, Olympic National Park, WA",
+            "lat-lon": [48.07178,-123.8291036],
+            "type": "holiday",
+            "description": "Crencent lake, Olympic National Park",
+            "img": ["img/crescent_olympic_2.jpg", "img/crescent_olympic_1.jpg"]
+            },
+        "hurricane_ridge_olympic_national_park":{
+            "name": "Hurricane ridge, Olympic National Park",
+            "location": "Hurricane ridge, Olympic National Park, WA",
+            "lat-lon": [47.9331452,-123.4096267],
+            "type": "holiday",
+            "description": "Hurricane ridge, Olympic National Park",
+            "img": ["img/hurricane_olympic_1.jpg", "img/hurricane_olympic_2.jpg"]
+            },
+        "fremont": {
+            "name": "Fremont, Washington",
+            "location": "Fremont, WA",
+            "lat-lon": [47.6570097,-122.3549128],
+            "type": "holiday",
+            "description": "Fremont",
+            "img": []
+           },  
         "portland_downtown": {
             "name": "Portland, Oregon",
             "location": "Portland, OR",
@@ -419,14 +526,6 @@
             "type": "holiday",
             "description": "Space needle",
             "img": ["img/space_needle.jpg"]
-            },
-        "rainier_national_park": {
-            "name": "Mount Rainier National Park",
-            "location": "Mount Rainier National Park, WA",
-            "lat-lon": [46.879907,-121.7271423],
-            "type": "holiday",
-            "description": "Mount Rainier National Park",
-            "img": ["img/mt_rainier.jpg","img/space_needle.jpg"]
             },
         "www2014": {
             "name": "WWW'14 Conference",
@@ -743,6 +842,6 @@
     },
 
     "metadata":{
-        "last-update": "05-15-2015"
+        "last-update": "09-05-2015"
     }
 }
