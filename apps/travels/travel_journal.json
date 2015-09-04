@@ -21,9 +21,15 @@
                     "content": "",
                     "lat-lon": [46.7816386,-121.7375036],
                     "zoom": 13
+                },
+                {
+                    "title": "Yellowstone National Park",
+                    "content": "",
+                    "lat-lon": [44.4070336,-110.620308],
+                    "zoom": 8
                 }
             ],
-            "places": ["redmond", "hurricane_ridge_olympic_national_park", "crescent_lake_olympic_national_park", "sol_duc_olympic_national_park", "nisqually_rainier_national_park", "narada_rainier_national_park", "paradise_rainier_national_park", "reflection_rainier_national_park", "spokane"]
+            "places": ["redmond", "hurricane_ridge_olympic_national_park", "crescent_lake_olympic_national_park", "sol_duc_olympic_national_park", "nisqually_rainier_national_park", "narada_rainier_national_park", "paradise_rainier_national_park", "reflection_rainier_national_park", "spokane","missoula","mammoth_yellowstone","spring_yellowstone","oldfaithful_yellowstone","grand_teton_national_park"]
         },
 
         "east_2_west_2015":{
@@ -92,13 +98,23 @@
     },
 
     "cities": {
+        "grand_teton_national_park":{
+            "name": "Grand Teton National Park, WY",
+            "zoom":14,
+            "place":["grand_teton_national_park"]
+        },
+        "yellowstone_national_park":{
+            "name": "Yellowstone National Park, WY",
+            "zoom":14,
+            "place":["mammoth_yellowstone","spring_yellowstone","oldfaithful_yellowstone"]
+        },
         "mt_rainier_national_park": {
-            "name": "Mount Rainier National Park",
+            "name": "Mt. Rainier Nat. Park, WA",
             "zoom": 14,
             "places": ["nisqually_rainier_national_park", "narada_rainier_national_park", "paradise_rainier_national_park", "reflection_rainier_national_park"]
         },
         "olympic_national_park": {
-            "name": "Olympic National Park",
+            "name": "Olympic Nat. Park, WA",
             "zoom": 10,
             "places": ["sol_duc_olympic_national_park", "crescent_lake_olympic_national_park", "hurricane_ridge_olympic_national_park"]
         },
@@ -106,11 +122,6 @@
             "name": "Portland, OR",
             "zoom": 10,
             "places": ["portland_downtown","portland_washington_park", "portland_columbia_river"]
-        },
-        "nampa": {
-            "name": "Nampa, ID",
-            "zoom": 11,
-            "places": ["nampa"]
         },
         "twin_falls": {
             "name": "Twin Falls, ID",
@@ -279,6 +290,46 @@
     },
 
     "locations":{
+        "grand_teton_national_park": {
+            "name": "Grand Teton National Park, Wyoming",
+            "location": "Grand Teton National Park, Wyoming",
+            "lat-lon": [43.7930357,-110.6815016],
+            "type": "holiday",
+            "description": "Grand Teton National Park, Wyoming",
+            "img": ["img/grand_teton_national_park_1.jpg","img/grand_teton_national_park_2.jpg"]
+        },
+        "oldfaithful_yellowstone": {
+            "name": "Old Faithful, Yellowstone National Park, WY",
+            "location": "Old Faithful, Yellowstone National Park, WY",
+            "lat-lon": [44.4604714,-110.8281318],
+            "type": "holiday",
+            "description": "Old Faithful, Yellowstone National Park, WY",
+            "img": ["img/oldfaithful.gif"]
+        },
+        "spring_yellowstone": {
+            "name": "Grand Prismatic Spring, Yellowstone National Park, WY",
+            "location": "Grand Prismatic Spring, Grand Loop Rd, Yellowstone National Park, WY",
+            "lat-lon": [44.5250822,-110.8381893],
+            "type": "holiday",
+            "description": "Grand Prismatic Spring, Yellowstone National Park",
+            "img": ["img/spring_yellowstone_1.jpg","img/spring_yellowstone_2.jpg"]
+        },
+        "mammoth_yellowstone": {
+            "name": "Mammoth Hot Springs, Yellowstone National Park, WY",
+            "location": "Mammoth Hot Springs, Yellowstone National Park, WY",
+            "lat-lon": [44.9710109,-110.7033456],
+            "type": "holiday",
+            "description": "Mammoth Hot Springs, Yellowstone National Park",
+            "img": ["img/mammoth_yellowstone_1.jpg"]
+        },
+        "missoula": {
+            "name": "Missoula, Montana",
+            "location": "Missoula, WA",
+            "lat-lon": [46.8763215,-114.018167],
+            "type": "holiday",
+            "description": "Missoula Montana",
+            "img": []
+        },
         "spokane": {
             "name": "Spokane, Washington",
             "location": "Spokane, WA",
@@ -333,7 +384,7 @@
             "lat-lon": [48.07178,-123.8291036],
             "type": "holiday",
             "description": "Crencent lake, Olympic National Park",
-            "img": ["img/crescent_olympic_2.jpg", "img/crescent_olympic_1.jpg"]
+            "img": ["img/crescent_olympic_2.jpg", "img/crescent_olympic_1.jpg","img/crescent_olympic_3.jpg"]
             },
         "hurricane_ridge_olympic_national_park":{
             "name": "Hurricane ridge, Olympic National Park",
