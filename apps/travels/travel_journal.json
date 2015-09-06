@@ -29,7 +29,7 @@
                     "zoom": 8
                 }
             ],
-            "places": ["redmond", "hurricane_ridge_olympic_national_park", "crescent_lake_olympic_national_park", "sol_duc_olympic_national_park", "nisqually_rainier_national_park", "narada_rainier_national_park", "paradise_rainier_national_park", "reflection_rainier_national_park", "spokane","missoula","mammoth_yellowstone","spring_yellowstone","oldfaithful_yellowstone","grand_teton_national_park"]
+            "places": ["redmond", "hurricane_ridge_olympic_national_park", "crescent_lake_olympic_national_park", "sol_duc_olympic_national_park", "nisqually_rainier_national_park", "narada_rainier_national_park", "paradise_rainier_national_park", "reflection_rainier_national_park", "spokane","missoula","mammoth_yellowstone","spring_yellowstone","oldfaithful_yellowstone","grand_teton_national_park","custer_state_park","mt_rushmore","minneapolis_falls","madison_winsconsin"]
         },
 
         "east_2_west_2015":{
@@ -98,15 +98,30 @@
     },
 
     "cities": {
+        "madison_winsconsin":{
+            "name": "Madison, WI",
+            "zoom":14,
+            "places":["madison_winsconsin"]
+        },
+        "minneapolis":{
+            "name": "Minneapolis, MN",
+            "zoom":14,
+            "places":["minneapolis_falls"]
+        },
+        "rapid_city":{
+            "name": "Rapid City, SD",
+            "zoom":11,
+            "places":["custer_state_park","mt_rushmore"]
+        },
         "grand_teton_national_park":{
             "name": "Grand Teton National Park, WY",
             "zoom":14,
-            "place":["grand_teton_national_park"]
+            "places":["grand_teton_national_park"]
         },
         "yellowstone_national_park":{
             "name": "Yellowstone National Park, WY",
-            "zoom":14,
-            "place":["mammoth_yellowstone","spring_yellowstone","oldfaithful_yellowstone"]
+            "zoom":9,
+            "places":["mammoth_yellowstone","spring_yellowstone","oldfaithful_yellowstone"]
         },
         "mt_rainier_national_park": {
             "name": "Mt. Rainier Nat. Park, WA",
@@ -290,6 +305,38 @@
     },
 
     "locations":{
+        "madison_winsconsin":{
+            "name": "Madison, WI",
+            "location": "Wisconsin State Capitol, Madison, WI",
+            "lat-lon": [43.0746248,-89.3843311],
+            "type": "holiday",
+            "description": "Madison, Winsconsin",
+            "img": ["img/madison_winsconsin_1.jpg"]
+        },
+        "minneapolis_falls": {
+            "name": "St. Anthony Falls, Minneapolis, MN",
+            "location": "St. Anthony Falls, Minneapolis, MN",
+            "lat-lon": [44.9821877,-93.2555026],
+            "type": "holiday",
+            "description": "St. Anthony Falls, Minneapolis, MN",
+            "img": ["img/minneapolis_falls_1.jpg","img/minneapolis_falls_2.jpg"]
+        },
+        "mt_rushmore": {
+            "name": "Mt. Rushmore National Monument, South Dakota",
+            "location": "Mt Rushmore, SD-244, Keystone, SD",
+            "lat-lon": [43.8791013,-103.459605],
+            "type": "holiday",
+            "description": "Mt. Rushmore National Monument",
+            "img": ["img/mt_rushmore_1.jpg","img/mt_rushmore_2.jpg"]
+        },
+        "custer_state_park": {
+            "name": "Custer State Park, South Dakota",
+            "location": "Custer State Park, Custer, SD",
+            "lat-lon": [43.714542,-103.40538],
+            "type": "holiday",
+            "description": "Custer State Park, South Dakota",
+            "img": ["img/custer_state_park_1.jpg"]
+        },
         "grand_teton_national_park": {
             "name": "Grand Teton National Park, Wyoming",
             "location": "Grand Teton National Park, Wyoming",
