@@ -29,7 +29,7 @@
                     "zoom": 8
                 }
             ],
-            "places": ["redmond", "hurricane_ridge_olympic_national_park", "crescent_lake_olympic_national_park", "sol_duc_olympic_national_park", "nisqually_rainier_national_park", "narada_rainier_national_park", "paradise_rainier_national_park", "reflection_rainier_national_park", "spokane","missoula","mammoth_yellowstone","spring_yellowstone","oldfaithful_yellowstone","grand_teton_national_park","custer_state_park","mt_rushmore","minneapolis_falls","madison_winsconsin"]
+            "places": ["redmond", "hurricane_ridge_olympic_national_park", "crescent_lake_olympic_national_park", "sol_duc_olympic_national_park", "nisqually_rainier_national_park", "narada_rainier_national_park", "paradise_rainier_national_park", "reflection_rainier_national_park", "spokane","missoula","mammoth_yellowstone","spring_yellowstone","oldfaithful_yellowstone","grand_teton_national_park","mammoth_yellowstone","custer_state_park","mt_rushmore","minneapolis_falls","madison_winsconsin","milwaukee_winsconsin","notre_dame"]
         },
 
         "east_2_west_2015":{
@@ -305,6 +305,14 @@
     },
 
     "locations":{
+        "milwaukee_winsconsin":{
+            "name": "Milwaukee, WI",
+            "location": "Milwaukee, WI",
+            "lat-lon": [43.0325172,-87.9057566],
+            "type": "holiday",
+            "description": "Milwaukee, Winsconsin",
+            "img": []
+        },
         "madison_winsconsin":{
             "name": "Madison, WI",
             "location": "Wisconsin State Capitol, Madison, WI",
