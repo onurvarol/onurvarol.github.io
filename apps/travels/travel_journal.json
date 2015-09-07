@@ -114,12 +114,12 @@
             "places":["custer_state_park","mt_rushmore"]
         },
         "grand_teton_national_park":{
-            "name": "Grand Teton National Park, WY",
+            "name": "Grand Teton Nat. Park, WY",
             "zoom":14,
             "places":["grand_teton_national_park"]
         },
         "yellowstone_national_park":{
-            "name": "Yellowstone National Park, WY",
+            "name": "Yellowstone Nat. Park, WY",
             "zoom":9,
             "places":["mammoth_yellowstone","spring_yellowstone","oldfaithful_yellowstone"]
         },
@@ -947,7 +947,10 @@
             }
     },
 
+    "usa_coverage": ["CA", "CO", "ID", "IL", "IN", "KS", "MN", "MO", "MT", "OR", "SD", "TX", "UT", "WA", "WI", "WY"],
+    "europe_coverage": ["DE", "GR", "NL", "PT", "TR"],
+
     "metadata":{
-        "last-update": "09-05-2015"
+        "last-update": "09-07-2015"
     }
 }

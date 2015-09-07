@@ -18,6 +18,22 @@ html, body, #map-canvas {
     overflow: auto;
 }
 
+#summary-container {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    margin: 0px;
+    padding: 5px;
+    background-color: rgba(255,255,255,0.25);
+    border: 1px solid #999;
+    overflow: auto;
+}
+
+.summary-map{
+    float: left;
+    margin: 5px;
+}
+
 #slides-box{
     position: fixed;
     top: 30px;
