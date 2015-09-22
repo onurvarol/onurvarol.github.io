@@ -1,6 +1,11 @@
 {
 "BotOrNot":[
 	{
+		"source": "Fusion",
+		"title": "Why can’t Twitter kill its bots?",
+		"url": "http://fusion.net/story/195901/twitter-bots-spam-detection/"
+	},
+	{
 		"source": "Wired",
 		"title": "Slack Is Overrun With Bots. Friendly, Wonderful Bots",
 		"url": "http://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/"
