@@ -98,6 +98,21 @@
     },
 
     "cities": {
+        "grand_canyon":{
+            "name": "Grand Canyon Nat. Park, AZ",
+            "zoom": 12,
+            "places": ["grand_canyon_south"]
+        },
+        "page_arizona":{
+            "name": "Page, AZ",
+            "zoom": 12,
+            "places": ["lower_antilope_canyon","horseshoe_bend","lake_powell"]
+        },
+        "phoenix_arizona":{
+            "name": "Phoenix, AZ",
+            "zoom": 12,
+            "places": ["phoenix_arizona"]
+        },
         "madison_winsconsin":{
             "name": "Madison, WI",
             "zoom":14,
@@ -286,6 +301,14 @@
     },
 
     "conferences": {
+        "ccs15": {
+            "name": "CCS'15 (Tempe, USA)",
+            "location": "ccs15",
+            "presented": {
+                "title": "Evolution of online user behavior during a social upheaval",
+                "link": "http://dl.acm.org/citation.cfm?id=2615699"
+            }
+        },
         "www14": {
             "name": "WWW'14 (Seoul,Korea)",
             "location": "www2014",
@@ -305,6 +328,54 @@
     },
 
     "locations":{
+        "lower_antilope_canyon":{
+            "name": "Lower Antilope Canyon Page, AZ",
+            "location": "Lower Antilope Canyon Page, AZ",
+            "lat-lon": [36.9030927,-111.4140124],
+            "type": "holiday",
+            "description": "Lower Antilope Canyon Page, AZ",
+            "img": ["img/lower_antilope_1.jpg","img/lower_antilope_2.jpg","img/lower_antilope_3.jpg"]
+        },
+        "horseshoe_bend":{
+            "name": "Horseshoe bend Page, AZ",
+            "location": "Horseshoe bend Page, AZ",
+            "lat-lon": [36.8801145,-111.5148061],
+            "type": "holiday",
+            "description": "Horseshoe bend Page, AZ",
+            "img": ["img/horseshoe_bend_1.jpg"]
+        },
+        "lake_powell":{
+            "name": "Lake Powell Page, AZ",
+            "location": "Lake Powell Page, AZ",
+            "lat-lon": [36.9359309,-111.4982302],
+            "type": "holiday",
+            "description": "Lake Powell Page, AZ",
+            "img": ["img/lake_powell_1.jpg","img/lake_powell_2.jpg"]
+        },
+        "grand_canyon_south":{
+            "name": "Grand Canyon National Park South Rim, AZ",
+            "location": "Grand Canyon National Park South Rim, AZ",
+            "lat-lon": [36.1073396,-112.1153124],
+            "type": "holiday",
+            "description": "Grand Canyon National Park South Rim, AZ",
+            "img": ["img/grandcanyon_1.jpg","img/grandcanyon_2.jpg","img/grandcanyon_3.jpg","img/grandcanyon_4.jpg"]
+        },
+        "ccs15": {
+            "name": "CCS'15 Conference",
+            "location": "Tempe, Arizona, USA",
+            "lat-lon": [33.4060374,-111.9617981],
+            "type": "conference",
+            "description": "CCS'15 Conference",
+            "img": []
+        },
+        "phoenix_arizona":{
+            "name": "Phoenix, AZ",
+            "location": "Phoenix, Arizona, USA",
+            "lat-lon": [33.6056695,-112.4059331],
+            "type": "holiday",
+            "description": "Phoenix Arizona",
+            "img": []
+        },
         "milwaukee_winsconsin":{
             "name": "Milwaukee, WI",
             "location": "Milwaukee, WI",
@@ -947,10 +1018,10 @@
             }
     },
 
-    "usa_coverage": ["CA", "CO", "ID", "IL", "IN", "KS", "MN", "MO", "MT", "OR", "SD", "TX", "UT", "WA", "WI", "WY"],
+    "usa_coverage": ["AZ", "CA", "CO", "ID", "IL", "IN", "KS", "MN", "MO", "MT", "OR", "SD", "TX", "UT", "WA", "WI", "WY"],
     "europe_coverage": ["DE", "GR", "NL", "PT", "TR"],
 
     "metadata":{
-        "last-update": "09-07-2015"
+        "last-update": "09-30-2015"
     }
 }
