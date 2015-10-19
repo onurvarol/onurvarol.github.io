@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"The Dream and the Underworld",
+    "author":"James Hillman",
+    "imgsrc":"img/dream_underworld.jpg",
+    "date":"October 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":2
+},
+{
     "name":"Istanbullu",
     "author":"Buket Uzuner",
     "imgsrc":"img/istanbullular.jpeg",
