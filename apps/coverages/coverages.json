@@ -1,6 +1,11 @@
 {
 "BotOrNot":[
 	{
+		"source": "The Wall Street Journal",
+		"title": "On Twitter, Is the Next POTUS a Bot-US?",
+		"url": "http://blogs.wsj.com/digits/2015/10/28/on-twitter-is-the-next-potus-a-bot-us/"
+	},
+	{
 		"source": "Fusion",
 		"title": "Why can’t Twitter kill its bots?",
 		"url": "http://fusion.net/story/195901/twitter-bots-spam-detection/"
