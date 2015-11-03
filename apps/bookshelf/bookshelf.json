@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"LSD, My problem child",
+    "author":"Albert Hofmann",
+    "imgsrc":"img/lsd_hofmann.jpg",
+    "date":"October 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Moonstruck",
     "author":"Ernest Naylor",
     "imgsrc":"img/moonstruck.jpg",
