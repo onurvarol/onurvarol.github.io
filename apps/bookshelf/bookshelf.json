@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Lies, Damn Lies and Viral Content",
+    "author":"Craig Silverman",
+    "imgsrc":"img/damn_lies.png",
+    "date":"November 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"LSD, My problem child",
     "author":"Albert Hofmann",
     "imgsrc":"img/lsd_hofmann.jpg",
