@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Why Information Grows",
+    "author":"César Hidalgo",
+    "imgsrc":"img/why_information_grows.jpg",
+    "date":"November 2015",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":3
+},
+{
     "name":"The Secret Life of Pronouns",
     "author":"James W. Pennebaker",
     "imgsrc":"img/pronouns.png",
