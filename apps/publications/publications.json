@@ -26,6 +26,11 @@
 			}
 		]
 	},
+	{
+		"text": "V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, O. Varol, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang. <b>\"The darpa twitter bot challenge.\"</b> <i>IEEE Computer (In press)</i>",
+		"links": [],
+		"coverage": []
+	},
     {
 		"text": "M. JafariAsbagh, E. Ferrara, <u>O. Varol</u>, F. Menczer, A. Flammini <b>\"Clustering memes in social media streams\"</b>, <i>Social Network Analysis and Mining</i>",
 		"links": [
