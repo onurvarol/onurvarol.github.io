@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"The Science of Consequences",
+    "author":"Susan M. Schneider",
+    "imgsrc":"img/science-consequences.jpg",
+    "date":"2015-12-09",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":3
+},
+{
     "name":"Junk DNA",
     "author":"Nessa Carey",
     "imgsrc":"img/junk_dna.jpg",
@@ -469,7 +478,7 @@
     "score":5
 },
 {
-    "name":"Cristallizing Public Opinion",
+    "name":"Crystallizing Public Opinion",
     "author":"Edward L. Beynays",
     "imgsrc":"http://www.unz.org/CoverThumb/BernaysEdward-1924.jpg",
     "date":"2013-01",
@@ -820,7 +829,7 @@
     "score":4
   },
  {
-    "name":"Kaos(Düzensizlikteki Düzeni Anlamak İçin Çizgibilim)",
+    "name":"Kaos",
     "author":"Iwona Abrams, Ziauddin Sardar",
     "imgsrc":"http://static.ideefixe.com/images/339/339780_2.jpg",
     "comment":"-",
@@ -1324,8 +1333,8 @@
     "score":4
   },
   {
-    "name":"Henri Charriere  ",
-    "author":"Banko",
+    "name":"Banko",
+    "author":"Henri Charriere",
     "imgsrc":"http://www.kitapokuyoruz.com/kapak/1597-Banko.jpg",
     "comment":"-Suçsuz yere hapis yatan ve intikam hırsıyla sürekli kaçmaya çabalayan yazarın kelebekten sonraki 2ci kitabı burada özgürlüğünü elde ettikten sonra başından gelenleri anlatıyor",
     "date":"2006-07",
@@ -1415,7 +1424,7 @@
   },
   {
     "name":"Sofienin Dünyası",
-    "author":"Jostein Gaarder  ",
+    "author":"Jostein Gaarder",
     "imgsrc":"img/sofinin-dunyasi.jpg",
     "comment":"-Mükemmel bir felsefe tarihi aynı zamanda hoş bir kurguyla felsefeyi işliyor. Liselerde keske bu şekilde kitaplar okutularak felsefe öğretilse",
     "date":"2008-07",
@@ -1424,7 +1433,7 @@
   },
   {
     "name":"Koku",
-    "author":"Patrick Süskind  ",
+    "author":"Patrick Süskind",
     "imgsrc":"http://static.ideefixe.com/images/30/30259_2.jpg",
     "comment":"-Paris sokaklarında çöpler arasında doğan bir çocugun o kıymetsiz yaşamını yaptığı parfumlerla nasıl kazandığı olağanustu bir koku duyusu olmasına rağmen kendine ait bir kokusu olmaması üzerine kurulu bir eser ",
     "date":"2008-07",
@@ -1433,7 +1442,7 @@
   },
   {
     "name":"Yüzüncü Ad",
-    "author":"Amin Maalouf  ",
+    "author":"Amin Maalouf",
     "imgsrc":"http://www.pegem.net/resim/urun/31332200.jpg",
     "comment":"-",
     "date":"2004",
@@ -1442,7 +1451,7 @@
   },
   {
     "name":"Uzay ve Zamanın Doğası",
-    "author":"Stephen W. Hawking  ",
+    "author":"Stephen W. Hawking",
     "imgsrc":"img/uzay_zamanin_dogasi.jpeg",
     "comment":"-",
     "date":"2004",
@@ -1451,7 +1460,7 @@
   },
   {
     "name":"Uzay ve Zamanın Doğası",
-    "author":"Stephen W. Hawking  ",
+    "author":"Stephen W. Hawking",
     "imgsrc":"http://upload.wikimedia.org/wikipedia/tr/3/33/Ceviz_Kabu%C4%9Fundaki_Evren.jpg",
     "comment":"-",
     "date":"2007",
@@ -1459,8 +1468,8 @@
     "score":4
   },
   {
-    "name":"Zamanın Kısa Tarihi ",
-    "author":"Stephen W. Hawking  ",
+    "name":"Zamanın Kısa Tarihi",
+    "author":"Stephen W. Hawking",
     "imgsrc":"http://static.ideefixe.com/images/23/23141_2.jpg",
     "comment":"-",
     "date":"2006",
@@ -1486,7 +1495,7 @@
     "score":4
   },
     {
-    "name":"Dünyayi Degistiren 5 Denklem ",
+    "name":"Dünyayi Degistiren 5 Denklem",
     "author":"Michael Guillen",
     "imgsrc":"http://static.ideefixe.com/images/88/88028_2.jpg",
     "comment":"-",
@@ -1495,7 +1504,7 @@
     "score":4
   },
   {
-    "name":"Zamanın Daha Kısa Tarihi ",
+    "name":"Zamanın Daha Kısa Tarihi",
     "author":"Stephen W. Hawking  ",
     "imgsrc":"http://static.ideefixe.com/images/253/253796_2.jpg",
     "comment":"-",
@@ -1504,7 +1513,7 @@
     "score":4
   },
   {
-    "name":"Einstein Paradoksu ve Diğer Bilimsel Gizemler  ",
+    "name":"Einstein Paradoksu ve Diğer Bilimsel Gizemler",
     "author":"Colin Bruce  ",
     "imgsrc":"http://static.ideefixe.com/images/95/95386_2.jpg",
     "comment":"-",
@@ -1578,7 +1587,7 @@
   },
   {
     "name":"Aldatma Sanatı",
-    "author":"Kevin D. Mitnick  ",
+    "author":"Kevin D. Mitnick",
     "imgsrc":"http://www.saykitap.com/BSWEB/images/kitap/24980.jpg",
     "comment":"-Bir sisteme girmenin en iyi yolunun insanlardan kaynaklanan hatalar oldugunu açıklayan ve örneklendiren meshur bir hackerın kitabı",
     "date":"2008",
@@ -1586,7 +1595,7 @@
     "score":4
   },
   {
-    "name":"Ölüm Kapısı Serisi ( 7 Kitap )",
+    "name":"Ölüm Kapısı Serisi (7)",
     "author":"Margaret Weis &amp; Tracy Hickman",
     "imgsrc":"img/olum_kapisi_serisi.jpg",
     "comment":"-Okudugum en harika fantastik kurgu serisi..",
@@ -1595,7 +1604,7 @@
     "score":4
   },
   {
-    "name":"Karakılıç Serisi ( 4 Kitap )",
+    "name":"Karakılıç Serisi (4)",
     "author":"Margaret Weis &amp; Tracy Hickman",
     "imgsrc":"http://static.ideefixe.com/images/148/148218_2.jpg",
     "comment":"-",
@@ -1604,7 +1613,7 @@
     "score":4
   },
   {
-    "name":"Karakule Serisi ( 7 Kitap )",
+    "name":"Karakule Serisi (7)",
     "author":"Stephen King",
     "imgsrc":"http://static.ideefixe.com/images/193/193010_2.jpg",
     "comment":"-En süper eserlerinden biri okurken çok yogun bir heyecan yaşıyorsunuz ancak sonunu pek beğendiğimi söyleyemem ama herkesin okuması gereken bir seri",
@@ -1730,7 +1739,7 @@
     "score":3
   },
   {
-    "name":"Harry Potter Serisi",
+    "name":"Harry Potter Serisi (7)",
     "author":"J.K. Rowling",
     "imgsrc":"img/harry_potter_serisi.jpg",
     "comment":"-Harry Potter işte :)",
@@ -1847,7 +1856,7 @@
     "score":4
   },
   {
-    "name":"Yüzüklerin Efendisi(1,2,3)",
+    "name":"Yüzüklerin Efendisi Serisi (3)",
     "author":"J.R.R. Tolkien",
     "imgsrc":"img/yuzuklerin_efendisi.jpg",
     "comment":"-",
@@ -1892,7 +1901,7 @@
     "score":5
   },
   {
-    "name":"Yesil Kiraz 1-2",
+    "name":"Yesil Kiraz Serisi (2)",
     "author":"Gulten Dayioglu",
     "imgsrc":"img/yesil-kiraz.jpg",
     "comment":"-",
