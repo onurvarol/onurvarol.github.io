@@ -1,0 +1,60 @@
+{
+    "icwsm2016":{
+        "name": "ICWSM 2016",
+        "url": "http://icwsm.org/2016/submitting/call-for-papers/",
+        "deadlines":[
+            {
+                "name":"Abstract deadline",
+                "date":"2016-01-05 23:50 -10:00"
+            },
+            {
+                "name": "Paper deadline",
+                "date":"2016-01-11 23:59 -10:00"
+            }
+        ]
+    },
+    "wwwDevDay": {
+        "name": "WWW Devoloper Day",
+        "url": "http://dig.csail.mit.edu/2016/WWWDevDay2016/",
+        "deadlines": [
+            {
+                "name": "Submission deadline",
+                "date": "2016-01-08 23:50 -10:00"
+            }
+        ]
+    },
+    "ic2s2_2016": {
+        "name": "IC2S2 2016",
+        "url": "http://www.kellogg.northwestern.edu/news-events/conference/ic2s2/2016.aspx",
+        "deadlines": [
+            {
+                "name": "Submission deadline",
+                "date": "2016-01-31 23:50 -05:00"
+            }
+        ]
+    },
+    "websci2016": {
+        "name": "WebScience 2016",
+        "url": "http://www.websci16.org/call-for-papers",
+        "deadlines": [
+            {
+                "name": "Abstract deadline",
+                "date": "2016-02-01 23:50 -05:00"
+            },
+            {
+                "name": "Paper deadline",
+                "date": "2016-02-08 23:50 -05:00"
+            }
+        ]
+    },
+    "kdd2016": {
+        "name": "KDD 2016",
+        "url": "http://www.kdd.org/kdd2016/news/view/kdd-2016-call-for-research-track-papers",
+        "deadlines": [
+            {
+                "name": "Paper deadline",
+                "date": "2016-02-12 23:50 -08:00"
+            }
+        ]
+    }
+}
