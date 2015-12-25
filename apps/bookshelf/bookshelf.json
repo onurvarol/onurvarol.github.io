@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Influence: Science and Practice",
+    "author":"Robert Cialdini",
+    "imgsrc":"img/influence.png",
+    "date":"2015-12-25",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+},
+{
     "name":"The Science of Consequences",
     "author":"Susan M. Schneider",
     "imgsrc":"img/science-consequences.jpg",
