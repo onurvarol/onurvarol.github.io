@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"Fahrenheit 451",
+    "author":"Ray Bradbury",
+    "imgsrc":"img/fahrenheit_451.jpg",
+    "date":"2015-12-26",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":4
+},
+{
     "name":"Influence: Science and Practice",
     "author":"Robert Cialdini",
     "imgsrc":"img/influence.png",
