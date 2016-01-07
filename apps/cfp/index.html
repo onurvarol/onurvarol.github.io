@@ -38,7 +38,7 @@ body {
         var cfpDiv = '';
         for (var c in conferences) {  
             // Skip if already passed
-            if (moment(conferences[c].deadlines[0].date).diff(moment()) < 0){
+            if (moment(conferences[c].deadlines[conferences[c].deadlines.length - 1].date).diff(moment()) < 0){
                 continue;
             }
 
