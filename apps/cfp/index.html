@@ -24,6 +24,10 @@ body {
     margin-top: 10px;
 }
 
+#bannerImage{
+    height: 250px;
+}
+
 .timeleft{
     color: red;
 }
@@ -38,6 +42,7 @@ body {
 <script type="text/javascript">
     function drawTable(conferences){
         var cfpDiv = '';
+        var count = 0;
         for (var c in conferences) {  
             // Skip if already passed
             if (moment(conferences[c].deadlines[conferences[c].deadlines.length - 1].date).diff(moment()) < 0){
@@ -54,8 +59,29 @@ body {
                 cfpDiv += '&nbsp;<span class="timeleft">' + moment().to(cdate) + '</span></div>';
             }
             cfpDiv += '</div>'
+            count += 1;
         }
+
+        if (count < 5)
+        {
+            cfpDiv += '<div class="conference-box"><span class="title">END OF WORLD?</span></div>';
+        }
+
         return cfpDiv
+    }
+
+    function createBanner(data){
+        var links = data["phd_comics"];
+
+        var i = Math.floor((Math.random() * links.length) + 1);
+        document.getElementById("bannerImage").src = links[i];
+        var renew = setInterval(function(){
+            if(links.length == i){
+                i = 0;
+            }
+            document.getElementById("bannerImage").src = links[i];
+            i += 1;
+        },5000);
     }
 
     $(document).ready(function () {
@@ -67,11 +93,19 @@ body {
         function (json) {
             $('#conference-container').append(drawTable(json));
         });
+
+        $.getJSON('phd_comics.json',
+        function (json) {
+            createBanner(json);
+        });
     });
 </script>
 
 
 <div id="conferences">
+    <div id="phd_comics_banner">
+        <img id="bannerImage"/>
+    </div>
     <div id="timenow"></div>
     <div id="conference-container"></div>
 </div>
