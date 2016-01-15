@@ -1,6 +1,15 @@
 {
 "books":[
 {
+    "name":"The Dispossessed",
+    "author":"Ursula K. LeGuin",
+    "imgsrc":"img/dispossessed.jpg",
+    "date":"2016-01-15",
+    "comment":"-",
+    "notes":"Notlar",
+    "score":5
+},
+{
     "name":"Solaris",
     "author":"Stanislaw Lem",
     "imgsrc":"img/solaris.jpg",

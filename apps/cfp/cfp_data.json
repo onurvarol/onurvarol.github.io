@@ -56,5 +56,15 @@
                 "date": "2016-02-12 23:50 -08:00"
             }
         ]
+    },
+    "asonam2016": {
+        "name": "ASONAM 2016",
+        "url": "http://asonam.cpsc.ucalgary.ca/2016/CFP.php",
+        "deadlines": [
+            {
+                "name": "Paper deadline",
+                "date": "2016-04-22 23:59 -11:00"
+            }
+        ]
     }
 }
