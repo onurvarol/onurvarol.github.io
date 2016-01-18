@@ -6,6 +6,9 @@
             var bookDiv;
             var books = json['books'];
             for (var i = 0; i < books.length; i++) {
+                if (!books[i].display){
+                    continue;
+                }
                 bookDiv = '<div class="item" id="book">';
                 bookDiv += '<img src="' + books[i].imgsrc + '" alt="' + books[i].name + '" style="height: 250px; margin: 5px 0 0 0;"> <br/>';
                 bookDiv += '<b>' + books[i].name + '</b> <br/>';

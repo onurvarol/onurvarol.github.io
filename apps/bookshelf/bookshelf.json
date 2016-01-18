@@ -7,6 +7,7 @@
     "date":"2016-01-15",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -16,6 +17,7 @@
     "date":"2015-12-30",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -25,6 +27,7 @@
     "date":"2015-12-26",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -34,6 +37,7 @@
     "date":"2015-12-25",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -43,6 +47,7 @@
     "date":"2015-12-09",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":3
 },
 {
@@ -52,6 +57,7 @@
     "date":"2015-11",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -61,6 +67,7 @@
     "date":"2015-11",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":3
 },
 {
@@ -70,6 +77,7 @@
     "date":"2015-11",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -79,6 +87,7 @@
     "date":"2015-11",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -88,6 +97,7 @@
     "date":"2015-10",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -97,6 +107,7 @@
     "date":"2015-10",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -106,6 +117,7 @@
     "date":"2015-10",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":2
 },
 {
@@ -115,6 +127,7 @@
     "date":"2015-07",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -124,6 +137,7 @@
     "date":"2015-06",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -133,6 +147,7 @@
     "date":"2015-06",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":2
 },
 {
@@ -142,6 +157,7 @@
     "date":"2015-06",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":3
 },
 {
@@ -151,6 +167,7 @@
     "date":"2015-04",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -160,6 +177,7 @@
     "date":"2015-03",
     "comment":"-",
     "notes":"Notlar",
+    "display":false,
     "score":5
 },
 {
@@ -169,6 +187,7 @@
     "date":"2015-03",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -178,6 +197,7 @@
     "date":"2015-03",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -187,6 +207,7 @@
     "date":"2015-02",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -196,6 +217,7 @@
     "date":"2015-02",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -205,6 +227,7 @@
     "date":"2015-02",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -214,6 +237,7 @@
     "date":"2015-02",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -223,6 +247,7 @@
     "date":"2015-01",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -232,6 +257,7 @@
     "date":"2014-12",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -241,6 +267,7 @@
     "date":"2014-12",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -250,6 +277,7 @@
     "date":"2014-12",
     "comment":"-",
     "notes":"Nice references for dream studies and Hall's theories",
+    "display":true,
     "score":4
 },
 {
@@ -259,6 +287,7 @@
     "date":"2014-12",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -268,6 +297,7 @@
     "date":"2014-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -277,6 +307,7 @@
     "date":"2014-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":3
 },
 {
@@ -286,6 +317,7 @@
     "date":"2014-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":3
 },
 {
@@ -295,6 +327,7 @@
     "date":"2014-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -304,6 +337,7 @@
     "date":"2014-07",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":3
 },
 {
@@ -313,6 +347,7 @@
     "date":"2014-07",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":3
 },
 {
@@ -322,6 +357,7 @@
     "date":"2014-07",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":3
 },
 {
@@ -331,6 +367,7 @@
     "date":"2014-06",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -340,6 +377,7 @@
     "date":"2014-06",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -349,6 +387,7 @@
     "date":"2014-05",
     "comment":"- Okumasam da olurmus",
     "notes":"Notlar",
+    "display":true,
     "score":1
 },
 {
@@ -358,6 +397,7 @@
     "date":"2014-05",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -367,6 +407,7 @@
     "date":"2014-06",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -376,6 +417,7 @@
     "date":"2014-05",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -385,6 +427,7 @@
     "date":"2014-05",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -394,6 +437,7 @@
     "date":"2014-04",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -403,6 +447,7 @@
     "date":"2014-04",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":3
 },
 {
@@ -412,6 +457,7 @@
     "date":"2014-04",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -421,6 +467,7 @@
     "date":"2014-03",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -430,6 +477,7 @@
     "date":"2013-12",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -439,6 +487,7 @@
     "date":"2013-08",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -448,6 +497,7 @@
     "date":"2013-07",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -457,6 +507,7 @@
     "date":"2013-07",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -466,6 +517,7 @@
     "date":"2013-05",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":3
 },
 {
@@ -475,6 +527,7 @@
     "date":"2013-03",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -484,6 +537,7 @@
     "date":"2013-03",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -493,6 +547,7 @@
     "date":"2013-02",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -502,6 +557,7 @@
     "date":"2013-02",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -511,6 +567,7 @@
     "date":"2013-02",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -520,6 +577,7 @@
     "date":"2013-01",
     "comment":"- ",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -529,6 +587,7 @@
     "date":"2013-01",
     "comment":"- My discovery of this book very interesting. I read an article of author's as a somophore student. I was very interested in brain dynamics at this time and I decided to make my graduation project on EEG signal processing. Then in my first year in phD I rediscovered this paper while looking into my harddrive and decided to buy author's book. Happy to read this book.",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -538,6 +597,7 @@
     "date":"2012-11",
     "comment":"- I would like to thank YY Ahn for mentioning about FiveThirtyEight and Mike Conover for sharing this magnificant book on twitter.",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -547,6 +607,7 @@
     "date":"2012-10",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -556,6 +617,7 @@
     "date":"2012-10",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
 },
 {
@@ -565,6 +627,7 @@
     "date":"2012-09",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":2
 },
 {
@@ -574,6 +637,7 @@
     "date":"2012-08",
     "comment":"-This book is gifted to all new Ph.D. students at the end of the orientation of Informatics. There are useful comments of 200 graduate students from various disciplines, which I believe very useful to me.",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
 {
@@ -583,6 +647,7 @@
     "date":"2012-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
 },
  {
@@ -592,6 +657,7 @@
     "date":"2012-05",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -601,6 +667,7 @@
     "date":"2012-03",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -610,6 +677,7 @@
     "date":"2012-02",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -619,6 +687,7 @@
     "date":"2012-02",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -628,6 +697,7 @@
     "date":"2012-01",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -637,6 +707,7 @@
     "date":"2012-01",
     "comment":"-Fırat Civaner sayesinde tanıştıgım insan tabiatına anlam vermeye çalışan ve bu eseri ortaya çıkaran yazarla. Insan davranışları ve karakterlerinin arkasında yatan mekanizmayı anlama yolunda güzel bir eser. Ayrıca çocuk yetiştirecek herkesin okuması gerektiğini düşünüyorum.",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -646,6 +717,7 @@
     "date":"2011-12",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
    {
@@ -655,6 +727,7 @@
     "date":"2012-01",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -664,6 +737,7 @@
     "date":"2011-12",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -673,6 +747,7 @@
     "date":"2011-11",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -682,6 +757,7 @@
     "date":"2011-11",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },  
    {
@@ -691,6 +767,7 @@
     "date":"2012-01",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -700,6 +777,7 @@
     "date":"2011-09",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -709,6 +787,7 @@
     "date":"2011-09",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -718,6 +797,7 @@
     "date":"2011-09",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -727,6 +807,7 @@
     "date":"2011-09",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -736,6 +817,7 @@
     "date":"2011-09",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -745,6 +827,7 @@
     "date":"2011-09",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -754,6 +837,7 @@
     "date":"2011-09",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -763,6 +847,7 @@
     "date":"2011-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -772,6 +857,7 @@
     "date":"2011-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -781,6 +867,7 @@
     "date":"2011-08",
     "comment":"-Bu kitap hakkında yazılmış güzel bir yorum için http://nurmustafaoglu.blogspot.com/2011/08/elif.html",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
 {
@@ -790,6 +877,7 @@
     "date":"2011-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
 {
@@ -799,6 +887,7 @@
     "date":"2011-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
    {
@@ -808,6 +897,7 @@
     "date":"2011-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -817,6 +907,7 @@
     "date":"2011-08",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -826,6 +917,7 @@
     "date":"2011-07",
     "comment":"-",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -835,6 +927,7 @@
     "comment":"-",
     "date":"2011-06",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
    {
@@ -844,6 +937,7 @@
     "comment":"-",
     "date":"2011-06",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -853,6 +947,7 @@
     "comment":"-",
     "date":"2011-06",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -862,6 +957,7 @@
     "comment":"-Bu kitap hakkında yazılmış güzel bir yorum için http://nurmustafaoglu.blogspot.com/2010/07/kurt-vonnegut-jr.html",
     "date":"2011-06",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -871,6 +967,7 @@
     "comment":"-",
     "date":"2011-05",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -880,6 +977,7 @@
     "comment":"-",
     "date":"2011-05",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -889,6 +987,7 @@
     "comment":"-",
     "date":"2011-05",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -898,6 +997,7 @@
     "comment":"-",
     "date":"2011-04",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -907,6 +1007,7 @@
     "comment":"- Ayse Hocanin okumam icin verdigi ve onemli notlar aldigim fayda sagladigim bir kitap. Muhakkak okunmasini oneririm.",
     "date":"2011-04",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -916,6 +1017,7 @@
     "comment":"-",
     "date":"2011-03",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -925,6 +1027,7 @@
     "comment":"-",
     "date":"2011-03",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -934,6 +1037,7 @@
     "comment":"-",
     "date":"2011-02",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
  {
@@ -943,6 +1047,7 @@
     "comment":"-",
     "date":"2010-11",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -952,6 +1057,7 @@
     "comment":"-Tek kelime ile harika. Kesinlikle okunması gerektiğini düşünmekteyim. Aşkın evliliğe kadar uzanan sürecini sıradışı bir çifti ele alarak anlatıyor",
     "date":"2010-10",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -961,6 +1067,7 @@
     "comment":"-",
     "date":"2010-09",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -970,6 +1077,7 @@
     "comment":"-",
     "date":"2010-09",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -979,6 +1087,7 @@
     "comment":"-Afganistanın değişen yüzünü, çocukluk hatalarının ve gelecekte yaşanan pişmanlıkların yaşam üzerindeki etkilerini duygu yüklü bir şekilde anlatmakta olan harika bir kitap",
     "date":"2010-09",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -988,6 +1097,7 @@
     "comment":"-Dünya üzerinde nuru bulduğum mutlu olduğum bu günlerde aşkın her çeşidini ve saf halini de bu kitaptan okudum. Okunası bir kitap",
     "date":"2010-09",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -997,6 +1107,7 @@
     "comment":"-İnsan beyninin anıların saklanması, yeniden ortaya çıkması ve unutmak üzerine yazılmıs Draaiswanın güzel eseri",
     "date":"2010-08",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -1006,6 +1117,7 @@
     "comment":"-Hayalla gerçeğin mükemmel harmanlandığı, Descartesin düşünüyorum öğleyse varım yaklaşımını genişleterek, Düşünüyorum öyleyse herşey va diyen bir eser",
     "date":"2010-07",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -1015,6 +1127,7 @@
     "comment":"-Görmenin bilinç ve beyin üzerinde nasil gerçeklesmekte oldugunu ve bu sistemlerin açiklanmasina yer verilmistir. Guzel bir referans kitabi olabilecegini düsünüyorum",
     "date":"2010-07",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -1024,6 +1137,7 @@
     "comment":"-Cesur yeni dünyada kurgulananlara yönelik bir geri besleme niteligi tasimakta. Burada utopik bir dunya için modern dunyanin neler yapmakta oldugu. Beyin yikama, kimyasallar bilinç altı mesajları nasıl kullanılmakta anlatılmaya çalısılıyor.",
     "date":"2010-05",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
  {
@@ -1033,6 +1147,7 @@
     "comment":"-Yazar bir ünlü bir yazarın rüyasını kelime kelime analiz ederek hayatı ve eserleri ile iliski kurmaktadır bu nedenle ilginc bir deneme tarzında yazılmıs eser",
     "date":"2010-04",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
    {
@@ -1042,6 +1157,7 @@
     "comment":"-Arthur Clarke büyüleyici bir eser meydana getirmis bu nedenle okunmasi gereken harika bir eser.",
     "date":"2010-03",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -1051,6 +1167,7 @@
     "comment":"-Okurken pek keyif almadıgım, kendinden ve yasamından kacarak kendini farklı bir macera içinde bulan bir adamın hikayesi",
     "date":"2009-11",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
  {
@@ -1060,6 +1177,7 @@
     "comment":"-Cok basarili biri olan anlatıcının hayatındaki hatalarla yuzlesmesini ve içsel hesaplamayı çok iyi bir dille anlatan kitap.",
     "date":"2010-03",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -1069,6 +1187,7 @@
     "comment":"-Baslarda isimleri takip etmenin zor oldugu cok yogun bir olay orgusu icerisinde olan ama ilerledikce guzellesen cok hos bir kitap",
     "date":"2010-02",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
  {
@@ -1078,6 +1197,7 @@
     "comment":"-Bitirme çalışmamda kullandığım EEG İşleme hakkında temel bilgileri öğrendiğim bu alanda yazılmıs en iyi kitap",
     "date":"2010-02",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
   {
@@ -1087,6 +1207,7 @@
     "comment":"-56 sayfalik Taksimde bir arkadasimi beklerken DRda oturup rahatlikla okudugum kitap",
     "date":"2010-02",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
     {
@@ -1096,6 +1217,7 @@
     "comment":"-Cevahir DRda sirket toplantisini beklerken baslayip ilk 70 sayfasini okudugum ve kalanini gene ayni sekilde raftan alip okudugum kisa ama surukleyici eser",
     "date":"2010-02",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1105,6 +1227,7 @@
     "comment":"-Beynin fizyolojik işlevini oldukça güzel anlatan bir kitap ancak biraz ağır v detaylı anlatımı var. Referans kitabı olarak kullanılması daha uygun.",
     "date":"2009-06",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1114,6 +1237,7 @@
     "comment":"-Norofizyoloji ile alakalı belleğin nasıl çalıştığını açıklamya çalışan daha çok hücresel boyutta kavramları açıklayan güzel bir kitap ",
     "date":"2009-05-20",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1123,6 +1247,7 @@
     "comment":"-",
     "date":"2011-03",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1132,6 +1257,7 @@
     "comment":"-Cognetive Science alanında yapılmış temel çalışmaları içeriyor. Google Bookstan ucretsiz şekilde okunabilir.",
     "date":"2009-04",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1141,6 +1267,7 @@
     "comment":"-Cognetive Science alanında yapılmış temel çalışmaları içeriyor. Google Bookstan ucretsiz şekilde okunabilir.",
     "date":"2009-03",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1150,6 +1277,7 @@
     "comment":"-İnsan beyni üzerine yapılmış olan metaforları tarihsel bir düzende anlatan farklı bakış açıları ve alntılamalarla içeriği zengin hoş bir kitap",
     "date":"2009-09",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
     {
@@ -1159,6 +1287,7 @@
     "comment":"-Üç kelimeyle harika bir kitap",
     "date":"2008-07",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1168,6 +1297,7 @@
     "comment":"-Uzman sistemleri temel mantığıyla açıklayan, farklı alanlardaki uygulamalarınada yer veren bir yayın",
     "date":"2008-07",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1177,6 +1307,7 @@
     "comment":"-Yapay Sinir ağları hakkında matematiksel modeli ve ağ oluşturulması üzerine yazılmış bir kitap",
     "date":"2008-07",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1186,6 +1317,7 @@
     "comment":"-",
     "date":"2008-05",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1195,6 +1327,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1204,6 +1337,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1213,6 +1347,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1222,6 +1357,7 @@
     "comment":"-Cognetive Science alanında visiondan diğer algı tiplerine insan algısını ve düşünüşünü derinlemesine inceleyen bir kaynak",
     "date":"2008-08",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1231,6 +1367,7 @@
     "comment":"-Beyin, düşünce, varlık bilinci üzerine çin odası deneyinide öneren yazarın kendine güvenen güçlü bir diller yazdığı bir kitap",
     "date":"2009-07",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1240,6 +1377,7 @@
     "comment":"-Bulanık Mantık, YSA, Genetik Algoritmalar gibi temel yapay zeka konularında uygulamalı ve örnek C kodları ile düzenlenmiş hoş bir kitap",
     "date":"2008-08",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1249,6 +1387,7 @@
     "comment":"-İnsanların bilinç altındaki yasaklar ve tabularının kişilik üzerine etkisini ve toplumların kültürlerinin bundaki etkisine değinen güzel bir kitap.",
     "date":"2007-09",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1258,6 +1397,7 @@
     "comment":"-Farklı psikanaliz vakalarını inceleyen ve bunların nedenlerini inceleyen güzel bir çalışmalar topluluğu. Küçük Hans hikayesi ve daha pek çok önemli kavramı bu kitabında işliyor.",
     "date":"2007-09",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1267,6 +1407,7 @@
     "comment":"-Farklı psikanaliz vakalarını inceleyen ve bunların nedenlerini inceleyen güzel bir çalışmalar topluluğu. İlk kitabın devamı niteliğinde",
     "date":"2007-09",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1276,6 +1417,7 @@
     "comment":"-Kişilerin bilinç altının yansıması olan rüyaların prikanaliz sonucu Freudcu yaklaşımla incelenmesine dair güzel bir kitap",
     "date":"2007-10",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1285,6 +1427,7 @@
     "comment":"-Aşkın celladı farklı ilişkilerin psikanaliz yorumu ve analizini Freudcu bir yaklaşımla inceleyen olay öykülerinden oluşan bir derleme",
     "date":"2007-12",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1294,6 +1437,7 @@
     "comment":"-Irvin Yalomun güzel kurgusuyla. Niezcheyi farklı yönleriyle tanıyor ve Freudcu psikanalizin doğusuna sahit oluyoruz.",
     "date":"2007-01",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1303,6 +1447,7 @@
     "comment":"-Irvin Yalomun güzel kurgusuyla psikaliz öykülerinden olusuyor.",
     "date":"2007-01",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1312,6 +1457,7 @@
     "comment":"-Uzun soluklu okunmasında fayda olan Nietzchenin yoğun anlatımının olduğu çok güzel bir eser",
     "date":"2007-06",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1321,6 +1467,7 @@
     "comment":"-",
     "date":"2008-10",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1330,6 +1477,7 @@
     "comment":"-Huxleyin en iyi kitaplarından negatif utopya örneği olarak literaturde yer almakta",
     "date":"2008-10",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1339,6 +1487,7 @@
     "comment":"-Huxleyin kullanıdığı uyusturucu etkisinde gözlemlediklerinin yer aldığı kısa bir yazı",
     "date":"2008-11",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1348,6 +1497,7 @@
     "comment":"-Orwellın kurguladıgı insan oğlunun nasıl yönetildiği ve kontrol edildiğini işleyen hoş bir kitap",
     "date":"2008-11",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1357,6 +1507,7 @@
     "comment":"-Çok çarpıcı 3 küçük öyküden oluşan benim kendimi fazlasıyla bulduğum ve beni okurken en çok etkileyen kitap diyebilirim. Suan piyasada bulamıyorum bulursam satın alıp tekrar okuyacağım.",
     "date":"2007-04",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1366,6 +1517,7 @@
     "comment":"-Suçsuz yere hapis yatan ve intikam hırsıyla sürekli kaçmaya çabalayan. Fransız güyanında yaşadığı hikayesini anlatan yazar. Hapishanelerin çarpık yönlerini anlatıyor daha sonra filmide çekildi",
     "date":"2006-06",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1375,6 +1527,7 @@
     "comment":"-Suçsuz yere hapis yatan ve intikam hırsıyla sürekli kaçmaya çabalayan yazarın kelebekten sonraki 2ci kitabı burada özgürlüğünü elde ettikten sonra başından gelenleri anlatıyor",
     "date":"2006-07",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1384,6 +1537,7 @@
     "comment":"-Bilim kurgu gibi gözüksede insanların olağan üstü yeteklerde empati kabiliyetine sahip olması ve bunun başka amaçlarda kullanılmasını kurgulayan bir kitap",
     "date":"2009-01",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1393,6 +1547,7 @@
     "comment":"-İnsan beyni üzerinde yapılan deneyler. Maxwellin cini ve kuantum mekaniğinin harmanlanıp kurgulandığı bir eser",
     "date":"2009-01",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1402,6 +1557,7 @@
     "comment":"-",
     "date":"2004",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1411,6 +1567,7 @@
     "comment":"-Kurtuluş savası yıllarından vatanı satan insaların ve yobaz kesimin yaptıkları ve ilerici bir öğretmenin ağzından ege kıyılarında ufak bir kasabada yaşananlar",
     "date":"2003",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1420,6 +1577,7 @@
     "comment":"-Kafkanın gerçek üstü bir eseri. Böcek olmayı en güzel işleyen bir yandanda toplumsal sorunları açıklayan harika bir eser",
     "date":"2003",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1429,6 +1587,7 @@
     "comment":"-",
     "date":"2008-06",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1438,6 +1597,7 @@
     "comment":"-Bir gezginin bilgiye ulaşmak üzere yaptığı seyahat ve burada elde etmiş olduğu kazanımlar. Gerçekten çarpıcı bir kitap",
     "date":"2008-06",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1447,6 +1607,7 @@
     "comment":"-Çok güzel bir sosyoloji eseri. Yuzyıllar önce yazılmış olup bugunde devlet işleyişi ve toplumsal yaşamı yorumlamada faydalanılabilecek bir eser",
     "date":"2007-07",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1456,6 +1617,7 @@
     "comment":"-Sokratesin yargılanmasında konusulanların ve savundugu tezlerin son saatlerinin anlatıldığı eser",
     "date":"2007-07",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1465,6 +1627,7 @@
     "comment":"-Mükemmel bir felsefe tarihi aynı zamanda hoş bir kurguyla felsefeyi işliyor. Liselerde keske bu şekilde kitaplar okutularak felsefe öğretilse",
     "date":"2008-07",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1474,6 +1637,7 @@
     "comment":"-Paris sokaklarında çöpler arasında doğan bir çocugun o kıymetsiz yaşamını yaptığı parfumlerla nasıl kazandığı olağanustu bir koku duyusu olmasına rağmen kendine ait bir kokusu olmaması üzerine kurulu bir eser ",
     "date":"2008-07",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1483,6 +1647,7 @@
     "comment":"-",
     "date":"2004",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1492,6 +1657,7 @@
     "comment":"-",
     "date":"2004",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1501,6 +1667,7 @@
     "comment":"-",
     "date":"2007",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1510,6 +1677,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1519,6 +1687,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
     {
@@ -1528,6 +1697,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
     {
@@ -1537,6 +1707,7 @@
     "comment":"-",
     "date":"2007",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1546,6 +1717,7 @@
     "comment":"-",
     "date":"2007",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1555,6 +1727,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
     {
@@ -1564,6 +1737,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
       {
@@ -1573,6 +1747,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   
@@ -1583,6 +1758,7 @@
     "comment":"-Ölüm üzerine ve merak edilen tüm yönlerini konu alan bilimsel alıntılarla zenginleştirilmiş süper bir kitap",
     "date":"2006",
     "notes":"Farklı ölüm inançlarını tamamen işliyor",
+    "display":true,
     "score":4
   },
   {
@@ -1592,6 +1768,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"-",
+    "display":true,
     "score":4
   },
   {
@@ -1601,6 +1778,7 @@
     "comment":"-",
     "date":"2007",
     "notes":"-",
+    "display":true,
     "score":4
   },
   {
@@ -1610,6 +1788,7 @@
     "comment":"-",
     "date":"2007",
     "notes":"-",
+    "display":true,
     "score":4
   },
   {
@@ -1619,6 +1798,7 @@
     "comment":"-",
     "date":"2005",
     "notes":"-",
+    "display":true,
     "score":4
   },
   {
@@ -1628,6 +1808,7 @@
     "comment":"-Bir sisteme girmenin en iyi yolunun insanlardan kaynaklanan hatalar oldugunu açıklayan ve örneklendiren meshur bir hackerın kitabı",
     "date":"2008",
     "notes":"-",
+    "display":true,
     "score":4
   },
   {
@@ -1637,6 +1818,7 @@
     "comment":"-Okudugum en harika fantastik kurgu serisi..",
     "date":"2005",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1646,6 +1828,7 @@
     "comment":"-",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1655,6 +1838,7 @@
     "comment":"-En süper eserlerinden biri okurken çok yogun bir heyecan yaşıyorsunuz ancak sonunu pek beğendiğimi söyleyemem ama herkesin okuması gereken bir seri",
     "date":"2006",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1664,6 +1848,7 @@
     "comment":"-Ugur Mumcunun güzel anlatılımdan akıcı bir olaylar dizisi. Ülkenin kurumları arası haberleşmesinin ne kadar kötu oldugunu ve sistemin ne kadar yanlış işlediğini anlatmada güzel bir kaynak",
     "date":"2007",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1673,6 +1858,7 @@
     "comment":"-Dinlerin varlığına inanmayan birini bile tereddüte düşürebilecek bir kitap. Tanrıya bakış açısını değiştiren inançların oturtulduğu korku düzleminin arkasındaki sevgi ve anlayış düzlemini görebilmeyi sağlıyor",
     "date":"2009-06",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1682,6 +1868,7 @@
     "comment":"-İnsanları anlayabilmek, yaşamda mutlu olabilmenin hoşgörü olduğunun en güzel ispatlarından birisi. ",
     "date":"2009-04",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1691,6 +1878,7 @@
     "comment":"-Hayallerinin peşini bırakmayan ve bunlara bağlı kalan kanserden hayatını yitiren Carnigie Mellon üniversitesi hocasının son dersi",
     "date":"2009-05",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1700,6 +1888,7 @@
     "comment":"-DNAnın keşfine kadar giden bir öykü, Clark ve Watsonın balarısına yol gösteren olayları bizzat Watson kendi dilinden anlatıyor",
     "date":"2003",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1709,6 +1898,7 @@
     "comment":"-Evrensel enerjinin kullanımı ve bu sayede gerçekleşen hikayelerden oluşmuş bir eser",
     "date":"2009-06",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1718,6 +1908,7 @@
     "comment":"-Evrensel enerjinin kullanılarak şifa verme teknikleri üzerine ayrıntılı bir kitap. Yöntemleri özellikle çok iyi açıklamakta",
     "date":"2009-09",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1727,6 +1918,7 @@
     "comment":"-Soket Programlama hakkında oldukça faydalı ve güzel bir kaynak. SNMP, ICMP, HTTP, SMTP gibi pek çok uygulamaya ve C# kodlarıyla zenginleştirerek yer veriyor",
     "date":"2009-08",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1736,6 +1928,7 @@
     "comment":"-Semantic web hakkında temellerinide açıklayarak anlatan RDF ve SPARQL ile ilgili güzel bilgiler sunan bir kitap. Kullanılan yazılım ortamlarınada yer vermesi güzel bir özellik",
     "date":"2009-09",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1745,6 +1938,7 @@
     "comment":"-Meskalin altında yazarın yaşadıklarının süper bir anlatımı. Algının nasıl oluştuğu ve çevreyi algılayışımıza ilişkin deneysel bir eser",
     "date":"2009-11",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1754,6 +1948,7 @@
     "comment":"-Nietzchenni ukala olarak tabir edilebilecek bir dille kendini ve eserlerini anlattığı insanın kendisi olması yolunda yapması gerekenler anlattığı eseri",
     "date":"2009-12",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1763,6 +1958,7 @@
     "comment":"",
     "date":"",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
   {
@@ -1772,6 +1968,7 @@
     "comment":"-Durum öykülerinden oluşmuş hoş bir kitap ancak herkes aynı zevki almayabilir.",
     "date":"2009-12",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1781,6 +1978,7 @@
     "comment":"-Harry Potter işte :)",
     "date":"2005",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1790,6 +1988,7 @@
     "comment":"-",
     "date":"2003",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1799,6 +1998,7 @@
     "comment":"-",
     "date":"2007",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1808,6 +2008,7 @@
     "comment":"-",
     "date":"2007",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1817,6 +2018,7 @@
     "comment":"-",
     "date":"2007",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1826,6 +2028,7 @@
     "comment":"-",
     "date":"2007",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1835,6 +2038,7 @@
     "comment":"-",
     "date":"2008",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1844,6 +2048,7 @@
     "comment":"-",
     "date":"2008",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1853,6 +2058,7 @@
     "comment":"-",
     "date":"2008",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1862,6 +2068,7 @@
     "comment":"-",
     "date":"2009",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1871,6 +2078,7 @@
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1880,6 +2088,7 @@
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },  
   {
@@ -1889,6 +2098,7 @@
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1898,6 +2108,7 @@
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
   {
@@ -1907,6 +2118,7 @@
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
   {
@@ -1916,6 +2128,7 @@
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
   {
@@ -1925,6 +2138,7 @@
     "comment":"-",
     "date":"2005",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
   {
@@ -1934,6 +2148,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
   {
@@ -1943,6 +2158,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":3
   },
   {
@@ -1952,6 +2168,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":5
   },
   {
@@ -1961,6 +2178,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1970,6 +2188,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1979,6 +2198,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1988,6 +2208,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -1997,6 +2218,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -2006,6 +2228,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -2015,6 +2238,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -2024,6 +2248,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":4
   },
   {
@@ -2033,6 +2258,7 @@
     "comment":"-",
     "date":"2000",
     "notes":"Notlar",
+    "display":true,
     "score":4
   }
 ]
