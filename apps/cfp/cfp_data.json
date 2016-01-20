@@ -57,6 +57,20 @@
             }
         ]
     },
+    "recsys": {
+        "name": "RecSys 2016",
+        "url": "https://recsys.acm.org/recsys16/call/",
+        "deadlines": [
+            {
+                "name": "Abstract deadline",
+                "date": "2016-04-13 23:59 -00:00"
+            },
+            {
+                "name": "Paper deadline",
+                "date": "2016-04-20 23:59 -00:00"
+            }
+        ]
+    },
     "asonam2016": {
         "name": "ASONAM 2016",
         "url": "http://asonam.cpsc.ucalgary.ca/2016/CFP.php",
