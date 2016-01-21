@@ -3,7 +3,8 @@
     {
 		"text": "E. Ferrara, <u>O. Varol</u>, C. Davis, F. Menczer, A. Flammini <b>\"The Rise of Social Bots\"</b>, <i>Communications of the ACM (In press)</i>",
 		"links": [
-			{	"source": "http://arxiv.org/abs/1407.5225",
+			{	
+				"source": "http://arxiv.org/abs/1407.5225",
 				"name": "ArXiv"
 			}
 		],
@@ -27,8 +28,13 @@
 		]
 	},
 	{
-		"text": "V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, <u>O. Varol</u>, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang. <b>\"The DARPA Twitter bot challenge.\"</b> <i>IEEE Computer (In press)</i>",
-		"links": []
+		"text": "V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, <u>O. Varol</u>, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang. <b>\"The DARPA Twitter Bot Challenge.\"</b> <i>IEEE Computer (In press)</i>",
+		"links": [
+			{	
+				"source": "http://arxiv.org/abs/1601.05140",
+				"name": "ArXiv"
+			}
+		]
 	},
     {
 		"text": "M. JafariAsbagh, E. Ferrara, <u>O. Varol</u>, F. Menczer, A. Flammini <b>\"Clustering memes in social media streams\"</b>, <i>Social Network Analysis and Mining</i>",
