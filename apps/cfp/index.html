@@ -24,6 +24,11 @@ body {
     margin-top: 10px;
 }
 
+.hidden-box{
+    display: none;
+    background:#C0C0C0;
+}
+
 #bannerImage{
     height: 250px;
 }
@@ -45,11 +50,12 @@ body {
         var count = 0;
         for (var c in conferences) {  
             // Skip if already passed
+            var toShow = '';
             if (moment(conferences[c].deadlines[conferences[c].deadlines.length - 1].date).diff(moment()) < 0){
-                continue;
+                toShow = 'hidden-box';
             }
 
-            cfpDiv += '<div class="conference-box"><span class="title"><a href="' + conferences[c].url + '" target="_blank">';
+            cfpDiv += '<div class="conference-box '+ toShow +'"><span class="title"><a href="' + conferences[c].url + '" target="_blank">';
             cfpDiv += conferences[c].name + '</a></span><br/>';
             //for (var t in conferences[c].deadlines)
             for (var i = 0; i < conferences[c].deadlines.length; i++){
@@ -84,6 +90,10 @@ body {
         },5000);
     }
 
+    function showHidden(){
+        $("div.conference-box.hidden-box").css("display", "inline-block");
+    }
+
     $(document).ready(function () {
         var dnow = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
         console.log(dnow);
@@ -98,6 +108,8 @@ body {
         function (json) {
             createBanner(json);
         });
+
+        $("#show-btn").click(showHidden);
     });
 </script>
 
@@ -108,4 +120,5 @@ body {
     </div>
     <div id="timenow"></div>
     <div id="conference-container"></div>
+    <button id='show-btn' style='margin:10px;'>Show older</button>
 </div>
