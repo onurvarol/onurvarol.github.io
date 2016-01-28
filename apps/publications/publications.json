@@ -34,6 +34,16 @@
 				"source": "http://arxiv.org/abs/1601.05140",
 				"name": "ArXiv"
 			}
+		],
+		"coverage": [
+			{
+				"source": "http://www.technologyreview.com/view/546256/how-darpa-took-on-the-twitter-bot-menace-with-one-hand-behind-its-back/",
+				"name": "MIT Technology Review"
+			},
+			{
+				"source": "http://www.businessinsider.com/darpa-twitter-bot-challenge-2016-1",
+				"name": "Business Insider"
+			}
 		]
 	},
     {
@@ -181,15 +191,15 @@
 
 "thesis":[
 	{
-		"text": "KU Computer Science and Engineering M.Sc. Thesis - <b>Modal analysis of Myosin II and Identification of Functionally Important Sites</b>"
+		"text": "KU Computer Science and Engineering M.Sc. Thesis (2012) - <b>Modal analysis of Myosin II and Identification of Functionally Important Sites</b>"
 	},
 
 	{
-		"text": "ITU Physics Engineering Graduate Project - <b>Social Network Analysis Using a Statistical Physics Approach</b>"
+		"text": "ITU Physics Engineering B.Sc. Graduate Project (2012) - <b>Social Network Analysis Using a Statistical Physics Approach</b>"
 	},
 
 	{
-		"text": "ITU Electronics Engineering Graduate Project - <b>Raw EEG Data Classification Using SVM</b>"
+		"text": "ITU Electronics Engineering B.Sc. Graduate Project (2010) - <b>Raw EEG Data Classification Using SVM</b>"
 	}
 ],
 
