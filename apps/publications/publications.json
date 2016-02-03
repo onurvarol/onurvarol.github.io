@@ -83,7 +83,7 @@
 
 "proceedings":[
 	{
-		"text": "Davis C.&dagger;, <u>Varol O.&dagger;</u>, Ferrara E., Flammini A., Menczer F.<b>\"BotOrNot: A System to Evaluate Social Bots\"</b>, <i>WWW Developers Day</i>",
+		"text": "Davis C.<sup>&dagger;</sup>, <u>Varol O.<sup>&dagger;</sup></u>, Ferrara E., Flammini A., Menczer F.<b>\"BotOrNot: A System to Evaluate Social Bots\"</b>, <i>WWW Developers Day</i>",
 		"links": [
 			{
 				"source": "http://arxiv.org/abs/1602.00975",
