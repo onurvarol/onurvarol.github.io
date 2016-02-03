@@ -83,6 +83,34 @@
 
 "proceedings":[
 	{
+		"text": "Davis C.&dagger;, <u>Varol O.&dagger;</u>, Ferrara E., Flammini A., Menczer F.<b>\"BotOrNot: A System to Evaluate Social Bots\"</b>, <i>WWW Developers Day</i>",
+		"links": [
+			{
+				"source": "http://arxiv.org/abs/1602.00975",
+				"name": "ArXiv"
+			}
+		],
+		"coverage": [
+			{
+				"source": "http://blogs.wsj.com/digits/2015/10/28/on-twitter-is-the-next-potus-a-bot-us/",
+				"name": "WSJ"
+			},
+			{
+				"source": "http://mashable.com/2014/07/30/twitter-social-bots/",
+				"name": "Mashable"
+			},
+			{
+				"source": "http://news.indiana.edu/releases/iu/2014/05/twitter-botornot.shtml",
+				"name": "IU Newsroom"
+			},
+			{
+				"source": "http://www.onurvarol.com/apps/coverages/index.html#BotOrNot",
+				"name": "More ..."
+			}
+		]
+	},
+
+	{
 		"text": "<u>Varol, O.</u>, Ferrara, E., Ogan, C., Menczer, F., & Flammini, A. <b>\"Evolution of online user behavior during a social upheaval\"</b>, <i>ACM Web Science Conference 2014 (Full paper, acceptance rate 14%) <font color=\"red\">Best paper award</font></i>",
 		"links": [
 			{
