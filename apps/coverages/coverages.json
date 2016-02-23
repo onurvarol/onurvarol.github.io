@@ -19,6 +19,11 @@
 
 "BotOrNot":[
 	{
+		"source": "Motherboard",
+		"title": "How to think about bots",
+		"url": "http://motherboard.vice.com/read/how-to-think-about-bots"
+	},
+	{
 		"source": "The Wall Street Journal",
 		"title": "On Twitter, Is the Next POTUS a Bot-US?",
 		"url": "http://blogs.wsj.com/digits/2015/10/28/on-twitter-is-the-next-potus-a-bot-us/"
