@@ -15,6 +15,7 @@ body {
 }
 
 .conference-box{
+    position: relative; 
     display: inline-block;
     width: 50%;
     background:#cce5ff;
@@ -24,9 +25,18 @@ body {
     margin-top: 10px;
 }
 
+.conference-box img{
+    position: absolute;
+    top: 10px; left: 10px;
+}
+
 .hidden-box{
     display: none;
     background:#C0C0C0;
+}
+
+.attending-box{
+    background:#A5B2E8;
 }
 
 #bannerImage{
@@ -53,9 +63,22 @@ body {
             var toShow = '';
             if (moment(conferences[c].deadlines[conferences[c].deadlines.length - 1].date).diff(moment()) < 0){
                 toShow = 'hidden-box';
+                if ("attending" in conferences[c]){
+                    toShow = 'attending-box';
+                }
+                if ("keep_until" in conferences[c]){
+                    if (moment(conferences[c]["keep_until"]).diff(moment()) < 0){
+                        toShow = 'hidden-box';
+                    }
+                }
             }
 
-            cfpDiv += '<div class="conference-box '+ toShow +'"><span class="title"><a href="' + conferences[c].url + '" target="_blank">';
+            cfpDiv += '<div class="conference-box '+ toShow +'">'
+            if ("attending" in conferences[c])
+            {
+                cfpDiv += '<img src="checked.png" class="checked" width="50px"/>';
+            }
+            cfpDiv += '<span class="title"><a href="' + conferences[c].url + '" target="_blank">';
             cfpDiv += conferences[c].name + '</a></span><br/>';
             //for (var t in conferences[c].deadlines)
             for (var i = 0; i < conferences[c].deadlines.length; i++){
@@ -63,6 +86,10 @@ body {
                 cfpDiv += '<div class="deadline-box"><span class="cfpitem">' + conferences[c].deadlines[i].name;
                 cfpDiv += '&nbsp;(' + cdate.format("YYYY-MM-DD") + ')</span>';
                 cfpDiv += '&nbsp;<span class="timeleft">' + moment().to(cdate) + '</span></div>';
+            }
+            if ("attending" in conferences[c])
+            {
+                cfpDiv += '<div><b>' + conferences[c]["attending"] + '</b></div>';
             }
             cfpDiv += '</div>'
             count += 1;
