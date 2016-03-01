@@ -28,6 +28,7 @@ body {
 .conference-box img{
     position: absolute;
     top: 10px; left: 10px;
+    width: 35px;
 }
 
 .hidden-box{
@@ -76,7 +77,7 @@ body {
             cfpDiv += '<div class="conference-box '+ toShow +'">'
             if ("attending" in conferences[c])
             {
-                cfpDiv += '<img src="checked.png" class="checked" width="50px"/>';
+                cfpDiv += '<img src="checked.png" class="checked"/>';
             }
             cfpDiv += '<span class="title"><a href="' + conferences[c].url + '" target="_blank">';
             cfpDiv += conferences[c].name + '</a></span><br/>';
