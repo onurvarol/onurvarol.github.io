@@ -23,7 +23,9 @@
                 "name": "Submission deadline",
                 "date": "2016-01-08 23:50 -10:00"
             }
-        ]
+        ],
+        "attending": "Montreal, Canada (April 11-12, 2016)",
+        "keep_until": "2016-01-08 23:59 -10:00"
     },
     "ic2s2_2016": {
         "name": "IC2S2 2016",
