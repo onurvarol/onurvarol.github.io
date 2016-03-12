@@ -83,6 +83,20 @@
 
 "proceedings":[
 	{
+		"text": "Ferrara, E., <u>Varol, O.</u>, Menczer, F., & Flammini, A. <b>\"Detection of Promoted Social Media Campaigns\"</b>, <i>ICWSM 2016</i>",
+		"links": [
+			
+		]
+	},
+
+	{
+		"text": "Olteanu, A., <u>Varol, O.</u>, Kiciman, E. <b>\"Towards an Open-Domain Framework for Distilling the Outcomes of Personal Experiences from Social Media Timelines\"</b>, <i>ICWSM 2016</i>",
+		"links": [
+			
+		]
+	},
+
+	{
 		"text": "Davis C.<sup>&dagger;</sup>, <u>Varol O.</u><sup>&dagger;</sup>, Ferrara E., Flammini A., Menczer F.<b>\"BotOrNot: A System to Evaluate Social Bots\"</b>, <i>WWW'16 Developers Day</i>",
 		"links": [
 			{
