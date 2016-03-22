@@ -90,5 +90,19 @@
                 "date": "2016-04-22 23:59 -11:00"
             }
         ]
+    },
+    "wsdm2017": {
+        "name": "WSDM 2017",
+        "url": "http://www.wsdm-conference.org/2017/calls/papers/",
+        "deadlines": [
+            {
+                "name": "Abstract deadline",
+                "date": "2016-07-31 23:59 -00:00"
+            },
+            {
+                "name": "Paper deadline",
+                "date": "2016-08-07 23:59 -00:00"
+            }
+        ]
     }
 }
