@@ -301,6 +301,14 @@
     },
 
     "conferences": {
+        "und2016":{
+            "name": "UND Big Data Summit (Grand Forks, ND)",
+            "location": "UND16",
+            "presented":{
+                "title": "Detection of Online Manipulation",
+                "link": "https://und.edu/orgs/writers-conference/current-conference/big-data-summit-presenters.cfm"
+            }
+        },
         "ccs15": {
             "name": "CCS'15 (Tempe, USA)",
             "location": "ccs15",
@@ -328,6 +336,14 @@
     },
 
     "locations":{
+        "UND16": {
+            "name": "UND Big Data Summit",
+            "location": "North Dakota, USA",
+            "lat-lon": [47.9217364,-97.0685038],
+            "type": "conference",
+            "description": "UND Big Data Summit",
+            "img": []
+        },
         "lower_antilope_canyon":{
             "name": "Lower Antilope Canyon Page, AZ",
             "location": "Lower Antilope Canyon Page, AZ",
@@ -1018,10 +1034,10 @@
             }
     },
 
-    "usa_coverage": ["AZ", "CA", "CO", "ID", "IL", "IN", "KS", "MN", "MO", "MT", "OR", "SD", "TX", "UT", "WA", "WI", "WY"],
+    "usa_coverage": ["AZ", "CA", "CO", "ID", "IL", "IN", "KS", "MN", "MO", "MT", "ND", "OR", "SD", "TX", "UT", "WA", "WI", "WY"],
     "europe_coverage": ["DE", "GR", "NL", "PT", "TR"],
 
     "metadata":{
-        "last-update": "09-30-2015"
+        "last-update": "04-08-2016"
     }
 }

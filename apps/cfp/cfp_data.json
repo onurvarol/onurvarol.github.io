@@ -91,6 +91,16 @@
             }
         ]
     },
+    "socinfo2016": {
+        "name": "SocInfo 2016",
+        "url": "http://usa2016.socinfo.eu/call-for-paper/",
+        "deadlines": [
+            {
+                "name": "Paper deadline",
+                "date": "2016-07-20 23:59 -11:00"
+            }
+        ]
+    },
     "wsdm2017": {
         "name": "WSDM 2017",
         "url": "http://www.wsdm-conference.org/2017/calls/papers/",
