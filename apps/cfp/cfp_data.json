@@ -91,6 +91,16 @@
             }
         ]
     },
+    "cikm2016": {
+        "name": "CIKM 2016",
+        "url": "http://cikm2016.cs.iupui.edu/call-for-research-papers/",
+        "deadlines": [
+            {
+                "name": "Paper deadline",
+                "date": "2016-05-09 23:59 -11:00"
+            }
+        ]
+    },
     "socinfo2016": {
         "name": "SocInfo 2016",
         "url": "http://usa2016.socinfo.eu/call-for-paper/",
