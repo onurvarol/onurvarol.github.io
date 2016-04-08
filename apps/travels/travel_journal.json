@@ -342,7 +342,7 @@
             "lat-lon": [47.9217364,-97.0685038],
             "type": "conference",
             "description": "UND Big Data Summit",
-            "img": []
+            "img": ["img/und_bigdata_presentation.png"]
         },
         "lower_antilope_canyon":{
             "name": "Lower Antilope Canyon Page, AZ",
