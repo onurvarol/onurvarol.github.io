@@ -101,6 +101,16 @@
             }
         ]
     },
+    "cscw2017": {
+        "name": "CSCW 2017",
+        "url": "https://cscw.acm.org/2017/submit/",
+        "deadlines": [
+            {
+                "name": "Paper deadline",
+                "date": "2016-05-27 17:00 -11:00"
+            }
+        ]
+    },
     "socinfo2016": {
         "name": "SocInfo 2016",
         "url": "http://usa2016.socinfo.eu/call-for-paper/",
