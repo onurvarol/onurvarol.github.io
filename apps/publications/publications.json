@@ -114,8 +114,16 @@
 		"text": "Davis C.<sup>&dagger;</sup>, <u>Varol O.</u><sup>&dagger;</sup>, Ferrara E., Flammini A., Menczer F.<b>\"BotOrNot: A System to Evaluate Social Bots\"</b>, <i>WWW'16 Developers Day</i>",
 		"links": [
 			{
+				"source": "http://dl.acm.org/citation.cfm?id=2889302",
+				"name": "ACM Library"
+			},
+			{
 				"source": "http://arxiv.org/abs/1602.00975",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/www2016botornot.bib",
+				"name": "BibTeX"
 			}
 		],
 		"coverage": [
