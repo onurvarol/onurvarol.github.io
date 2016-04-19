@@ -96,8 +96,12 @@
         "url": "http://cikm2016.cs.iupui.edu/call-for-research-papers/",
         "deadlines": [
             {
-                "name": "Paper deadline",
+                "name": "Abstract deadline",
                 "date": "2016-05-09 23:59 -11:00"
+            },
+            {
+                "name": "Paper deadline",
+                "date": "2016-05-16 23:59 -11:00"
             }
         ]
     },
