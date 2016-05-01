@@ -28,6 +28,17 @@
 		]
 	},
 	{
+		"text": "Davis CA, Ciampaglia GL, Aiello LM, Chung K, Conover MD, Ferrara E, Flammini A, Fox GC, Gao X, Gonçalves B, Grabowicz PA, Hong K, Hui P, McCaulay S, McKelvey K, Meiss MR, Patil S, Peli Kankanamalage C, Pentchev V, Qiu J, Ratkiewicz J, Rudnick A, Serrette B, Shiralkar P, <u>Varol O</u>, Weng L, Wu T, Younge AJ, Menczer F. <b>OSoMe: The IUNI observatory on social media</b> <i>PeerJ Computer Science (Submitted)</i>",
+		"links": [
+			{
+				"source": "https://doi.org/10.7287/peerj.preprints.2008v1",
+				"name": "PeerJ Preprint"
+			}
+		],
+		"coverage": [
+		]
+	}
+	{
 		"text": "V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, <u>O. Varol</u>, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang. <b>\"The DARPA Twitter Bot Challenge.\"</b> <i>IEEE Computer (In press)</i>",
 		"links": [
 			{	
