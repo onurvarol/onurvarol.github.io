@@ -92,6 +92,15 @@
 
 "proceedings":[
 	{
+		"text": "Ferrara E., Wang W., <u>Varol O.</u>, Flammini A., Galstyan A. <b>\"Predicting online extremism, content adopters, and interaction reciprocity\"</b>, <i>(Under review)</i>",
+		"links":[
+			{
+				"source": "http://arxiv.org/abs/1605.00659",
+				"name": "ArXiv"
+			}
+		]
+	},
+	{
 		"text": "<u>Varol O.</u> <b>\"Spatiotemporal Analysis of Censored Content on Twitter\"</b>, <i>Web Science 2016</i>",
 		"links": [
 			
