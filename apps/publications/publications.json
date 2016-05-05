@@ -38,6 +38,12 @@
 				"source": "http://osome.iuni.iu.edu/",
 				"name": "Project Website"
 			}
+		],
+		"coverage": [
+			{
+				"source": "http://news.indiana.edu/releases/iu/2016/05/observatory-on-social-media.shtml",
+				"name": "IU News"
+			}
 		]
 	},
 	{
