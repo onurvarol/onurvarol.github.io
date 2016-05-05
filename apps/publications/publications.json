@@ -33,6 +33,10 @@
 			{
 				"source": "https://doi.org/10.7287/peerj.preprints.2008v1",
 				"name": "PeerJ Preprint"
+			},
+			{
+				"source": "http://osome.iuni.iu.edu/",
+				"name": "Project Website"
 			}
 		]
 	},
@@ -142,6 +146,10 @@
 			{
 				"source": "bibtex/www2016botornot.bib",
 				"name": "BibTeX"
+			},
+			{
+				"source": "truthy.indiana.edu/botornot/",
+				"name": "Project Website"
 			}
 		],
 		"coverage": [
@@ -163,7 +171,6 @@
 			}
 		]
 	},
-
 	{
 		"text": "<u>Varol, O.</u>, Ferrara, E., Ogan, C., Menczer, F., & Flammini, A. <b>\"Evolution of online user behavior during a social upheaval\"</b>, <i>ACM Web Science Conference 2014 (Full paper, acceptance rate 14%) <font color=\"red\">Best paper award</font></i>",
 		"links": [
