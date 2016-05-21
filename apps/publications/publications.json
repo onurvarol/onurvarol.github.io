@@ -110,17 +110,24 @@
 			}
 		]
 	},
+	
 	{
 		"text": "<u>Varol O.</u> <b>\"Spatiotemporal Analysis of Censored Content on Twitter\"</b>, <i>Web Science 2016</i>",
 		"links": [
-			
+			{
+				"source": "http://dl.acm.org/citation.cfm?doid=2908131.2908208",
+				"name": "ACM Library"
+			}
 		]
 	},	
 
 	{
 		"text": "Das A., Gollapudi S.,  Kiciman E., <u>Varol O.</u> <b>\"Information Dissemination in Heterogeneous-Intent Networks\"</b>, <i>Web Science 2016</i>",
 		"links": [
-			
+			{
+				"source": "http://dl.acm.org/citation.cfm?doid=2908131.2908161",
+				"name": "ACM Library"
+			}
 		]
 	},
 
