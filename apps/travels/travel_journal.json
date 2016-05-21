@@ -98,6 +98,11 @@
     },
 
     "cities": {
+        "cologne":{
+            "name": "Cologne, Germany",
+            "zoom": 13,
+            "places": ["cologne_dom","ICWSM16"]
+        },
         "grand_canyon":{
             "name": "Grand Canyon Nat. Park, AZ",
             "zoom": 12,
@@ -301,6 +306,14 @@
     },
 
     "conferences": {
+        "icwsm2016":{
+            "name": "ICWSM'16 (Cologne, Germany)",
+            "location": "ICWSM16",
+            "presented":{
+                "title": "Detection of Promoted Social Media Campaigns",
+                "link": "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/viewPDFInterstitial/13034/12789"
+            }
+        },
         "und2016":{
             "name": "UND Big Data Summit (Grand Forks, ND)",
             "location": "UND16",
@@ -336,6 +349,22 @@
     },
 
     "locations":{
+        "cologne_dom": {
+            "name": "Kölner Dom",
+            "location": "Cologne, Germany",
+            "lat-lon": [50.9410691,6.9572198],
+            "type": "holiday",
+            "description": "",
+            "img": ["img/cologne_1.jpg", "img/cologne_2.jpg"]
+        },
+        "ICWSM16": {
+            "name": "ICWSM'16",
+            "location": "Cologne, Germany",
+            "lat-lon": [50.9446839,6.9510913],
+            "type": "conference",
+            "description": "ICWSM 2016 Conference",
+            "img": ["img/icwsm2016_1.jpg", "img/icwsm2016_2.jpg"]
+        },
         "UND16": {
             "name": "UND Big Data Summit",
             "location": "North Dakota, USA",

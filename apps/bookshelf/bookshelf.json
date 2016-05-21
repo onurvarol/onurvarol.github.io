@@ -1,6 +1,16 @@
 {
 "books":[
 {
+    "name":"One human minute",
+    "author":"Stanislaw Lem",
+    "imgsrc":"img/one_human_minute.jpg",
+    "date":"2016-05-20",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":3
+},
+{
     "name":"Three-body problem",
     "author":"Cixin Liu",
     "imgsrc":"img/three_body_problem.jpg",
