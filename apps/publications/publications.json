@@ -117,6 +117,10 @@
 			{
 				"source": "http://dl.acm.org/citation.cfm?doid=2908131.2908208",
 				"name": "ACM Library"
+			},
+			{
+				"source": "bibtex/censorship2016websci.bib",
+				"name": "BibTeX"
 			}
 		]
 	},	
@@ -127,6 +131,10 @@
 			{
 				"source": "http://dl.acm.org/citation.cfm?doid=2908131.2908161",
 				"name": "ACM Library"
+			},
+			{
+				"source": "bibtex/hin2016websci.bib",
+				"name": "BibTeX"
 			}
 		]
 	},
@@ -137,6 +145,10 @@
 			{
 				"source": "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13113",
 				"name": "AAAI Library"
+			},
+			{
+				"source": "bibtex/toward2016icwsm.bib",
+				"name": "BibTeX"
 			}
 		]
 	},
@@ -147,6 +159,10 @@
 			{
 				"source": "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13034",
 				"name": "AAAI Library"
+			},
+			{
+				"source": "bibtex/detection2016icwsm.bib",
+				"name": "BibTeX"
 			}
 		]
 	},
