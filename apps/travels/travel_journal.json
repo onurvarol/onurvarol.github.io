@@ -74,7 +74,7 @@
                 }
             ],
             "places": ["notre_dame", "stlouis_arch", "stlouis_butterfly", "kansas_city_1", "kansas_city_2", "garden_of_the_gods", "old_colorado_city", "pikes_peak", "colorado_springs", "denver", "rock_springs", "salt_lake_city", "salt_lake_cottonwood", "twin_falls_perrine_bridge", "salt_lake_antelope_island", "twin_falls_shoshone_falls", "nampa", "portland_columbia_river", "portland_downtown", "portland_washington_park","redmond"]
-        },  
+        },
 
         "california_2013":{
             "name": "California (Dec 2013)",
@@ -98,6 +98,11 @@
     },
 
     "cities": {
+        "hannover":{
+          "name": "Hannover, Germany",
+          "zoom": 13,
+          "places": ["hannover","WebSci16"]
+        },
         "cologne":{
             "name": "Cologne, Germany",
             "zoom": 13,
@@ -295,7 +300,7 @@
         },
         "ankara": {
             "name": "Ankara, Turkey",
-            "zoom": 11, 
+            "zoom": 11,
             "places": ["ankara", "metu", "aselsan"]
         },
         "antalya": {
@@ -306,49 +311,93 @@
     },
 
     "conferences": {
+        "websci16":{
+            "name": "WebSci'16 (Hannover, Germany)",
+            "location": "WebSci16",
+            "presented":[
+              {
+                "title": "Spatiotemporal Analysis of Censored Content on Twitter",
+                "link": "http://dl.acm.org/citation.cfm?doid=2908131.2908208"
+              },
+              {
+                "title": "Information Dissemination in Heterogeneous-Intent Networks",
+                "link": "http://dl.acm.org/citation.cfm?doid=2908131.2908161"
+              }
+            ]
+        },
         "icwsm2016":{
             "name": "ICWSM'16 (Cologne, Germany)",
             "location": "ICWSM16",
-            "presented":{
+            "presented":[
+              {
                 "title": "Detection of Promoted Social Media Campaigns",
                 "link": "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/viewPDFInterstitial/13034/12789"
-            }
+              },
+              {
+                "title": "Towards an Open-Domain Framework for Distilling the Outcomes of Personal Experiences from Social Media Timelines",
+                "link": "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13113"
+              }
+            ]
         },
         "und2016":{
             "name": "UND Big Data Summit (Grand Forks, ND)",
             "location": "UND16",
-            "presented":{
+            "presented":[
+              {
                 "title": "Detection of Online Manipulation",
                 "link": "https://und.edu/orgs/writers-conference/current-conference/big-data-summit-presenters.cfm"
-            }
+              }
+            ]
         },
         "ccs15": {
             "name": "CCS'15 (Tempe, USA)",
             "location": "ccs15",
-            "presented": {
+            "presented":[
+              {
                 "title": "Evolution of online user behavior during a social upheaval",
                 "link": "http://dl.acm.org/citation.cfm?id=2615699"
-            }
+              }
+            ]
         },
         "www14": {
             "name": "WWW'14 (Seoul,Korea)",
             "location": "www2014",
-            "presented": {
+            "presented":[
+              {
                 "title": "Connecting Dream Networks Across Cultures",
                 "link": "http://dl.acm.org/citation.cfm?id=2615699"
-            }
+              }
+            ]
         },
         "cosn14": {
             "name": "COSN'14 (Boston, USA)",
             "location": "cosn2014",
-            "presented": {
+            "presented": [
+              {
                 "title": "Traveling Trends: Social Butterflies or Frequent Fliers?",
                 "link": "http://dl.acm.org/citation.cfm?id=2512956"
-            }
+              }
+            ]
         }
     },
 
     "locations":{
+        "hannover":{
+            "name": "Hannover",
+            "location": "Hannover, Germany",
+            "lat-lon": [52.3685756,9.731464],
+            "type": "holiday",
+            "description": "",
+            "img": ["hannover_3.jpg","hannover_1.jpg","hannover_2.jpg"]
+        },
+        "WebSci16": {
+            "name": "WebSci'16",
+            "location": "Hannover, Germany",
+            "lat-lon": [52.3616405,9.7340234],
+            "type": "conference",
+            "description": "Web Science 2016 Conference",
+            "img": []
+        },
         "cologne_dom": {
             "name": "Kölner Dom",
             "location": "Cologne, Germany",
@@ -572,7 +621,7 @@
             "type": "holiday",
             "description": "Fremont",
             "img": []
-           },  
+           },
         "portland_downtown": {
             "name": "Portland, Oregon",
             "location": "Portland, OR",
