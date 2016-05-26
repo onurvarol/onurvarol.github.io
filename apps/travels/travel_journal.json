@@ -98,16 +98,6 @@
     },
 
     "cities": {
-        "hannover":{
-          "name": "Hannover, Germany",
-          "zoom": 13,
-          "places": ["hannover","WebSci16"]
-        },
-        "cologne":{
-            "name": "Cologne, Germany",
-            "zoom": 13,
-            "places": ["cologne_dom","ICWSM16"]
-        },
         "grand_canyon":{
             "name": "Grand Canyon Nat. Park, AZ",
             "zoom": 12,
@@ -267,6 +257,16 @@
             "name": "Esslingen, Germany",
             "zoom": 12,
             "places": ["esslingen", "festo"]
+        },
+        "hannover":{
+          "name": "Hannover, Germany",
+          "zoom": 13,
+          "places": ["hannover","WebSci16"]
+        },
+        "cologne":{
+            "name": "Cologne, Germany",
+            "zoom": 13,
+            "places": ["cologne_dom","ICWSM16"]
         },
         "amsterdam": {
             "name": "Amsterdam, Holland",
