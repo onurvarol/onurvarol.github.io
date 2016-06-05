@@ -1,6 +1,16 @@
 {
 "books":[
 {
+    "name":"Küçük Kara Balık",
+    "author":"Samad Behrangi",
+    "imgsrc":"img/kucukkarabalik.jpg",
+    "date":"2016-06-05",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+},
+{
     "name":"One human minute",
     "author":"Stanislaw Lem",
     "imgsrc":"img/one_human_minute.jpg",
@@ -763,7 +773,7 @@
  {
     "name":"Sosyal Psikoloji",
     "author":"David Krech, Richard S. Crutchfild",
-    "imgsrc":"http://www.acelegelsin.com/images/temp/300_g_9789754376159.jpg",
+    "imgsrc":"img/sosyal_psikoloji.jpg",
     "date":"2012-01",
     "comment":"-",
     "notes":"Notlar",
@@ -1163,7 +1173,7 @@
  {
     "name":"ASK",
     "author":"Elif Şafak",
-    "imgsrc":"http://www.rsskitap.com/wp-content/uploads/elif-safak-ask.jpg",
+    "imgsrc":"img/ask_elifsafak.jpg",
     "comment":"-Dünya üzerinde nuru bulduğum mutlu olduğum bu günlerde aşkın her çeşidini ve saf halini de bu kitaptan okudum. Okunası bir kitap",
     "date":"2010-09",
     "notes":"Notlar",
@@ -1183,7 +1193,7 @@
  {
     "name":"Puslu Kıtalar Atlası",
     "author":"İhsan Oktay Anar",
-    "imgsrc":"http://www.senaofset.com.tr/w/iletisim/22.jpg",
+    "imgsrc":"img/puslu_kitalar.jpg",
     "comment":"-Hayalla gerçeğin mükemmel harmanlandığı, Descartesin düşünüyorum öğleyse varım yaklaşımını genişleterek, Düşünüyorum öyleyse herşey va diyen bir eser",
     "date":"2010-07",
     "notes":"Notlar",
@@ -1263,7 +1273,7 @@
  {
     "name":"EEG Signal Processing",
     "author":"Sanei, Chambers",
-    "imgsrc":"http://books.gigaimg.com/avaxhome/66/a7/0009a766.jpeg",
+    "imgsrc":"img/eeg_signal_processing.jpg",
     "comment":"-Bitirme çalışmamda kullandığım EEG İşleme hakkında temel bilgileri öğrendiğim bu alanda yazılmıs en iyi kitap",
     "date":"2010-02",
     "notes":"Notlar",
@@ -1313,7 +1323,7 @@
   {
     "name":"Equilibrium Statistical Physics ",
     "author":"Michael Plischke ,Birger Bergersen",
-    "imgsrc":"http://downloads-ebook.com/upload/201106/20110629144706.jpg",
+    "imgsrc":"img/equilibrium_statistical_physics.jpg",
     "comment":"-",
     "date":"2011-03",
     "notes":"Notlar",
