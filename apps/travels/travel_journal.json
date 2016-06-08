@@ -301,7 +301,7 @@
         "ankara": {
             "name": "Ankara, Turkey",
             "zoom": 11,
-            "places": ["ankara", "metu", "aselsan"]
+            "places": ["ankara", "metu", "aselsan", "anitkabir"]
         },
         "antalya": {
             "name": "Antalya, Turkey",
@@ -1077,6 +1077,14 @@
             "type": "lived",
             "description": "Ankara",
             "img": []
+            },
+        "anitkabir": {
+            "name": "Anıtkabir",
+            "location": "Ankara, Turkey",
+            "lat-lon": [39.9247385,32.8368624],
+            "type": "holiday",
+            "description": "Anıtkabir",
+            "img": ["img/anitkabir_1.jpg","img/anitkabir_2.jpg","img/anitkabir_3.jpg"]
             },
         "metu": {
             "name": "Middle Eastern Technical University",
