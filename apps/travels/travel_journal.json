@@ -286,12 +286,12 @@
         "izmir": {
             "name": "Izmir, Turkey",
             "zoom": 9,
-            "places": ["karsiyaka", "ephesus", "sirince"]
+            "places": ["karsiyaka", "ephesus", "sirince","phocaea"]
         },
         "bursa": {
             "name": "Bursa, Turkey",
             "zoom": 10,
-            "places": ["mudanya", "iznik"]
+            "places": ["mudanya","iznik","bursa"]
         },
         "istanbul": {
             "name": "Istanbul, Turkey",
@@ -1012,7 +1012,7 @@
             "lat-lon": [38.4555979,27.1196626],
             "type": "lived",
             "description": "Karsiyaka",
-            "img": ["img/karsiyaka.jpg"]
+            "img": ["img/karsiyaka.jpg","img/karsiyaka_1.jpg","img/karsiyaka_2.jpg"]
             },
         "ephesus": {
             "name": "Ephesus",
@@ -1021,6 +1021,14 @@
             "type": "holiday",
             "description": "Ephesus",
             "img": ["img/ephesus2014.jpg"]
+            },
+        "phocaea": {
+            "name": "Phocaea",
+            "location": "Phocaea, Izmir, Turkey",
+            "lat-lon": [38.6686423,26.7536308],
+            "type": "holiday",
+            "description": "Phocaea",
+            "img": ["img/phocaea_1.jpg","img/phocaea_2.jpg"]
             },
         "sirince": {
             "name": "Sirince",
@@ -1045,6 +1053,14 @@
             "type": "holiday",
             "description": "Iznik, Bursa",
             "img": []
+            },
+        "bursa": {
+            "name": "Bursa",
+            "location": "Bursa, Turkey",
+            "lat-lon": [40.1833934,29.0607182],
+            "type": "holiday",
+            "description": "Bursa",
+            "img": ["img/bursa_1.jpg","img/bursa_2.jpg"]
             },
         "sariyer": {
             "name": "Sariyer",
