@@ -1,6 +1,36 @@
 {
 "books":[
 {
+    "name":"Bakele",
+    "author":"Sezgin Kaymaz",
+    "imgsrc":"img/bakele_sezginkaymaz.jpg",
+    "date":"2016-06-17",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+},
+{
+    "name":"Gercek hesap bu",
+    "author":"Nejat İşler",
+    "imgsrc":"img/gercek-hesap-bu.jpg",
+    "date":"2016-06-16",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":3
+},
+{
+    "name":"Deizm",
+    "author":"Yaşar Nuri Öztürk",
+    "imgsrc":"img/deizm_yasarnuri.jpg",
+    "date":"2016-06-15",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+},
+{
     "name":"Küçük Kara Balık",
     "author":"Samad Behrangi",
     "imgsrc":"img/kucukkarabalik.jpg",
