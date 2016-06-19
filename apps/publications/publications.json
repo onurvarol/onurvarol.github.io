@@ -47,8 +47,12 @@
 		]
 	},
 	{
-		"text": "V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, <u>O. Varol</u>, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang. <b>\"The DARPA Twitter Bot Challenge.\"</b> <i>IEEE Computer (In press)</i>",
+		"text": "V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, <u>O. Varol</u>, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang. <b>\"The DARPA Twitter Bot Challenge.\"</b> <i>IEEE Computer</i>",
 		"links": [
+			{
+				"source": "https://www.computer.org/csdl/mags/co/2016/06/mco2016060038-abs.html",
+				"name": "Journal page"
+			},
 			{	
 				"source": "http://arxiv.org/abs/1601.05140",
 				"name": "ArXiv"
