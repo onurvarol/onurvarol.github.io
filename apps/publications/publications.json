@@ -3,12 +3,20 @@
     {
 		"text": "E. Ferrara, <u>O. Varol</u>, C. Davis, F. Menczer, A. Flammini <b>\"The Rise of Social Bots\"</b>, <i>Communications of the ACM (In press)</i>",
 		"links": [
+			{
+				"source": "http://cacm.acm.org/magazines/2016/7/204021-the-rise-of-social-bots/fulltext",
+				"name": "Journal page"
+			},
 			{	
 				"source": "http://arxiv.org/abs/1407.5225",
 				"name": "ArXiv"
 			}
 		],
 		"coverage": [
+			{
+				"source": "files/CACM_cover_201606.pdf",
+				"name": "CACM Cover Image"
+			},
 			{
 				"source": "http://www.technologyreview.com/view/529461/how-to-spot-a-social-bot-on-twitter/",
 				"name": "MIT Technology Review"
