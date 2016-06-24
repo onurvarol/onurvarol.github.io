@@ -10,6 +10,10 @@
 			{	
 				"source": "http://arxiv.org/abs/1407.5225",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/cacm2016bots.bib",
+				"name": "BibTeX"
 			}
 		],
 		"coverage": [
