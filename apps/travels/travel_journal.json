@@ -400,7 +400,7 @@
         "northwestern_uni":{
             "name": "Northwestern University",
             "location": "Evanston IL, USA",
-            "lat-lon": [42.0491475,-87.6961249],
+            "lat-lon": [42.052337, -87.669963],
             "type": "holiday",
             "description": "",
             "img": ["img/northwestern_uni_1.jpg","img/northwestern_uni_2.jpg"]
