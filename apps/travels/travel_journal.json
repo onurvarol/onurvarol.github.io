@@ -100,7 +100,7 @@
     "cities": {
         "evanston_illinois": {
             "name": "Evanston, IL",
-            "zoom": 12,
+            "zoom": 14,
             "places": ["northwestern_uni", "iccss16"]
         },
         "grand_canyon":{
