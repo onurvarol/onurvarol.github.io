@@ -140,5 +140,19 @@
                 "date": "2016-08-07 23:59 -00:00"
             }
         ]
+    },
+    "www2017": {
+        "name": "WWW 2017",
+        "url": "http://www.www2017.com.au/about/call-for-papers.php",
+        "deadlines": [
+            {
+                "name": "Abstract deadline",
+                "date": "2016-10-19 23:59 -11:00",
+            },
+            {
+                "name": "Paper deadline",
+                "date": "2016-10-24 23:59 -11:00",
+            }
+        ]
     }
 }
