@@ -1,6 +1,16 @@
 {
 "books":[
 {
+    "name":"Freakonomics - The hidden side of everything",
+    "author":"Stephen J. Dubner, Steven Levitt",
+    "imgsrc":"img/freakonomics.jpg",
+    "date":"2016-07-11",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":4
+},
+{
     "name":"The Telling",
     "author":"Ursula K. LeGuin",
     "imgsrc":"img/the_telling.jpg",
