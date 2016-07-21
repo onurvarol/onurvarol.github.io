@@ -1,6 +1,16 @@
 {
 "books":[
 {
+    "name":"Slaughterhouse-Five",
+    "author":"Kurt Vonnegut",
+    "imgsrc":"img/slaughterhouse-five.jpg",
+    "date":"2016-07-21",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+},
+{
     "name":"Fatal Flaws: How a Misfolded Protein Baffled Scientists and Changed the Way We Look at the Brain",
     "author":"Jay Ingram",
     "imgsrc":"img/fatal_flaws.jpg",
