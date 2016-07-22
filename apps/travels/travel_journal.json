@@ -1167,10 +1167,10 @@
             }
     },
 
-    "usa_coverage": ["AZ", "CA", "CO", "ID", "IL", "IN", "KS", "MA", "MN", "MO", "MT", "ND", "OR", "SD", "TX", "UT", "WA", "WI", "WY"],
+    "usa_coverage": ["AZ", "CA", "CO", "ID", "IL", "IN", "KS", "MA", "MI", "MN", "MO", "MT", "ND", "OR", "SD", "TX", "UT", "WA", "WI", "WY"],
     "europe_coverage": ["DE", "GR", "NL", "PT", "TR"],
 
     "metadata":{
-        "last-update": "05-01-2016"
+        "last-update": "07-20-2016"
     }
 }
