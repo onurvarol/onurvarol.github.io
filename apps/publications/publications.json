@@ -66,10 +66,6 @@
 		"text": "V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, <u>O. Varol</u>, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang. <b>\"The DARPA Twitter Bot Challenge.\"</b> <i>IEEE Computer</i>",
 		"links": [
 			{
-				"source": "files/IEEE_Computer_cover_201606.png",
-				"name": "IEEE Computer Cover Image"
-			},
-			{
 				"source": "https://www.computer.org/csdl/mags/co/2016/06/mco2016060038-abs.html",
 				"name": "Journal page"
 			},
@@ -79,6 +75,10 @@
 			}
 		],
 		"coverage": [
+			{
+				"source": "files/IEEE_Computer_cover_201606.png",
+				"name": "IEEE Computer Cover Image"
+			},
 			{
 				"source": "http://www.technologyreview.com/view/546256/how-darpa-took-on-the-twitter-bot-menace-with-one-hand-behind-its-back/",
 				"name": "MIT Technology Review"
