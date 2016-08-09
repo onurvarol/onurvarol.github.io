@@ -24,11 +24,13 @@
         audioElement.setAttribute('autoplay', 'autoplay');
         audioElement.addEventListener("play", function(){
             $("#stopbutton").show();
+            $("#namephonetic").show();
             $("#playbutton").hide();
         });
 
         audioElement.addEventListener('ended', function(){
             $("#stopbutton").hide();
+            $("#namephonetic").hide();
             $("#playbutton").show();
         });
         audioElement.play();
@@ -38,6 +40,7 @@
 		$('#header-container').load('template_header.html');
 	    $('#footer-container').load('template_footer.html');
         $("#stopbutton").hide();
+        $("#namephonetic").hide();
 
 	    $(document).mousemove(function (event) {
 	        var imgWidth = 1677;
@@ -82,6 +85,7 @@
                     <div id="sound">
                         <img id="playbutton" src="img/sound_play.png">
                         <img id="stopbutton" src="img/sound_stop.png">
+                        <span id="namephonetic" style="vertical-align:middle;"><b>OH-ner VAH-roal</b></span>
                     </div>
 				</td>
 				
