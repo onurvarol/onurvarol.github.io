@@ -1,6 +1,16 @@
 {
 "books":[
 {
+    "name":"Do Zombies Dream of Undead Sheep?",
+    "author":"Timothy Verstynen, Bradley Voytek",
+    "imgsrc":"img/zombie_neuroscience.jpg",
+    "date":"2016-08-09",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":4
+},
+{
     "name":"Cat's Cradle",
     "author":"Kurt Vonnegut",
     "imgsrc":"img/cats-cradle.jpg",
