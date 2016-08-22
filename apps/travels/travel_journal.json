@@ -397,6 +397,14 @@
     },
 
     "locations":{
+        "new_holland_michigan":{
+            "name": "New Holland",
+            "location": "New Holland MI, USA",
+            "lat-lon": [42.7900845,-86.1064175],
+            "type": "holiday",
+            "description": "",
+            "img": ["img/new_holland_1.jpeg"]
+        },
         "northwestern_uni":{
             "name": "Northwestern University",
             "location": "Evanston IL, USA",
