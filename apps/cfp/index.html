@@ -72,12 +72,28 @@ body {
                         toShow = 'hidden-box';
                     }
                 }
+                if ("notification" in conferences[c]){
+                    if (moment(conferences[c]["notification"]).diff(moment()) < 0){
+                        toShow = 'hidden-box';
+                    }
+                    else
+                    {
+                        toShow = 'attending-box';   
+                    }
+                }
             }
 
             cfpDiv += '<div class="conference-box '+ toShow +'">'
             if ("attending" in conferences[c])
             {
                 cfpDiv += '<img src="checked.png" class="checked"/>';
+            }
+            else
+            {
+                if ("notification" in conferences[c])
+                {
+                    cfpDiv += '<img src="hourglass.svg" class="checked"/>';
+                }
             }
             cfpDiv += '<span class="title"><a href="' + conferences[c].url + '" target="_blank">';
             cfpDiv += conferences[c].name + '</a></span><br/>';
@@ -91,6 +107,11 @@ body {
             if ("attending" in conferences[c])
             {
                 cfpDiv += '<div><b>' + conferences[c]["attending"] + '</b></div>';
+            }
+            if ("notification" in conferences[c])
+            {
+                var cdate = moment(conferences[c]["notification"]);
+                cfpDiv += '<div><i>Notifications: ' + cdate.format("YYYY-MM-DD") + '</i></div>';
             }
             cfpDiv += '</div>'
             count += 1;
