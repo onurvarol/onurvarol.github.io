@@ -98,6 +98,16 @@
     },
 
     "cities": {
+        "niagara_fall_ny":{
+            "name": "Niagara Falls, NY",
+            "zoom": 14,
+            "places": ["niagara_fall_park_ny"]
+        },
+        "cleveland_ohio":{
+            "name": "Cleveland, OH",
+            "zoom": 14,
+            "places": ["cleveland_downtown"]
+        },
         "evanston_illinois": {
             "name": "Evanston, IL",
             "zoom": 14,
@@ -218,10 +228,10 @@
             "zoom": 15,
             "places": ["michigan_city"]
         },
-        "nappanee": {
-            "name": "Nappanee, IN",
-            "zoom": 15,
-            "places": ["nappanee"]
+        "amish_indiana": {
+            "name": "Amish trail, IN",
+            "zoom": 10,
+            "places": ["nappanee_in","mishawaka_in","bristol_in"]
         },
         "san_antonio":{
             "name": "San Antonio, TX",
@@ -397,6 +407,54 @@
     },
 
     "locations":{
+        "mishawaka_in":{
+            "name": "Mishwaka Indiana",
+            "location": "Mishawaka IN, USA",
+            "lat-lon": [41.665473,-86.1756238],
+            "type":"holiday",
+            "description": "",
+            "img": ["img/mishawaka_in_1.jpg","img/mishawaka_in_2.jpg"]
+        },
+        "bristol_in":{
+            "name": "Bristol Indiana",
+            "location": "Bristol IN, USA",
+            "lat-lon": [41.719533,-85.8243621],
+            "type":"holiday",
+            "description": "",
+            "img": ["img/bristol_in_1.jpg","img/bristol_in_2.jpg","img/bristol_in_3.jpg"]
+        },
+        "cleveland_downtown":{
+            "name": "Cleveland downtown",
+            "location": "Cleveland OH, USA",
+            "lat-lon": [41.4994256,-81.693589],
+            "type": "holiday",
+            "description": "",
+            "img": ["img/cleveland_oh_1.jpg","img/cleveland_oh_2.jpg","img/cleveland_oh_3.jpg"]
+        },
+        "niagara_fall_park_ny":{
+            "name": "Niagara Falls Park",
+            "location": "Niagara Falls NY, USA",
+            "lat-lon": [43.0834249,-79.0703727],
+            "type": "holiday",
+            "description": "",
+            "img": ["img/niagara_fall_park_ny_1.jpg","img/niagara_fall_park_ny_2.jpg","img/niagara_fall_park_ny_3.jpg"]
+        },
+        "kinzua_wolf_run_marina":{
+            "name": "Kinzua-wolf run marina",
+            "location": "Clarendon PA, USA",
+            "lat-lon": [41.8555537,-78.9498543],
+            "type": "holiday",
+            "description": "",
+            "img": []
+        },
+        "kinzua_bridge":{
+            "name": "Kinzua bridge",
+            "location": "Mt Jewett PA, USA",
+            "lat-lon": [41.7617043,-78.5895366],
+            "type": "holiday",
+            "description": "",
+            "img": ["img/kinzua_bridge_1.jpg","img/kinzua_bridge_2.jpg"]
+        },
         "new_holland_michigan":{
             "name": "New Holland",
             "location": "New Holland MI, USA",
@@ -901,7 +959,7 @@
             "description": "Washington park, Michigan City",
             "img": ["img/michigan_city.jpg"]
             },
-        "nappanee": {
+        "nappanee_in": {
             "name": "Nappanee, IN",
             "location": "Nappanee, IN, USA",
             "lat-lon": [41.4468548,-85.9978348],
@@ -1175,7 +1233,7 @@
             }
     },
 
-    "usa_coverage": ["AZ", "CA", "CO", "ID", "IL", "IN", "KS", "MA", "MI", "MN", "MO", "MT", "ND", "OR", "SD", "TX", "UT", "WA", "WI", "WY"],
+    "usa_coverage": ["AZ", "CA", "CO", "ID", "IL", "IN", "KS", "MA", "MI", "MN", "MO", "MT", "ND", "NY", "OH", "OR", "PA", "SD", "TX", "UT", "WA", "WI", "WY"],
     "europe_coverage": ["DE", "GR", "NL", "PT", "TR"],
 
     "metadata":{
