@@ -132,7 +132,14 @@
 
 "proceedings":[
 	{
-		"text": "Ferrara E., Wang W., <u>Varol O.</u>, Flammini A., Galstyan A. <b>\"Predicting online extremism, content adopters, and interaction reciprocity\"</b>, <i>(Under review)</i>",
+		"text": "Olteanu, A., <u>Varol, O.</u>, Kiciman, E. <b>\"What Does Social Media Say about the Outcomes of Personal Experiences\"</b>, <i>CSCW 2017</i>",
+		"links": [
+			
+		]
+	},
+
+	{
+		"text": "Ferrara E., Wang W., <u>Varol O.</u>, Flammini A., Galstyan A. <b>\"Predicting online extremism, content adopters, and interaction reciprocity\"</b>, <i>SocInfo 2016</i>",
 		"links":[
 			{
 				"source": "http://arxiv.org/abs/1605.00659",
