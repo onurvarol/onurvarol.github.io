@@ -164,5 +164,19 @@
                 "date": "2016-10-24 23:59 -11:00",
             }
         ]
+    },
+    "icwsm2017": {
+        "name": "ICWSM 2017",
+        "url": "http://icwsm.org/2017/",
+        "deadlines": [
+            {
+                "name": "Abstract deadline",
+                "date": "2017-01-06 23:59 -11:00",
+            },
+            {
+                "name": "Paper deadline",
+                "date": "2017-01-13 23:59 -11:00",
+            }
+        ]
     }
 }
