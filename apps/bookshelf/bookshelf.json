@@ -2352,6 +2352,16 @@
     "score":5
   },
   {
+    "name":"Hababam Sinifi",
+    "author":"Rifat Ilgaz",
+    "imgsrc":"img/hababam-sinifi.jpg",
+    "comment":"-",
+    "date":"2002",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+  },
+  {
     "name":"Tılsım",
     "author":"Stephen King",
     "imgsrc":"img/tilsim.jpeg",
@@ -2480,6 +2490,16 @@
     "notes":"Notlar",
     "display":true,
     "score":4
+  },
+  {
+    "name":"Bacaksiz Serisi (5)",
+    "author":"Rifat Ilgaz",
+    "imgsrc":"img/bacaksiz.jpg",
+    "comment":"-",
+    "date":"1995",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
   }
 ]
 }
