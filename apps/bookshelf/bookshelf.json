@@ -1,6 +1,16 @@
 {
 "books":[
 {
+    "name":"His Master's Voice",
+    "author":"Stanislaw Lem",
+    "imgsrc":"img/lem-hmv.jpg",
+    "date":"2016-10-08",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+},
+{
     "name":"The Word for World Is Forest",
     "author":"Ursula K. LeGuin",
     "imgsrc":"img/WordWorldForest.jpg",
