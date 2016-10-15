@@ -178,5 +178,15 @@
                 "date": "2017-01-13 23:59 -11:00",
             }
         ]
+    },
+    "netsci2017": {
+        "name": "NetSci 2017",
+        "url": "http://netsci2017.net/",
+        "deadlines": [
+            {
+                "name": "Abstract deadline",
+                "date": "2017-01-15 23:59 -11:00",
+            }
+        ]
     }
 }
