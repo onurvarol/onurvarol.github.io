@@ -1,14 +1,26 @@
 {
 "books":[
 {
-    "name":"Animal farm (&#128266;)",
-    "author":"George Orwell",
-    "imgsrc":"img/animal-farm.jpg",
-    "date":"2016-11-14",
+    "name":"The Wonderful Wizard of Oz",
+    "author":"L. Frank Baum",
+    "imgsrc":"img/oz-1.jpg",
+    "date":"2016-10-21",
     "comment":"-",
     "notes":"Notlar",
     "display":true,
-    "score":5
+    "score":5,
+    "audio":true
+},
+{
+    "name":"Animal Farm",
+    "author":"George Orwell",
+    "imgsrc":"img/animal-farm.jpg",
+    "date":"2016-10-14",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5,
+    "audio":true
 },
 {
     "name":"His Master's Voice",

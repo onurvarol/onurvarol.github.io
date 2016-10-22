@@ -15,6 +15,11 @@
 
 "DarpaChallenge": [
 	{
+		"source": "Mashable",
+		"title": "How to spot the real tweets amid a sea of Trump Twitter bots",
+		"url": "http://mashable.com/2016/10/19/trump-twitter-bots-study/"
+	},
+	{
 		"source": "MIT Technology Review",
 		"title": "How DARPA Took On the Twitter Bot Menace with One Hand Behind Its Back",
 		"url": "http://www.technologyreview.com/view/546256/how-darpa-took-on-the-twitter-bot-menace-with-one-hand-behind-its-back/"
@@ -32,6 +37,11 @@
 ],
 
 "BotOrNot":[
+	{
+		"source": "Washington Post",
+		"title": "One in four debate tweets comes from a bot. Here’s how to spot them.",
+		"url": "https://www.washingtonpost.com/news/the-intersect/wp/2016/10/19/one-in-four-debate-tweets-comes-from-a-bot-heres-how-to-spot-them/"
+	},
 	{
 		"source": "The Atlantic",
 		"title": "Have Twitter Bots Infiltrated the 2016 Election?",

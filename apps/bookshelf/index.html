@@ -11,6 +11,9 @@
                 }
                 bookDiv = '<div class="item" id="book">';
                 bookDiv += '<img src="' + books[i].imgsrc + '" alt="' + books[i].name + '" style="height: 250px; margin: 5px 0 0 0;"> <br/>';
+                if (books[i].hasOwnProperty('audio')){
+                    bookDiv += '&#128266; ';
+                }
                 bookDiv += '<b>' + books[i].name + '</b> <br/>';
                 bookDiv += '<b>Author:</b> ' + books[i].author + '<br/>';
                 //bookDiv += books[i].comment + '<br/>';
