@@ -1,6 +1,17 @@
 {
 "books":[
 {
+    "name":"The Marvelous Land of Oz",
+    "author":"L. Frank Baum",
+    "imgsrc":"img/oz-2.jpg",
+    "date":"2016-10-28",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":4,
+    "audio":true
+},
+{
     "name":"Dönüşüm Hastanesi",
     "author":"Stanislaw Lem",
     "imgsrc":"img/lem-donusum-hastanesi.gif",
