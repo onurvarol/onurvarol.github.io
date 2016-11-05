@@ -1,17 +1,6 @@
 {
 "books":[
 {
-    "name":"The Marvelous Land of Oz",
-    "author":"L. Frank Baum",
-    "imgsrc":"img/oz-2.jpg",
-    "date":"2016-10-28",
-    "comment":"-",
-    "notes":"Notlar",
-    "display":true,
-    "score":4,
-    "audio":true
-},
-{
     "name":"Dönüşüm Hastanesi",
     "author":"Stanislaw Lem",
     "imgsrc":"img/lem-donusum-hastanesi.gif",
@@ -2553,6 +2542,79 @@
     "notes":"Notlar",
     "display":true,
     "score":5
-  }
+  },
+  {
+    "name":"Dorothy and the Wizard in Oz",
+    "author":"L. Frank Baum",
+    "imgsrc":"img/oz-4.jpg",
+    "date":"2016-11-04",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":4,
+    "audio":true
+   },
+   {
+    "name":"Ozma of Oz",
+    "author":"L. Frank Baum",
+    "imgsrc":"img/oz-3.jpg",
+    "date":"2016-11-01",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":4,
+    "audio":true
+   },
+   {
+    "name":"The Marvelous Land of Oz",
+    "author":"L. Frank Baum",
+    "imgsrc":"img/oz-2.jpg",
+    "date":"2016-10-28",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":4,
+    "audio":true
+   },
+   {
+    "name":"Aya Yolculuk",
+    "author":"Jules Verne",
+    "imgsrc":"img/aya-yolculuk.jpg",
+    "date":"1998",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+   },
+   {
+    "name":"Dünyanın Merkezine Yolculuk",
+    "author":"Jules Verne",
+    "imgsrc":"img/dunyanim_merkezine_yolculuk.jpg",
+    "date":"1998",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+   },
+   {
+    "name":"Denizler Altında Yirmi Bin Fersah",
+    "author":"Jules Verne",
+    "imgsrc":"img/Denizler-Altinda-20000-Fersah.jpg",
+    "date":"1998",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+   },
+   {
+    "name":"Seksen Günde Devr-i Âlem",
+    "author":"Jules Verne",
+    "imgsrc":"img/80-gunde-devri-alem.jpg",
+    "date":"1998",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+   }
 ]
 }
