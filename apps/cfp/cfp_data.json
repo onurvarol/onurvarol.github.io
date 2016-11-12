@@ -187,5 +187,15 @@
                 "date": "2017-01-15 23:59 -11:00",
             }
         ]
+    },
+    "acl2016":{
+        "name": "ACL 2017",
+        "url": "http://acl2017.org/calls/papers/",
+        "deadlines":[
+            {
+                "name": "Paper deadline",
+                "date": "2016-02-06 23:59 -10:00"
+            }
+        ]
     }
 }

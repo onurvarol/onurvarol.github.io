@@ -1,6 +1,27 @@
 {
 "books":[
 {
+    "name":"The Stars My Destination",
+    "author":"Alfred Bester",
+    "imgsrc":"img/tiger-tiger.jpg",
+    "date":"2016-11-12",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5
+},
+{
+    "name":"Master of the World",
+    "author":"Jules Verne",
+    "imgsrc":"img/Master-of-the-World.jpg",
+    "date":"2016-11-11",
+    "comment":"-",
+    "notes":"Notlar",
+    "display":true,
+    "score":5,
+    "audio":true
+},
+{
     "name":"Dönüşüm Hastanesi",
     "author":"Stanislaw Lem",
     "imgsrc":"img/lem-donusum-hastanesi.gif",
@@ -2546,7 +2567,7 @@
   {
     "name":"Dorothy and the Wizard in Oz",
     "author":"L. Frank Baum",
-    "imgsrc":"img/oz-4.jpg",
+    "imgsrc":"img/oz-4.jpeg",
     "date":"2016-11-04",
     "comment":"-",
     "notes":"Notlar",
