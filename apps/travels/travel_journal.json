@@ -467,7 +467,7 @@
             "lat-lon": [36.1557671,-86.7811792],
             "type": "conference",
             "description": "",
-            "img": []
+            "img": ["img/informs.jpg"]
         },
         "mishawaka_in":{
             "name": "Mishwaka Indiana",
