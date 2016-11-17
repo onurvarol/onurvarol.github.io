@@ -98,6 +98,16 @@
     },
 
     "cities": {
+        "louisville_ky":{
+            "name": "Louisville, KY",
+            "zoom": 14,
+            "places": ["louisville_ky_downtown", "mammoth_cave_ky"]
+        },
+        "nashville_tn":{
+            "name": "Nashville, TN",
+            "zoom": 14,
+            "places": ["nashville_tn_downtown", "informs16"]
+        },
         "niagara_fall_ny":{
             "name": "Niagara Falls, NY",
             "zoom": 14,
@@ -326,6 +336,16 @@
     },
 
     "conferences": {
+        "informs16":{
+            "name": "INFORMS'16 (Nashville TN, USA)",
+            "location": "informs16",
+            "presented":[
+              {
+                "title": "Analysis of Online Discourse and Information Diffusion",
+                "link": ""
+              }
+            ]
+        },
         "iccss16":{
             "name": "ICCSS'16 (Evanston IL, USA)",
             "location": "iccss16",
@@ -407,6 +427,38 @@
     },
 
     "locations":{
+        "louisville_ky_downtown":{
+            "name": "Louisville Downtown",
+            "location": "Louisville KY, USA",
+            "lat-lon": [38.2567129,-85.7631662],
+            "type": "holiday",
+            "description": "",
+            "img": ["img/louisville_ky_3.jpg","img/louisville_ky_1.jpg","img/louisville_ky_2.jpg"]
+        },
+        "mammoth_cave_ky":{
+            "name": "Mammoth Cave National Park",
+            "location": "Kentucky",
+            "lat-lon": [37.1869978,-86.100528],
+            "type": "holiday",
+            "description": "",
+            "img": ["img/mammoth_cave_1.jpg","img/mammoth_cave_2.jpg","img/mammoth_cave_3.jpg","img/mammoth_cave_4.jpg","img/mammoth_cave_5.jpg"]
+        },
+        "nashville_tn_downtown":{
+            "name": "Nashville Downtown",
+            "location": "Nashville TN, USA",
+            "lat-lon": [36.1523961,-86.7946234],
+            "type": "holiday",
+            "description": "",
+            "img": ["img/nashville_1.jpg","img/nashville_2.jpg","img/nashville_3.jpg","img/nashville_4.jpg"]
+        },
+        "informs16":{
+            "name": "INFORMS Conference",
+            "location": "Music City Center Nashville TN, USA",
+            "lat-lon": [36.1557671,-86.7811792],
+            "type": "c",
+            "description": "conference",
+            "img": []
+        },
         "mishawaka_in":{
             "name": "Mishwaka Indiana",
             "location": "Mishawaka IN, USA",
@@ -1233,10 +1285,10 @@
             }
     },
 
-    "usa_coverage": ["AZ", "CA", "CO", "ID", "IL", "IN", "KS", "MA", "MI", "MN", "MO", "MT", "ND", "NY", "OH", "OR", "PA", "SD", "TX", "UT", "WA", "WI", "WY"],
+    "usa_coverage": ["AZ", "CA", "CO", "ID", "IL", "IN", "KS", "KY", "MA", "MI", "MN", "MO", "MT", "ND", "NY", "OH", "OR", "PA", "SD", "TN", "TX", "UT", "WA", "WI", "WY"],
     "europe_coverage": ["DE", "GR", "NL", "PT", "TR"],
 
     "metadata":{
-        "last-update": "07-20-2016"
+        "last-update": "10-16-2016"
     }
 }
