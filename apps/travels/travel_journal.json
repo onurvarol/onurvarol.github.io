@@ -337,6 +337,11 @@
             "name": "Antalya, Turkey",
             "zoom": 14,
             "places": ["antalya", "akdeniz_university"]
+        },
+        "canakkale": {
+            "name": "Canakkale, Turkey",
+            "zoom": 14,
+            "places": ["canakkale_sehitlik"]
         }
     },
 
@@ -1287,7 +1292,15 @@
             "type": "university",
             "description": "Akdeniz Matematik Olimpiyatlari",
             "img": []
-            }
+            },
+        "canakkale_sehitlik": {
+            "name": "Canakkale Sehitlik",
+            "location": "Canakkale, Turkey",
+            "lat-lon": [40.0500757,26.2180743],
+            "type": "holiday",
+            "description": "",
+            "img": ["img/canakkale_sehitlik.jpg"]
+        }
     },
 
     "usa_coverage": ["AZ", "CA", "CO", "ID", "IL", "IN", "KS", "KY", "MA", "MI", "MN", "MO", "MT", "ND", "NY", "OH", "OR", "PA", "SD", "TN", "TX", "UT", "WA", "WI", "WY"],
