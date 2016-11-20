@@ -1,7 +1,7 @@
 {
 "journals":[
 	{
-		"text": "C. Ogan, <u>O. Varol</u> <b>\"Combining Content Analysis with Network Analysis in the Study of a Social Movement: Twitter Use During Gezi Park Protests\"</b>, <i>Information, Communication and Society</i>",
+		"text": "C. Ogan, <u>O. Varol</u> <b>\"Combining Content Analysis with Network Analysis in the Study of a Social Movement: Twitter Use During Gezi Park Protests\"</b>, <i>Information, Communication & Society (2016): 1-19.</i>",
 		"links": [
 			{
 				"source": "http://www.tandfonline.com/doi/full/10.1080/1369118X.2016.1229006",
@@ -14,7 +14,7 @@
 		]
 	},
     {
-		"text": "E. Ferrara, <u>O. Varol</u>, C. Davis, F. Menczer, A. Flammini <b>\"The Rise of Social Bots\"</b>, <i>Communications of the ACM</i>",
+		"text": "E. Ferrara, <u>O. Varol</u>, C. Davis, F. Menczer, A. Flammini <b>\"The Rise of Social Bots\"</b>, <i>Communications of the ACM 59(7), 2016</i>",
 		"links": [
 			{
 				"source": "http://cacm.acm.org/magazines/2016/7/204021-the-rise-of-social-bots/fulltext",
@@ -57,7 +57,7 @@
 		]
 	},
 	{
-		"text": "Davis CA, Ciampaglia GL, Aiello LM, Chung K, Conover MD, Ferrara E, Flammini A, Fox GC, Gao X, Gonçalves B, Grabowicz PA, Hong K, Hui P, McCaulay S, McKelvey K, Meiss MR, Patil S, Peli Kankanamalage C, Pentchev V, Qiu J, Ratkiewicz J, Rudnick A, Serrette B, Shiralkar P, <u>Varol O</u>, Weng L, Wu T, Younge AJ, Menczer F. <b>\"OSoMe: The IUNI observatory on social media\"</b>, <i>PeerJ Computer Science (Submitted)</i>",
+		"text": "Davis CA, Ciampaglia GL, Aiello LM, Chung K, Conover MD, Ferrara E, Flammini A, Fox GC, Gao X, Gonçalves B, Grabowicz PA, Hong K, Hui P, McCaulay S, McKelvey K, Meiss MR, Patil S, Peli Kankanamalage C, Pentchev V, Qiu J, Ratkiewicz J, Rudnick A, Serrette B, Shiralkar P, <u>Varol O</u>, Weng L, Wu T, Younge AJ, Menczer F. <b>\"OSoMe: The IUNI observatory on social media\"</b>, <i>PeerJ Computer Science 2: e87, 2016</i>",
 		"links": [
 			{
 				"source": "https://peerj.com/articles/cs-87/",
@@ -76,7 +76,7 @@
 		]
 	},
 	{
-		"text": "V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, <u>O. Varol</u>, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang. <b>\"The DARPA Twitter Bot Challenge.\"</b> <i>IEEE Computer</i>",
+		"text": "V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, <u>O. Varol</u>, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang. <b>\"The DARPA Twitter Bot Challenge.\"</b> <i>IEEE Computer 49(6), 2016</i>",
 		"links": [
 			{
 				"source": "https://www.computer.org/csdl/mags/co/2016/06/mco2016060038-abs.html",
@@ -107,7 +107,7 @@
 		]
 	},
     {
-		"text": "M. JafariAsbagh, E. Ferrara, <u>O. Varol</u>, F. Menczer, A. Flammini <b>\"Clustering memes in social media streams\"</b>, <i>Social Network Analysis and Mining</i>",
+		"text": "M. JafariAsbagh, E. Ferrara, <u>O. Varol</u>, F. Menczer, A. Flammini <b>\"Clustering memes in social media streams\"</b>, <i>Social Network Analysis and Mining, 4(237):1-­‐13, 2014</i>",
 		"links": [
 			{
 				"source": "http://dx.doi.org/10.1007/s13278-014-0237-x",
@@ -123,7 +123,7 @@
 		]
 	},
     {
-		"text": "<u>O. Varol</u>, D. Yuret, B. Erman, A. Kabakçıoğlu <b>\"Mode coupling points to functionally important residues in Myosin II\"</b>, <i>Proteins: Structure, Function, and Bioinformatics</i>",
+		"text": "<u>O. Varol</u>, D. Yuret, B. Erman, A. Kabakçıoğlu <b>\"Mode coupling points to functionally important residues in Myosin II\"</b>, <i>Proteins: Structure, Function, and Bioinformatics, 82(9):1777-­‐86, 2014</i>",
 
 		"links": [
 			{
@@ -143,9 +143,12 @@
 
 "proceedings":[
 	{
-		"text": "Olteanu, A., <u>Varol, O.</u>, Kiciman, E. <b>\"What Does Social Media Say about the Outcomes of Personal Experiences\"</b>, <i>CSCW 2017</i>",
+		"text": "Olteanu, A., <u>Varol, O.</u>, Kiciman, E. <b>\"Distilling the Outcomes of Personal Experiences: A Propensity-scored Analysis of Social Media\"</b>, <i>CSCW 2017</i>",
 		"links": [
-			
+			{
+				"source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/cscw17-distilling-the-outcomes-of-personal-experiences-a-propensity-scored-analysis.pdf",
+				"name": "PDF"
+			}
 		]
 	},
 
