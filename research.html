@@ -30,7 +30,7 @@
                 $('#header-container').load('template_header.html');
                 $('#footer-container').load('template_footer.html');
 
-                $(document).on('click', '.panel-heading span.clickable', function(e){
+                $(document).on('click', '.panel-heading', function(e){
                     var $this = $(this);
                     if(!$this.hasClass('panel-collapsed')) {
                         $this.parents('.panel').find('.panel-body').slideUp();
@@ -143,7 +143,7 @@
                         <h3>Previous Projects & Research</h3>
 
                         <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div class="panel-heading panel-collapsed">
                                 <h3 class="panel-title">Modal analysis of Myosin II and Identification of Functionally Important Sites (M.Sc. Thesis 2012)</h3>
                                 <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
                             </div>
@@ -167,7 +167,7 @@
 
 
                         <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div class="panel-heading panel-collapsed">
                                 <h3 class="panel-title">Social Network Analysis Using a Statistical Physics Approach (B.Sc. Thesis 2011)</h3>
                                 <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
                             </div>
@@ -185,7 +185,7 @@
 
 
                         <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div class="panel-heading panel-collapsed">
                                 <h3 class="panel-title">EEG Data Classification and applications (B.Sc Thesis - 2010)</h3>
                                 <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
                             </div>
