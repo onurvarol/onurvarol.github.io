@@ -1,36 +1,47 @@
-<div id="header">
-	<a href="http://www.itu.edu.tr" target="_blank" alt="ITU"><img id="ITULogo" src="img/ITUlogo.png" valign="top" height="50"  alt="Istanbul Technical University Logo"></a>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Onur Varol</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="files/onurvarol-cv.pdf">CV</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Personal<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://www.onurvarol.com/my_bookshelf/" target="_blank">Bookshelf</a></li>
+            <li><a href="http://www.onurvarol.com/my_travels/" target="_blank">Travels</a></li>
+            <li><a href="http://www.onurvarol.com/my_beer_exploration/" target="_blank">Beers</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header">Links</li>
+            <li><a href="http://www.onurvarol.com/blog/" target="_blank">Blog</a></li>
+            <li><a href="http://www.nurmustafaoglu.com">My lovely wife's webpage ♥</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../navbar/">Default</a></li>
+        <li><a href="../navbar-static-top/">Static top</a></li>
+        <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+      </ul>
+      -->
+    </div>
+  </div>
+</nav>
 
-    <a href="http://www.ku.edu.tr" target="_blank" alt="KU"><img id="KULogo" src="img/KUlogo.gif" valign="top" height="50"  alt="Koc University Logo"></a>
-
-    <a href="http://www.iu.edu" target="_blank" alt="IU"><img id="IULogo" src="img/iu_logo.png" valign="top" height="50"  alt="Indiana University Logo"></a>
-    
- 	<!--<a href="http://research.microsoft.com/" target="_blank" alt="MSR"><img id="MSRLogo" src="img/msr_logo.png"  height="30" alt="Microsoft Research Logo" style="padding-top:10px;"></a>	
-	-->
-    <h1>Onur Varol's Home Page</h1>
+<!--
+<div id="large-header" style"height:100px; position: absolute;">
+  <canvas id="demo-canvas" class="hidden-xs hidden-sm" style="position:relative;"></canvas>
 </div>
-<div id="menu">
-	<ul>
-		<li> <a href="index.html">HOME</a> </li>
-		<li> <a href="files/onurvarol-cv.pdf" target="_blank">CV</a> </li>
-		<li> <a href="research.html">RESEARCH</a> </li>
-		<li> <a href="publications.html">PUBLICATIONS</a> </li>
-		<li> <a href="personal.html">PERSONAL</a> </li>
-		<li> <a href="contact.html">CONTACT</a> </li>
-		<li> <a href="blog" target="_blank">BLOG</a> </li>
-	</ul>
-	
-	<div id="google_translate_element" align="right" style="margin-right:20px;"></div>
-	<script>
-		function googleTranslateElementInit() {
-		  new google.translate.TranslateElement({
-			pageLanguage: 'en',
-			autoDisplay: false,
-			gaTrack: true,
-			gaId: 'UA-7399107-1',
-			layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-		  }, 'google_translate_element');
-		}
-	</script>
-	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-</div>
+-->

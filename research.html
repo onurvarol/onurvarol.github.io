@@ -1,307 +1,229 @@
-<html> 
-<head>
-	<meta content="[Onur Varol]" name="description">
-	<meta content="computer science, physics, complex systems, sociodynamics, social networks, NaN, ITU, Istanbul Technical University, Koc University, Indiana University" name="keywords">
-	<meta content="Copyright (c) 2010 Onur Varol" name="Copyright">
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-	<meta property="og:title" content="Onur Varol's Home Page">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://onurvarol.com/">
-    <meta property="og:image" content="http://onurvarol.com/img/vypro.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="100">
-    <meta property="og:image:height" content="100">
-    <meta property="og:description" content="This site contains Onur Varol's academic information and research.">
-    <link id="page_favicon" href="img/favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="css/accordion.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="Onur Varol">
+        <link rel="icon" href="../../favicon.ico">
 
-<script src="js/jquery-1.3.2.js" type="text/javascript"></script>
-<script type="text/javascript">
-	$(document).ready(function () {
-		$('#header-container').load('template_header.html');
-	    $('#footer-container').load('template_footer.html');
+        <title>Onur Varol's Homepage</title>
 
-	    $(document).mousemove(function (event) {
-	        var imgWidth = 1677;
-	        var winWidth = $(document).width();
-	        //alert(imgWidth);
-	        var shift = Math.floor(event.pageX * (winWidth - imgWidth) / winWidth);
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
 
-	        $("#header-container").css("background-position", shift + "px 0");
-	        //var msg = 'Handler for .mousemove() called at ' + event.pageX + ', ' + event.pageY;
-	        //$('#log').append('<div>' + msg + '</div>');
-	    });
-	});
-</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
 
-<script type="text/javascript">
+        <!-- Banner js codes
+        <script src="js/banner/TweenLite.min.js"></script>
+        <script src="js/banner/EasePack.min.js"></script>
+        <script src="js/banner/usermap.js"></script>
+        -->
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-7399107-2']);
-  _gaq.push(['_trackPageview']);
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#header-container').load('template_header.html');
+                $('#footer-container').load('template_footer.html');
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+                $(document).on('click', '.panel-heading span.clickable', function(e){
+                    var $this = $(this);
+                    if(!$this.hasClass('panel-collapsed')) {
+                        $this.parents('.panel').find('.panel-body').slideUp();
+                        $this.addClass('panel-collapsed');
+                        $this.find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+                    } else {
+                        $this.parents('.panel').find('.panel-body').slideDown();
+                        $this.removeClass('panel-collapsed');
+                        $this.find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+                    }
+                })
+            });
+        </script>
 
-</script>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-7399107-2']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
 
-<script type="text/javascript">
+    </head>
 
-	$(document).ready(function () {
-        $(".accordion-header").hover(function () {
-            $(this).animate({ opacity: "0.5" });
-        }
-    , function () {
-        $(this).animate({ opacity: "1" });
+    <body>
 
-    }).click(function () {
-        var ad = $(this).attr("id").replace("b", "");
-        $(".accordion-content").slideUp("slow");
-        if ($("#c" + ad).css("display") == 'none')
-            $("#c" + ad).slideToggle("slow");
-    });
-    });
-</script>
+        <div id="header-container"></div>
 
-</head> 
-<body>
-	<div id="header-container"></div>
+        <div id="content" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="margin-top:10px; margin-bottom:10px;"> 
+                            
+                        <h3>Recent Research Projects</h3>
 
-	<div id="myself">
-            <p>
-                I am currently a <a href="http://www.soic.indiana.edu/informatics/" target="_blank"><u>Informatics</u></a> Ph.D. candidate at <a href="http://www.soic.indiana.edu/graduate/programs/complex-systems/" target="_blank"><u>Complex Systems</u></a> track, Indiana University Bloomington.
-            </p>
-            <p>
-                I am a member of <a href="http://cnets.indiana.edu/groups/nan" target="_blank"><u>NaN</u></a> group. My ongoing research activities focus on modeling user interactions, leveraging online data across multiple platforms to understand conscious and unconscious behaviors. 
-                In my first three years, I worked on <a href="http://cnets.indiana.edu/groups/nan/despic" target="_blank"><u>DESPIC</u></a> project with PIs <a href="https://sites.google.com/site/aflammin/" target="_blank"><u>Alessandro Flammini</u></a> and <a href="http://cnets.indiana.edu/people/filippo-menczer" target="_blank"><u>Fil Menczer</u></a> on detecting campaigns and social bots. 
-            </p>
-            <p>
-                In addition to my main research topics, I am interested in psychology and cognitive science.
-                Specifically, I am curious about dreams and the unconscious mind. My excitement about dreams led to a leisure-time research project in which I analyzed dream interpretations to investigate cultural differences and universal archetypes.
-            </p>
-            <p>
-                Here is the link for the courses I took during my education <a href="courses.html"><u>COURSES</u></a>
-            </p>
-        <br />
-    </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h3 class="panel-title">BotOrNot</h3>
+                          </div>
+                          <div class="panel-body">
+                            <div class="col-md-4">
+                                <img class="img-responsive" alt="BotOrNot" src="img/botornot_fig.png"> 
+                            </div>
 
-	<div id="content">
-		<div class="project">
-            <a href="http://cnets.indiana.edu/groups/nan/despic" target="_blank">
-                DESPIC
-                <br/>
-                <img src='img/despic_fig.png'>
-            </a>
-		</div>
+                            <div class="col-md-8">
+                                To detect social bots we build a machine learning system that extracts more
+                                than a thousand features in six different classes: users and friends meta-data,
+                                tweet content and sentiment, network patterns, and activity time series. As a demonstration of our work on the detection of social bots, we built a service called <a href="truthy.indiana.edu/botornot" target="_blank">BotOrNot</a> that evaluates the bot-likelihood of Twitter accounts
+                            </div>
 
-		<div class="project">
-			<a href="http://truthy.indiana.edu/" target="_blank">
-                TRUTHY
-                <br/>
-                <img src='img/truthy_fig.png'>
-            </a>
-		</div>
+                          </div>
+                        </div>
 
-        <div class="project">
-            <a href="http://dl.acm.org/citation.cfm?id=2512956" target="_blank">
-                TRENDS
-                <br/>
-                <img src='img/trend_fig.png'>
-            </a>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h3 class="panel-title">DESPIC</h3>
+                          </div>
+                          <div class="panel-body">
+                            <div class="col-md-4">
+                                <img class="img-responsive" alt="DESPIC" src="img/despic_fig.png"> 
+                            </div>
+                            <div class="col-md-8">
+                                Project name stands for <i>"Detecting Early Signature of Persuasion in Information Cascades"</i> and aims to design a system detect persuasion campaigns at their early stage of inception, in the context of online social media.
+
+                                I have been working on several modules of this framework: (i) a clustering procedure that uses metadata to compute similarity between memes; (ii) a classification system that determines whether a meme is potentially an orchestrated campaign or a genuine, grassroots conversation; (iii) an anomaly detection system that tracks statistical patterns based on time, location, and user features to identify memes and tweets that needs additional inspection.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h3 class="panel-title">Social Protests</h3>
+                          </div>
+                          <div class="panel-body">
+                            <div class="col-md-4">
+                                <img class="img-responsive" alt="DESPIC" src="img/gezi_fig.png"> 
+                            </div>
+                            <div class="col-md-8">
+                                I analyzed the behavioral changes of users during social
+                                protests in Turkey. Our analysis first characterizes spatio-temporal nature of the
+                                conversation about Gezi park demonstrations, showing that similarity in trends
+                                of discussions mirrors geographic cues. More importantly, we describe the characteristics of the users involved in this conversation and what roles they played.
+                                We study how roles and individual influence evolved during the period of the upheaval. This analysis reveals that the conversation becomes more democratic as events unfold, with a redistribution of influence over time in the user population.
+                                We conclude by observing how the online and offine worlds are tightly intertwined,
+                                showing that exogenous events, such as political speeches or police actions, affect
+                                social media conversations and trigger changes in individual behavior. This work received the best paper award at the Web Science conference in 2014
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h3 class="panel-title">Dream Analysis</h3>
+                          </div>
+                          <div class="panel-body">
+                            <div class="col-md-4">
+                                <img class="img-responsive" alt="Dreams" src="img/dream_fig.jpg"> 
+                            </div>
+                            <div class="col-md-8">
+                                In addition to my main research topics, I am interested in psychology and cognitive science. Specifically, I am curious about dreams and the unconscious mind. My excitement about dreams led to a leisure-time research project in which I analyzed dream interpretations to investigate cultural differences and universal archetypes.
+
+                                In this study, I introduce multiplex network of dream interpretations for English, Chinese and Arabic languages that represent different cultures from various parts of the world. We analyze communities in these networks, finding that symbols within a community are semantically related. The central nodes in communities give insight about cultures and symbols in dreams. Differences between network highlight interesting cultural patterns. For instance, we observed the dream symbol "woman" in Chinese network is one of the most central node of the network community consist of symbols with negative emotions and nightmares, cultural roots of which is explained by Jung in 1960s.
+                            </div>
+                          </div>
+                        </div>
+
+                        <h3>Previous Projects & Research</h3>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Modal analysis of Myosin II and Identification of Functionally Important Sites (M.Sc. Thesis 2012)</h3>
+                                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                            </div>
+                            <div class="panel-collapsed collapse panel-body">
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="img/master_thesis.png"> 
+                                    <br>
+                                    <a href="https://docs.google.com/open?id=0BzD-SFrAD4jmaGhVR0xNWWUtYms" target="_blank">
+                                    [Thesis PDF]</a> <br>
+
+                                    <a href="https://docs.google.com/open?id=0BzD-SFrAD4jmY21FT3JLZ0NmOUU" target="_blank">
+                                    [Thesis Presentation]</a> <br>
+                                </div>
+                                <div class="col-md-8">
+                                    Analysis of protein dynamics uses structural and ﬂuctuation based methods. Fluctuation analysis of protein dynamics has proven to be a rewarding venue of research. Massand spring models are used in previous research commonly. However, ﬂuctuations of this models are based on purely harmonic which has signiﬁcant gap between the experimental results. Deviations from harmonicity mostly observe in slow, collective modes. Corrections like anharmonic modal decomposition are ﬁrst step in order to minimize this gap. The contribution of the higher-order corrections is limited because of the interacting modes. Mode-coupling corrections which yield valuable information on means of energy transfer and allostery.
+                                    <br>
+                                    In this work, molecular dynamic results of Dictyostelium discoideum myosin II motor domain is used as test ground. Mode ﬂuctuation distributions produced using MD results, fully harmonic models and a model with anharmonic corrections. Tensorial hermite polynomials are used in order to obtain distributions of modal ﬂuctuations. Fluctuations on modal space are transformed back into real space and distribution of residual ﬂuctuations is compared using KL divergence. Analysis results for ligand-bound and free myosin dynamics are used in order to demonstrate that the mode-coupling contributions alone highlight functionally important sites.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Social Network Analysis Using a Statistical Physics Approach (B.Sc. Thesis 2011)</h3>
+                                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                            </div>
+                            <div class="panel-collapsed collapse panel-body">
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="img/physics_thesis.png"> 
+                                </div>
+                                <div class="col-md-8">
+                                    This project is made as an ITU Physics Engineering graduation project under advisory of Prof. Dr. Ayşe Erzan. In this study, the evolution of the message passing network under interaction between nodes is studied. Purpose of these simulations is to obtain some insight
+                                    into more complicated systems like social networks. For diﬀerent initial conditions
+                                    and network sizes, the network asymptotically evolves either to a set of disconnected clusters or to one connected component, with all nodes connected to root via directed paths. Thus, network either delivers an initial message to almost all the nodes, or the message is conﬁned to a small subset. Therefore, the problem is essentially a problem of dynamical percolation.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">EEG Data Classification and applications (B.Sc Thesis - 2010)</h3>
+                                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                            </div>
+                            <div class="panel-collapsed collapse panel-body">
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="img/electronics_thesis.png"> 
+                                </div>
+                                <div class="col-md-8">
+                                    The main purpose of this project is processing EEG signals and classifying them for different cognitive actions. I started this project as a final year project of Electronic Enginnering under advisory of <a href="http://web.itu.edu.tr/~yalcinmust/" target="_blank">Prof. Müştak Erhan Yalçın.</a>
+
+                                    <br>In this project, feature selection and classification of EEG signals for different cognitive actions is made. There are several methods for classifying them I tried different features and methods. SVM (Support Vector Machines) is one of the method that I used for classification.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"></h3>
+                                <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                            </div>
+                            <div class="panel-collapsed collapse panel-body">
+                                <div class="col-md-4">
+                                    
+                                </div>
+                                <div class="col-md-8">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        -->
+
+                    </div> 
+                </div>
+            </div>
         </div>
 
-        <div class="project">
-            <a href="http://dl.acm.org/citation.cfm?id=2580073" target="_blank">
-                DREAMS
-                <br/>
-                <img src='img/dream_fig.jpg'>
-            </a>
-        </div>
-	</div>
+        <div id="footer-container"></div>
 
-	<div style="margin-bottom:100px">&nbsp;</div>
-
-	<div id="myself">
-        <p>Previous Projects & Research</p>
-        <div class="accordion-header" id="b101">
-            <table width="100%">
-                <tr>
-                    <td id='title' align="left">Modal analysis of Myosin II and Identification of Functionally Important
-                        Sites (M.Sc. Thesis 2012)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-        </div>
-        <div id="c101" class="accordion-content">
-            Analysis of protein dynamics uses structural and ﬂuctuation based methods. Fluctuation analysis of protein dynamics has proven to be a rewarding venue of research. Massand spring models are used in previous research commonly. However, ﬂuctuations of this models are based on purely harmonic which has signiﬁcant gap between the experimental results. Deviations from harmonicity mostly observe in slow, collective modes. Corrections like anharmonic modal decomposition are ﬁrst step in order to minimize this gap. The contribution of the higher-order corrections is limited because of the interacting modes. Mode-coupling corrections which yield valuable information on means of energy transfer and allostery. <br/>
-            <br/>
-            In this work, molecular dynamic results of Dictyostelium discoideum myosin II motor domain is used as test ground. Mode ﬂuctuation distributions produced using MD results, fully harmonic models and a model with anharmonic corrections. Tensorial hermite polynomials are used in order to obtain distributions of modal ﬂuctuations. Fluctuations on modal space are transformed back into real space and distribution of residual ﬂuctuations is compared using KL divergence. Analysis results for ligand-bound and free myosin dynamics are used in order to demonstrate that the mode-coupling contributions alone highlight functionally important sites.
-            <br/>
-            <a href="https://docs.google.com/open?id=0BzD-SFrAD4jmaGhVR0xNWWUtYms" target="_blank">
-            [Thesis PDF]</a> <br/>
-
-            <a href="https://docs.google.com/open?id=0BzD-SFrAD4jmY21FT3JLZ0NmOUU" target="_blank">
-            [Thesis Presentation]</a> <br/>
-
-            <img src="img/master_thesis.png" width="700px"/>
-        </div>
-
-        <div class="accordion-header" id="b13">
-            <table width="100%">
-                <tr>
-                    <td align="left">Transcriptional Regulatory Networks (2011)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-        </div>
-        <div id="c13" class="accordion-content">
-            I started to work on biological networks with my advisor <a href="http://denizyuret.blogspot.com/" target="_blank">Assistant Prof. Deniz Yuret</a> and <a href="http://home.ku.edu.tr/~akabakcioglu/" target="_blank">Dr. Alkan Kabakçıoğlu</a>. We investigated dynamic relevant core size, cycle lengths and other discriminative properties of different species. Arabidopsis, Yeast, Drosophila, E.Coli are the first creatures we studied. 
-        </div>
-
-		<div class="accordion-header" id="b12">
-            <table width="100%">
-                <tr>
-                    <td align="left">Social Network Analysis Using a Statistical Physics Approach (B.Sc. Thesis 2011)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-        </div>
-        <div id="c12" class="accordion-content">
-            This project is made as an ITU Physics Engineering graduation project under advisory of Prof. Dr. Ayşe Erzan. In this study, the evolution of the message passing network under interaction
-			between nodes is studied. Purpose of these simulations is to obtain some insight
-			into more complicated systems like social networks. For diﬀerent initial conditions
-			and network sizes, the network asymptotically evolves either to a set of disconnected
-			clusters or to one connected component, with all nodes connected to root via directed
-			paths. Thus, network either delivers an initial message to almost all the nodes, or
-			the message is conﬁned to a small subset. Therefore, the problem is essentially a
-			problem of dynamical percolation.
-			<br/>
-			<img src="img/physics_thesis.PNG" width="700px"/>
-        </div>
-		
-		<div class="accordion-header" id="b11">
-            <table width="100%">
-                <tr>
-                    <td align="left">Map Builder & Map Annotator (2011)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-        </div>
-        <div id="c11" class="accordion-content">
-            This projects are made for Computer Vision and Computer Graphics term project. 
-			In this project I worked with my colleague Arda Aytekin for <u>Map Annotator</u> using Windowed Hough Transform method for detection of the
-			military symbols in images. Also <u>Map Builder</u> application is designed as a sketch based application for generating 3D models of the drawing of the scenes.
-			You can access project report <a href="http://vypro.org/files/CV-Graphics.pdf" target="_blank">here.</a>
-        </div>
-		
-        <div class="accordion-header" id="b10">
-            <table width="100%">
-                <tr>
-                    <td align="left">Tour Guide (2010)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-        </div>
-        <div id="c10" class="accordion-content">
-            This projects is made as an Intelligent User Interfaces term project under advisory of <a href="http://iui.ku.edu.tr" target="_blank">Assoc. Prof. Metin Sezgin</a>. Application consist of speech 
-            recognition and touch interface design. It is a tourist guidance application for airports.<br />
-        </div>
-
-        <div class="accordion-header" id="b2">
-            <table width="100%">
-                <tr>
-                    <td align="left">Sketch Recognition using 2D Dynamic Programming (2010)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-        </div>
-        <div id="c2" class="accordion-content">
-            In this work dynamic programming is applied for the segmentation of the full sketchs.
-            Dynamic programming framework is used for seperating sketch primitives into meaninful parts which corresponds to an objects. Sketches are divided into primitives and dynamic programming framwork found the best partition of the sketch into meaninful groups of primitives. These primitive groups are correspond to an electrical components in the sketches. Dynamic programming approach that we implement deals with the interspersing problem. Temporal and image features are used for classification of the primitives. 
-
-        </div>
-
-        <div class="accordion-header" id="b3">
-            <table width="100%">
-                <tr>
-                    <td align="left">EEG Data Classification and applications (B.Sc Thesis - 2010)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-             
-        </div>
-        <div id="c3" class="accordion-content">
-        The main purpose of this project is processing EEG signals and classifying them for different cognitive actions. I started this project as a final year project of Electronic Enginnering under advisory of <a href="http://web.itu.edu.tr/~yalcinmust/" target="_blank">Associate. Prof. Müştak Erhan Yalçın.</a><br />
-        <br />In this project, feature selection and classification of EEG signals for different cognitive actions is made. There are several methods for classifying them I tried different features and methods. SVM (Support Vector Machines) is one of the method that I used for classification.
-		
-		<br/>
-		<img src="img/electronics_thesis.PNG" width="700px"/>		
-        </div>
-
-		<div class="accordion-header" id="b7">
-            <table width="100%">
-                <tr>
-                    <td align="left">STM Control Electronic & Software Design (2010)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-        </div>
-        <div id="c7" class="accordion-content">
-            In this project STM(Scanning Tunneling Microscope) prototype is made. Microcontroller circuit and embebbed
-            softwares are wrote. Communication via USB is made and data coming from the ADC transferred to the host PC. 
-            Client software also collects STM data. <br /><br />
-        </div>
-		
-        <div class="accordion-header" id="b4">
-            <table width="100%">
-                <tr>
-                    <td align="left">Finger Mouse (2009)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-            
-        </div>
-        <div id="c4" class="accordion-content">
-            This project is a term project of an Advanced Computer Vision that I took as a undergrad student.<br />
-            In this project I made an Human-Machine Interface. This application used for controlling computer via webcam image. 
-            Algorithm based on skin color detection and finger posing. After detection process of the pointer I used Windows APIs to control mouse. In this project I used C++ with OpenCV.
-            <br />
-            
-        </div>
-
-        <div class="accordion-header" id="b5">
-            <table width="100%">
-                <tr>
-                    <td align="left">EKG Device (2009)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-             
-        </div>
-        <div id="c5" class="accordion-content">
-            In this project we made an EKG device that measures EKG signals with instrumentation amplifiers and that send this data to ARM microcontroller. This data is directly send to computer via serial port. In receiver computer, we wrote and Windows Form Application with C++ to visualize the signal of hearth. Also there are some filters applied on EKG data to minimize the noise.
-        </div>
-
-        <div class="accordion-header" id="b6">
-            <table width="100%">
-                <tr>
-                    <td align="left">Temperature Monitoring System (2008)</td>
-                    <td align="right"><img style="text-align:right" src="img/plus.png" /></td>
-                </tr>
-            </table>
-             
-        </div>
-        <div id="c6" class="accordion-content">
-            This project is developed for ITU Computer Center Server room. Temperature of the place is measured using
-            DS18B20 chip and ATMEGA16 Microcontroller. After detection, temperature informations is send to the computer via
-            Serial port and temperature application logs data and send to the host using webservices. <br /><br />
-        </div>
-    </div>
-
-	<div id="footer-container"></div>
-</body> 
+    </body>
 </html>
