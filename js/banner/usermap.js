@@ -22,7 +22,7 @@ function USERMAP() {
         largeHeader.style.height = height+'px';
 
         canvas = document.getElementById('demo-canvas');
-        canvas.width = largeHeader.offsetWidth;//width;
+        canvas.width = largeHeader.offsetWidth;
         canvas.height = height;
         ctx = canvas.getContext('2d');
 
