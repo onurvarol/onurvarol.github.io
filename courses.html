@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta content="[Onur Varol]" name="description">
+        <meta content="computer science, physics, complex systems, sociodynamics, social networks, NaN, ITU, Istanbul Technical University, Koc University, Indiana University" name="keywords">
+        <meta content="Copyright (c) 2010 Onur Varol" name="Copyright">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta property="og:title" content="Onur Varol's Home Page">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://onurvarol.com/">
+        <meta property="og:image" content="http://onurvarol.com/img/onur_airport.jpg">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="400">
+        <meta property="og:image:height" content="400">
+        <meta property="og:description" content="This site contains Onur Varol's academic information and research.">
+        <link id="page_favicon" href="img/favicon.ico" rel="icon" type="image/x-icon" />
+
+        <title>Onur Varol's Homepage</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+            
+            function drawTable(courses, title){
+                var tableDiv = '<div class="row"><h3>' + title + '</h3>';
+
+                for (var c in courses){
+                    var course = courses[c];
+                    var courseDiv = '<div class="panel panel-default"><div class="panel-heading panel-collapsed"><h3 class="panel-title">' + course['name'] + '</h3><span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-down"></i></span></div><div class="panel-collapsed collapse panel-body">';
+                    if ('instructor' in course){
+                        courseDiv += '<b>Instructor:</b> ' + course['instructor'] + '<br>';
+                    }
+                    courseDiv += '<p>' + course['description'] + '</p></div></div>'
+                    tableDiv += courseDiv;
+                }
+
+                tableDiv += '</div>'
+                return tableDiv
+            }
+
+
+
+            $(document).ready(function () {
+                $('#header-container').load('template_header.html');
+                $('#footer-container').load('template_footer.html');   
+
+                $(document).on('click', '.panel-heading', function(e){
+                    var $this = $(this);
+                    if(!$this.hasClass('panel-collapsed')) {
+                        $this.parents('.panel').find('.panel-body').slideUp();
+                        $this.addClass('panel-collapsed');
+                        $this.find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+                    } else {
+                        $this.parents('.panel').find('.panel-body').slideDown();
+                        $this.removeClass('panel-collapsed');
+                        $this.find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+                    }
+                })
+
+                $.getJSON('apps/courses/courses.json',
+                    function (json) {
+                        $('#courses-container').append(drawTable(json['indiana_informatics_phd'], 'Informatics PhD, Complex Systems Track (Indiana University 2012-2016)'));
+                        $('#courses-container').append(drawTable(json['indiana_statistics_minor'], 'Informatics PhD, Statistics Minor (Indiana University 2012-2016)'));
+                        $('#courses-container').append(drawTable(json['koc_mcs'], 'Computer Science MSc (Koc University 2010-2012)'));
+                        $('#courses-container').append(drawTable(json['itu_physics_bsc'], 'Physics Engineering BSc (Istanbul Technical University 2008-2012)'));
+                        $('#courses-container').append(drawTable(json['itu_electronics_bsc'], 'Electronics Engineering BSc (Istanbul Technical University 2006-2010)'));
+                        
+                    });
+            });
+        </script>
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-7399107-2']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="header-container"></div>
+
+        <div id="content" class="container-fluid">
+            <div id="courses-container" class="container">
+                <div class="alert alert-info">
+                    <p>Content of this page is collected from course descriptions from the universities' web pages and instructors syllabus.</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="footer-container"></div>
+
+    </body>
+</html>
