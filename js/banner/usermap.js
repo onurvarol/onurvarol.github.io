@@ -10,21 +10,19 @@ function USERMAP() {
     this.load = function(){
         initHeader();
         initAnimation();
-        addListeners();        
+        addListeners();       
     }
 
     function initHeader () {
         width = window.innerWidth;
-        height = 350;//window.innerHeight - 300;
+        height = 100;//window.innerHeight - 300;
         target = {x: width/2, y: height/2};
 
         largeHeader = document.getElementById('large-header');
-        console.log(largeHeader);
         largeHeader.style.height = height+'px';
 
         canvas = document.getElementById('demo-canvas');
-        console.log(canvas);
-        canvas.width = width;
+        canvas.width = largeHeader.offsetWidth;//width;
         canvas.height = height;
         ctx = canvas.getContext('2d');
 
@@ -71,7 +69,8 @@ function USERMAP() {
 
         // assign a circle to each point
         for(var i in points) {
-            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)');
+            //var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)');
+            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(0,0,0,0.5)');
             points[i].circle = c;
         }
     }
@@ -89,7 +88,7 @@ function USERMAP() {
         var posx = posy = 0;
         if (e.pageX || e.pageY) {
             posx = e.pageX;
-            posy = e.pageY;
+            posy = 50;//e.pageY;
         }
         else if (e.clientX || e.clientY)    {
             posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
@@ -106,7 +105,7 @@ function USERMAP() {
 
     function resize() {
         width = window.innerWidth;
-        height = window.innerHeight - 140;
+        height = 100;//window.innerHeight - 140;
         largeHeader.style.height = height+'px';
         canvas.width = width;
         canvas.height = height;
@@ -162,7 +161,8 @@ function USERMAP() {
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
             //ctx.strokeStyle = 'rgba(247,202,24,'+ p.active+')';
-            ctx.strokeStyle = 'rgba(255,255,255,'+ p.active+')';
+            //ctx.strokeStyle = 'rgba(255,255,255,'+ p.active+')';
+            ctx.strokeStyle = 'rgba(150,150,150,'+ p.active+')';
             ctx.stroke();
         }
     }
@@ -182,7 +182,8 @@ function USERMAP() {
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.radius*1.5, 0, 2 * Math.PI, false);
             //ctx.fillStyle = 'rgba(247,202,24,'+ _this.active+')';
-            ctx.fillStyle = 'rgba(255,255,255,'+ _this.active+')';
+            //ctx.fillStyle = 'rgba(255,255,255,'+ _this.active+')';
+            ctx.fillStyle = 'rgba(0,0,0,'+ _this.active+')';
             
             ctx.moveTo(_this.pos.x, _this.pos.y);
             ctx.lineTo(_this.pos.x + _this.radius*Math.sin(45)*4, _this.pos.y - _this.radius*Math.cos(60)*4);
