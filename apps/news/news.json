@@ -1,0 +1,17 @@
+[
+    {
+        "text": "I am presenting at <a href=\"http://meetings2.informs.org/wordpress/nashville2016/\" target=\"_blank\">INFORMS</a> conference in Nashville",
+        "date": "2016-09-01",
+        "keep_until": "2017-05-01"
+    },
+    {
+        "text": "I am presenting our work with Alexandra and Emre at <a href=\"http://www.kellogg.northwestern.edu/news-events/conference/ic2s2/2016.aspx\" target=\"_blank\">IC2S2</a>",
+        "date": "2016-05-15",
+        "keep_until": "2017-03-01"
+    },
+    {
+        "text": "I am traveling to Germany in May to present in <a href=\"http://icwsm.org/2016/\" target=\"_blank\">ICWSM</a> and <a href=\"http://www.websci16.org/\" target=\"_blank\">WebScience</a>",
+        "date": "2016-04-01",
+        "keep_until": "2017-03-01"
+    }
+]

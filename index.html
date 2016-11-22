@@ -29,11 +29,15 @@
         <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
 
+        <script src="js/moment.min.js" type="text/javascript"></script>
+
         <!-- Banner js codes
         -->
         <script src="js/banner/TweenLite.min.js"></script>
         <script src="js/banner/EasePack.min.js"></script>
         <script src="js/banner/usermap.js"></script>
+
+
 
         <script type="text/javascript">
             function playSound(){
@@ -53,6 +57,30 @@
                 });
                 audioElement.play();
             }
+
+            function loadNews(newsData, divName){
+                var topN = 5;
+                var newsDiv = '<br>';
+                var newsToInsert = [];
+
+                for (var n in newsData){
+                    var cdate = moment(newsData[n]['keep_until']);
+                    if (cdate.diff(moment()) > 0){
+                        var text = '[' + newsData[n]['date'] + '] ' + newsData[n]['text'];
+                        newsToInsert.push(text);
+                    }
+                }
+
+                for (var n in newsToInsert.slice(0,topN)) {
+                    newsDiv += '<p class="small">- ' + newsToInsert[n] + '</p>'
+                }
+
+                if (newsToInsert.length > 0){
+                    $(divName).css('visibility', 'visible');
+                    return newsDiv
+                }
+            }
+
             $(document).ready(function () {
                 $('#header-container').load('template_header.html');
                 $('#footer-container').load('template_footer.html');
@@ -62,6 +90,11 @@
                 $("#namephonetic").hide();
                 $('#playbutton').click(function() {
                     playSound();
+                });
+
+                $.getJSON('apps/news/news.json',
+                    function (json) {
+                        $('#news-box').append(loadNews(json, '#news-box'));
                 });
 
                 $(document).ready(function() {
@@ -117,6 +150,9 @@
                             </div> 
 
                             <!-- TODO: Inset news box here -->
+                            <div id="news-box" style="margin-top:10px; padding:5px; border-radius:3px; border: 1px solid #ddd; visibility: hidden;">
+                                <span id="stopbutton" class="glyphicon glyphicon-comment" aria-hidden="true"></span> News
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-9" style="margin-top:10px; margin-bottom:10px;"> 
