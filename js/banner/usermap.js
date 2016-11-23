@@ -1,7 +1,7 @@
 function USERMAP() {
 
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
-
+    var divWidth;
     // Main
     //initHeader();
     //initAnimation();
@@ -20,6 +20,7 @@ function USERMAP() {
 
         largeHeader = document.getElementById('large-header');
         largeHeader.style.height = height+'px';
+        divWidth = largeHeader.offsetWidth;
 
         canvas = document.getElementById('demo-canvas');
         canvas.width = largeHeader.offsetWidth;
@@ -87,12 +88,13 @@ function USERMAP() {
     function mouseMove(e) {
         var posx = posy = 0;
         if (e.pageX || e.pageY) {
-            posx = e.pageX;
+            posx = (e.pageX/width)*divWidth;
+            //posx = e.pageX;
             posy = 50;//e.pageY;
         }
         else if (e.clientX || e.clientY)    {
             posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
-            posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+            posy = 50;//e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
         }
         target.x = posx;
         target.y = posy;
