@@ -64,6 +64,10 @@
 				"name": "Journal page"
 			},
 			{
+				"source": "bibtex/davis2016osome.bib",
+				"name": "BibTeX"
+			},
+			{
 				"source": "http://osome.iuni.iu.edu/",
 				"name": "Project Website"
 			}
@@ -156,8 +160,16 @@
 		"text": "Ferrara E., Wang W., <u>Varol O.</u>, Flammini A., Galstyan A. <b>\"Predicting online extremism, content adopters, and interaction reciprocity\"</b>, <i>SocInfo 2016</i>",
 		"links":[
 			{
+				"source": "http://link.springer.com/chapter/10.1007/978-3-319-47874-6_3",
+				"name": "Springer Library"
+			},
+			{
 				"source": "http://arxiv.org/abs/1605.00659",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/ferrara2016socinfo.bib",
+				"name": "BibTeX"
 			}
 		]
 	},
