@@ -8,6 +8,12 @@ body {
   margin-bottom: 50px;
 }
 
+#footer-container .footer{
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("/img/escher_metamorphosis.png");
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
 iframe { display: block; width: 100%; border: none; overflow-y: auto; overflow-x: hidden; }
 
 
