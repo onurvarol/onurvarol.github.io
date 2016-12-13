@@ -1,0 +1,563 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOTE: If you find that it says                                     %%
+%%                                                                    %%
+%%                           1 of ??                                  %%
+%%                                                                    %%
+%% at the bottom of your first page, this means that the AUX file     %%
+%% was not available when you ran LaTeX on this source. Simply RERUN  %%
+%% LaTeX to get the ``??'' replaced with the number of the last page  %%
+%% of the document. The AUX file will be generated on the first run   %%
+%% of LaTeX and used on the second run to fill in all of the          %%
+%% references.                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't like 10pt? Try 11pt or 12pt
+\documentclass[10pt]{article}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% As you can see, the margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+%
+
+%% Use these lines for letter-sized paper
+\usepackage[paper=letterpaper,
+            includefoot, % Uncomment to put page number above margin
+            marginparwidth=1.2in,     % Length of section titles
+            marginparsep=.05in,       % Space between titles and text
+            margin=0.6in,               % 1 inch margins
+            includemp]{geometry}
+
+%% Use these lines for A4-sized paper
+%\usepackage[paper=a4paper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=30.5mm,    % Length of section titles
+%            marginparsep=1.5mm,       % Space between titles and text
+%            margin=25mm,              % 25mm margins
+%            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0 in}
+
+%% This gives us fun enumeration environments. compactitem will be nice.
+\usepackage{paralist}
+%\usepackage{enumitem}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{2in}{\, \hfill %
+                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+%
+% Usage: \makeheading{name}
+%
+% Place at top of document. It should be the first thing.
+\newcommand{\makeheading}[1]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+                {\large \bfseries #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+%
+% Follow this section IMMEDIATELY with the first line of the section
+% text. Do not put whitespace in between. That is, do this:
+%
+%       \section{My Information}
+%       Here is my information.
+%
+% and NOT this:
+%
+%       \section{My Information}
+%
+%       Here is my information.
+%
+% Otherwise the top of the section header will not line up with the top
+% of the section. Of course, using a single comment character (%) on
+% empty lines allows for the function of the first example with the
+% readability of the second example.
+\renewcommand{\section}[2]%
+        {\pagebreak[2]\vspace{1.3\baselineskip}%
+         \phantomsection\addcontentsline{toc}{section}{#1}%
+         \hspace{0in}%
+         \marginpar{
+         \raggedright \scshape #1}#2}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\vspace{-\baselineskip}\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactitem}[#1]}{\end{compactitem}}
+
+\catcode240=13 \def ð{\u g}
+\catcode231=13 \def ç{\c c}
+\catcode246=13 \def ö{\"o}
+\catcode254=13 \def þ{\c s}
+\catcode252=13 \def ü{\"u}
+\catcode253=13 \def ý{{\i}}
+\catcode221=13 \def Ý{\.I}
+\catcode199=13 \def Ç{\c C}
+\catcode208=13 \def Ð{\u G}
+\catcode214=13 \def Ö{\"O}
+\catcode222=13 \def Þ{\c S}
+\catcode220=13 \def Ü{\"U}
+
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[2]}
+\newlength{\rcollength}\setlength{\rcollength}{1.5in}%
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+\begin{table}
+	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lr}
+		\Large{Onur VAROL} & \\
+		
+		\normalsize{\href{http://www.onurvarol.com}{www.onurvarol.com}} & 
+		\normalsize{ \href{http://www.soic.indiana.edu/}{School of Informatics and Computing} \href{http://www.iu.edu/}{Indiana University}}\\
+		
+		\normalsize{\href{mailto:ovarol@indiana.edu}{ovarol@indiana.edu}} & \normalsize{919 E. 10th St, Bloomington IN, 47408, USA}\\
+	\end{tabular*}
+\end{table}
+\end{center}
+\vspace{-10mm}
+\hrulefill
+
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%\begin{center}{\textbf{Onur VAROL}}\\
+%\vspace{5mm}
+%\normalsize{e-mail: \href{mailto:ovarol@indiana.edu}{ovarol@indiana.edu}} \\
+%\normalsize{website: \href{http://www.onurvarol.com}{www.onurvarol.com}} \\
+%\normalsize{GSM: +1 812 369 0513} \\
+%\normalsize{ \href{http://www.soic.indiana.edu/}%
+%     {School of Informatics and Computing} 
+%\href{http://www.iu.edu/}{Indiana University}}\\
+%\normalsize{919 E. 10th St, Bloomington IN, 47408, USA}
+%\end{center}
+
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table
+%       (adjust it to your liking; default is 1.85in).
+%
+
+%
+%\begin{tabular}[t] {@{}p{\textwidth-\rcollength}p{\rcollength}}
+
+%\section{Objective} 
+%To pursue an academic career in the fields of Complex Systems and Network Theory. Especially using statistical mechanics and machine learning approaches.  
+
+\section{Research Interests}
+Complex Systems, Network Science, Data Science, Machine Learning, Computational Social Science
+
+%%%%%% EDUCATION %%%%%%
+\section{Education}
+\href{http://www.iu.edu/}{\textbf{Indiana University}},
+Bloomington, IN. USA
+\begin{innerlist}
+\item[] Ph.D.,
+        \href{http://www.soic.indiana.edu/}
+             {Complex Systems track of the Ph.D. in Informatics} and
+             minor in Statistics (expected graduation date: June 2017) \\
+        Dissertation: Analyzing Social Big Data to Study Online Discourse and its Manipulation\\
+        Committee: Filippo Menczer (chair), Alessandro Flammini, Yong-Yeol Ahn, Christine L. Ogan,  Weihua An
+\end{innerlist}
+\vspace{3mm}
+
+\href{http://www.ku.edu.tr/}{\textbf{Ko\c{c} University}},
+Istanbul, Turkey
+\begin{innerlist}
+\item[] M.Sc.,
+        \href{http://www.ku.edu.tr/}
+             {Computer Science and Engineering},
+        (July 2012) \\
+	Thesis: Modal analysis of Myosin II and Identification of Functionally Important Sites \\    
+	Advisors:
+              \href{http://denizyuret.blogspot.com/}{Deniz Yüret}, 
+              \href{http://home.ku.edu.tr/~akabakcioglu/}{Alkan Kabak\c{c}{\i}oglu}        
+\end{innerlist}
+\vspace{3mm}
+
+\href{http://www.itu.edu.tr/}{\textbf{Istanbul Technical University}},
+Istanbul, Turkey
+\begin{innerlist}
+\item[] B.Sc.,
+        \href{http://www.ee.itu.edu.tr/}
+             {Electronics Engineering}, (June 2010)     
+\item[] B.Sc.,
+        \href{http://www.fizik.itu.edu.tr/}
+             {Physics Engineering}, (June 2012) 
+\end{innerlist}
+
+%%%%%% PUBLICATIONS %%%%%%
+\section{Publications}
+\textbf{Journal Articles}
+\begin{innerlist}
+
+\item[J.6] C. Ogan, \textbf{O. Varol} \textbf{``Combining Content Analysis with Network Analysis in the Study of a Social Movement: Twitter Use During Gezi Park Protests"}, Information, Communication and Society 1-19, 2016
+
+\item[J.5] E Ferrara, \textbf{O Varol}, C Davis, F Menczer, A Flammini \textbf{``The Rise of Social Bots"}, Communications of the ACM 59(7):96-104, 2016
+
+\item[J.4] Davis CA, Ciampaglia GL, Aiello LM, Chung K, Conover MD, Ferrara E, Flammini A, Fox GC, Gao X, Gonçalves B, Grabowicz PA, Hong K, Hui P, McCaulay S, McKelvey K, Meiss MR, Patil S, Peli Kankanamalage C, Pentchev V, Qiu J, Ratkiewicz J, Rudnick A, Serrette B, Shiralkar P, \textbf{Varol O}, Weng L, Wu T, Younge AJ, Menczer F. \textbf{``OSoMe: The IUNI observatory on social media"}, PeerJ Computer Science 
+
+\item[J.3] V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, \textbf{O. Varol}, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang. \textbf{``The DARPA Twitter Bot Challenge"}, IEEE Computer 49(6), 2016
+
+\item[J.2] M JafariAsbagh, E Ferrara, \textbf{O Varol}, F Menczer, A Flammini \textbf{``Clustering memes in social media streams"}, Social Network Analysis and Mining 4(237):1-13, 2014
+
+\item[J.1] \textbf{O. Varol}, D. Yuret, B. Erman, A. Kabak\c{c}{\i}oglu \textbf{``Mode coupling points to functionally important residues in Myosin II"}, PROTEINS: Structure, Function, and Bioinformatics 
+
+\end{innerlist}
+
+\vspace{5mm}
+\textbf{Conference Proceedings}
+\begin{innerlist}
+
+\item[C.12] Olteanu, A., \textbf{Varol, O.}, Kiciman, E. \textbf{``What Does Social Media Say about the Outcomes of Personal Experiences"}, CSCW'17
+
+\item[C.11] Ferrara E., Wang W., \textbf{Varol O.}, Flammini A., Galstyan A. \textbf{``Predicting online extremism, content adopters, and interaction reciprocity"}, SocInfo'16
+
+\item[C.10] \textbf{O Varol}, \textbf{Spatiotemporal Analysis of Censored Content on Twitter}. WebScience'16
+
+\item[C.9] A Das, S Gollapudi, E Kiciman, \textbf{O Varol}, \textbf{Information Dissemination in Heterogeneous-Intent Networks}. WebScience'16
+
+\item[C.8] E. Ferrara, \textbf{O Varol}, F Menczer, and A Flammini. \textbf{``Detection of Promoted Social Media Campaigns''}. ICWSM'16
+
+\item[C.7] A Olteanu, \textbf{O Varol}, E Kiciman. \textbf{``Towards an Open-Domain Framework for Distilling the Outcomes of Personal Experiences from Social Media Timelines''}. ICWSM'16
+
+\item[C.6] C Davis$^\dagger$, \textbf{O Varol}$^\dagger$, E Ferrara, A Flammini, F Menczer \textbf{``BotOrNot: A System to Evaluate Social Bots''}. WWW'16 Developers Day
+
+\item[C.5] \textbf{O Varol}, E Ferrara, C Ogan, F Menczer, and A Flammini. \textbf{``Evolution of online user behavior during a social upheaval"}. ACM Web Science Conference 2014 (\textbf{Best paper award}) %(Full paper, acceptance rate 14\%) 
+
+\item[C.4] \textbf{O Varol} and F Menczer. \textbf{``Connecting Dream Networks Across Cultures"}. WWW 2014 workshop on "Connecting Online \& Offline Life" (COOL)
+
+\item[C.3] Ferrara, E., \textbf{Varol, O.}, Menczer, F. \& Flammini, A. \textbf{``Traveling Trends: Social Butterflies or Frequent Fliers?"}, ACM Conference on Online Social Networks (COSN 2013) %(Full paper, acceptance rate 15\%) 
+
+\item[C.2]  E Ferrara, M JafariAsbagh, \textbf{O Varol}, V Qazvinian, F Menczer, A Flammini \textbf{``Clustering Memes in Social Media"}, ASONAM 2013 %(Full paper, acceptance rate 13\%)
+
+\item[C.1] Yasemin Alban; Tuba Ayhan; \textbf{Onur Varol}; Müþtak Erhan Yal\c{c}{\i}n \textbf{``A Feature Filtering Method for EEG Data Classification"}, Signal Processing and Communications Applications (SIU), IEEE 19th Conference, Antalya, April 20-22 2011.
+\end{innerlist}
+
+
+
+\section{Conducted Researches and Academic Experience}
+\textbf{Research}
+\begin{outerlist}
+\item[] \textbf{DOISAC}: Project name stands for ``Detecting Orchestrated Information and Synthetic Account Campaigns". This project founded by the Office of Naval Research aims at detecting orchestrated information and synthetic activity campaigns on social media using machine learning and computational tools. 
+			 
+\begin{innerlist}        
+        \item[] PIs:
+        		 \href{http://www.emilio.ferrara.name/}
+              	   {Dr. Emilio Ferrara}, 
+              \href{https://sites.google.com/site/aflammin/}
+                   {Assoc. Prof. Alessandro Flammini},        
+\end{innerlist}
+
+\item[] \href{http://cnets.indiana.edu/groups/nan/despic}
+			 {\textbf{DESPIC}}: Project name stands for ``Detecting Early Signature of Persuasion in Information Cascades" and aims to design a system detect persuasion campaigns at their early stage of inception, in the context of online social media. This project founded by DARPA SMISC program.
+\begin{innerlist}        
+        \item[] PIs:
+              \href{https://sites.google.com/site/aflammin/}
+                   {Assoc. Prof. Alessandro Flammini}, 
+              \href{http://cnets.indiana.edu/people/filippo-menczer}
+              	   {Prof. Fil Menczer}        
+\end{innerlist}
+
+\item[] \href{http://cnets.indiana.edu/groups/nan/truthy}
+			 {\textbf{Truthy}}: This project aims to understand how information propagates through complex socio-technical information networks. In this project, I analyzed and studied roles of individuals during social upheavals, diffusion of trending topics in spatio-temporal space. I also worked on classification of social bots.
+			 
+\begin{innerlist}        
+        \item[] PIs:
+              \href{https://sites.google.com/site/aflammin/}
+                   {Assoc. Prof. Alessandro Flammini}, 
+              \href{http://cnets.indiana.edu/people/filippo-menczer}
+              	   {Prof. Fil Menczer}        
+\end{innerlist}
+
+\item[] Research on Modal analysis of Myosin II and Identification of Functionally Important Sites: During my Master's studies in Koc University, I worked on analysis of protein fluctuations to identify functionally important residues as my thesis project.
+\begin{innerlist}        
+        \item[] Advisors:
+              \href{http://denizyuret.blogspot.com/}
+                   {Assoc. Prof.  Deniz Yüret},
+              \href{http://home.ku.edu.tr/~akabakcioglu/}
+              	   {Assist. Prof. Alkan Kabak\c{c}{\i}oglu}        
+        \end{innerlist}
+
+\item[] Research on Modeling of Social Networks and Phase Transitions of Complex Systems (Graduation project for B.Sc in Physics Engineering)
+\begin{innerlist}	
+        				\item[] Advisor:
+              			\href{http://web.itu.edu.tr/~erzan/}
+                   			{Prof.  Ay{s}e Erzan}        
+        				\end{innerlist} 
+\item[] Research on EEG Signal Processing and Classification (Graduation project for B.Sc in Electronics Engineering)
+\begin{innerlist}	
+        				\item[] Advisor:
+              			\href{http://web.itu.edu.tr/~yalcinmust/}
+                   			{Prof. Müstak Erhan Yal\c{c}{\i}n}        
+        				\end{innerlist} 
+\end{outerlist}
+
+%\textbf{Projects}
+%\begin{outerlist}
+%\item[] Ko\c{c} University, Istanbul, Turkey
+%\begin{innerlist}
+%\item Community networks and opinion dynamic models (2012)
+%\item Designed and implemented a sketch based map builder in 3D graphics (2011)
+%\item Designed and programmed a \href{http://tourguide.vypro.org/}{Tourist Guidance Multi Model Interface Application}(2011) 
+%\item Implemented unsupervised part-of-speech tagger, regression-based statistical machine translation decoder, spam filter using language models in Machine Learning Course (2011)  
+%\end{innerlist}
+
+%\item[] Istanbul Technical University, Istanbul, Turkey
+%\begin{innerlist}
+%\item EEG Signal Processing and Classification for Mobile Robot Navigation (2010)
+%\item Scanning Tunnel Microscope control electronic design and software implementation (2010)
+%\item Human machine interface for mouse control using hand gestures (2009) 
+%\item EKG device electronic and software implementation (2009) 
+%\end{innerlist}
+%\end{outerlist}
+%\vspace{5mm}
+
+\vspace{5mm}
+\textbf{Teaching Assistant}
+
+\begin{innerlist}
+\item[] \href{https://www.iu.edu}{\textbf{Indiana University}},
+Bloomington IN, USA
+\begin{innerlist}
+\item[] Topics in Informatics: Performance Analytics (Spring 2017)
+\end{innerlist}
+\end{innerlist}
+
+\begin{innerlist}
+\item[] \href{http://www.ku.edu.tr}{\textbf{Ko\c{c} University}},
+Istanbul, Turkey
+\begin{innerlist}
+\item[] Machine Learning (Spring 2012)
+\item[] Microprocessors (Fall 2011)
+\item[] Probability and  Random Variables (Spring 2011)
+\item[] Discrete Mathematics (Fall 2010)
+\end{innerlist}
+\end{innerlist}
+
+
+\section{Work Experience} 
+\textbf{Microsoft Research}, Redmond WA, USA
+\begin{innerlist}
+\item[] Research Intern (June 2015 - September 2015): I worked in CLUES group at MSR. I studied social media timelines of individuals to detect experiential activities and analyzed outcomes of those actions. This projects involves analyzing search query logs and social media timelines.
+\end{innerlist}
+%\vspace{5mm}
+
+\textbf{Microsoft Research}, Redmond WA, USA
+\begin{innerlist}
+\item[] Research Intern (June 2014 - September 2014): I worked in CLUES group at MSR. I studied how individuals in social networks adopts their behavior to match with their inner intents. I carried out experiments on Amazon Mechanical Turk platform to justify our hypothesis in micro level and analyzed Twitter data to validate effects on macro level.
+\end{innerlist}
+%\vspace{5mm}
+
+
+\textbf{Stonefish Software Consultant}, Istanbul, Turkey
+\begin{innerlist}
+\item[] Software Developer (August 2009 - March 2010): I worked on an enterprise web application development using C$\sharp$, ASP.NET, MSSQL. 
+\end{innerlist}
+%\vspace{5mm}
+
+%\textbf{Istanbul Technical University Computer Center}, Istanbul, Turkey
+%\begin{outerlist}
+%\item[] Asistant Student (April 2008 - August 2009)
+%\end{outerlist}
+%\vspace{5mm}
+
+%\textbf{ASELSAN}, Ankara, Turkey 
+%\begin{outerlist}
+%\item[] Intern (June 2009 - August 2009): I studied different forms of network programming for data transfer. I also worked on implementation of observation station platform for unmanned vehicles. 
+%\end{outerlist}
+%\vspace{5mm}
+
+%\textbf{Istanbul Technical University Computer Center}, Istanbul, Turkey 
+%\begin{outerlist}
+%\item[] Intern (June 2008 - August 2009): I manufactured a temperature monitoring device using DS2019 sensor on Atmega16 microprocessor. Communication between microprocessor and server is implemented via RS232 protocol. Server and clients communicated through WPF on .NET framework.
+%\end{outerlist}
+%\vspace{5mm}
+
+%\textbf{Control Avionic Laboratory}, Istanbul Technical University, Istanbul, Turkey
+%\begin{outerlist}
+%\item[] Intern (June 2007 - August 2007): I worked on improving distortion problem for the robotic testbed using MATLAB and OpenCV. 
+%\end{outerlist}
+%\vspace{5mm}
+
+\section{Honors and Awards}
+Best paper award (WebSci'14)\\
+Best poster award (CCS'15)\\
+\underline{Travel grants}: SIGWEB for WebSci'16 (750\$), ICWSM'16, (350\$), ACM for COSN'14 (1,500\$), IU RKCSI for INFORMS'16 (500\$)\\
+Research Assistantship Indiana University (2012-2016) \\
+Scholarship from TUBITAK(2010-2012)\\
+Graduate scholarship from Ko\c{c} University (2010-2012)\\
+Electrical Engineering Society (EMO) Project Competition 1st Rank (2010)\\
+Bosch Scholarship for Undergraduate Education (2009)\\
+Istanbul Technical University Student Council Vice President (2009)\\
+%Microsoft Student Partner (2008-2010)\\
+%Euroskills 2010, Portugal, Mobile Robotic Expert\\
+%Worldskills 2009, Canada, Mobile Robotic Competitor\\
+%Euroskills 2008, Netherlands, 3rd rank in Mobile Robotic \\
+
+\section{Talks and Events}
+\textbf{Invited Talks}
+\begin{innerlist}
+\item Analysis of Online Discourse and Information Diffusion, INFORMS Meeting Nashville (11/15/2016)
+\item Detection of Online Manipulation, UND Big Data Summit Event (04/07/2016)
+\item Twitter Applications: Industry Panel Speaker, UND Big Data Summit Event (04/07/2016)
+\item Campaign and Social Bots Detection on Social Networks, Workshop in Network Science (WINS) Indiana University (02/18/2016)
+\item Evolution of online user behavior during a social upheaval, Indiana University Turkish Flagship Center (01/21/2015)
+\item Studying Social Dynamics Through Social Media, Istanbul Technical University Physics Department Colloquia (04/28/2014)
+\end{innerlist}
+
+
+%\textbf{Workshop \& Schools}
+%\begin{outerlist}
+%\item A Workshop on the Allosteric Mechanisms in Protein Regulation, Koç University (July 2012)
+%\item Computational Methods for Life Sciences and Nanotechnology, Koç University (January 2012)
+%\item Phase Transition and Renormalization Groups, Feza Gürsey Institute (August 2010)
+%\item International Summer School and Research Workshop on Complexity, Feza Gürsey Institute - Imperial College (September 2011)
+%\end{outerlist}
+%\vspace{5mm}
+
+%%%%%%%%%%%%%%%%
+%\section{Test Scores}
+%\textbf{GRE:} A:168, V:138\\
+%\textbf{TOEFL IBT:} 84\\
+
+\section{Computer and Language Skills}
+\textbf{Programming Languages and Skills:}
+\begin{innerlist}
+\item[] Frequent user of Python for data analysis using Matplotlib, NetworkX, Pandas, Scikit-learn, etc.
+\item[] Experience in \LaTeX{}, C / C++, C\#, Java, MATLAB, R, OpenBUGS
+\item[] Familiar with HTML, CSS, JS for frontend, Flask, Django, and ASP.NET for larger applications
+\item[] Used MySQL, NoSQL (CouchDB and Riak), Map-Reduce
+\item[] View projects on Github: \href{https://github.com/onurvarol}{github.com/onurvarol}
+%\item[] OpenCV, OpenGL 
+%\item[] Cisco Routing
+\end{innerlist}
+
+\textbf{Languages:}
+\begin{innerlist}
+\item[] English (fluent), German (beginner), Turkish (native)
+\end{innerlist}
+
+
+\section{Community Service}
+\textbf{Workshop co-chair}: Open Science for an Open Society (CCS'16)\\
+\textbf{Conference PC member}: WWW'17\\
+\textbf{Conference subreviewer}: ICWSM'15, IC2S2'15, ASONAM'15, WebScience'14\\
+\textbf{Journal reviews}: PLoS One, Network Science
+
+%\section{Applicable Coursework}
+%\textbf{Informatics PhD with Statistics minor}
+%\begin{innerlist}
+%\item[] Introduction to Complex Systems
+%\item[] Mathematical Modeling of Complex Systems
+%\item[] Models in Cognitive Science
+%\item[] Bayesian Theory and Data Analysis
+%\item[] Nonparametric Theory and Data Analysis
+%\item[] Statistical Methods for Causal Inference
+%\item[] Model Comparison and Selection
+%\item[] Time Series Analysis
+%\end{innerlist}
+%
+%\textbf{Computer Science MS}
+%\begin{innerlist}
+%\item[] Machine Learning
+%\item[] Information Retrieval
+%\item[] Linear System Theory
+%\item[] Network Models and Optimization
+%\end{innerlist}
+%
+%To obtain list of all the courses that I enrolled, you can visit my \href{http://www.onurvarol.com/courses.html}{courses page} (onurvarol.com/courses.html)
+
+
+\section{Interests}
+I enjoy playing basketball and foosball. I also love traveling a lot and feeling wanderlust, you can visit my \href{http://www.onurvarol.com/my\_travels/}{online travel journal} (onurvarol.com/my\_travels).
+
+%\section{References}
+%\begin{innerlist}
+%\item Filippo Menczer, Indiana University, School of Informatics and Computing, Bloomington, IN fil@indiana.edu
+%\end{innerlist}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
