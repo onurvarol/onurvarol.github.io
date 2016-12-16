@@ -1,5 +1,10 @@
 [
     {
+        "text": "I presented my PhD proposal and I am planning to graduate in May 2017. <br><span style='color:red;'><span class='glyphicon glyphicon-search'></span> <strong>I am on the job market now.</strong></span>",
+        "date": "2016-12-15",
+        "keep_until": "2017-08-01"
+    },
+    {
         "text": "I am presenting at <a href=\"http://meetings2.informs.org/wordpress/nashville2016/\" target=\"_blank\">INFORMS</a> conference in Nashville",
         "date": "2016-09-01",
         "keep_until": "2017-05-01"
