@@ -156,8 +156,16 @@
 		"text": "Olteanu, A., <u>Varol, O.</u>, Kiciman, E. <b>\"Distilling the Outcomes of Personal Experiences: A Propensity-scored Analysis of Social Media\"</b>, <i>CSCW 2017</i>",
 		"links": [
 			{
+				"source": "http://dl.acm.org/citation.cfm?doid=2998181.2998353",
+				"name": "ACM Library"
+			},
+			{
 				"source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/cscw17-distilling-the-outcomes-of-personal-experiences-a-propensity-scored-analysis.pdf",
 				"name": "PDF"
+			},
+			{
+				"source": "bibtex/cscw2017distilling.bib",
+				"name": "BibTeX"
 			}
 		]
 	},
