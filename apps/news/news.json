@@ -1,5 +1,10 @@
 [
     {
+        "text": "I am invited to <a href=\"http://www.networkscienceinstitute.org/events/onur-varol\">presentation</a> my research in Northeastern Network Science Institute.",
+        "date": "2017-03-09",
+        "keep_until": "2017-08-01"
+    },
+    {
         "text": "I presented my PhD proposal and I am planning to graduate in May 2017. <br><span style='color:red;'><span class='glyphicon glyphicon-search'></span> <strong>I am on the job market now.</strong></span>",
         "date": "2016-12-15",
         "keep_until": "2017-08-01"
