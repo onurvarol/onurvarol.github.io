@@ -154,7 +154,12 @@
 "proceedings":[
 	{
 		"text": "<u>Varol O.</u>, Ferrara E., Davis C., Menczer, F., Flammini, A. <b>\"Online Human-Bot Interactions: Detection, Estimation, and Characterization\"</b>, <i>ICWSM 2017</i>",
-		"links": []
+		"links": [
+			{
+				"source": "https://arxiv.org/abs/1703.03107",
+				"name": "ArXiv"
+			}
+		]
 	},
 	
 	{
