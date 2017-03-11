@@ -159,6 +159,16 @@
 				"source": "https://arxiv.org/abs/1703.03107",
 				"name": "ArXiv"
 			}
+		],
+		"coverage": [
+			{
+				"source": "http://www.cnbc.com/2017/03/10/nearly-48-million-twitter-accounts-could-be-bots-says-study.html",
+				"name": "CNBC"
+			},
+			{
+				"source": "http://www.onurvarol.com/apps/coverages/index.html#BotEstimate",
+				"name": "More ..."
+			}
 		]
 	},
 	
