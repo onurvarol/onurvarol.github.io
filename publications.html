@@ -90,6 +90,10 @@
                         journalsDiv += '<span class="coverage">Media Coverages: </span>'
                         for (var j = 0; j < papers[i]['coverage'].length; j++) {
                             var link = papers[i]['coverage'][j];
+                            if (link['source'].startsWith('bibtex') || link['source'].startsWith('files')){
+                                link['source'] = 'apps/publications/' + link['source'];
+                            }
+                            
                             journalsDiv += '<a href="' + link['source'] + '" target="_blank">' + link['name'] + '</a>';
                             if(j !== papers[i]['coverage'].length-1){
                                 journalsDiv += ' | ';
