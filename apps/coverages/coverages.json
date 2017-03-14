@@ -43,6 +43,11 @@
 		"url": "http://www.cnbc.com/2017/03/10/nearly-48-million-twitter-accounts-could-be-bots-says-study.html"
 	},
 	{
+		"source": "ABC News (video)",
+		"title": "Huge number of Twitter accounts are not operated by humans",
+		"url": "http://abcnews.go.com/Technology/video/huge-number-twitter-accounts-operated-humans-46089107"
+	},
+	{
 		"source": "Dailymail",
 		"title": "Rise of the TWITTERBOTS: 48 MILLION Twitter users are not human, new study claims",
 		"url": "http://www.dailymail.co.uk/sciencetech/article-4303060/48-BILLION-Twitter-users-not-human-new-study-claims.html"
@@ -51,6 +56,11 @@
 		"source": "VICE",
 		"title": "R u bot or not?",
 		"url": "https://news.vice.com/story/twitters-users-are-15-percent-robot-but-thats-not-necessarily-a-bad-thing"
+	},
+	{
+		"source": "Motherboard",
+		"title": "New Machine Learning Framework Uncovers Twitter's Vast Bot Population",
+		"url": "https://motherboard.vice.com/en_us/article/new-machine-learning-framework-uncovers-twitters-vast-bot-population"
 	}
 ],
 
