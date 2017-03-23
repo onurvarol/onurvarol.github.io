@@ -1,9 +1,12 @@
 {
 "journals":[
 	{
-		"text": "<u>Varol, O.</u>, Ferrara, E., Menczer, F., & Flammini, A. <b>\"Early Detection of Promoted Memes on Social Media\"</b>, (Under review)",
+		"text": "<u>Varol, O.</u>, Ferrara, E., Menczer, F., & Flammini, A. <b>\"Early Detection of Promoted Campaigns on Social Media\"</b>, (Under review)",
 		"links": [
-		
+			{
+				"source": "https://arxiv.org/abs/1703.07518",
+				"name": "ArXiv"
+			}
 		]
 	},
 	{
