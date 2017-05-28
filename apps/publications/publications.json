@@ -419,10 +419,31 @@
 
 "thesis":[
 	{
-		"text": "IU Informatics Ph.D. Dissertation (2017) - <b>Analyzing Social Big Data to Study Online Discourse and its Manipulation</b>"
+		"text": "IU Informatics Ph.D. Dissertation (2017) - <b>Analyzing Social Big Data to Study Online Discourse and its Manipulation</b>",
+		"links": [
+			{
+				"source": "/files/phd_dissertation_ov.pdf",
+				"name": "PDF"
+			},
+			{
+				"source": "/files/phd_presentation_ov.pdf",
+				"name": "Slides"
+			}
+		]
 	},
+	
 	{
-		"text": "KU Computer Science and Engineering M.Sc. Thesis (2012) - <b>Modal Analysis of Myosin II and Identification of Functionally Important Sites</b>"
+		"text": "KU Computer Science and Engineering M.Sc. Thesis (2012) - <b>Modal Analysis of Myosin II and Identification of Functionally Important Sites</b>",
+		"links": [
+			{
+				"source": "/files/msc_thesis_ov.pdf",
+				"name": "PDF"
+			},
+			{
+				"source": "/files/msc_presentation_ov.pdf",
+				"name": "Slides"
+			}
+		]
 	},
 
 	{
