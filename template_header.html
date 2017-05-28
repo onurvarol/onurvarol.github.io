@@ -50,7 +50,7 @@ function activateNav() {
       //console.log('X:'+$(this).find('a').attr('href'));
       //console.log('Y:'+page);
       $(this).toggleClass('active',
-          $(this).find('a').attr('href') == page);
+          $(this).find('a').attr('href') == '/' + page);
   });
 }
 $(document).ready(function () {
