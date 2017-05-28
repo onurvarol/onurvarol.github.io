@@ -39,6 +39,26 @@
       -->
     </div>
   </div>
+
+<script>
+// activates current nav
+// decides by path
+function activateNav() {
+  $.each($('#navbar').find('li'), function() {
+      var temp = window.location.pathname.split('/')
+      var page = temp[temp.length-1];
+      //console.log('X:'+$(this).find('a').attr('href'));
+      //console.log('Y:'+page);
+      $(this).toggleClass('active',
+          $(this).find('a').attr('href') == page);
+  });
+}
+$(document).ready(function () {
+  //activate current nav
+  activateNav();
+});
+</script>
+
 </nav>
 
 <!--
