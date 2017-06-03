@@ -73,12 +73,12 @@
 				"name": "Journal page"
 			},
 			{
-				"source": "bibtex/davis2016osome.bib",
-				"name": "BibTeX"
-			},
-			{
 				"source": "http://osome.iuni.iu.edu/",
 				"name": "Project Website"
+			},
+			{
+				"source": "bibtex/davis2016osome.bib",
+				"name": "BibTeX"
 			}
 		],
 		"coverage": [
@@ -165,6 +165,10 @@
 			{
 				"source": "https://arxiv.org/abs/1703.03107",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/bot2017icwsm.bib",
+				"name": "BibTeX"
 			}
 		],
 		"coverage": [
@@ -283,12 +287,12 @@
 				"name": "ArXiv"
 			},
 			{
-				"source": "bibtex/www2016botornot.bib",
-				"name": "BibTeX"
-			},
-			{
 				"source": "http://truthy.indiana.edu/botornot/",
 				"name": "Project Website"
+			},
+			{
+				"source": "bibtex/www2016botornot.bib",
+				"name": "BibTeX"
 			}
 		],
 		"coverage": [

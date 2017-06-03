@@ -58,15 +58,23 @@
                 color: red;
                 font-size: small;
             }
+
+            pre {
+                white-space: pre-wrap;       /* Since CSS 2.1 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
         </style>
 
         <script type="text/javascript">
             function drawTable(papers, letter){
-                var journalsDiv = '<table>';
+                var publicationDiv = '<table>';
                 var nJournal = papers.length;
                 for (var i = 0; i < nJournal; i++) {
-                    journalsDiv += '<tr><td width="40px" style="vertical-align:top;"><b>' + letter + '.' + (nJournal-i) + '</b></td>';
-                    journalsDiv += '<td>' + papers[i].text + '<br/>';
+                    publicationDiv += '<tr><td width="40px" style="vertical-align:top;"><b>' + letter + '.' + (nJournal-i) + '</b></td>';
+                    publicationDiv += '<td>' + papers[i].text + '<br/>';
 
                     if (papers[i]['links'] !== undefined){
                         for (var j = 0; j < papers[i]['links'].length; j++) {
@@ -75,38 +83,53 @@
                                 link['source'] = 'apps/publications/' + link['source'];
                             }
 
+                            if (link['name'] == 'BibTeX'){
+                                var linkId = link['source'].split('/');
+                                linkId = linkId[linkId.length-1].split('.')[0];
 
-                            journalsDiv += '<a href="' + link['source'] + '" target="_blank">' + link['name'] + '</a>';
+                                publicationDiv += '<a data-toggle="collapse" data-target="#' + linkId + '">' + link['name'] + '</a>';
+                                publicationDiv += '<pre class="collapse" id="'+ linkId +'">' + link['source'] + '</pre>';
+
+                            }else{
+                                publicationDiv += '<a href="' + link['source'] + '" target="_blank">' + link['name'] + '</a>';
+                            }
+
                             if(j !== papers[i]['links'].length-1){
-                                journalsDiv += ' | ';
+                                publicationDiv += ' | ';
                             }
                             else{
-                                journalsDiv += '<br/>'  
+                                publicationDiv += '<br/>'  
                             }
                         }
                     }
 
                     if (papers[i]['coverage'] !== undefined){
-                        journalsDiv += '<span class="coverage">Media Coverages: </span>'
+                        publicationDiv += '<span class="coverage">Media Coverages: </span>'
                         for (var j = 0; j < papers[i]['coverage'].length; j++) {
                             var link = papers[i]['coverage'][j];
                             if (link['source'].startsWith('bibtex') || link['source'].startsWith('files')){
                                 link['source'] = 'apps/publications/' + link['source'];
                             }
                             
-                            journalsDiv += '<a href="' + link['source'] + '" target="_blank">' + link['name'] + '</a>';
+                            publicationDiv += '<a href="' + link['source'] + '" target="_blank">' + link['name'] + '</a>';
                             if(j !== papers[i]['coverage'].length-1){
-                                journalsDiv += ' | ';
+                                publicationDiv += ' | ';
                             }
                             else{
-                                journalsDiv += '<br/>'  
+                                publicationDiv += '<br/>'  
                             }
                         }
                     }
-                    journalsDiv += '</td></tr>';
+                    publicationDiv += '</td></tr>';
                 }
-                journalsDiv += '</table>';
-                return journalsDiv;
+                publicationDiv += '</table>';
+                return publicationDiv;
+            }
+
+            function updateBibtex(){
+                $('pre').each(function(){
+                    $('#' + $(this).attr('id')).load($(this).html());
+                });
             }
 
             $(document).ready(function () {
@@ -119,6 +142,7 @@
                         $('#proceeding-container').append(drawTable(json['proceedings'], 'C'));
                         $('#thesis-container').append(drawTable(json['thesis'], 'T'));
                         $('#others-container').append(drawTable(json['others'], 'O'));
+                        updateBibtex();
                     });
             });
         </script>
