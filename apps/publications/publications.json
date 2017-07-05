@@ -1,11 +1,19 @@
 {
 "journals":[
 	{
-		"text": "<u>Varol, O.</u>, Ferrara, E., Menczer, F., & Flammini, A. <b>\"Early Detection of Promoted Campaigns on Social Media\"</b>, (Under review)",
+		"text": "<u>Varol, O.</u>, Ferrara, E., Menczer, F., & Flammini, A. <b>\"Early Detection of Promoted Campaigns on Social Media\"</b>, <i>EPJ Data Science 6(13), 2017</i>",
 		"links": [
+			{
+				"source": "https://doi.org/10.1140/epjds/s13688-017-0111-y",
+				"name": "Journal page"
+			},
 			{
 				"source": "https://arxiv.org/abs/1703.07518",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/varol2017early.bib",
+				"name": "BibTeX"
 			}
 		]
 	},
