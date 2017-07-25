@@ -138,6 +138,11 @@
 
                 $.getJSON('apps/publications/publications.json',
                     function (json) {
+                        if(json['preprint'].length > 0){
+                            $('#preprint-container').append('<h3>Preprint &amp; Under review</h3>');
+                            $('#preprint-container').append(drawTable(json['preprint'], 'P'));
+                        }
+
                         $('#journal-container').append(drawTable(json['journals'], 'J'));
                         $('#proceeding-container').append(drawTable(json['proceedings'], 'C'));
                         $('#thesis-container').append(drawTable(json['thesis'], 'T'));
@@ -175,6 +180,8 @@
                             <img style="margin-left:0.5em; margin-right:3em; height:3em;"  align="right" alt="Onur Varol's Scholar Page" src="img/scholar_logo.png">
                             </a>
                         </div>
+                        <div id="preprint-container"></div>
+
                         <h3>Journal Articles</h3>
                         <div id="journal-container"></div>
 

@@ -1,4 +1,16 @@
 {
+"preprint":[
+	{
+		"text": "C. Shao, GL Ciampaglia, <u>O. Varol</u>, A. Flammini, F. Menczer <b>\"The spread of fake news by social bots\"</b>",
+		"links": [
+			{
+				"source": "https://arxiv.org/abs/1707.07592",
+				"name": "ArXiv"
+			}
+		]
+	}
+],
+
 "journals":[
 	{
 		"text": "<u>Varol, O.</u>, Ferrara, E., Menczer, F., & Flammini, A. <b>\"Early Detection of Promoted Campaigns on Social Media\"</b>, <i>EPJ Data Science 6(13), 2017</i>",
