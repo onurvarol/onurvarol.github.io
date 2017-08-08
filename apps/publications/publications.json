@@ -7,6 +7,12 @@
 				"source": "https://arxiv.org/abs/1707.07592",
 				"name": "ArXiv"
 			}
+		],
+		"coverage":[
+			{
+				"source": "https://www.technologyreview.com/s/608561/first-evidence-that-social-bots-play-a-major-role-in-spreading-fake-news/",
+				"name": "MIT Technology Review"
+			}
 		]
 	}
 ],
