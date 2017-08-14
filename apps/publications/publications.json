@@ -217,6 +217,10 @@
 				"name": "CNBC"
 			},
 			{
+				"source": "https://news.northeastern.edu/2017/08/spotting-a-social-bot-might-be-harder-than-you-think/",
+				"name": "Northeastern news"
+			},
+			{
 				"source": "http://www.onurvarol.com/apps/coverages/index.html#BotEstimate",
 				"name": "More ..."
 			}
