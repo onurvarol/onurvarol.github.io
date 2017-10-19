@@ -503,6 +503,13 @@
 	}
 ],
 
+"books":[
+	{
+		"text": "<u>Varol O.</u>, Davis C., Menczer, F., Flammini, A. <b>\"Feature Engineering for Social Bot Detection\"</b>, <i>Feature Engineering for Machine Learning and Data Analytics</i>",
+		"links":[]
+	}
+],
+
 "others": [
 	{
 		"text": "Nur Mustafaoglu, <u>Onur Varol</u> \"<b>How we get married: Spatiotemporal analysis of happiness</b>\", <i>MIL 1, 0510 (2013) </i>",
