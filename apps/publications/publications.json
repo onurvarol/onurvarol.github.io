@@ -508,6 +508,10 @@
 		"text": "<u>Varol O.</u>, Davis C., Menczer, F., Flammini, A. <b>\"Feature Engineering for Social Bot Detection\"</b>, <i>Feature Engineering for Machine Learning and Data Analytics</i>",
 		"links":[
 			{
+				"source": "https://books.google.com/books?id=661SDwAAQBAJ&lpg=PA311&ots=zHr54spjxg&dq=info%3AsM983rg_yb8J%3Ascholar.google.com&lr&pg=PA311#v=onepage&q&f=false",
+				"name": "Read Online"
+			},
+			{
 				"source": "bibtex/botfeatures2018.bib",
 				"name": "BibTeX"
 			}
