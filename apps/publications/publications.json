@@ -19,7 +19,7 @@
 
 "journals":[
 	{
-		"text": "<u>Varol, O.</u>,  Uluturk, I. <b>\"Deception strategies and threats for online discussions\"</b>, <i>First Monday 22(5), 2018</i>",
+		"text": "<u>Varol O.</u>,  Uluturk I. <b>\"Deception strategies and threats for online discussions\"</b>, <i>First Monday 22(5), 2018</i>",
 		"links": [
 			{
 				"source": "http://firstmonday.org/ojs/index.php/fm/article/view/7883/7208",
@@ -32,7 +32,7 @@
 		]
 	},
 	{
-		"text": "<u>Varol, O.</u>, Ferrara, E., Menczer, F., & Flammini, A. <b>\"Early Detection of Promoted Campaigns on Social Media\"</b>, <i>EPJ Data Science 6(13), 2017</i>",
+		"text": "<u>Varol O.</u>, Ferrara E., Menczer F., & Flammini A. <b>\"Early Detection of Promoted Campaigns on Social Media\"</b>, <i>EPJ Data Science 6(13), 2017</i>",
 		"links": [
 			{
 				"source": "https://doi.org/10.1140/epjds/s13688-017-0111-y",
@@ -241,7 +241,7 @@
 	},
 	
 	{
-		"text": "Olteanu, A., <u>Varol, O.</u>, Kiciman, E. <b>\"Distilling the Outcomes of Personal Experiences: A Propensity-scored Analysis of Social Media\"</b>, <i>CSCW 2017</i>",
+		"text": "Olteanu A., <u>Varol O.</u>, Kiciman E. <b>\"Distilling the Outcomes of Personal Experiences: A Propensity-scored Analysis of Social Media\"</b>, <i>CSCW 2017</i>",
 		"links": [
 			{
 				"source": "http://dl.acm.org/citation.cfm?doid=2998181.2998353",
@@ -305,7 +305,7 @@
 	},
 
 	{
-		"text": "Olteanu, A., <u>Varol, O.</u>, Kiciman, E. <b>\"Towards an Open-Domain Framework for Distilling the Outcomes of Personal Experiences from Social Media Timelines\"</b>, <i>ICWSM 2016</i>",
+		"text": "Olteanu A., <u>Varol O.</u>, Kiciman E. <b>\"Towards an Open-Domain Framework for Distilling the Outcomes of Personal Experiences from Social Media Timelines\"</b>, <i>ICWSM 2016</i>",
 		"links": [
 			{
 				"source": "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13113",
@@ -319,7 +319,7 @@
 	},
 
 	{
-		"text": "Ferrara, E., <u>Varol, O.</u>, Menczer, F., & Flammini, A. <b>\"Detection of Promoted Social Media Campaigns\"</b>, <i>ICWSM 2016</i>",
+		"text": "Ferrara E., <u>Varol O.</u>, Menczer F., & Flammini A. <b>\"Detection of Promoted Social Media Campaigns\"</b>, <i>ICWSM 2016</i>",
 		"links": [
 			{
 				"source": "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13034",
@@ -372,7 +372,7 @@
 		]
 	},
 	{
-		"text": "<u>Varol, O.</u>, Ferrara, E., Ogan, C., Menczer, F., & Flammini, A. <b>\"Evolution of online user behavior during a social upheaval\"</b>, <i>ACM Web Science Conference 2014 (Full paper, acceptance rate 14%) <font color=\"red\">Best paper award</font></i>",
+		"text": "<u>Varol O.</u>, Ferrara E., Ogan C., Menczer F., & Flammini A. <b>\"Evolution of online user behavior during a social upheaval\"</b>, <i>ACM Web Science Conference 2014 (Full paper, acceptance rate 14%) <font color=\"red\">Best paper award</font></i>",
 		"links": [
 			{
 				"source": "http://dl.acm.org/citation.cfm?id=2615699",
@@ -390,7 +390,7 @@
 	},
 
 	{
-		"text": "<u>Varol, O.</u>, Menczer, F.,<b>\"Connecting Dream Networks Across Cultures\"</b>, <i>WWW'14  workshop on \"Connecting Online & Offline Life\"</i>",
+		"text": "<u>Varol O.</u>, Menczer F.,<b>\"Connecting Dream Networks Across Cultures\"</b>, <i>WWW'14  workshop on \"Connecting Online & Offline Life\"</i>",
 		"links": [
 			{
 				"source": "http://dl.acm.org/citation.cfm?id=2580073",
@@ -414,7 +414,7 @@
 	},
 
 	{
-		"text": "Ferrara, E., <u>Varol, O.</u>, Menczer, F., & Flammini, A. <b>\"Traveling Trends: Social Butterflies or Frequent Fliers?\"</b>, <i>ACM Conference on Online Social Networks (COSN 2013) (Full paper, acceptance rate 15%)</i>",
+		"text": "Ferrara E., <u>Varol O.</u>, Menczer F., & Flammini A. <b>\"Traveling Trends: Social Butterflies or Frequent Fliers?\"</b>, <i>ACM Conference on Online Social Networks (COSN 2013) (Full paper, acceptance rate 15%)</i>",
 		"links": [
 			{
 				"source": "http://dl.acm.org/citation.cfm?id=2512956",
@@ -534,7 +534,7 @@
 
 "others": [
 	{
-		"text": "Nur Mustafaoglu, <u>Onur Varol</u> \"<b>How we get married: Spatiotemporal analysis of happiness</b>\", <i>MIL 1, 0510 (2013) </i>",
+		"text": "Nur Mustafaoglu<sup>&dagger;</sup>, <u>Onur Varol</u><sup>&dagger;</sup> \"<b>How we get married: Spatiotemporal analysis of happiness</b>\", <i>MIL 1, 0510 (2013) </i>",
 		"links": [
 			{	
 				"source": "files/MIL_abstract.pdf",
