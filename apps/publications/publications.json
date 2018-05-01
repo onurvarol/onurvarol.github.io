@@ -19,6 +19,19 @@
 
 "journals":[
 	{
+		"text": "<u>Varol, O.</u>,  Uluturk, I. <b>\"Deception strategies and threats for online discussions\"</b>, <i>First Monday 22(5), 2018</i>",
+		"links": [
+			{
+				"source": "http://firstmonday.org/ojs/index.php/fm/article/view/7883/7208",
+				"name": "Journal page"
+			},
+			{
+				"source": "bibtex/varol2018deception.bib",
+				"name": "BibTeX"
+			}
+		]
+	},
+	{
 		"text": "<u>Varol, O.</u>, Ferrara, E., Menczer, F., & Flammini, A. <b>\"Early Detection of Promoted Campaigns on Social Media\"</b>, <i>EPJ Data Science 6(13), 2017</i>",
 		"links": [
 			{
