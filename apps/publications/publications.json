@@ -490,6 +490,12 @@
 				"source": "/files/phd_presentation_ov.pdf",
 				"name": "Slides"
 			}
+		],
+		"coverage": [
+			{
+				"source": "https://www.sice.indiana.edu/news/story.html?story=SICE-grad-honored-with-2018-University-Distinguished-Ph.D.-Dissertation-Award",
+				"name": "IU SICE News"
+			}
 		]
 	},
 	
