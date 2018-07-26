@@ -14,6 +14,17 @@
 				"name": "MIT Technology Review"
 			}
 		]
+	},
+	{
+		"text": "R. Fan, A. Varamesh, <u>O. Varol</u>, A. Barron, I. Leemput, M. Scheffer, J. Bollen <b>\"Does putting your emotions into words make you feel better? Measuring the minute-scale dynamics of emotions from online data\"</b>",
+		"links": [
+			{
+				"source": "https://arxiv.org/abs/1807.09725",
+				"name": "ArXiv"
+			}
+		],
+		"coverage":[
+		]
 	}
 ],
 
@@ -495,6 +506,10 @@
 			{
 				"source": "https://www.sice.indiana.edu/news/story.html?story=SICE-grad-honored-with-2018-University-Distinguished-Ph.D.-Dissertation-Award",
 				"name": "IU SICE News"
+			},
+			{
+				"source": "http://cnets.indiana.edu/blog/2018/07/09/cnets-grad-honored-with-2018-university-distinguished-ph-d-dissertation-award/",
+				"name": "CNetS"
 			}
 		]
 	},
