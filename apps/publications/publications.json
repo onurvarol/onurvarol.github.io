@@ -22,6 +22,12 @@
 				"source": "https://arxiv.org/abs/1807.09725",
 				"name": "ArXiv"
 			}
+		],
+		"coverage":[
+			{
+				"source": "https://medium.com/s/story/use-this-trick-to-find-tranquility-7252370a86d4",
+				"name": "Medium"
+			}
 		]
 	}
 ],
