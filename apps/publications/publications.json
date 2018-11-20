@@ -1,21 +1,6 @@
 {
 "preprint":[
 	{
-		"text": "C. Shao, GL Ciampaglia, <u>O. Varol</u>, K. Yang, A. Flammini, F. Menczer <b>\"The spread of low-credibility content by social bots\"</b> (In press for Nature Communications)",
-		"links": [
-			{
-				"source": "https://arxiv.org/abs/1707.07592",
-				"name": "ArXiv"
-			}
-		],
-		"coverage":[
-			{
-				"source": "https://www.technologyreview.com/s/608561/first-evidence-that-social-bots-play-a-major-role-in-spreading-fake-news/",
-				"name": "MIT Technology Review"
-			}
-		]
-	},
-	{
 		"text": "R. Fan,  <u>O. Varol</u>, A. Varamesh, A. Barron, I. Leemput, M. Scheffer, J. Bollen <b>\"The minute-scale dynamics of online emotions reveal the effects of affect labeling\"</b> (In press for Nature Human Behavior)",
 		"links": [
 			{
@@ -33,6 +18,29 @@
 ],
 
 "journals":[
+	{
+		"text": "C. Shao, GL Ciampaglia, <u>O. Varol</u>, K. Yang, A. Flammini, F. Menczer <b>\"The spread of low-credibility content by social bots\"</b>, <i>Nature Communications</i> 9: 4787, 2018",
+		"links": [
+			{
+				"source": "https://www.nature.com/articles/s41467-018-06930-7",
+				"name": "Journal page"
+			},
+			{
+				"source": "https://arxiv.org/abs/1707.07592",
+				"name": "ArXiv"
+			}
+		],
+		"coverage":[
+			{
+				"source": "https://news.iu.edu/stories/2018/11/iub/releases/20-twitter-bots-election-misinformation.html",
+				"name": "IU Newsroom"
+			},
+			{
+				"source": "https://www.technologyreview.com/s/608561/first-evidence-that-social-bots-play-a-major-role-in-spreading-fake-news/",
+				"name": "MIT Technology Review"
+			}
+		]
+	},
 	{
 		"text": "<u>Varol O.</u>,  Uluturk I. <b>\"Deception strategies and threats for online discussions\"</b>, <i>First Monday 22(5), 2018</i>",
 		"links": [
