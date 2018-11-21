@@ -43,6 +43,21 @@
 
 "HoaxyBots":[
 	{
+		"source": "News IU",
+		"title": "Twitter bots played disproportionate role spreading misinformation during 2016 election",
+		"url": "https://news.iu.edu/stories/2018/11/iub/releases/20-twitter-bots-election-misinformation.html"
+	},
+	{
+		"source": "ScienceNews",
+		"title": "How Twitter bots get people to spread fake news",
+		"url": "https://www.sciencenews.org/article/twitter-bots-fake-news-2016-election"
+	},
+	{
+		"source": "Poynter",
+		"title": "Bots spread a lot of fakery during the 2016 election. But they can also debunk it.",
+		"url": "https://www.poynter.org/news/bots-spread-lot-fakery-during-2016-election-they-can-also-debunk-it"
+	},
+	{
 		"source": "MIT Technology Review",
 		"title": "First Evidence That Social Bots Play a Major Role in Spreading Fake News",
 		"url": "https://www.technologyreview.com/s/608561/first-evidence-that-social-bots-play-a-major-role-in-spreading-fake-news/"
