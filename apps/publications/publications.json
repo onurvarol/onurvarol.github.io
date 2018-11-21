@@ -38,6 +38,18 @@
 			{
 				"source": "https://www.technologyreview.com/s/608561/first-evidence-that-social-bots-play-a-major-role-in-spreading-fake-news/",
 				"name": "MIT Technology Review"
+			},
+			{
+				"source": "https://www.sciencenews.org/article/twitter-bots-fake-news-2016-election",
+				"name": "ScienceNews"
+			},
+			{
+				"source": "https://www.poynter.org/news/bots-spread-lot-fakery-during-2016-election-they-can-also-debunk-it",
+				"name": "Poynter"
+			},
+			{
+				"source": "http://www.onurvarol.com/apps/coverages/index.html#HoaxyBots",
+				"name": "More ..."
 			}
 		]
 	},
