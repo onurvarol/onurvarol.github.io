@@ -1,23 +1,36 @@
 {
 "preprint":[
+	
+],
+
+"journals":[
 	{
-		"text": "R. Fan,  <u>O. Varol</u>, A. Varamesh, A. Barron, I. Leemput, M. Scheffer, J. Bollen <b>\"The minute-scale dynamics of online emotions reveal the effects of affect labeling\"</b> (In press for Nature Human Behavior)",
+		"text": "R. Fan,  <u>O. Varol</u>, A. Varamesh, A. Barron, I. Leemput, M. Scheffer, J. Bollen <b>\"The minute-scale dynamics of online emotions reveal the effects of affect labeling\"</b>, <i>Nature Human Behavior</i>, 2018",
 		"links": [
+			{
+				"source": "https://rdcu.be/bdG9l",
+				"name": "Journal page"
+			},
 			{
 				"source": "https://arxiv.org/abs/1807.09725",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/nhb2018emotions.bib",
+				"name": "BibTeX"
 			}
 		],
 		"coverage":[
+			{
+				"source": "https://www.nature.com/articles/s41562-018-0487-0",
+				"name": "NHB Review"
+			},
 			{
 				"source": "https://medium.com/s/story/use-this-trick-to-find-tranquility-7252370a86d4",
 				"name": "Medium"
 			}
 		]
-	}
-],
-
-"journals":[
+	},
 	{
 		"text": "C. Shao, GL Ciampaglia, <u>O. Varol</u>, K. Yang, A. Flammini, F. Menczer <b>\"The spread of low-credibility content by social bots\"</b>, <i>Nature Communications</i> 9: 4787, 2018",
 		"links": [
@@ -28,6 +41,10 @@
 			{
 				"source": "https://arxiv.org/abs/1707.07592",
 				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/ncomm2018spread.bib",
+				"name": "BibTeX"
 			}
 		],
 		"coverage":[
