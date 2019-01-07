@@ -1,6 +1,14 @@
 {
 "preprint":[
-	
+	{
+		"text": "Yang K, <u>Varol O.</u>, Davis C., Menczer F., Flammini A. <b>\"Arming the public with AI to counter social bots\"</b>, (In print for <i>Human Behavior and Emerging Technologies</i>)",
+		"links": [
+			{
+				"source": "https://arxiv.org/abs/1901.00912",
+				"name": "ArXiv"
+			}
+		]
+	}
 ],
 
 "journals":[
