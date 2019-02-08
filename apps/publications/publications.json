@@ -1,17 +1,26 @@
 {
 "preprint":[
-	{
-		"text": "Yang K, <u>Varol O.</u>, Davis C., Menczer F., Flammini A. <b>\"Arming the public with AI to counter social bots\"</b>, (In print for <i>Human Behavior and Emerging Technologies</i>)",
-		"links": [
-			{
-				"source": "https://arxiv.org/abs/1901.00912",
-				"name": "ArXiv"
-			}
-		]
-	}
+	
 ],
 
 "journals":[
+	{
+		"text": "Yang K, <u>Varol O.</u>, Davis C., Menczer F., Flammini A. <b>\"Arming the public with artifical intelligence to counter social bots\"</b>, <i>Human Behavior and Emerging Technologies</i>, 2019",
+		"links": [
+			{
+				"source": "https://onlinelibrary.wiley.com/doi/full/10.1002/hbe2.115",
+				"name": "Journal page"
+			},
+			{
+				"source": "https://arxiv.org/abs/1901.00912",
+				"name": "ArXiv"
+			},
+			{
+				"source": "bibtex/hbet2019bot.bib",
+				"name": "BibTeX"
+			}
+		]
+	},
 	{
 		"text": "R. Fan,  <u>O. Varol</u>, A. Varamesh, A. Barron, I. Leemput, M. Scheffer, J. Bollen <b>\"The minute-scale dynamics of online emotions reveal the effects of affect labeling\"</b>, <i>Nature Human Behavior</i>, 2018",
 		"links": [
