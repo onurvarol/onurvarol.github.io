@@ -449,7 +449,7 @@
 		]
 	},
 	{
-		"text": "<u>Varol O.</u>, Ferrara E., Ogan C., Menczer F., & Flammini A. <b>\"Evolution of online user behavior during a social upheaval\"</b>, <i>ACM Web Science Conference 2014 (Full paper, acceptance rate 14%) <font color=\"red\">Best paper award</font></i>",
+		"text": "<u>Varol O.</u>, Ferrara E., Ogan C., Menczer F., & Flammini A. <b>\"Evolution of online user behavior during a social upheaval\"</b>, <i>ACM Web Science Conference 2014<br/><font color=\"red\">🏆 Best paper award</font></i>",
 		"links": [
 			{
 				"source": "http://dl.acm.org/citation.cfm?id=2615699",
@@ -491,7 +491,7 @@
 	},
 
 	{
-		"text": "Ferrara E., <u>Varol O.</u>, Menczer F., & Flammini A. <b>\"Traveling Trends: Social Butterflies or Frequent Fliers?\"</b>, <i>ACM Conference on Online Social Networks (COSN 2013) (Full paper, acceptance rate 15%)</i>",
+		"text": "Ferrara E., <u>Varol O.</u>, Menczer F., & Flammini A. <b>\"Traveling Trends: Social Butterflies or Frequent Fliers?\"</b>, <i>ACM Conference on Online Social Networks (COSN 2013)</i>",
 		"links": [
 			{
 				"source": "http://dl.acm.org/citation.cfm?id=2512956",
@@ -527,7 +527,7 @@
 	},
 
 	{
-		"text": "E. Ferrara, M. JafariAsbagh, <u>O. Varol</u>, V. Qazvinian, F. Menczer, A. Flammini \"<b>Clustering Memes in Social Media</b>\" <i>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2013) (Full paper, acceptance rate 13%)</i>",
+		"text": "E. Ferrara, M. JafariAsbagh, <u>O. Varol</u>, V. Qazvinian, F. Menczer, A. Flammini \"<b>Clustering Memes in Social Media</b>\" <i>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2013)</i>",
 		"links": [
 			{
 				"source": "http://dl.acm.org/citation.cfm?id=2492530",
