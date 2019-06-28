@@ -1,11 +1,19 @@
 {
 "preprint":[
-	
+	{
+		"text": "Wang X., <u>Varol O.</u>, Eliassi-Rad T. <b>L2P: Algorithm for estimating heavy-tailed outcomes.</b> (Under review)",
+		"links": [
+			{
+				"source": "http://xindi-dumbledore.github.io/L2P",
+				"name": "Website"
+			}
+		]
+	}
 ],
 
 "journals":[
 	{
-		"text": "Yang K, <u>Varol O.</u>, Davis C., Menczer F., Flammini A. <b>\"Arming the public with artifical intelligence to counter social bots\"</b>, <i>Human Behavior and Emerging Technologies</i>, 2019",
+		"text": "Yang K., <u>Varol O.</u>, Davis C., Menczer F., Flammini A. <b>\"Arming the public with artifical intelligence to counter social bots\"</b>, <i>Human Behavior and Emerging Technologies</i>, 2019",
 		"links": [
 			{
 				"source": "https://onlinelibrary.wiley.com/doi/full/10.1002/hbe2.115",
@@ -101,6 +109,10 @@
 			{
 				"source": "http://firstmonday.org/ojs/index.php/fm/article/view/7883/7208",
 				"name": "Journal page"
+			},
+			{
+				"source": "https://arxiv.org/abs/1906.11371",
+				"name": "ArXiv"
 			},
 			{
 				"source": "bibtex/varol2018deception.bib",
