@@ -4,6 +4,10 @@
 		"text": "Wang X., <u>Varol O.</u>, Eliassi-Rad T. <b>L2P: Algorithm for estimating heavy-tailed outcomes.</b> (Under review)",
 		"links": [
 			{
+				"source": "https://arxiv.org/abs/1908.04628",
+				"name": "ArXiv"
+			},
+			{
 				"source": "http://xindi-dumbledore.github.io/L2P",
 				"name": "Website"
 			}
