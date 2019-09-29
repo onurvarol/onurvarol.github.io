@@ -19,6 +19,18 @@
 	{
 		"text": "<u>Varol O.</u>, Uluturk I. <b>\"Journalists on Twitter: Self-branding, Audiences, and Involvement of Bots\"</b> (Accepted to <i>Journal of Computational Social Science</i>)",
 		"links":[
+			{
+				"source": "https://link.springer.com/article/10.1007/s42001-019-00056-6",
+				"name": "Journal page"
+			},
+			{
+				"source": "files/2019-journalism-bots.pdf",
+				"name": "PDF"
+			},
+			{
+				"source": "bibtex/jcss2019journalist.bib",
+				"name": "BibTeX"
+			}
 		]
 	},
 	{
