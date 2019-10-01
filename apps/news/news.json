@@ -1,19 +1,19 @@
 [
     {
-        "text": "I was invited to Sabanci University to present my research on October 3rd.",
+        "text": "I was invited to Koc University to present my research on October 1st.",
         "date": "2019-09-25",
         "keep_until": "2019-10-20"
-    }, 
+    },  
+    {
+        "text": "I was invited to Sabanci University to present my research on October 3rd.",
+        "date": "2019-09-20",
+        "keep_until": "2019-10-20"
+    },
     {
         "text": "I was invited to Kadir Has University to present in <a href=\"http://complexsystems.khas.edu.tr\" target=\"_blank\">Complex systems seminars</a> on October 2nd.",
         "date": "2019-09-12",
         "keep_until": "2019-10-20"
     },
-    {
-        "text": "I was invited to Koc University to present my research on October 1st.",
-        "date": "2019-09-25",
-        "keep_until": "2019-10-20"
-    }, 
     {
         "text": "I will be organizing a <a href=\"http://www.onurvarol.com/hlf-workshop/\" target=\"_blank\">workshop on \"Misinformation and Social bots\"</a> at the <a href=\"https://www.heidelberg-laureate-forum.org/event_2019/\" target=\"_blank\">Heidelberg Laureate Forum.</a>",
         "date": "2019-07-12",
