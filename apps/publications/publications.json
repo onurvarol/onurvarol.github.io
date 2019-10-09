@@ -649,6 +649,10 @@
 				"source": "https://books.google.com/books?id=661SDwAAQBAJ&lpg=PA311&ots=zHr54spjxg&dq=info%3AsM983rg_yb8J%3Ascholar.google.com&lr&pg=PA311#v=onepage&q&f=false",
 				"name": "Read Online"
 			},
+            {
+                "source":"files/2018-feature-engineering.pdf",
+                "name": "PDF"
+            },
 			{
 				"source": "bibtex/botfeatures2018.bib",
 				"name": "BibTeX"
