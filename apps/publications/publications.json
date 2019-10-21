@@ -36,6 +36,14 @@
 	{
 		"text": "Wang X., Yucesoy B., <u>Varol O.</u>, Eliassi-Rad T., Barabasi AL. <b>\"Success in Books: Predicting Book Sales Before Publication\"</b> (Accepted to <i>EPJ Data Science</i>)",
 		"links":[
+			{
+				"source": "https://link.springer.com/article/10.1140/epjds/s13688-019-0208-6",
+				"name": "Journal page"
+			},
+			{
+				"source": "bibtex/book2019epjds.bib",
+				"name": "BibTeX"
+			}
 		]
 	},
 	{
