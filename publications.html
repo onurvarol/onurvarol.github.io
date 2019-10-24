@@ -91,6 +91,8 @@
                                 publicationDiv += '<a data-toggle="collapse" data-target="#' + linkId + '">' + link['name'] + '</a>';
                                 publicationDiv += '<pre class="collapse" id="'+ linkId +'">' + link['source'] + '</pre>';
 
+                            }else if (link['name'] == 'twitter'){
+                                publicationDiv += '<a href="' + link['source'] + '" target="_blank"><img src="img/twitter-icon.png" style="height:1em;"></a>';
                             }else{
                                 publicationDiv += '<a href="' + link['source'] + '" target="_blank">' + link['name'] + '</a>';
                             }

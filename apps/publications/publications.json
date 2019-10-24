@@ -28,6 +28,10 @@
 				"name": "PDF"
 			},
 			{
+				"source": "https://twitter.com/onurvarol/status/1187378399356084226",
+				"name": "twitter"
+			},
+			{
 				"source": "bibtex/jcss2019journalist.bib",
 				"name": "BibTeX"
 			}
@@ -39,6 +43,10 @@
 			{
 				"source": "https://link.springer.com/article/10.1140/epjds/s13688-019-0208-6",
 				"name": "Journal page"
+			},
+			{
+				"source": "https://twitter.com/barabasi/status/1186262007286239233",
+				"name": "twitter"
 			},
 			{
 				"source": "bibtex/book2019epjds.bib",
