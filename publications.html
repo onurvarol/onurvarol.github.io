@@ -149,6 +149,7 @@
                         $('#journal-container').append(drawTable(json['journals'], 'J'));
                         $('#proceeding-container').append(drawTable(json['proceedings'], 'C'));
                         $('#book-container').append(drawTable(json['books'], 'B'));
+                        $('#editorial-container').append(drawTable(json['editorial'], 'E'));
                         $('#thesis-container').append(drawTable(json['thesis'], 'T'));
                         $('#others-container').append(drawTable(json['others'], 'O'));
                         updateBibtex();
@@ -194,6 +195,9 @@
 
                         <h3>Book Chapters</h3>
                         <div id="book-container"></div>
+
+                        <h3>Editorials &amp; Commentaries</h3>
+                        <div id="editorial-container"></div>
 
                         <h3>Dissertation, Thesis, and Graduation Projects</h3>
                         <div id="thesis-container"></div>

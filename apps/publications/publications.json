@@ -677,6 +677,40 @@
 	}
 ],
 
+"editorial":[
+	{
+		"text": "Gates AJ., Ke Q., <u>Varol O.</u>, Barabasi AL. <b>\"Nature’s reach: narrow work has broad impact\"</b> <i>Nature (2019): 32-34.</i>",
+		"links":[
+			{
+				"source": "https://www.nature.com/articles/d41586-019-03308-7",
+				"name": "Journal page"
+			},
+			{
+				"source": "files/2019-nature-anniversary",
+				"name": "PDF"
+			},
+			{
+				"source": "https://twitter.com/barabasi/status/1193166724696363009",
+				"name": "twitter"
+			},
+			{
+				"source": "bibtex/nature2019commentary.bib",
+				"name": "BibTeX"
+			}
+		],
+		"coverage": [
+			{
+				"source": "https://www.nature.com/immersive/d42859-019-00121-0/index.html",
+				"name": "Website"
+			},
+			{
+				"source": "https://www.youtube.com/watch?v=GW4s58u8PZo",
+				"name": "Video"
+			}
+		]
+	}
+],
+
 "others": [
 	{
 		"text": "Nur Mustafaoglu<sup>&dagger;</sup>, <u>Onur Varol</u><sup>&dagger;</sup> \"<b>How we get married: Spatiotemporal analysis of happiness</b>\", <i>MIL 1, 0510 (2013) </i>",
