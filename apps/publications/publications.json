@@ -346,6 +346,10 @@
 			{
 				"source": "https://arxiv.org/abs/1911.09179",
 				"name": "ArXiv"
+			},
+			{
+				"source": "https://twitter.com/onurvarol/status/1197912365062180864",
+				"name": "twitter"
 			}
 		]
 	},
