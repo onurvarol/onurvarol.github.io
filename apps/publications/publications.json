@@ -338,7 +338,18 @@
 	}
 ],
 
+
 "proceedings":[
+	{
+		"text": "Yang K., <u>Varol O.</u>, Hui P., Menczer F. <b>\"Scalable and Generalizable Social Bot Detection through Data Selection\"</b>, <i>AAAAI 2020</i>",
+		"links": [
+			{
+				"source": "https://arxiv.org/abs/1911.09179",
+				"name": "ArXiv"
+			}
+		]
+	},
+
 	{
 		"text": "<u>Varol O.</u>, Ferrara E., Davis C., Menczer, F., Flammini, A. <b>\"Online Human-Bot Interactions: Detection, Estimation, and Characterization\"</b>, <i>ICWSM 2017</i>",
 		"links": [
