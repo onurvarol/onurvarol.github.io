@@ -17,6 +17,27 @@
 
 "journals":[
 	{
+		"text": "Fragile Families Challenge Team <b>\"Measuring the predictability of life outcomes with a scientific mass collaboration\"</b> <i>PNAS</i> (2020)",
+		"links":[
+			{
+				"source": "https://www.pnas.org/content/early/2020/03/24/1915006117",
+				"name": "Journal page"
+			},
+			{
+				"source": "files/2020-ffc.pdf",
+				"name": "PDF"
+			},
+			{
+				"source": "https://twitter.com/onurvarol/status/1245407869698277379",
+				"name": "twitter"
+			},
+			{
+				"source": "bibtex/pnas2020ffc.bib",
+				"name": "BibTeX"
+			}
+		]
+	},
+	{
 		"text": "<u>Varol O.</u>, Uluturk I. <b>\"Journalists on Twitter: Self-branding, Audiences, and Involvement of Bots\"</b> <i>Journal of Computational Social Science</i> (2019): 1-19.",
 		"links":[
 			{
