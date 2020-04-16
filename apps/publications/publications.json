@@ -1,6 +1,19 @@
 {
 "preprint":[
 	{
+		"text": "Gysi D., Do Valle I., Zitnik M., Ameli A., Gan X., <u>Varol O.</u>, Sanchez H., Baron R., Ghiassian D., Loscalzo J., Barabasi AL. <b>Network Medicine Framework for Identifying Drug Repurposing Opportunities for COVID-19</b>",
+		"links": [
+			{
+				"source": "https://arxiv.org/abs/2004.07229",
+				"name": "ArXiv"
+			},
+			{
+				"source": "https://twitter.com/barabasi/status/1250789854469861377",
+				"name": "twitter"
+			}
+		]
+	},
+	{
 		"text": "Wang X., <u>Varol O.</u>, Eliassi-Rad T. <b>L2P: Algorithm for estimating heavy-tailed outcomes.</b> (Under review)",
 		"links": [
 			{
