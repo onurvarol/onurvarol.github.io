@@ -378,6 +378,10 @@
 		"text": "Yang K., <u>Varol O.</u>, Hui P., Menczer F. <b>\"Scalable and Generalizable Social Bot Detection through Data Selection\"</b>, <i>AAAI 2020</i>",
 		"links": [
 			{
+				"source": "https://aaai.org/ojs/index.php/AAAI/article/view/5460",
+				"name": "AAAI Library"
+			},
+			{
 				"source": "https://arxiv.org/abs/1911.09179",
 				"name": "ArXiv"
 			},
