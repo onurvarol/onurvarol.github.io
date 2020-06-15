@@ -1,16 +1,20 @@
 {
 "preprint":[
 	{
-		"text": "Sayyadiharikandeh M., <u>Varol O.</u>, Yang K. C., Flammini A., Menczer F. <b>Detection of Novel Social Bots by Ensembles of Specialized Classifiers</b> (Under review)",
+		"text": "Sayyadiharikandeh M., <u>Varol O.</u>, Yang K. C., Flammini A., Menczer F. <b>\"Detection of Novel Social Bots by Ensembles of Specialized Classifiers\"</b> (Under review)",
 		"links": [
 			{
 				"source": "https://arxiv.org/abs/2006.06867",
 				"name": "ArXiv"
+			},
+			{
+				"source": "https://twitter.com/onurvarol/status/1272401284155559936",
+				"name": "twitter"
 			}
 		]
 	},
 	{
-		"text": "Gysi D., Do Valle I., Zitnik M., Ameli A., Gan X., <u>Varol O.</u>, Sanchez H., Baron R., Ghiassian D., Loscalzo J., Barabasi AL. <b>Network Medicine Framework for Identifying Drug Repurposing Opportunities for COVID-19</b>",
+		"text": "Gysi D., Do Valle I., Zitnik M., Ameli A., Gan X., <u>Varol O.</u>, Sanchez H., Baron R., Ghiassian D., Loscalzo J., Barabasi AL. <b>\"Network Medicine Framework for Identifying Drug Repurposing Opportunities for COVID-19\"</b>",
 		"links": [
 			{
 				"source": "https://arxiv.org/abs/2004.07229",
@@ -23,7 +27,7 @@
 		]
 	},
 	{
-		"text": "Wang X., <u>Varol O.</u>, Eliassi-Rad T. <b>L2P: Algorithm for estimating heavy-tailed outcomes.</b> (Under review)",
+		"text": "Wang X., <u>Varol O.</u>, Eliassi-Rad T. <b>\"L2P: Algorithm for estimating heavy-tailed outcomes\"</b> (Under review)",
 		"links": [
 			{
 				"source": "https://arxiv.org/abs/1908.04628",
