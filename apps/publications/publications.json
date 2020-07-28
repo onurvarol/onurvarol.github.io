@@ -1,15 +1,11 @@
 {
 "preprint":[
 	{
-		"text": "Sayyadiharikandeh M., <u>Varol O.</u>, Yang K. C., Flammini A., Menczer F. <b>\"Detection of Novel Social Bots by Ensembles of Specialized Classifiers\"</b> (Under review)",
-		"links": [
+		"text": "Uluturk I., <u>Varol O.</u> <b>Social-Annotate: Browser extension to annotate and collect social media data</b> (Under review in JOSS)",
+		"links":[
 			{
-				"source": "https://arxiv.org/abs/2006.06867",
-				"name": "ArXiv"
-			},
-			{
-				"source": "https://twitter.com/onurvarol/status/1272401284155559936",
-				"name": "twitter"
+				"source": "https://github.com/uluturki/social-annotate",
+				"name": "Github"
 			}
 		]
 	},
@@ -387,6 +383,19 @@
 
 
 "proceedings":[
+	{
+		"text": "Sayyadiharikandeh M., <u>Varol O.</u>, Yang K. C., Flammini A., Menczer F. <b>\"Detection of Novel Social Bots by Ensembles of Specialized Classifiers\"</b> <i>CIKM 2020</i>",
+		"links": [
+			{
+				"source": "https://arxiv.org/abs/2006.06867",
+				"name": "ArXiv"
+			},
+			{
+				"source": "https://twitter.com/onurvarol/status/1272401284155559936",
+				"name": "twitter"
+			}
+		]
+	},
 	{
 		"text": "Yang K., <u>Varol O.</u>, Hui P., Menczer F. <b>\"Scalable and Generalizable Social Bot Detection through Data Selection\"</b>, <i>AAAI 2020</i>",
 		"links": [
