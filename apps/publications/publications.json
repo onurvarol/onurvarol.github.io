@@ -1,7 +1,7 @@
 {
 "preprint":[
 	{
-		"text": "Uluturk I., <u>Varol O.</u> <b>Social-Annotate: Browser extension to annotate and collect social media data</b> (Under review in JOSS)",
+		"text": "Uluturk I., <u>Varol O.</u> <b>\"Social-Annotate: Browser extension to annotate and collect social media data\"</b> (Under review in JOSS)",
 		"links":[
 			{
 				"source": "https://github.com/uluturki/social-annotate",
@@ -39,7 +39,7 @@
 
 "journals":[
 	{
-		"text": "Fragile Families Challenge Team <b>\"Measuring the predictability of life outcomes with a scientific mass collaboration\"</b> <i>PNAS</i> (2020)",
+		"text": "Fragile Families Challenge Team <b>\"Measuring the predictability of life outcomes with a scientific mass collaboration\"</b> <i>PNAS</i> 117.15 (2020): 8398-8403.",
 		"links":[
 			{
 				"source": "https://www.pnas.org/content/early/2020/03/24/1915006117",
@@ -384,7 +384,7 @@
 
 "proceedings":[
 	{
-		"text": "Sayyadiharikandeh M., <u>Varol O.</u>, Yang K. C., Flammini A., Menczer F. <b>\"Detection of Novel Social Bots by Ensembles of Specialized Classifiers\"</b> <i>CIKM 2020</i>",
+		"text": "Sayyadiharikandeh M., <u>Varol O.</u>, Yang K. C., Flammini A., Menczer F. <b>\"Detection of Novel Social Bots by Ensembles of Specialized Classifiers\"</b>, <i>CIKM 2020</i>",
 		"links": [
 			{
 				"source": "https://arxiv.org/abs/2006.06867",
